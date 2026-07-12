@@ -5674,6 +5674,460 @@
           "exampleZh2": "下雨使園遊會的出席人數減少。"
         }
       ]
+    },
+    {
+      "id": "banking",
+      "name": "銀行金融",
+      "icon": "🏦",
+      "words": [
+        {
+          "id": "bnk-01",
+          "word": "account",
+          "phonetic": "/əˈkaʊnt/",
+          "pos": "n.",
+          "zh": "帳戶",
+          "exampleEn": "I'd like to open a savings account, please.",
+          "exampleZh": "我想開一個儲蓄帳戶。",
+          "exampleEn2": "Your salary will be deposited into your account on the 25th.",
+          "exampleZh2": "您的薪水會在二十五日存入帳戶。"
+        },
+        {
+          "id": "bnk-02",
+          "word": "deposit",
+          "phonetic": "/dɪˈpɑːzɪt/",
+          "pos": "n. / v.",
+          "zh": "存款；存入",
+          "exampleEn": "He made a deposit of five hundred dollars this morning.",
+          "exampleZh": "他今天早上存了五百美元。",
+          "exampleEn2": "Please deposit the check before the bank closes.",
+          "exampleZh2": "請在銀行關門前把支票存進去。"
+        },
+        {
+          "id": "bnk-03",
+          "word": "withdraw",
+          "phonetic": "/wɪðˈdrɔː/",
+          "pos": "v.",
+          "zh": "提款；撤回",
+          "exampleEn": "You can withdraw cash from any ATM in the network.",
+          "exampleZh": "您可以在網路內任何一台提款機提領現金。",
+          "exampleEn2": "She withdrew two hundred dollars for the trip.",
+          "exampleZh2": "她提了兩百美元作為旅費。"
+        },
+        {
+          "id": "bnk-04",
+          "word": "balance",
+          "phonetic": "/ˈbæləns/",
+          "pos": "n.",
+          "zh": "餘額",
+          "exampleEn": "Please check your balance before making a transfer.",
+          "exampleZh": "轉帳前請先確認餘額。",
+          "exampleEn2": "The remaining balance is due at the end of the month.",
+          "exampleZh2": "剩餘的餘額須在月底前付清。"
+        },
+        {
+          "id": "bnk-05",
+          "word": "interest rate",
+          "phonetic": "/ˈɪntrəst reɪt/",
+          "pos": "n.",
+          "zh": "利率",
+          "exampleEn": "The bank raised its interest rate on home loans.",
+          "exampleZh": "這家銀行調升了房貸利率。",
+          "exampleEn2": "A fixed interest rate protects you from market changes.",
+          "exampleZh2": "固定利率能讓你不受市場變動影響。"
+        },
+        {
+          "id": "bnk-06",
+          "word": "loan",
+          "phonetic": "/loʊn/",
+          "pos": "n. / v.",
+          "zh": "貸款；借出",
+          "exampleEn": "They applied for a small business loan last week.",
+          "exampleZh": "他們上週申請了小型企業貸款。",
+          "exampleEn2": "The loan must be repaid within five years.",
+          "exampleZh2": "這筆貸款須在五年內償還。"
+        },
+        {
+          "id": "bnk-07",
+          "word": "mortgage",
+          "phonetic": "/ˈmɔːrɡɪdʒ/",
+          "pos": "n.",
+          "zh": "房屋貸款",
+          "exampleEn": "They took out a thirty-year mortgage on the house.",
+          "exampleZh": "他們為這棟房子辦了三十年的房貸。",
+          "exampleEn2": "Monthly mortgage payments include principal and interest.",
+          "exampleZh2": "每月房貸包含本金與利息。"
+        },
+        {
+          "id": "bnk-08",
+          "word": "transaction",
+          "phonetic": "/trænˈzækʃən/",
+          "pos": "n.",
+          "zh": "交易",
+          "exampleEn": "Each transaction appears on your monthly statement.",
+          "exampleZh": "每筆交易都會列在您的月結單上。",
+          "exampleEn2": "Online transactions are protected by encryption.",
+          "exampleZh2": "線上交易受到加密保護。"
+        },
+        {
+          "id": "bnk-09",
+          "word": "statement",
+          "phonetic": "/ˈsteɪtmənt/",
+          "pos": "n.",
+          "zh": "對帳單",
+          "exampleEn": "You can download your bank statement from the app.",
+          "exampleZh": "您可以從應用程式下載銀行對帳單。",
+          "exampleEn2": "Review your statement carefully for any errors.",
+          "exampleZh2": "請仔細核對對帳單有無錯誤。"
+        },
+        {
+          "id": "bnk-10",
+          "word": "transfer",
+          "phonetic": "/trænsˈfɜːr/",
+          "pos": "v. / n.",
+          "zh": "轉帳；調職",
+          "exampleEn": "I transferred the rent to my landlord this morning.",
+          "exampleZh": "我今天早上把房租轉給房東了。",
+          "exampleEn2": "Wire transfers usually arrive within one business day.",
+          "exampleZh2": "電匯通常在一個工作天內到帳。"
+        },
+        {
+          "id": "bnk-11",
+          "word": "currency exchange",
+          "phonetic": "/ˈkɜːrənsi ɪksˈtʃeɪndʒ/",
+          "pos": "n.",
+          "zh": "外幣兌換",
+          "exampleEn": "The currency exchange counter is next to the main entrance.",
+          "exampleZh": "外幣兌換櫃檯就在大門旁邊。",
+          "exampleEn2": "Compare rates before using a currency exchange service.",
+          "exampleZh2": "使用外幣兌換服務前先比較匯率。"
+        },
+        {
+          "id": "bnk-12",
+          "word": "installment",
+          "phonetic": "/ɪnˈstɔːlmənt/",
+          "pos": "n.",
+          "zh": "分期付款",
+          "exampleEn": "You can pay for the laptop in twelve monthly installments.",
+          "exampleZh": "這台筆電可以分十二期月付。",
+          "exampleEn2": "The final installment is due in December.",
+          "exampleZh2": "最後一期款項十二月到期。"
+        },
+        {
+          "id": "bnk-13",
+          "word": "overdraft",
+          "phonetic": "/ˈoʊvərdræft/",
+          "pos": "n.",
+          "zh": "透支",
+          "exampleEn": "An overdraft fee applies if your balance falls below zero.",
+          "exampleZh": "餘額低於零時將收取透支費用。",
+          "exampleEn2": "He set up an alert to avoid an overdraft.",
+          "exampleZh2": "他設定了提醒以避免透支。"
+        },
+        {
+          "id": "bnk-14",
+          "word": "teller",
+          "phonetic": "/ˈtelər/",
+          "pos": "n.",
+          "zh": "銀行櫃員",
+          "exampleEn": "The teller helped me cash the check quickly.",
+          "exampleZh": "櫃員很快幫我兌現了支票。",
+          "exampleEn2": "Please wait in line for the next available teller.",
+          "exampleZh2": "請排隊等候下一位有空的櫃員。"
+        },
+        {
+          "id": "bnk-15",
+          "word": "invest",
+          "phonetic": "/ɪnˈvest/",
+          "pos": "v.",
+          "zh": "投資",
+          "exampleEn": "She invests a portion of her salary every month.",
+          "exampleZh": "她每個月都投資一部分薪水。",
+          "exampleEn2": "The company invested heavily in new equipment.",
+          "exampleZh2": "公司大量投資新設備。"
+        },
+        {
+          "id": "bnk-16",
+          "word": "insurance",
+          "phonetic": "/ɪnˈʃʊrəns/",
+          "pos": "n.",
+          "zh": "保險",
+          "exampleEn": "Travel insurance covers lost luggage and medical costs.",
+          "exampleZh": "旅遊保險涵蓋行李遺失與醫療費用。",
+          "exampleEn2": "The company provides health insurance for all employees.",
+          "exampleZh2": "公司為全體員工提供健康保險。"
+        },
+        {
+          "id": "bnk-17",
+          "word": "credit limit",
+          "phonetic": "/ˈkredɪt ˈlɪmɪt/",
+          "pos": "n.",
+          "zh": "信用額度",
+          "exampleEn": "The bank increased my credit limit after one year.",
+          "exampleZh": "一年後銀行提高了我的信用額度。",
+          "exampleEn2": "Try to stay well below your credit limit.",
+          "exampleZh2": "盡量讓消費遠低於信用額度。"
+        },
+        {
+          "id": "bnk-18",
+          "word": "debt",
+          "phonetic": "/det/",
+          "pos": "n.",
+          "zh": "債務",
+          "exampleEn": "The firm paid off all its debt within three years.",
+          "exampleZh": "這家公司在三年內還清了所有債務。",
+          "exampleEn2": "Avoid taking on more debt than you can manage.",
+          "exampleZh2": "避免背負超出能力範圍的債務。"
+        },
+        {
+          "id": "bnk-19",
+          "word": "branch",
+          "phonetic": "/bræntʃ/",
+          "pos": "n.",
+          "zh": "分行；分公司",
+          "exampleEn": "Our nearest branch is open on Saturday mornings.",
+          "exampleZh": "離我們最近的分行星期六早上有營業。",
+          "exampleEn2": "The bank plans to open ten new branches next year.",
+          "exampleZh2": "這家銀行計畫明年開設十家新分行。"
+        },
+        {
+          "id": "bnk-20",
+          "word": "receipt",
+          "phonetic": "/rɪˈsiːt/",
+          "pos": "n.",
+          "zh": "收據",
+          "exampleEn": "Keep the receipt in case you need a refund.",
+          "exampleZh": "請保留收據，以便需要退款時使用。",
+          "exampleEn2": "The ATM will print a receipt after each withdrawal.",
+          "exampleZh2": "每次提款後提款機會列印收據。"
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "name": "交通運輸",
+      "icon": "🚌",
+      "words": [
+        {
+          "id": "trn-01",
+          "word": "commute",
+          "phonetic": "/kəˈmjuːt/",
+          "pos": "v. / n.",
+          "zh": "通勤",
+          "exampleEn": "She commutes to the city by train every day.",
+          "exampleZh": "她每天搭火車通勤到市區。",
+          "exampleEn2": "My commute takes about forty minutes each way.",
+          "exampleZh2": "我單程通勤大約四十分鐘。"
+        },
+        {
+          "id": "trn-02",
+          "word": "fare",
+          "phonetic": "/fer/",
+          "pos": "n.",
+          "zh": "車資；票價",
+          "exampleEn": "Bus fares will increase by ten percent next month.",
+          "exampleZh": "下個月公車票價將調漲一成。",
+          "exampleEn2": "Seniors are eligible for a reduced fare.",
+          "exampleZh2": "年長者可享優惠票價。"
+        },
+        {
+          "id": "trn-03",
+          "word": "route",
+          "phonetic": "/ruːt/",
+          "pos": "n.",
+          "zh": "路線",
+          "exampleEn": "The bus route was changed due to road construction.",
+          "exampleZh": "因道路施工，公車路線已變更。",
+          "exampleEn2": "This is the fastest route to the airport.",
+          "exampleZh2": "這是去機場最快的路線。"
+        },
+        {
+          "id": "trn-04",
+          "word": "timetable",
+          "phonetic": "/ˈtaɪmˌteɪbəl/",
+          "pos": "n.",
+          "zh": "時刻表",
+          "exampleEn": "Check the timetable before heading to the station.",
+          "exampleZh": "前往車站前先查看時刻表。",
+          "exampleEn2": "The new timetable takes effect on Monday.",
+          "exampleZh2": "新的時刻表星期一起生效。"
+        },
+        {
+          "id": "trn-05",
+          "word": "transfer",
+          "phonetic": "/trænsˈfɜːr/",
+          "pos": "v.",
+          "zh": "轉乘",
+          "exampleEn": "Transfer to the Green Line at Central Station.",
+          "exampleZh": "在中央車站轉乘綠線。",
+          "exampleEn2": "You don't need a new ticket when you transfer.",
+          "exampleZh2": "轉乘時不需要另購車票。"
+        },
+        {
+          "id": "trn-06",
+          "word": "platform",
+          "phonetic": "/ˈplætfɔːrm/",
+          "pos": "n.",
+          "zh": "月台",
+          "exampleEn": "The express train departs from platform six.",
+          "exampleZh": "特快車從六號月台發車。",
+          "exampleEn2": "Please stand behind the yellow line on the platform.",
+          "exampleZh2": "請站在月台黃線後方。"
+        },
+        {
+          "id": "trn-07",
+          "word": "detour",
+          "phonetic": "/ˈdiːtʊr/",
+          "pos": "n. / v.",
+          "zh": "繞道",
+          "exampleEn": "Drivers should take a detour around the parade route.",
+          "exampleZh": "駕駛人應繞道避開遊行路線。",
+          "exampleEn2": "The detour added twenty minutes to our trip.",
+          "exampleZh2": "繞道讓我們的行程多了二十分鐘。"
+        },
+        {
+          "id": "trn-08",
+          "word": "congestion",
+          "phonetic": "/kənˈdʒestʃən/",
+          "pos": "n.",
+          "zh": "壅塞",
+          "exampleEn": "Traffic congestion is worst between five and seven in the evening.",
+          "exampleZh": "傍晚五點到七點交通壅塞最嚴重。",
+          "exampleEn2": "The new bypass should reduce congestion downtown.",
+          "exampleZh2": "新的外環道應能減少市中心壅塞。"
+        },
+        {
+          "id": "trn-09",
+          "word": "pedestrian",
+          "phonetic": "/pəˈdestriən/",
+          "pos": "n.",
+          "zh": "行人",
+          "exampleEn": "Pedestrians should use the crosswalk at the intersection.",
+          "exampleZh": "行人應使用路口的行人穿越道。",
+          "exampleEn2": "The street becomes a pedestrian zone on weekends.",
+          "exampleZh2": "這條街週末變成行人徒步區。"
+        },
+        {
+          "id": "trn-10",
+          "word": "vehicle",
+          "phonetic": "/ˈviːɪkəl/",
+          "pos": "n.",
+          "zh": "車輛",
+          "exampleEn": "Company vehicles must be returned by 6 P.M.",
+          "exampleZh": "公務車須在晚上六點前歸還。",
+          "exampleEn2": "Electric vehicles can park here for free.",
+          "exampleZh2": "電動車可在此免費停車。"
+        },
+        {
+          "id": "trn-11",
+          "word": "license",
+          "phonetic": "/ˈlaɪsəns/",
+          "pos": "n.",
+          "zh": "執照",
+          "exampleEn": "You need a valid driver's license to rent a car.",
+          "exampleZh": "租車需要有效的駕駛執照。",
+          "exampleEn2": "His license expires at the end of the year.",
+          "exampleZh2": "他的駕照年底到期。"
+        },
+        {
+          "id": "trn-12",
+          "word": "intersection",
+          "phonetic": "/ˌɪntərˈsekʃən/",
+          "pos": "n.",
+          "zh": "十字路口",
+          "exampleEn": "Turn left at the next intersection.",
+          "exampleZh": "在下一個十字路口左轉。",
+          "exampleEn2": "A new traffic light was installed at the busy intersection.",
+          "exampleZh2": "繁忙的十字路口裝設了新的紅綠燈。"
+        },
+        {
+          "id": "trn-13",
+          "word": "shuttle",
+          "phonetic": "/ˈʃʌtəl/",
+          "pos": "n.",
+          "zh": "接駁車",
+          "exampleEn": "A free shuttle runs between the hotel and the convention center.",
+          "exampleZh": "飯店與會議中心之間有免費接駁車。",
+          "exampleEn2": "The airport shuttle leaves every thirty minutes.",
+          "exampleZh2": "機場接駁車每三十分鐘一班。"
+        },
+        {
+          "id": "trn-14",
+          "word": "toll",
+          "phonetic": "/toʊl/",
+          "pos": "n.",
+          "zh": "過路費",
+          "exampleEn": "The highway toll can be paid electronically.",
+          "exampleZh": "高速公路過路費可以電子支付。",
+          "exampleEn2": "Tolls on this bridge were raised last month.",
+          "exampleZh2": "這座橋的過路費上個月調漲了。"
+        },
+        {
+          "id": "trn-15",
+          "word": "rush hour",
+          "phonetic": "/ˈrʌʃ ˌaʊər/",
+          "pos": "n.",
+          "zh": "尖峰時段",
+          "exampleEn": "Avoid the subway during rush hour if you can.",
+          "exampleZh": "可以的話避開尖峰時段搭地鐵。",
+          "exampleEn2": "Trains run every three minutes during rush hour.",
+          "exampleZh2": "尖峰時段列車每三分鐘一班。"
+        },
+        {
+          "id": "trn-16",
+          "word": "parking lot",
+          "phonetic": "/ˈpɑːrkɪŋ lɑːt/",
+          "pos": "n.",
+          "zh": "停車場",
+          "exampleEn": "The parking lot behind the building is for visitors.",
+          "exampleZh": "大樓後方的停車場供訪客使用。",
+          "exampleEn2": "The parking lot is full, so try the garage on Oak Street.",
+          "exampleZh2": "停車場滿了，試試橡樹街的立體車庫。"
+        },
+        {
+          "id": "trn-17",
+          "word": "delay",
+          "phonetic": "/dɪˈleɪ/",
+          "pos": "n. / v.",
+          "zh": "延誤",
+          "exampleEn": "Heavy snow caused delays on all train lines.",
+          "exampleZh": "大雪造成所有火車路線延誤。",
+          "exampleEn2": "The 8:15 express is delayed by fifteen minutes.",
+          "exampleZh2": "八點十五分的特快車延誤十五分鐘。"
+        },
+        {
+          "id": "trn-18",
+          "word": "board",
+          "phonetic": "/bɔːrd/",
+          "pos": "v.",
+          "zh": "登上（車、船、飛機）",
+          "exampleEn": "Passengers may now board the train at platform two.",
+          "exampleZh": "乘客現在可在二號月台上車。",
+          "exampleEn2": "Please have your ticket ready when boarding.",
+          "exampleZh2": "上車時請備妥車票。"
+        },
+        {
+          "id": "trn-19",
+          "word": "destination",
+          "phonetic": "/ˌdestəˈneɪʃən/",
+          "pos": "n.",
+          "zh": "目的地",
+          "exampleEn": "The screen shows each train's final destination.",
+          "exampleZh": "螢幕顯示每班列車的終點站。",
+          "exampleEn2": "We arrived at our destination ahead of schedule.",
+          "exampleZh2": "我們提前抵達了目的地。"
+        },
+        {
+          "id": "trn-20",
+          "word": "maintenance",
+          "phonetic": "/ˈmeɪntənəns/",
+          "pos": "n.",
+          "zh": "維修保養",
+          "exampleEn": "The elevator is out of service for routine maintenance.",
+          "exampleZh": "電梯因例行保養暫停服務。",
+          "exampleEn2": "Regular maintenance keeps the fleet running safely.",
+          "exampleZh2": "定期保養讓車隊安全運作。"
+        }
+      ]
     }
   ]
 }

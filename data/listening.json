@@ -1774,10 +1774,22 @@
       "accentLabel": "美式",
       "scene": "office-typing",
       "sentences": [
-        { "speaker": "N", "text": "A. The man is talking on the phone." },
-        { "speaker": "N", "text": "B. The man is typing on a laptop." },
-        { "speaker": "N", "text": "C. The man is opening a drawer." },
-        { "speaker": "N", "text": "D. The man is wiping the desk." }
+        {
+          "speaker": "N",
+          "text": "A. The man is talking on the phone."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The man is typing on a laptop."
+        },
+        {
+          "speaker": "N",
+          "text": "C. The man is opening a drawer."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The man is wiping the desk."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1804,10 +1816,22 @@
       "accentLabel": "英式",
       "scene": "meeting",
       "sentences": [
-        { "speaker": "N", "text": "A. They are leaving the meeting room." },
-        { "speaker": "N", "text": "B. They are looking at their phones." },
-        { "speaker": "N", "text": "C. They are attending a meeting." },
-        { "speaker": "N", "text": "D. They are standing by the window." }
+        {
+          "speaker": "N",
+          "text": "A. They are leaving the meeting room."
+        },
+        {
+          "speaker": "N",
+          "text": "B. They are looking at their phones."
+        },
+        {
+          "speaker": "N",
+          "text": "C. They are attending a meeting."
+        },
+        {
+          "speaker": "N",
+          "text": "D. They are standing by the window."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1834,10 +1858,22 @@
       "accentLabel": "澳式",
       "scene": "coffee",
       "sentences": [
-        { "speaker": "N", "text": "A. The woman is drinking from a cup." },
-        { "speaker": "N", "text": "B. The woman is washing a kettle." },
-        { "speaker": "N", "text": "C. The woman is cutting some fruit." },
-        { "speaker": "N", "text": "D. The woman is pouring coffee into a cup." }
+        {
+          "speaker": "N",
+          "text": "A. The woman is drinking from a cup."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The woman is washing a kettle."
+        },
+        {
+          "speaker": "N",
+          "text": "C. The woman is cutting some fruit."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The woman is pouring coffee into a cup."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1864,10 +1900,22 @@
       "accentLabel": "加拿大",
       "scene": "warehouse",
       "sentences": [
-        { "speaker": "N", "text": "A. Boxes are stacked on top of each other." },
-        { "speaker": "N", "text": "B. Boxes are being loaded onto a truck." },
-        { "speaker": "N", "text": "C. A worker is opening a box." },
-        { "speaker": "N", "text": "D. The shelves are empty." }
+        {
+          "speaker": "N",
+          "text": "A. Boxes are stacked on top of each other."
+        },
+        {
+          "speaker": "N",
+          "text": "B. Boxes are being loaded onto a truck."
+        },
+        {
+          "speaker": "N",
+          "text": "C. A worker is opening a box."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The shelves are empty."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1894,10 +1942,22 @@
       "accentLabel": "美式",
       "scene": "car-parked",
       "sentences": [
-        { "speaker": "N", "text": "A. The car is being repaired." },
-        { "speaker": "N", "text": "B. The car is parked in front of a building." },
-        { "speaker": "N", "text": "C. The driver is getting out of the car." },
-        { "speaker": "N", "text": "D. The car is stopped at a traffic light." }
+        {
+          "speaker": "N",
+          "text": "A. The car is being repaired."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The car is parked in front of a building."
+        },
+        {
+          "speaker": "N",
+          "text": "C. The driver is getting out of the car."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The car is stopped at a traffic light."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1924,10 +1984,22 @@
       "accentLabel": "英式",
       "scene": "bicycle",
       "sentences": [
-        { "speaker": "N", "text": "A. The man is repairing a bicycle." },
-        { "speaker": "N", "text": "B. The man is walking along the road." },
-        { "speaker": "N", "text": "C. The man is riding a bicycle." },
-        { "speaker": "N", "text": "D. The man is carrying a helmet." }
+        {
+          "speaker": "N",
+          "text": "A. The man is repairing a bicycle."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The man is walking along the road."
+        },
+        {
+          "speaker": "N",
+          "text": "C. The man is riding a bicycle."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The man is carrying a helmet."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1954,10 +2026,22 @@
       "accentLabel": "美式",
       "scene": "train",
       "sentences": [
-        { "speaker": "N", "text": "A. Passengers are boarding a train." },
-        { "speaker": "N", "text": "B. The train is leaving the station." },
-        { "speaker": "N", "text": "C. People are buying tickets." },
-        { "speaker": "N", "text": "D. Luggage is piled on the platform." }
+        {
+          "speaker": "N",
+          "text": "A. Passengers are boarding a train."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The train is leaving the station."
+        },
+        {
+          "speaker": "N",
+          "text": "C. People are buying tickets."
+        },
+        {
+          "speaker": "N",
+          "text": "D. Luggage is piled on the platform."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -1984,10 +2068,22 @@
       "accentLabel": "加拿大",
       "scene": "watering",
       "sentences": [
-        { "speaker": "N", "text": "A. The woman is planting a tree." },
-        { "speaker": "N", "text": "B. The woman is picking some flowers." },
-        { "speaker": "N", "text": "C. The woman is trimming the bushes." },
-        { "speaker": "N", "text": "D. The woman is watering the plants." }
+        {
+          "speaker": "N",
+          "text": "A. The woman is planting a tree."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The woman is picking some flowers."
+        },
+        {
+          "speaker": "N",
+          "text": "C. The woman is trimming the bushes."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The woman is watering the plants."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -2014,10 +2110,22 @@
       "accentLabel": "澳式",
       "scene": "construction",
       "sentences": [
-        { "speaker": "N", "text": "A. The workers are taking off their helmets." },
-        { "speaker": "N", "text": "B. The workers are wearing safety helmets." },
-        { "speaker": "N", "text": "C. The workers are climbing a ladder." },
-        { "speaker": "N", "text": "D. The workers are paving the road." }
+        {
+          "speaker": "N",
+          "text": "A. The workers are taking off their helmets."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The workers are wearing safety helmets."
+        },
+        {
+          "speaker": "N",
+          "text": "C. The workers are climbing a ladder."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The workers are paving the road."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -2044,10 +2152,22 @@
       "accentLabel": "英式",
       "scene": "chairs-table",
       "sentences": [
-        { "speaker": "N", "text": "A. People are sitting at the table." },
-        { "speaker": "N", "text": "B. The table is being set for a meal." },
-        { "speaker": "N", "text": "C. Chairs have been arranged around the table." },
-        { "speaker": "N", "text": "D. The chairs are stacked in a corner." }
+        {
+          "speaker": "N",
+          "text": "A. People are sitting at the table."
+        },
+        {
+          "speaker": "N",
+          "text": "B. The table is being set for a meal."
+        },
+        {
+          "speaker": "N",
+          "text": "C. Chairs have been arranged around the table."
+        },
+        {
+          "speaker": "N",
+          "text": "D. The chairs are stacked in a corner."
+        }
       ],
       "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
       "options": [
@@ -2065,6 +2185,686 @@
       ],
       "transcriptZh": "照片重點：室內一張空餐桌，椅子整齊排放在四周，桌上有花瓶，照片中沒有人。",
       "tip": "空景照常考「現在完成被動」have been arranged（已排好的狀態）；沒有人就刪掉所有進行中的人物動作。"
+    },
+    {
+      "id": "l-51",
+      "part": 2,
+      "title": "應答問題：新印表機位置",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Where did they put the new color printer?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Next to the supply cabinet on the second floor.",
+        "No, the old one broke last week.",
+        "It prints twenty pages per minute."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "在二樓文具櫃旁邊。",
+        "不，舊的上週壞了。",
+        "它每分鐘可以印二十頁。"
+      ],
+      "transcriptZh": "他們把新的彩色印表機放在哪裡？",
+      "tip": "Where 問地點，鎖定含方位介系詞（next to / on / near）的選項。"
+    },
+    {
+      "id": "l-52",
+      "part": 2,
+      "title": "應答問題：誰負責簡報",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Who's giving the presentation at the client meeting tomorrow?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "It starts at nine thirty.",
+        "Ms. Patel from the sales team.",
+        "In the main conference room."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "九點半開始。",
+        "業務團隊的 Patel 女士。",
+        "在大會議室。"
+      ],
+      "transcriptZh": "明天客戶會議由誰做簡報？",
+      "tip": "Who 問人，答案通常是人名或職稱；地點與時間都是陷阱。"
+    },
+    {
+      "id": "l-53",
+      "part": 2,
+      "title": "應答問題：合約寄出了嗎",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Have you sent the revised contract to the supplier yet?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "A two-year agreement.",
+        "Yes, I emailed it this morning.",
+        "The supplier is in Melbourne."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "一份兩年的合約。",
+        "有，我今天早上用電子郵件寄出了。",
+        "供應商在墨爾本。"
+      ],
+      "transcriptZh": "你把修訂後的合約寄給供應商了嗎？",
+      "tip": "Have you...yet? 問完成與否，Yes/No 加上具體說明是標準答法。"
+    },
+    {
+      "id": "l-54",
+      "part": 2,
+      "title": "應答問題：搭電梯還是走樓梯",
+      "accent": "en-CA",
+      "accentLabel": "加式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Should we take the elevator or the stairs to the rooftop café?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "The stairs — the elevator is being serviced.",
+        "I'd like an iced coffee, please.",
+        "Yes, the café is open today."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "走樓梯吧——電梯正在維修。",
+        "請給我一杯冰咖啡。",
+        "是的，咖啡廳今天有開。"
+      ],
+      "transcriptZh": "我們要搭電梯還是走樓梯去頂樓咖啡廳？",
+      "tip": "A or B 選擇疑問句不能回答 Yes/No，直接選其中一項或給替代方案。"
+    },
+    {
+      "id": "l-55",
+      "part": 2,
+      "title": "應答問題：報告何時要交",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "When do we need to submit the expense report?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "To the accounting department.",
+        "By the last day of the month.",
+        "About two hundred dollars."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "交給會計部門。",
+        "在月底最後一天之前。",
+        "大約兩百美元。"
+      ],
+      "transcriptZh": "我們什麼時候要交費用報告？",
+      "tip": "When 問時間，by / before / on + 時間是正解常見形式。"
+    },
+    {
+      "id": "l-56",
+      "part": 2,
+      "title": "應答問題：為何店面提早關門",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Why is the shop closing early on Thursday?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "At four o'clock in the afternoon.",
+        "It's just around the corner.",
+        "The staff are attending a training session."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "下午四點。",
+        "就在轉角處。",
+        "員工要參加教育訓練。"
+      ],
+      "transcriptZh": "為什麼店面星期四要提早關門？",
+      "tip": "Why 問原因，正解常以 Because 開頭或直接給理由；時間選項是陷阱。"
+    },
+    {
+      "id": "l-57",
+      "part": 2,
+      "title": "應答問題：要不要幫忙搬箱子",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Would you like some help moving those boxes to the storage room?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "I moved here two years ago.",
+        "That would be great, thanks.",
+        "The storage room is quite large."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "我兩年前搬來這裡。",
+        "那太好了，謝謝。",
+        "儲藏室相當大。"
+      ],
+      "transcriptZh": "需要我幫你把那些箱子搬到儲藏室嗎？",
+      "tip": "Would you like...? 是提議，接受（That would be great）或婉拒（No, thanks. I can manage）都是正解形式。move 的多義是陷阱。"
+    },
+    {
+      "id": "l-58",
+      "part": 2,
+      "title": "應答問題：客戶回覆了沒",
+      "accent": "en-CA",
+      "accentLabel": "加式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Has the client responded to our proposal?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Our new client in Vancouver.",
+        "Not yet, but I'll follow up this afternoon.",
+        "A ten-page proposal."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "我們在溫哥華的新客戶。",
+        "還沒有，但我下午會再追蹤。",
+        "一份十頁的提案。"
+      ],
+      "transcriptZh": "客戶回覆我們的提案了嗎？",
+      "tip": "Not yet（還沒）是完成式問句的高頻正解，後面常補說下一步。"
+    },
+    {
+      "id": "l-59",
+      "part": 2,
+      "title": "應答問題：制服尺寸",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "What size uniform should I order for you?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Medium should be fine.",
+        "The uniform policy starts Monday.",
+        "Order it from the usual vendor."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "中號應該可以。",
+        "制服規定星期一開始實施。",
+        "跟平常的廠商訂就好。"
+      ],
+      "transcriptZh": "我該幫你訂什麼尺寸的制服？",
+      "tip": "What size 問尺寸，直接找 small / medium / large 或數字。"
+    },
+    {
+      "id": "l-60",
+      "part": 2,
+      "title": "應答問題：會議室借用",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Is the small meeting room available this afternoon?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "About ten people.",
+        "Yes, it was a productive meeting.",
+        "I'm afraid it's booked until five."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "大約十個人。",
+        "是的，那場會議很有收穫。",
+        "恐怕它到五點前都被預訂了。"
+      ],
+      "transcriptZh": "小會議室今天下午可以用嗎？",
+      "tip": "詢問 available 的問句，正解常是委婉否定（I'm afraid...）加原因。"
+    },
+    {
+      "id": "l-61",
+      "part": 3,
+      "title": "簡短對話：印錯的名片",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Hi, I ordered five hundred business cards last week, but my job title is printed incorrectly on them."
+        },
+        {
+          "speaker": "M",
+          "text": "I'm so sorry about that. Could you show me the order confirmation? We'll reprint them at no charge."
+        },
+        {
+          "speaker": "W",
+          "text": "Here it is. How long will the reprint take? I have a trade show on Friday."
+        },
+        {
+          "speaker": "M",
+          "text": "We'll put a rush on it — you can pick them up Wednesday afternoon."
+        }
+      ],
+      "question": "What will the woman probably do on Wednesday?",
+      "options": [
+        "Pick up her business cards",
+        "Ask for a refund",
+        "Attend a trade show",
+        "Place a new order"
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "領取她的名片",
+        "要求退款",
+        "參加商展",
+        "下新的訂單"
+      ],
+      "transcriptZh": "女：您好，我上週訂了五百張名片，但上面的職稱印錯了。／男：非常抱歉。可以給我看訂單確認信嗎？我們會免費重印。／女：在這裡。重印要多久？我星期五有商展。／男：我們會加急處理——您星期三下午就能來拿。",
+      "tip": "題目問特定星期幾的行動，聽到日期時立刻對應說話者與動作。"
+    },
+    {
+      "id": "l-62",
+      "part": 3,
+      "title": "簡短對話：辦公用品預算",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Sarah, the department heads are asking why office supply spending doubled last quarter."
+        },
+        {
+          "speaker": "W",
+          "text": "Mostly because of the new hires — we set up twelve workstations in September."
+        },
+        {
+          "speaker": "M",
+          "text": "That makes sense. Could you put together a short summary before the budget review on Thursday?"
+        },
+        {
+          "speaker": "W",
+          "text": "Of course. I'll have it on your desk by Wednesday morning."
+        }
+      ],
+      "question": "Why did office supply spending increase?",
+      "options": [
+        "Supply prices went up",
+        "The office moved to a larger building",
+        "New employees joined the company",
+        "Equipment was stolen"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "用品價格上漲",
+        "辦公室搬到更大的大樓",
+        "新員工加入公司",
+        "設備遭竊"
+      ],
+      "transcriptZh": "男：Sarah，各部門主管在問上一季辦公用品支出為何倍增。／女：主要是因為新進人員——我們九月設置了十二個工作站。／男：有道理。你能在星期四預算檢討會前整理一份簡短摘要嗎？／女：當然，星期三早上就會放在你桌上。",
+      "tip": "問原因的題目，答案常跟在 because / mostly because 後面。"
+    },
+    {
+      "id": "l-63",
+      "part": 3,
+      "title": "簡短對話：健身房會員優惠",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Welcome to Harbourside Fitness. Are you interested in a membership?"
+        },
+        {
+          "speaker": "M",
+          "text": "Yes, but I travel a lot for work. Do you have a flexible plan?"
+        },
+        {
+          "speaker": "W",
+          "text": "We do — the Flex Pass lets you freeze your membership up to three months a year at no cost."
+        },
+        {
+          "speaker": "M",
+          "text": "That's exactly what I need. Can I sign up today?"
+        }
+      ],
+      "question": "What feature of the Flex Pass interests the man?",
+      "options": [
+        "A free personal trainer",
+        "Access to all branch locations",
+        "The option to pause his membership",
+        "Discounted annual fees"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "免費私人教練",
+        "可使用所有分店",
+        "可暫停會籍的選項",
+        "年費折扣"
+      ],
+      "transcriptZh": "女：歡迎來到 Harbourside 健身房，想了解會員方案嗎？／男：想，但我常出差，有彈性方案嗎？／女：有——Flex Pass 每年可免費凍結會籍最多三個月。／男：這正是我需要的，今天可以辦嗎？",
+      "tip": "freeze / pause 是換句話說：聽力原文的字常在選項中被同義改寫。"
+    },
+    {
+      "id": "l-64",
+      "part": 3,
+      "title": "簡短對話：包裹寄送選項",
+      "accent": "en-CA",
+      "accentLabel": "加式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "I need to send this package to Calgary. What are my options?"
+        },
+        {
+          "speaker": "W",
+          "text": "Standard delivery takes five business days for twelve dollars. Express arrives in two days for thirty."
+        },
+        {
+          "speaker": "M",
+          "text": "It's a birthday gift for this Saturday, so I'd better go with express."
+        },
+        {
+          "speaker": "W",
+          "text": "Good choice. Please fill out this customs form since it's going across the province."
+        }
+      ],
+      "question": "Why does the man choose express delivery?",
+      "options": [
+        "The post office recommended it",
+        "It is cheaper than standard delivery",
+        "Standard delivery is unavailable",
+        "The package must arrive by a specific date"
+      ],
+      "answer": 3,
+      "optionsZh": [
+        "郵局推薦這個方式",
+        "它比標準寄送便宜",
+        "標準寄送無法使用",
+        "包裹必須在特定日期前送達"
+      ],
+      "transcriptZh": "男：我要寄這個包裹到卡加利，有哪些選擇？／女：標準寄送五個工作天，十二元；快遞兩天到，三十元。／男：這是這星期六的生日禮物，我還是選快遞好了。／女：好選擇。因為是跨省寄送，請填這張表格。",
+      "tip": "選擇理由題：聽 so / because 前後，男子說「星期六生日禮物」就是關鍵。"
+    },
+    {
+      "id": "l-65",
+      "part": 3,
+      "title": "簡短對話：軟體升級通知",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Did you see the notice? IT is upgrading the accounting software this weekend."
+        },
+        {
+          "speaker": "M",
+          "text": "I did. We won't be able to access the system from Friday night until Monday morning."
+        },
+        {
+          "speaker": "W",
+          "text": "Right, so I'm processing all the invoices before I leave on Friday."
+        },
+        {
+          "speaker": "M",
+          "text": "Good idea. I'll remind the rest of the team to do the same."
+        }
+      ],
+      "question": "What will the man probably do next?",
+      "options": [
+        "Contact the IT department",
+        "Upgrade the software himself",
+        "Notify his team members",
+        "Process the invoices on Monday"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "聯絡資訊部門",
+        "自己升級軟體",
+        "通知他的團隊成員",
+        "星期一處理發票"
+      ],
+      "transcriptZh": "女：你看到通知了嗎？資訊部這週末要升級會計軟體。／男：看到了，從星期五晚上到星期一早上都無法使用系統。／女：對，所以我星期五下班前會把所有發票處理完。／男：好主意，我會提醒團隊其他人也這麼做。",
+      "tip": "「接下來做什麼」聽最後一句：remind the team = notify team members。"
+    },
+    {
+      "id": "l-66",
+      "part": 3,
+      "title": "簡短對話：餐廳外送合作",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Our lunch orders have dropped since the office park across the street closed."
+        },
+        {
+          "speaker": "W",
+          "text": "I've noticed. What if we partnered with a delivery app to reach customers farther away?"
+        },
+        {
+          "speaker": "M",
+          "text": "The commission fees worry me, but it's worth testing for a couple of months."
+        },
+        {
+          "speaker": "W",
+          "text": "I'll contact the two biggest platforms this week and compare their terms."
+        }
+      ],
+      "question": "What is the man concerned about?",
+      "options": [
+        "Losing regular customers",
+        "Hiring more kitchen staff",
+        "The cost of commission fees",
+        "The quality of delivered food"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "失去老顧客",
+        "增聘廚房人手",
+        "佣金費用的成本",
+        "外送餐點的品質"
+      ],
+      "transcriptZh": "男：對街辦公園區關閉後，我們的午餐訂單掉了不少。／女：我注意到了。不如跟外送平台合作，接觸更遠的客人？／男：佣金費用讓我擔心，但值得試個兩三個月。／女：我這週會聯絡兩大平台，比較他們的條件。",
+      "tip": "concern / worry 題：直接聽 worries me / I'm concerned 前後的名詞。"
+    },
+    {
+      "id": "l-67",
+      "part": 4,
+      "title": "簡短獨白：辦公室搬遷說明",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Good morning, everyone. Before we start the week, a few reminders about Friday's office move."
+        },
+        {
+          "speaker": "N",
+          "text": "Please pack all personal items into the labeled boxes by Thursday evening."
+        },
+        {
+          "speaker": "N",
+          "text": "The movers will handle computers and monitors, so please leave them on your desks."
+        },
+        {
+          "speaker": "N",
+          "text": "If you have any fragile items, bring them to the front office and we'll transport them separately."
+        }
+      ],
+      "question": "What should employees leave on their desks?",
+      "options": [
+        "Computer equipment",
+        "Labeled boxes",
+        "Fragile items",
+        "Personal photographs"
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "電腦設備",
+        "貼好標籤的箱子",
+        "易碎物品",
+        "個人照片"
+      ],
+      "transcriptZh": "大家早安。開始這週工作前，提醒幾件星期五辦公室搬遷的事。請在星期四晚上前把個人物品裝進貼好標籤的箱子。搬家公司會處理電腦和螢幕，請把它們留在桌上。若有易碎物品，請拿到前台，我們會另外運送。",
+      "tip": "指示類獨白常考「什麼東西怎麼處理」，把物品與動作配對著聽。"
+    },
+    {
+      "id": "l-68",
+      "part": 4,
+      "title": "簡短獨白：牙醫診所留言",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Hello, this message is for Mr. Adams. This is Westgate Dental Clinic calling."
+        },
+        {
+          "speaker": "N",
+          "text": "We need to reschedule your appointment on the fourteenth, as Dr. Hughes will be away at a conference."
+        },
+        {
+          "speaker": "N",
+          "text": "We have openings on the sixteenth at 2 P.M. or the seventeenth at 10 A.M."
+        },
+        {
+          "speaker": "N",
+          "text": "Please call us back at your earliest convenience to confirm a new time. Thank you."
+        }
+      ],
+      "question": "Why is the clinic calling Mr. Adams?",
+      "options": [
+        "To change his appointment",
+        "To remind him of a checkup",
+        "To confirm his payment",
+        "To announce a new dentist"
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "更改他的預約",
+        "提醒他做檢查",
+        "確認他的付款",
+        "宣布新牙醫加入"
+      ],
+      "transcriptZh": "您好，這則留言是給 Adams 先生的，這裡是 Westgate 牙醫診所。由於 Hughes 醫師十四日將出席研討會，我們需要更改您當天的預約。十六日下午兩點或十七日上午十點有空檔。請盡快回電確認新的時間，謝謝。",
+      "tip": "電話留言題必考「來電目的」，答案通常在第二句：reschedule = change appointment。"
+    },
+    {
+      "id": "l-69",
+      "part": 4,
+      "title": "簡短獨白：新產品發表開場",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Thank you all for coming to today's launch event."
+        },
+        {
+          "speaker": "N",
+          "text": "In a moment, our chief designer will demonstrate the new solar-powered charger."
+        },
+        {
+          "speaker": "N",
+          "text": "After the demonstration, you'll find sample units at each table for a hands-on trial."
+        },
+        {
+          "speaker": "N",
+          "text": "Members of the press are invited to a question-and-answer session in the next room at four o'clock."
+        }
+      ],
+      "question": "What will happen at four o'clock?",
+      "options": [
+        "The event will end",
+        "A product demonstration will begin",
+        "A question-and-answer session will be held",
+        "Sample units will be distributed"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "活動將結束",
+        "產品展示將開始",
+        "將舉行問答時間",
+        "將發放樣品"
+      ],
+      "transcriptZh": "感謝各位參加今天的發表會。稍後我們的首席設計師將展示新款太陽能充電器。展示結束後，每桌都有樣品供實際試用。四點鐘，媒體朋友可到隔壁房間參加問答時間。",
+      "tip": "活動流程題把「時間點＋活動」邊聽邊排序，題目常挑最後一個時間點考。"
+    },
+    {
+      "id": "l-70",
+      "part": 4,
+      "title": "簡短獨白：百貨公司廣播",
+      "accent": "en-CA",
+      "accentLabel": "加式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Attention, Maplewood Department Store shoppers."
+        },
+        {
+          "speaker": "N",
+          "text": "For the next hour only, all winter coats on the third floor are an additional thirty percent off."
+        },
+        {
+          "speaker": "N",
+          "text": "Also, our gift-wrapping counter on the ground floor is now open until 9 P.M. daily."
+        },
+        {
+          "speaker": "N",
+          "text": "Thank you for shopping with us, and happy holidays."
+        }
+      ],
+      "question": "What is located on the third floor?",
+      "options": [
+        "The gift-wrapping counter",
+        "The customer service desk",
+        "A holiday photo booth",
+        "Discounted winter coats"
+      ],
+      "answer": 3,
+      "optionsZh": [
+        "禮品包裝櫃檯",
+        "顧客服務台",
+        "節日拍照區",
+        "特價冬季外套"
+      ],
+      "transcriptZh": "Maplewood 百貨的顧客請注意。接下來一小時內，三樓所有冬季外套再打七折。另外，一樓的禮品包裝櫃檯即日起每天營業到晚上九點。感謝您的光臨，佳節愉快。",
+      "tip": "賣場廣播愛考「樓層＋商品」配對，聽到數字樓層立刻記對應物。"
     }
   ]
 }
