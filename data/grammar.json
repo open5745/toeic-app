@@ -1,0 +1,2704 @@
+{
+  "questions": [
+    {
+      "id": "g-01",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The new software will greatly improve the ______ of our customer service team.",
+      "options": [
+        "efficiency",
+        "efficiently",
+        "efficacious",
+        "efficient"
+      ],
+      "answer": 0,
+      "explanation": "空格前有定冠詞 the、後面接 of 片語，因此需要名詞。efficiency（效率）是名詞，故為正解。efficient 是形容詞、efficiently 是副詞。",
+      "tip": "看到「the ______ of」的結構，中間九成要填名詞。"
+    },
+    {
+      "id": "g-02",
+      "part": 5,
+      "type": "時態",
+      "question": "By the time the inspector arrives, the factory ______ all the safety checks.",
+      "options": [
+        "has completed",
+        "is completing",
+        "completes",
+        "will have completed"
+      ],
+      "answer": 3,
+      "explanation": "「By the time + 現在式子句」搭配主要子句描述未來某時間點前將完成的動作，須用未來完成式 will have completed。",
+      "tip": "看到 By the time...，主要子句常搭配未來完成式或過去完成式，依語意判斷時間軸。"
+    },
+    {
+      "id": "g-03",
+      "part": 5,
+      "type": "連接詞",
+      "question": "______ the heavy rain, the outdoor product launch was moved indoors.",
+      "options": [
+        "Due to",
+        "Even though",
+        "Although",
+        "Because"
+      ],
+      "answer": 0,
+      "explanation": "空格後接名詞片語 the heavy rain，須使用介系詞片語 Due to。Because 是連接詞，後面必須接完整子句。",
+      "tip": "先看空格後面是「名詞」還是「子句」：名詞用 due to / because of，子句用 because / although。"
+    },
+    {
+      "id": "g-04",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "All employees are required to respond ______ to customer complaints.",
+      "options": [
+        "promptly",
+        "promptness",
+        "prompt",
+        "prompted"
+      ],
+      "answer": 0,
+      "explanation": "空格修飾動詞 respond，須用副詞 promptly（迅速地）。",
+      "tip": "動詞後面若不缺受詞，空格通常填副詞來修飾動詞。"
+    },
+    {
+      "id": "g-05",
+      "part": 5,
+      "type": "代名詞",
+      "question": "Ms. Chen asked the interns to submit ______ weekly reports by Friday afternoon.",
+      "options": [
+        "them",
+        "their",
+        "theirs",
+        "they"
+      ],
+      "answer": 1,
+      "explanation": "空格後接名詞 weekly reports，需要所有格 their（他們的）。",
+      "tip": "空格後緊接名詞時，優先考慮所有格代名詞。"
+    },
+    {
+      "id": "g-06",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The board of directors recommended ______ the budget proposal before the end of the quarter.",
+      "options": [
+        "to approve",
+        "approved",
+        "approving",
+        "approve"
+      ],
+      "answer": 2,
+      "explanation": "recommend 後面接動名詞（V-ing），因此選 approving。同類動詞還有 suggest、consider、avoid 等。",
+      "tip": "背口訣：suggest / recommend / consider / avoid / finish 後面接 V-ing。"
+    },
+    {
+      "id": "g-07",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The quarterly sales report must be submitted ______ October 15.",
+      "options": [
+        "at",
+        "until",
+        "by",
+        "in"
+      ],
+      "answer": 2,
+      "explanation": "by + 時間點表示「在……之前完成」，強調期限；until 強調動作持續到某時間點，與 submit（一次性動作）語意不合。",
+      "tip": "一次性動作（submit、finish）搭配 by；持續性動作（stay、wait）搭配 until。"
+    },
+    {
+      "id": "g-08",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Dear Mr. Park,\n\nThank you for your order of 200 desk lamps. ______, the item is temporarily out of stock. We expect a new shipment to arrive within ten business days.",
+      "options": [
+        "Unfortunately",
+        "For example",
+        "Therefore",
+        "In addition"
+      ],
+      "answer": 0,
+      "explanation": "前句感謝訂購，後句說明缺貨（負面消息），語氣轉折須用 Unfortunately（很遺憾地）。",
+      "tip": "Part 6 轉折詞題先判斷前後句的「語氣方向」：正轉負用 unfortunately / however。"
+    },
+    {
+      "id": "g-09",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "All gym members are reminded that the swimming pool will be closed for maintenance next week. ______ will resume on Monday, June 8.",
+      "options": [
+        "Regular hours",
+        "One another",
+        "Each other",
+        "Those who"
+      ],
+      "answer": 0,
+      "explanation": "空格是句子的主詞，且動詞為 will resume（將恢復），語意上是「正常開放時間將於 6 月 8 日恢復」，故選 Regular hours。",
+      "tip": "Part 6 需要看前後文：前句講「暫停」，後句講「恢復」，主詞應是被暫停的事物。"
+    },
+    {
+      "id": "g-10",
+      "part": 5,
+      "type": "比較級",
+      "question": "Of all the candidates we interviewed, Ms. Rivera has the ______ experience in international marketing.",
+      "options": [
+        "much",
+        "many",
+        "more",
+        "most"
+      ],
+      "answer": 3,
+      "explanation": "Of all the candidates（在所有應徵者之中）表示三者以上的比較，須用最高級 the most。",
+      "tip": "看到 of all / in the world / among 等範圍字眼，用最高級。"
+    },
+    {
+      "id": "g-11",
+      "part": 5,
+      "type": "被動語態",
+      "question": "The annual shareholders' meeting ______ in the main conference hall next Tuesday.",
+      "options": [
+        "is holding",
+        "will be held",
+        "has held",
+        "will hold"
+      ],
+      "answer": 1,
+      "explanation": "會議是「被舉行」的，主詞 meeting 與動詞 hold 之間是被動關係，且時間是未來，故用 will be held。",
+      "tip": "主詞是「事物」且動詞是 hold / schedule / postpone 時，多半用被動語態。"
+    },
+    {
+      "id": "g-12",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "Employees ______ have completed the training course will receive a certificate.",
+      "options": [
+        "whom",
+        "which",
+        "whose",
+        "who"
+      ],
+      "answer": 3,
+      "explanation": "先行詞 Employees 是人，且空格在關係子句中作主詞（後面直接接動詞 have completed），故用 who。",
+      "tip": "先行詞是人 + 空格後接動詞 → who；空格後接名詞 → whose。"
+    },
+    {
+      "id": "g-13",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "Ms. Lopez handled the customer's complaint in a very ______ manner.",
+      "options": [
+        "professionalism",
+        "professional",
+        "profession",
+        "professionally"
+      ],
+      "answer": 1,
+      "explanation": "空格在冠詞 a（+副詞 very）與名詞 manner 之間，須填形容詞 professional 來修飾名詞。",
+      "tip": "「冠詞 + ______ + 名詞」的空格填形容詞。"
+    },
+    {
+      "id": "g-14",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The ______ of the new branch has been delayed until next spring.",
+      "options": [
+        "opening",
+        "openly",
+        "opened",
+        "open"
+      ],
+      "answer": 0,
+      "explanation": "the ______ of 的結構需要名詞，opening（開幕）是名詞，故為正解。",
+      "tip": "「the ______ of」中間九成填名詞。"
+    },
+    {
+      "id": "g-15",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "Employees should dress ______ for the client presentation.",
+      "options": [
+        "appropriate",
+        "appropriately",
+        "more appropriate",
+        "appropriateness"
+      ],
+      "answer": 1,
+      "explanation": "空格修飾動詞 dress（穿著），須用副詞 appropriately（得體地）。",
+      "tip": "不及物動詞後面的空格通常填副詞。"
+    },
+    {
+      "id": "g-16",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The seminar provided ______ information about overseas investment.",
+      "options": [
+        "usefulness",
+        "use",
+        "usefully",
+        "useful"
+      ],
+      "answer": 3,
+      "explanation": "空格修飾名詞 information，須填形容詞 useful。",
+      "tip": "名詞前的空格填形容詞。"
+    },
+    {
+      "id": "g-17",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "Our technicians respond to service requests with remarkable ______.",
+      "options": [
+        "efficiently",
+        "more efficient",
+        "efficiency",
+        "efficient"
+      ],
+      "answer": 2,
+      "explanation": "介系詞 with + 形容詞 remarkable 之後需要名詞，efficiency（效率）是名詞。",
+      "tip": "介系詞後面最終一定要接名詞（中間可夾形容詞）。"
+    },
+    {
+      "id": "g-18",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The marketing director made a ______ decision to delay the launch.",
+      "options": [
+        "strategic",
+        "strategize",
+        "strategy",
+        "strategically"
+      ],
+      "answer": 0,
+      "explanation": "空格修飾名詞 decision，須填形容詞 strategic（策略性的）。strategy 是名詞、strategically 是副詞。",
+      "tip": "分辨 -ic（形容詞）與 -y（名詞)結尾：strategic 修飾名詞。"
+    },
+    {
+      "id": "g-19",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "All visitors must sign in at the ______ desk.",
+      "options": [
+        "receptionist",
+        "receptive",
+        "reception",
+        "receive"
+      ],
+      "answer": 2,
+      "explanation": "reception desk（接待櫃檯）是固定的複合名詞。receptionist 是「接待員」，語意不合。",
+      "tip": "複合名詞常考：reception desk、application form、sales report。"
+    },
+    {
+      "id": "g-20",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The company's profits grew ______ during the third quarter.",
+      "options": [
+        "significant",
+        "significance",
+        "significantly",
+        "signify"
+      ],
+      "answer": 2,
+      "explanation": "空格修飾動詞 grew（成長），須用副詞 significantly（顯著地）。",
+      "tip": "動詞後不缺受詞時，空格填副詞。"
+    },
+    {
+      "id": "g-21",
+      "part": 5,
+      "type": "時態",
+      "question": "Mr. Tanaka ______ for Horizon Bank since 2015.",
+      "options": [
+        "works",
+        "has worked",
+        "is working",
+        "worked"
+      ],
+      "answer": 1,
+      "explanation": "since + 過去時間點，表示從過去持續到現在，用現在完成式 has worked。",
+      "tip": "看到 since / for + 一段時間，優先考慮完成式。"
+    },
+    {
+      "id": "g-22",
+      "part": 5,
+      "type": "時態",
+      "question": "By next March, the construction team ______ the new warehouse.",
+      "options": [
+        "completes",
+        "has completed",
+        "will have completed",
+        "completed"
+      ],
+      "answer": 2,
+      "explanation": "By + 未來時間點，表示屆時將完成的動作，用未來完成式 will have completed。",
+      "tip": "「By + 未來時間」搭配未來完成式 will have + p.p.。"
+    },
+    {
+      "id": "g-23",
+      "part": 5,
+      "type": "時態",
+      "question": "While the technician ______ the printer, the power suddenly went out.",
+      "options": [
+        "was repairing",
+        "has repaired",
+        "repairs",
+        "repaired"
+      ],
+      "answer": 0,
+      "explanation": "While 引導的子句描述背景中正在進行的動作，搭配過去進行式 was repairing。",
+      "tip": "while + 過去進行式（背景動作），主句用過去簡單式（突發事件）。"
+    },
+    {
+      "id": "g-24",
+      "part": 5,
+      "type": "時態",
+      "question": "The store ______ its grand opening sale next Saturday.",
+      "options": [
+        "will hold",
+        "has held",
+        "held",
+        "holds"
+      ],
+      "answer": 0,
+      "explanation": "next Saturday 是未來時間，用未來式 will hold。",
+      "tip": "先找時間副詞：next / tomorrow → 未來式。"
+    },
+    {
+      "id": "g-25",
+      "part": 5,
+      "type": "時態",
+      "question": "Before she joined our firm, she ______ at a consulting company for five years.",
+      "options": [
+        "works",
+        "has worked",
+        "had worked",
+        "is working"
+      ],
+      "answer": 2,
+      "explanation": "「加入本公司」之前更早發生的動作，用過去完成式 had worked 表示「過去的過去」。",
+      "tip": "兩個過去動作有先後時，較早的用 had + p.p.。"
+    },
+    {
+      "id": "g-26",
+      "part": 5,
+      "type": "連接詞",
+      "question": "______ sales increased last quarter, overall profits remained flat.",
+      "options": [
+        "Although",
+        "Owing to",
+        "Despite",
+        "Because of"
+      ],
+      "answer": 0,
+      "explanation": "空格後是完整子句（sales increased...），須用連接詞 Although。Despite / Because of / Owing to 都是介系詞，後面只能接名詞。",
+      "tip": "後面是子句→ although；後面是名詞 → despite / because of。"
+    },
+    {
+      "id": "g-27",
+      "part": 5,
+      "type": "連接詞",
+      "question": "The flight was delayed ______ the heavy snowstorm.",
+      "options": [
+        "as",
+        "due to",
+        "since",
+        "because"
+      ],
+      "answer": 1,
+      "explanation": "空格後是名詞片語 the heavy snowstorm，須用介系詞片語 due to。because / since / as 接子句。",
+      "tip": "due to + 名詞 = because + 子句。"
+    },
+    {
+      "id": "g-28",
+      "part": 5,
+      "type": "連接詞",
+      "question": "You may pay by credit card ______ in cash.",
+      "options": [
+        "nor",
+        "so",
+        "or",
+        "but"
+      ],
+      "answer": 2,
+      "explanation": "兩種付款方式擇一，用對等連接詞 or。",
+      "tip": "選項並列擇一用 or，皆非用 nor。"
+    },
+    {
+      "id": "g-29",
+      "part": 5,
+      "type": "連接詞",
+      "question": "______ you have any questions, please contact the personnel department.",
+      "options": [
+        "However",
+        "Unless",
+        "Should",
+        "Whether"
+      ],
+      "answer": 2,
+      "explanation": "Should you have... 是 If you should have... 的倒裝，表示「如果您有任何問題」。",
+      "tip": "句首的 Should + 主詞 = If 假設句的正式倒裝寫法。"
+    },
+    {
+      "id": "g-30",
+      "part": 5,
+      "type": "連接詞",
+      "question": "The report must be both accurate ______ concise.",
+      "options": [
+        "or",
+        "and",
+        "but",
+        "yet"
+      ],
+      "answer": 1,
+      "explanation": "both A and B 是固定搭配，表示「既 A 且 B」。",
+      "tip": "看到 both 就找 and；either 找 or；neither 找 nor。"
+    },
+    {
+      "id": "g-31",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The workshop has been rescheduled ______ May 12.",
+      "options": [
+        "in",
+        "for",
+        "at",
+        "on"
+      ],
+      "answer": 1,
+      "explanation": "reschedule A for + 新日期 是固定用法，表示「改期到某日」。",
+      "tip": "be scheduled / rescheduled for + 日期，是多益高頻搭配。"
+    },
+    {
+      "id": "g-32",
+      "part": 5,
+      "type": "介系詞",
+      "question": "Please respond to this invitation ______ Friday.",
+      "options": [
+        "until",
+        "on",
+        "in",
+        "by"
+      ],
+      "answer": 3,
+      "explanation": "respond（回覆）是一次性動作，搭配 by（在…之前）表示期限。until 用於持續性動作。",
+      "tip": "一次性動作 + by；持續性動作 + until。"
+    },
+    {
+      "id": "g-33",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The office will be closed ______ the national holiday.",
+      "options": [
+        "while",
+        "during",
+        "when",
+        "since"
+      ],
+      "answer": 1,
+      "explanation": "空格後是名詞片語 the national holiday，用介系詞 during。while / when 後面接子句。",
+      "tip": "during + 名詞；while + 子句。"
+    },
+    {
+      "id": "g-34",
+      "part": 5,
+      "type": "介系詞",
+      "question": "Ms. Patel is responsible ______ training the new interns.",
+      "options": [
+        "to",
+        "with",
+        "of",
+        "for"
+      ],
+      "answer": 3,
+      "explanation": "be responsible for（負責…）是固定搭配。",
+      "tip": "背固定搭配：responsible for、famous for、apologize for。"
+    },
+    {
+      "id": "g-35",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The two managers finally agreed ______ a new pricing plan.",
+      "options": [
+        "of",
+        "at",
+        "on",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "agree on + 事項（就…達成一致）是固定搭配；agree with + 人。",
+      "tip": "agree on 事情、agree with 人、agree to 提議。"
+    },
+    {
+      "id": "g-36",
+      "part": 5,
+      "type": "代名詞",
+      "question": "Employees may bring ______ own laptops to the training.",
+      "options": [
+        "them",
+        "their",
+        "theirs",
+        "they"
+      ],
+      "answer": 1,
+      "explanation": "own 前面必須用所有格，their own（他們自己的）。",
+      "tip": "「______ + own + 名詞」固定用所有格。"
+    },
+    {
+      "id": "g-37",
+      "part": 5,
+      "type": "代名詞",
+      "question": "The design proposal was praised by everyone who reviewed ______.",
+      "options": [
+        "its",
+        "it",
+        "itself",
+        "them"
+      ],
+      "answer": 1,
+      "explanation": "reviewed 的受詞指的是單數的 the design proposal，用受格 it。",
+      "tip": "先找代名詞指涉的對象，確認單複數再選。"
+    },
+    {
+      "id": "g-38",
+      "part": 5,
+      "type": "代名詞",
+      "question": "Ms. Chen prepared the annual report ______ because her assistant was on leave.",
+      "options": [
+        "her",
+        "herself",
+        "hers",
+        "she"
+      ],
+      "answer": 1,
+      "explanation": "強調「親自做」用反身代名詞 herself。",
+      "tip": "句子已完整、空格只是強調「親自」→ 反身代名詞。"
+    },
+    {
+      "id": "g-39",
+      "part": 5,
+      "type": "代名詞",
+      "question": "______ of the two candidates has strong leadership experience.",
+      "options": [
+        "Every",
+        "Both",
+        "All",
+        "Neither"
+      ],
+      "answer": 3,
+      "explanation": "動詞是單數 has，Both / All 接複數動詞；Neither of the two（兩者皆非）搭配單數動詞。",
+      "tip": "看動詞單複數反推主詞：has → Neither / Each。"
+    },
+    {
+      "id": "g-40",
+      "part": 5,
+      "type": "代名詞",
+      "question": "Those ______ wish to attend the banquet should register by Friday.",
+      "options": [
+        "whom",
+        "whose",
+        "which",
+        "who"
+      ],
+      "answer": 3,
+      "explanation": "Those who...（想要…的人）是固定句型，who 在子句中作主詞。",
+      "tip": "Those who + 動詞 =「…的人們」，多益常客。"
+    },
+    {
+      "id": "g-41",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The committee agreed ______ the proposal at next week's session.",
+      "options": [
+        "discusses",
+        "to discuss",
+        "discussing",
+        "discussed"
+      ],
+      "answer": 1,
+      "explanation": "agree to + 原形動詞（同意做…）是固定用法。",
+      "tip": "agree / decide / plan / hope 後面接 to V。"
+    },
+    {
+      "id": "g-42",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "We look forward to ______ from you soon.",
+      "options": [
+        "hearing",
+        "heard",
+        "hear",
+        "be heard"
+      ],
+      "answer": 0,
+      "explanation": "look forward to 的 to 是介系詞，後面接動名詞 hearing。",
+      "tip": "look forward to / be used to / object to 後面接 V-ing。"
+    },
+    {
+      "id": "g-43",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The manager suggested ______ the deadline by one week.",
+      "options": [
+        "extended",
+        "to extend",
+        "extending",
+        "extend"
+      ],
+      "answer": 2,
+      "explanation": "suggest 後面接動名詞 extending。",
+      "tip": "suggest / recommend / consider / avoid + V-ing。"
+    },
+    {
+      "id": "g-44",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "All staff are required ______ the safety training annually.",
+      "options": [
+        "completed",
+        "complete",
+        "to complete",
+        "completing"
+      ],
+      "answer": 2,
+      "explanation": "be required to + 原形動詞（被要求做…）是固定句型。",
+      "tip": "be required / expected / encouraged to V。"
+    },
+    {
+      "id": "g-45",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "Would you mind ______ the window? It's a bit cold in here.",
+      "options": [
+        "to close",
+        "close",
+        "closed",
+        "closing"
+      ],
+      "answer": 3,
+      "explanation": "mind 後面接動名詞 closing。",
+      "tip": "mind / enjoy / finish + V-ing。"
+    },
+    {
+      "id": "g-46",
+      "part": 5,
+      "type": "被動語態",
+      "question": "The invoices ______ to clients at the beginning of each month.",
+      "options": [
+        "sending",
+        "send",
+        "have sent",
+        "are sent"
+      ],
+      "answer": 3,
+      "explanation": "主詞 invoices 是「被寄出」的，且是每月例行性動作，用現在簡單式被動 are sent。",
+      "tip": "主詞是物且不會自己做動作 → 被動語態。"
+    },
+    {
+      "id": "g-47",
+      "part": 5,
+      "type": "被動語態",
+      "question": "The new policy ______ by the board at yesterday's meeting.",
+      "options": [
+        "approves",
+        "was approved",
+        "has approved",
+        "approved"
+      ],
+      "answer": 1,
+      "explanation": "政策是「被核准」的，且時間是昨天，用過去式被動 was approved。空格後的 by 是被動語態的線索。",
+      "tip": "看到「by + 執行者」幾乎可確定是被動語態。"
+    },
+    {
+      "id": "g-48",
+      "part": 5,
+      "type": "被動語態",
+      "question": "All luggage must ______ before boarding the aircraft.",
+      "options": [
+        "be inspected",
+        "inspecting",
+        "inspect",
+        "have inspected"
+      ],
+      "answer": 0,
+      "explanation": "行李是「被檢查」的，助動詞 must 後接原形，被動為 must be inspected。",
+      "tip": "助動詞 + be + p.p. 是被動的固定形式。"
+    },
+    {
+      "id": "g-49",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "The candidate ______ resume impressed us most will be interviewed first.",
+      "options": [
+        "that",
+        "who",
+        "whose",
+        "which"
+      ],
+      "answer": 2,
+      "explanation": "空格後接名詞 resume，表示「他的履歷」，用所有格關代 whose。",
+      "tip": "關代空格後緊接名詞 → whose。"
+    },
+    {
+      "id": "g-50",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "The hotel ______ we stayed at last year has been renovated.",
+      "options": [
+        "which",
+        "who",
+        "whose",
+        "where"
+      ],
+      "answer": 0,
+      "explanation": "子句中已有介系詞 at（stayed at ___），空格作 at 的受詞，用 which。若用 where 則不能再加 at。",
+      "tip": "子句尾已有介系詞 → 用 which/that；沒有介系詞 → 才用 where。"
+    },
+    {
+      "id": "g-51",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "Applicants ______ meet all the requirements will be contacted next week.",
+      "options": [
+        "which",
+        "whom",
+        "whose",
+        "who"
+      ],
+      "answer": 3,
+      "explanation": "先行詞 Applicants 是人，空格後直接接動詞 meet，關代作主詞用 who。",
+      "tip": "先行詞是人 + 空格後接動詞 → who。"
+    },
+    {
+      "id": "g-52",
+      "part": 5,
+      "type": "比較級",
+      "question": "The new model is far more energy-efficient ______ the previous one.",
+      "options": [
+        "than",
+        "from",
+        "to",
+        "as"
+      ],
+      "answer": 0,
+      "explanation": "more... 比較級固定搭配 than。",
+      "tip": "看到 more / -er 就找 than。"
+    },
+    {
+      "id": "g-53",
+      "part": 5,
+      "type": "比較級",
+      "question": "This is ______ conference room available in the building.",
+      "options": [
+        "larger",
+        "large",
+        "largely",
+        "the largest"
+      ],
+      "answer": 3,
+      "explanation": "in the building 限定了比較範圍（整棟樓之中），用最高級 the largest。",
+      "tip": "in / of + 範圍 → 最高級，且最高級前要加 the。"
+    },
+    {
+      "id": "g-54",
+      "part": 5,
+      "type": "比較級",
+      "question": "The sooner you register, ______ your chances of getting a seat.",
+      "options": [
+        "better",
+        "best",
+        "the best",
+        "the better"
+      ],
+      "answer": 3,
+      "explanation": "「The + 比較級..., the + 比較級...」（越…就越…）是固定句型。",
+      "tip": "The sooner..., the better... 前後都要有 the + 比較級。"
+    },
+    {
+      "id": "g-55",
+      "part": 5,
+      "type": "分詞",
+      "question": "The results of the survey were quite ______.",
+      "options": [
+        "surprisingly",
+        "surprise",
+        "surprising",
+        "surprised"
+      ],
+      "answer": 2,
+      "explanation": "主詞是事物（results），事物「令人驚訝」用現在分詞 surprising；人感到驚訝才用 surprised。",
+      "tip": "事物用 -ing（令人…），人用 -ed（感到…）。"
+    },
+    {
+      "id": "g-56",
+      "part": 5,
+      "type": "分詞",
+      "question": "______ by the heavy workload, several employees requested assistance.",
+      "options": [
+        "Overwhelming",
+        "To overwhelm",
+        "Overwhelmed",
+        "Overwhelm"
+      ],
+      "answer": 2,
+      "explanation": "員工是「被工作量壓垮」的，分詞構句用過去分詞 Overwhelmed。",
+      "tip": "分詞構句：主詞被動作影響 → p.p. 開頭；主動做動作 → V-ing 開頭。"
+    },
+    {
+      "id": "g-57",
+      "part": 5,
+      "type": "分詞",
+      "question": "Anyone ______ in volunteering should contact Ms. Rivera.",
+      "options": [
+        "interest",
+        "interested",
+        "interesting",
+        "interests"
+      ],
+      "answer": 1,
+      "explanation": "人「感到有興趣」用過去分詞 interested，且 be interested in 是固定搭配。",
+      "tip": "interested in（人有興趣）vs interesting（事物有趣）。"
+    },
+    {
+      "id": "g-58",
+      "part": 5,
+      "type": "數量詞",
+      "question": "______ information about the merger will be released next week.",
+      "options": [
+        "Several",
+        "Further",
+        "A few",
+        "Many"
+      ],
+      "answer": 1,
+      "explanation": "information 是不可數名詞，Many / Several / A few 只能接可數複數；Further（更多的）可接不可數名詞。",
+      "tip": "information、advice、equipment 都不可數，不能用 many / few。"
+    },
+    {
+      "id": "g-59",
+      "part": 5,
+      "type": "數量詞",
+      "question": "There are only a ______ tickets left for the awards dinner.",
+      "options": [
+        "much",
+        "lot",
+        "little",
+        "few"
+      ],
+      "answer": 3,
+      "explanation": "tickets 是可數複數，用 a few（少數幾張）。a little 接不可數名詞。",
+      "tip": "a few + 可數複數；a little + 不可數。"
+    },
+    {
+      "id": "g-60",
+      "part": 5,
+      "type": "數量詞",
+      "question": "______ of the equipment in the lab needs to be replaced.",
+      "options": [
+        "Both",
+        "Many",
+        "Few",
+        "Much"
+      ],
+      "answer": 3,
+      "explanation": "equipment 是不可數名詞，且動詞 needs 是單數，用 Much。",
+      "tip": "equipment / furniture / luggage 永遠不可數。"
+    },
+    {
+      "id": "g-61",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "If the shipment ______ late again, we will switch suppliers.",
+      "options": [
+        "arrives",
+        "arrived",
+        "will arrive",
+        "arrive"
+      ],
+      "answer": 0,
+      "explanation": "第一類條件句（未來很可能發生）：If + 現在式，主句 will + 原形。主詞 shipment 是單數，用 arrives。",
+      "tip": "If 子句用現在式代替未來式，不能放 will。"
+    },
+    {
+      "id": "g-62",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "If Ms. Wong had checked the schedule, she ______ the meeting.",
+      "options": [
+        "has not missed",
+        "did not miss",
+        "would not miss",
+        "would not have missed"
+      ],
+      "answer": 3,
+      "explanation": "與過去事實相反的假設：If + had p.p., 主句 would have p.p.。",
+      "tip": "看到 If + had p.p.，主句必配 would/could have p.p.。"
+    },
+    {
+      "id": "g-63",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Thank you for your interest in our premium membership. ______, we are offering a 20 percent discount to all new members this month.",
+      "options": [
+        "In contrast",
+        "Nevertheless",
+        "For a limited time",
+        "As a result"
+      ],
+      "answer": 2,
+      "explanation": "後句是促銷優惠內容，前後沒有因果或轉折關係，用 For a limited time（限時）最符合廣告語氣。",
+      "tip": "Part 6 先判斷前後句關係：沒有轉折/因果時，找語意上最自然的副詞片語。"
+    },
+    {
+      "id": "g-64",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "The elevator in Building C will be under repair on Monday. ______, please use the stairs or the elevator in Building B.",
+      "options": [
+        "In the meantime",
+        "Nevertheless",
+        "For instance",
+        "On the contrary"
+      ],
+      "answer": 0,
+      "explanation": "前句說明電梯維修，後句是「這段期間」的替代方案，用 In the meantime（在此期間）。",
+      "tip": "前句講「暫時狀況」、後句給「過渡做法」→ in the meantime。"
+    },
+    {
+      "id": "g-65",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "We have received your payment of $250. ______, your order has been shipped and should arrive within five business days.",
+      "options": [
+        "Otherwise",
+        "However",
+        "Instead",
+        "Accordingly"
+      ],
+      "answer": 3,
+      "explanation": "收到付款 → 因此出貨，前後是因果順承關係，用 Accordingly（因此；據此）。",
+      "tip": "正向因果用 accordingly / therefore；轉折才用 however。"
+    },
+    {
+      "id": "g-66",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "All employees are invited to the year-end party. ______ who plan to attend should reply by December 1.",
+      "options": [
+        "Anyone",
+        "They",
+        "Those",
+        "Everyone"
+      ],
+      "answer": 2,
+      "explanation": "空格後接 who 引導的關係子句，Those who（凡是…的人）是固定搭配；Anyone / Everyone 接 who 時動詞用單數，但後句 plan 是複數。",
+      "tip": "「______ who + 複數動詞」→ Those。"
+    },
+    {
+      "id": "g-67",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "Please read the safety instructions ______ before using the equipment.",
+      "options": [
+        "carefully",
+        "carefulness",
+        "careful",
+        "more careful"
+      ],
+      "answer": 0,
+      "explanation": "空格修飾動詞 read，用副詞 carefully。",
+      "tip": "動詞 + 受詞之後的空格常填副詞。"
+    },
+    {
+      "id": "g-68",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The hotel is known for its exceptional ______ to detail.",
+      "options": [
+        "attend",
+        "attention",
+        "attentively",
+        "attentive"
+      ],
+      "answer": 1,
+      "explanation": "所有格 its + 形容詞 exceptional 之後需要名詞，attention to detail（對細節的注重）是固定搭配。",
+      "tip": "「所有格 + 形容詞 + ______」填名詞。"
+    },
+    {
+      "id": "g-69",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The two firms formed a ______ partnership last year.",
+      "options": [
+        "profit",
+        "profitability",
+        "profitable",
+        "profitably"
+      ],
+      "answer": 2,
+      "explanation": "空格修飾名詞 partnership，用形容詞 profitable（有利可圖的）。",
+      "tip": "冠詞與名詞之間填形容詞。"
+    },
+    {
+      "id": "g-70",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "Ticket holders must show valid ______ at the entrance.",
+      "options": [
+        "identified",
+        "identify",
+        "identification",
+        "identifiable"
+      ],
+      "answer": 2,
+      "explanation": "形容詞 valid 之後、作 show 的受詞，需要名詞 identification（身分證件）。",
+      "tip": "動詞的受詞位置填名詞。"
+    },
+    {
+      "id": "g-71",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The CEO spoke ______ about the company's future plans.",
+      "options": [
+        "confidently",
+        "confidence",
+        "confide",
+        "confident"
+      ],
+      "answer": 0,
+      "explanation": "空格修飾動詞 spoke，用副詞 confidently（有自信地）。",
+      "tip": "spoke / responded / performed 這類動詞後常接副詞。"
+    },
+    {
+      "id": "g-72",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "There has been a steady ______ in online orders since April.",
+      "options": [
+        "increasing",
+        "increasingly",
+        "increase",
+        "increased"
+      ],
+      "answer": 2,
+      "explanation": "冠詞 a + 形容詞 steady 之後需要名詞 increase（成長）。",
+      "tip": "an increase / decrease in + 名詞，是多益高頻句型。"
+    },
+    {
+      "id": "g-73",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "The workshop will help managers communicate more ______ with their teams.",
+      "options": [
+        "effectiveness",
+        "effect",
+        "effective",
+        "effectively"
+      ],
+      "answer": 3,
+      "explanation": "空格修飾動詞 communicate，用副詞 effectively，more effectively 為比較級。",
+      "tip": "more + 副詞也是常見結構，別看到 more 就以為要選形容詞。"
+    },
+    {
+      "id": "g-74",
+      "part": 5,
+      "type": "詞性判斷",
+      "question": "Please complete the attached form and return it at your earliest ______.",
+      "options": [
+        "convenience",
+        "convenient",
+        "convene",
+        "conveniently"
+      ],
+      "answer": 0,
+      "explanation": "at your earliest convenience（在您方便時盡早）是商業書信固定用語，形容詞 earliest 後接名詞。",
+      "tip": "背整句：at your earliest convenience ＝ 請盡快。"
+    },
+    {
+      "id": "g-75",
+      "part": 5,
+      "type": "時態",
+      "question": "The maintenance crew ______ the air conditioning system right now.",
+      "options": [
+        "has inspected",
+        "inspected",
+        "is inspecting",
+        "inspects"
+      ],
+      "answer": 2,
+      "explanation": "right now（此刻）表示正在進行，用現在進行式 is inspecting。",
+      "tip": "right now / at the moment → 現在進行式。"
+    },
+    {
+      "id": "g-76",
+      "part": 5,
+      "type": "時態",
+      "question": "Our company ______ three new branches since January.",
+      "options": [
+        "has opened",
+        "is opening",
+        "opened",
+        "opens"
+      ],
+      "answer": 0,
+      "explanation": "since January 表示從一月至今的累積成果，用現在完成式 has opened。",
+      "tip": "since + 時間點 → 完成式。"
+    },
+    {
+      "id": "g-77",
+      "part": 5,
+      "type": "時態",
+      "question": "When the fire alarm rang, everyone ______ the building immediately.",
+      "options": [
+        "left",
+        "is leaving",
+        "has left",
+        "leaves"
+      ],
+      "answer": 0,
+      "explanation": "when 子句是過去式 rang，主句同樣描述過去動作，用過去式 left。",
+      "tip": "前後子句時態要一致：過去配過去。"
+    },
+    {
+      "id": "g-78",
+      "part": 5,
+      "type": "時態",
+      "question": "The train ______ at platform six in ten minutes.",
+      "options": [
+        "arrives",
+        "has arrived",
+        "was arriving",
+        "arrived"
+      ],
+      "answer": 0,
+      "explanation": "火車時刻表等既定行程可用現在簡單式表未來，arrives 為正解。",
+      "tip": "時刻表、營業時間等固定行程 → 現在簡單式表未來。"
+    },
+    {
+      "id": "g-79",
+      "part": 5,
+      "type": "連接詞",
+      "question": "______ the rain stops soon, the outdoor event will be canceled.",
+      "options": [
+        "Unless",
+        "Because",
+        "If",
+        "Since"
+      ],
+      "answer": 0,
+      "explanation": "語意是「除非雨很快停，否則活動將取消」，用 Unless（除非）。用 If 語意矛盾。",
+      "tip": "Unless = If not，選前先把語意帶進去讀一次。"
+    },
+    {
+      "id": "g-80",
+      "part": 5,
+      "type": "連接詞",
+      "question": "The package arrived on time ______ the shipping delays.",
+      "options": [
+        "because",
+        "despite",
+        "however",
+        "although"
+      ],
+      "answer": 1,
+      "explanation": "空格後是名詞片語 the shipping delays，且語意是「儘管延誤仍準時」，用介系詞 despite。",
+      "tip": "despite + 名詞（讓步）；although + 子句。"
+    },
+    {
+      "id": "g-81",
+      "part": 5,
+      "type": "連接詞",
+      "question": "Neither the manager ______ the assistant knew about the schedule change.",
+      "options": [
+        "and",
+        "or",
+        "but",
+        "nor"
+      ],
+      "answer": 3,
+      "explanation": "neither A nor B（A 和 B 都不）是固定搭配。",
+      "tip": "neither 必配 nor，either 必配 or。"
+    },
+    {
+      "id": "g-82",
+      "part": 5,
+      "type": "連接詞",
+      "question": "Keep the receipt ______ you need to return the item.",
+      "options": [
+        "in case",
+        "even if",
+        "so that",
+        "now that"
+      ],
+      "answer": 0,
+      "explanation": "in case（以防萬一）符合「留著收據以防需要退貨」的語意。",
+      "tip": "in case = 以防；so that = 以便；now that = 既然。"
+    },
+    {
+      "id": "g-83",
+      "part": 5,
+      "type": "連接詞",
+      "question": "______ he had finished the report, Mr. Silva left the office.",
+      "options": [
+        "During",
+        "Until",
+        "Once",
+        "Despite"
+      ],
+      "answer": 2,
+      "explanation": "空格後是完整子句，語意為「一旦完成報告就離開」，用連接詞 Once。During / Despite 是介系詞。",
+      "tip": "Once + 子句 = 一…就…。"
+    },
+    {
+      "id": "g-84",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The seminar will begin ______ 2:00 p.m. sharp.",
+      "options": [
+        "at",
+        "by",
+        "on",
+        "in"
+      ],
+      "answer": 0,
+      "explanation": "確切時刻用 at：at 2:00 p.m.。",
+      "tip": "at + 時刻、on + 日期、in + 月份/年份。"
+    },
+    {
+      "id": "g-85",
+      "part": 5,
+      "type": "介系詞",
+      "question": "Our sales have doubled ______ the past two years.",
+      "options": [
+        "at",
+        "from",
+        "since",
+        "over"
+      ],
+      "answer": 3,
+      "explanation": "over the past two years（在過去兩年間）是固定搭配，表示一段期間內的變化。",
+      "tip": "over / during / in the past + 一段時間，搭配完成式。"
+    },
+    {
+      "id": "g-86",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The new intern is in charge ______ sorting the mail.",
+      "options": [
+        "with",
+        "to",
+        "for",
+        "of"
+      ],
+      "answer": 3,
+      "explanation": "in charge of（負責…）是固定搭配。",
+      "tip": "in charge of = responsible for。"
+    },
+    {
+      "id": "g-87",
+      "part": 5,
+      "type": "介系詞",
+      "question": "Passengers should arrive at the airport two hours ______ departure.",
+      "options": [
+        "until",
+        "prior to",
+        "among",
+        "toward"
+      ],
+      "answer": 1,
+      "explanation": "prior to（在…之前）= before，是多益常見的正式用語。",
+      "tip": "prior to = before，常出現在公告與指示。"
+    },
+    {
+      "id": "g-88",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The bakery is located ______ the bank and the post office.",
+      "options": [
+        "between",
+        "along",
+        "beside",
+        "among"
+      ],
+      "answer": 0,
+      "explanation": "兩者之間用 between（between A and B）；三者以上才用 among。",
+      "tip": "between 兩者、among 三者以上。"
+    },
+    {
+      "id": "g-89",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The IT department finished ______ the new software yesterday.",
+      "options": [
+        "installed",
+        "installing",
+        "install",
+        "to install"
+      ],
+      "answer": 1,
+      "explanation": "finish 後面接動名詞 installing。",
+      "tip": "finish / enjoy / keep + V-ing。"
+    },
+    {
+      "id": "g-90",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "Ms. Novak decided ______ the job offer in Singapore.",
+      "options": [
+        "accepted",
+        "accepting",
+        "accepts",
+        "to accept"
+      ],
+      "answer": 3,
+      "explanation": "decide to + 原形動詞是固定用法。",
+      "tip": "decide / plan / agree / hope + to V。"
+    },
+    {
+      "id": "g-91",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The security guard let the visitors ______ the building after checking their IDs.",
+      "options": [
+        "entered",
+        "enter",
+        "entering",
+        "to enter"
+      ],
+      "answer": 1,
+      "explanation": "使役動詞 let + 受詞 + 原形動詞。",
+      "tip": "let / make / have + 受詞 + 原形 V。"
+    },
+    {
+      "id": "g-92",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "Please avoid ______ personal calls during work hours.",
+      "options": [
+        "made",
+        "making",
+        "to make",
+        "make"
+      ],
+      "answer": 1,
+      "explanation": "avoid 後面接動名詞 making。",
+      "tip": "avoid / consider / suggest + V-ing。"
+    },
+    {
+      "id": "g-93",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The company encourages employees ______ public transportation.",
+      "options": [
+        "used",
+        "using",
+        "use",
+        "to use"
+      ],
+      "answer": 3,
+      "explanation": "encourage + 受詞 + to V（鼓勵某人做…）是固定句型。",
+      "tip": "encourage / allow / advise / remind + 人 + to V。"
+    },
+    {
+      "id": "g-94",
+      "part": 5,
+      "type": "被動語態",
+      "question": "The awards ceremony ______ live on the company website tonight.",
+      "options": [
+        "broadcasts",
+        "is broadcasting",
+        "has broadcast",
+        "will be broadcast"
+      ],
+      "answer": 3,
+      "explanation": "典禮是「被轉播」的，時間為 tonight（未來），用 will be broadcast。",
+      "tip": "主詞是活動/事物 + 轉播/舉行類動詞 → 被動。"
+    },
+    {
+      "id": "g-95",
+      "part": 5,
+      "type": "被動語態",
+      "question": "Applications ______ until the position is filled.",
+      "options": [
+        "accept",
+        "have accepted",
+        "will be accepted",
+        "accepting"
+      ],
+      "answer": 2,
+      "explanation": "申請書是「被受理」的，且是持續到未來的狀態，用 will be accepted。",
+      "tip": "招募公告常見句：Applications will be accepted until...。"
+    },
+    {
+      "id": "g-96",
+      "part": 5,
+      "type": "被動語態",
+      "question": "The conference room should ______ for the client visit tomorrow morning.",
+      "options": [
+        "preparing",
+        "prepare",
+        "be prepared",
+        "have prepared"
+      ],
+      "answer": 2,
+      "explanation": "會議室是「被準備」的，should 後接 be + p.p.。",
+      "tip": "房間/文件/設備當主詞時，十之八九是被動。"
+    },
+    {
+      "id": "g-97",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "The consultant ______ we hired last month has already improved our workflow.",
+      "options": [
+        "which",
+        "where",
+        "whose",
+        "whom"
+      ],
+      "answer": 3,
+      "explanation": "先行詞 consultant 是人，且在子句中作 hired 的受詞（we hired him），用受格 whom。",
+      "tip": "關代後面接「主詞 + 動詞」→ 關代作受詞，人用 whom。"
+    },
+    {
+      "id": "g-98",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "The factory, ______ was built in 1998, now employs over 500 workers.",
+      "options": [
+        "which",
+        "whose",
+        "who",
+        "that"
+      ],
+      "answer": 0,
+      "explanation": "逗號後的非限定關係子句不能用 that，先行詞是物，用 which。",
+      "tip": "看到「, ______」的非限定用法，直接刪掉 that。"
+    },
+    {
+      "id": "g-99",
+      "part": 5,
+      "type": "關係代名詞",
+      "question": "This is the restaurant ______ the farewell dinner will be held.",
+      "options": [
+        "whom",
+        "where",
+        "which",
+        "that"
+      ],
+      "answer": 1,
+      "explanation": "子句 the dinner will be held 結構完整（不缺主受詞），需要表示地點的關係副詞 where。",
+      "tip": "子句完整不缺格 → 用 where / when；缺主詞或受詞 → 用 which / that。"
+    },
+    {
+      "id": "g-100",
+      "part": 5,
+      "type": "比較級",
+      "question": "Of the three printers, this model operates the ______ quietly.",
+      "options": [
+        "much",
+        "most",
+        "very",
+        "more"
+      ],
+      "answer": 1,
+      "explanation": "三者比較用最高級，副詞的最高級為 the most quietly。",
+      "tip": "Of the three... → 最高級。"
+    },
+    {
+      "id": "g-101",
+      "part": 5,
+      "type": "比較級",
+      "question": "The revised proposal is much ______ than the original version.",
+      "options": [
+        "clearly",
+        "clearer",
+        "clear",
+        "clearest"
+      ],
+      "answer": 1,
+      "explanation": "有 than，用比較級 clearer；much 用來加強比較級。",
+      "tip": "much / far / even + 比較級（加強語氣）。"
+    },
+    {
+      "id": "g-102",
+      "part": 5,
+      "type": "比較級",
+      "question": "No other branch performed ______ well as the downtown location this year.",
+      "options": [
+        "more",
+        "as",
+        "than",
+        "most"
+      ],
+      "answer": 1,
+      "explanation": "as... as 原級比較：No other... as well as ~ 表示「沒有其他分店表現得和市中心店一樣好」。",
+      "tip": "No other + as...as = 實質上的最高級。"
+    },
+    {
+      "id": "g-103",
+      "part": 5,
+      "type": "分詞",
+      "question": "The company offers ______ prices on all bulk orders.",
+      "options": [
+        "reduced",
+        "reduce",
+        "reduction",
+        "reducing"
+      ],
+      "answer": 0,
+      "explanation": "價格是「被降低」的，用過去分詞 reduced 作形容詞修飾 prices。",
+      "tip": "reduced prices、attached file、limited time — 被動意味用 p.p.。"
+    },
+    {
+      "id": "g-104",
+      "part": 5,
+      "type": "分詞",
+      "question": "______ the annual report, the accountant found a serious error.",
+      "options": [
+        "To review",
+        "Reviewed",
+        "Review",
+        "Reviewing"
+      ],
+      "answer": 3,
+      "explanation": "會計師主動「審閱」報告，分詞構句用現在分詞 Reviewing。",
+      "tip": "分詞構句：主詞主動做 → V-ing；被動承受 → p.p.。"
+    },
+    {
+      "id": "g-105",
+      "part": 5,
+      "type": "分詞",
+      "question": "The training session was so ______ that many attendees fell asleep.",
+      "options": [
+        "boring",
+        "boredom",
+        "bore",
+        "bored"
+      ],
+      "answer": 0,
+      "explanation": "課程「令人無聊」用現在分詞 boring；人「感到無聊」才用 bored。",
+      "tip": "主詞是事物 → -ing；主詞是人 → -ed。"
+    },
+    {
+      "id": "g-106",
+      "part": 5,
+      "type": "數量詞",
+      "question": "______ employee must attend at least one training session per year.",
+      "options": [
+        "Many",
+        "Each",
+        "All",
+        "Both"
+      ],
+      "answer": 1,
+      "explanation": "空格後是單數名詞 employee 且動詞為 must attend，用 Each（每一位）。All / Both / Many 接複數。",
+      "tip": "Each / Every + 單數名詞；All / Many + 複數。"
+    },
+    {
+      "id": "g-107",
+      "part": 5,
+      "type": "數量詞",
+      "question": "We have received ______ complaints about the new phone system.",
+      "options": [
+        "a great deal",
+        "a little",
+        "much",
+        "several"
+      ],
+      "answer": 3,
+      "explanation": "complaints 是可數複數，用 several（好幾件）。much / a little 接不可數。",
+      "tip": "先判斷名詞可不可數，再挑數量詞。"
+    },
+    {
+      "id": "g-108",
+      "part": 5,
+      "type": "數量詞",
+      "question": "There is ______ time left before the submission deadline.",
+      "options": [
+        "little",
+        "few",
+        "a few",
+        "many"
+      ],
+      "answer": 0,
+      "explanation": "time 是不可數名詞，且語意是「所剩不多」，用 little。",
+      "tip": "little（幾乎沒有）vs a little（還有一點）語氣不同。"
+    },
+    {
+      "id": "g-109",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "If I ______ you, I would double-check the figures before submitting.",
+      "options": [
+        "be",
+        "was",
+        "were",
+        "am"
+      ],
+      "answer": 2,
+      "explanation": "與現在事實相反的假設，be 動詞一律用 were：If I were you。",
+      "tip": "If I were you 是固定用法，不用 was。"
+    },
+    {
+      "id": "g-110",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "______ the CEO arrive early, please show her to the boardroom.",
+      "options": [
+        "Should",
+        "Unless",
+        "If",
+        "When"
+      ],
+      "answer": 0,
+      "explanation": "空格後動詞是原形 arrive，這是 If the CEO should arrive 的倒裝：Should the CEO arrive。若選 If，動詞須為 arrives。",
+      "tip": "主詞後接原形動詞 → 想到 Should 倒裝。"
+    },
+    {
+      "id": "g-111",
+      "part": 5,
+      "type": "片語動詞",
+      "question": "The meeting has been called ______ due to the typhoon warning.",
+      "options": [
+        "out",
+        "on",
+        "off",
+        "up"
+      ],
+      "answer": 2,
+      "explanation": "call off（取消）是固定片語動詞。",
+      "tip": "call off = cancel，多益高頻片語。"
+    },
+    {
+      "id": "g-112",
+      "part": 5,
+      "type": "片語動詞",
+      "question": "Please fill ______ this form and hand it to the receptionist.",
+      "options": [
+        "in",
+        "at",
+        "of",
+        "on"
+      ],
+      "answer": 0,
+      "explanation": "fill in（填寫）是固定片語動詞（美式亦常用 fill out）。",
+      "tip": "fill in / fill out 都是「填寫」。"
+    },
+    {
+      "id": "g-113",
+      "part": 5,
+      "type": "固定搭配",
+      "question": "We apologize ______ any inconvenience this may cause.",
+      "options": [
+        "for",
+        "to",
+        "with",
+        "about"
+      ],
+      "answer": 0,
+      "explanation": "apologize for + 事情（為…道歉）是固定搭配；apologize to + 人。",
+      "tip": "公告常見句：We apologize for any inconvenience.。"
+    },
+    {
+      "id": "g-114",
+      "part": 5,
+      "type": "固定搭配",
+      "question": "The new regulations will take ______ on the first of July.",
+      "options": [
+        "effect",
+        "part",
+        "care",
+        "place"
+      ],
+      "answer": 0,
+      "explanation": "take effect（生效）是固定搭配；take place 是「舉行」。",
+      "tip": "法規生效 take effect；活動舉行 take place。"
+    },
+    {
+      "id": "g-115",
+      "part": 5,
+      "type": "固定搭配",
+      "question": "Ms. Ito will take ______ of the project while the director is away.",
+      "options": [
+        "note",
+        "turn",
+        "part",
+        "charge"
+      ],
+      "answer": 3,
+      "explanation": "take charge of（接管；負責）是固定搭配。",
+      "tip": "take charge of = 接手負責；take part in = 參加。"
+    },
+    {
+      "id": "g-116",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Dear valued customer,\n\nOur online store will be temporarily unavailable this Sunday. ______, we will be upgrading our payment system to serve you better.",
+      "options": [
+        "In addition",
+        "On the other hand",
+        "During this time",
+        "As usual"
+      ],
+      "answer": 2,
+      "explanation": "前句說明週日暫停服務，後句解釋「這段期間」要做的升級作業，用 During this time。",
+      "tip": "找前後句的時間關係：暫停期間做某事 → during this time。"
+    },
+    {
+      "id": "g-117",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "We appreciate your patience while we process your request. ______, you can track its status on our website.",
+      "options": [
+        "Above all",
+        "In the meantime",
+        "Therefore",
+        "Similarly"
+      ],
+      "answer": 1,
+      "explanation": "處理期間可以先做的事，用 In the meantime（在此期間）銜接最自然。",
+      "tip": "「等待期間可以…」→ in the meantime。"
+    },
+    {
+      "id": "g-118",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "The fitness center's opening hours will be extended starting next month. ______ change reflects feedback from our members.",
+      "options": [
+        "These",
+        "Such",
+        "This",
+        "Those"
+      ],
+      "answer": 2,
+      "explanation": "指前一句提到的單一變更（延長營業時間），用單數指示詞 This change。",
+      "tip": "Part 6 指示詞題：先確認指的是前文哪件事、單數還是複數。"
+    },
+    {
+      "id": "g-119",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "All interns will receive a certificate upon completing the program. ______, outstanding interns may be offered full-time positions.",
+      "options": [
+        "Instead",
+        "Otherwise",
+        "However",
+        "Furthermore"
+      ],
+      "answer": 3,
+      "explanation": "後句在前句的好處上追加另一項好處，屬於遞進關係，用 Furthermore（此外）。",
+      "tip": "前後同方向加碼 → furthermore / in addition；方向相反 → however。"
+    },
+    {
+      "id": "g-120",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Thank you for submitting your manuscript. Our editors will review it within four weeks. ______ it is accepted, you will receive a publishing contract by email.",
+      "options": [
+        "Because of",
+        "Whether",
+        "If",
+        "Despite"
+      ],
+      "answer": 2,
+      "explanation": "後句是條件關係：「如果被採用，就會收到合約」，用 If。",
+      "tip": "條件 + 結果的句型，優先試 If 帶入讀看看。"
+    },
+    {
+      "id": "g-121",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The two companies signed a(n) ______ to share research facilities.",
+      "options": [
+        "appearance",
+        "agreement",
+        "attendance",
+        "appliance"
+      ],
+      "answer": 1,
+      "explanation": "sign an agreement（簽署協議）是固定搭配；appliance 是家電、attendance 是出席。",
+      "tip": "字彙題先看動詞搭配：sign 後面接 agreement / contract。"
+    },
+    {
+      "id": "g-122",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Employees must wear protective ______ when entering the laboratory.",
+      "options": [
+        "equipment",
+        "department",
+        "agreement",
+        "statement"
+      ],
+      "answer": 0,
+      "explanation": "protective equipment（防護裝備）是固定搭配。",
+      "tip": "protective 後面常接 equipment / gear / clothing。"
+    },
+    {
+      "id": "g-123",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The hotel offers a free shuttle ______ to the convention center.",
+      "options": [
+        "surface",
+        "service",
+        "sequence",
+        "sentence"
+      ],
+      "answer": 1,
+      "explanation": "shuttle service（接駁服務）是固定搭配。",
+      "tip": "選項長得像時，找「和前面名詞組成慣用語」的那個。"
+    },
+    {
+      "id": "g-124",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Due to high ______, the seminar has been moved to a larger room.",
+      "options": [
+        "remand",
+        "comment",
+        "demand",
+        "command"
+      ],
+      "answer": 2,
+      "explanation": "high demand（需求踴躍）符合「換到更大教室」的因果關係。",
+      "tip": "字彙題把每個選項帶回句子讀，只有一個語意通順。"
+    },
+    {
+      "id": "g-125",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Please ______ the enclosed form and return it by May 3.",
+      "options": [
+        "complement",
+        "compete",
+        "complete",
+        "compile"
+      ],
+      "answer": 2,
+      "explanation": "complete the form（填妥表格）是商業書信高頻用語；compete 是競爭。",
+      "tip": "form 的搭配動詞：complete / fill in / submit。"
+    },
+    {
+      "id": "g-126",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The committee will ______ the proposals and select a winner next week.",
+      "options": [
+        "elevate",
+        "eliminate",
+        "evaluate",
+        "evacuate"
+      ],
+      "answer": 2,
+      "explanation": "「審核提案並選出優勝者」用 evaluate（評估）；evacuate 是疏散、elevate 是提升。",
+      "tip": "小心形近字：evaluate（評估）vs evacuate（疏散）。"
+    },
+    {
+      "id": "g-127",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Ms. Park was praised for her ______ to the project.",
+      "options": [
+        "direction",
+        "dedication",
+        "deduction",
+        "dictation"
+      ],
+      "answer": 1,
+      "explanation": "dedication to（對…的投入）是固定搭配；deduction 是扣除。",
+      "tip": "dedication / commitment + to，介系詞是線索。"
+    },
+    {
+      "id": "g-128",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The airline offers a generous baggage ______ for business class.",
+      "options": [
+        "assurance",
+        "appliance",
+        "allowance",
+        "alliance"
+      ],
+      "answer": 2,
+      "explanation": "baggage allowance（行李額度）是航空業固定用語。",
+      "tip": "allowance = 額度/津貼，多益常考 baggage / travel allowance。"
+    },
+    {
+      "id": "g-129",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Sales ______ for the northern region will be announced on Friday.",
+      "options": [
+        "figures",
+        "fixtures",
+        "features",
+        "failures"
+      ],
+      "answer": 0,
+      "explanation": "sales figures（銷售數據）是固定搭配。",
+      "tip": "figures 當「數據」解是多益高頻義。"
+    },
+    {
+      "id": "g-130",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The restaurant received an award for its ______ service.",
+      "options": [
+        "outgoing",
+        "outdated",
+        "outstretched",
+        "outstanding"
+      ],
+      "answer": 3,
+      "explanation": "outstanding service（傑出的服務）符合「獲獎」的語意；outdated 是過時的。",
+      "tip": "out- 開頭形近字要靠語意分辨：outstanding 傑出、outdated 過時。"
+    },
+    {
+      "id": "g-131",
+      "part": 5,
+      "type": "倒裝句",
+      "question": "______ had the meeting started when the fire alarm went off.",
+      "options": [
+        "Hardly",
+        "Shortly",
+        "Nearly",
+        "Mostly"
+      ],
+      "answer": 0,
+      "explanation": "Hardly had + S + p.p. ... when...（才剛…就…）是固定倒裝句型。",
+      "tip": "句首否定副詞（Hardly / Never / Seldom）→ 主詞動詞倒裝。"
+    },
+    {
+      "id": "g-132",
+      "part": 5,
+      "type": "倒裝句",
+      "question": "Not only ______ the deadline, but she also improved the design.",
+      "options": [
+        "she did meet",
+        "did she meet",
+        "met she",
+        "she met"
+      ],
+      "answer": 1,
+      "explanation": "Not only 放句首時須倒裝：Not only did she meet...。",
+      "tip": "Not only 在句首 → 後面接助動詞 + 主詞 + 原形動詞。"
+    },
+    {
+      "id": "g-133",
+      "part": 5,
+      "type": "名詞子句",
+      "question": "The manager has not decided ______ the launch will be delayed.",
+      "options": [
+        "whether",
+        "who",
+        "which",
+        "what"
+      ],
+      "answer": 0,
+      "explanation": "空格後是完整子句，表示「是否」用 whether；what / which / who 需要在子句中擔任成分。",
+      "tip": "子句完整不缺格 → whether / that；缺主詞或受詞 → what / who。"
+    },
+    {
+      "id": "g-134",
+      "part": 5,
+      "type": "名詞子句",
+      "question": "______ surprised the investors was the sudden drop in profits.",
+      "options": [
+        "Which",
+        "That",
+        "It",
+        "What"
+      ],
+      "answer": 3,
+      "explanation": "What surprised the investors（令投資人驚訝的事）作主詞，What 在子句中兼任主詞。",
+      "tip": "「______ + 動詞 + 的事」當主詞 → What。"
+    },
+    {
+      "id": "g-135",
+      "part": 5,
+      "type": "複合關係詞",
+      "question": "______ wins the contract will need to start work immediately.",
+      "options": [
+        "Whoever",
+        "Whom",
+        "Who",
+        "Whose"
+      ],
+      "answer": 0,
+      "explanation": "Whoever（無論誰）= Anyone who，引導名詞子句作整句主詞。",
+      "tip": "沒有先行詞時用 whoever / whichever / whatever。"
+    },
+    {
+      "id": "g-136",
+      "part": 5,
+      "type": "分詞",
+      "question": "______ in 1975, the firm has grown into a global leader.",
+      "options": [
+        "Founding",
+        "Founded",
+        "Being founding",
+        "To found"
+      ],
+      "answer": 1,
+      "explanation": "公司是「被創立」的，分詞構句用過去分詞 Founded。",
+      "tip": "Founded in + 年份 是公司介紹的固定開頭。"
+    },
+    {
+      "id": "g-137",
+      "part": 5,
+      "type": "分詞",
+      "question": "The manager, ______ with the results, extended the campaign.",
+      "options": [
+        "pleasing",
+        "pleased",
+        "please",
+        "to please"
+      ],
+      "answer": 1,
+      "explanation": "人「感到滿意」用過去分詞 pleased（be pleased with）。",
+      "tip": "人的情緒用 -ed：pleased、satisfied、delighted。"
+    },
+    {
+      "id": "g-138",
+      "part": 5,
+      "type": "被動語態",
+      "question": "The decision to relocate ______ with mixed reactions from staff.",
+      "options": [
+        "meeting",
+        "met",
+        "was met",
+        "has met"
+      ],
+      "answer": 2,
+      "explanation": "be met with...（遭遇…的反應）是固定被動用法。",
+      "tip": "be met with + 反應（praise / criticism / mixed reactions）。"
+    },
+    {
+      "id": "g-139",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "______ the shipment arrived on time, we would not have lost the client.",
+      "options": [
+        "Should",
+        "Were",
+        "If",
+        "Had"
+      ],
+      "answer": 3,
+      "explanation": "與過去事實相反的假設倒裝：Had the shipment arrived = If the shipment had arrived。",
+      "tip": "主句是 would have p.p. → 前面找 Had + S + p.p. 的倒裝。"
+    },
+    {
+      "id": "g-140",
+      "part": 5,
+      "type": "時態",
+      "question": "This time next week, the auditors ______ our financial records.",
+      "options": [
+        "reviewed",
+        "will be reviewing",
+        "have reviewed",
+        "review"
+      ],
+      "answer": 1,
+      "explanation": "This time next week（下週此刻）表示未來某時刻正在進行的動作，用未來進行式。",
+      "tip": "this time + 未來時間 → will be V-ing。"
+    },
+    {
+      "id": "g-141",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The seminar was canceled ______ of low enrollment.",
+      "options": [
+        "on account",
+        "in charge",
+        "on behalf",
+        "in favor"
+      ],
+      "answer": 0,
+      "explanation": "on account of（由於）= because of；in charge of 是負責、on behalf of 是代表。",
+      "tip": "on account of = due to = because of。"
+    },
+    {
+      "id": "g-142",
+      "part": 5,
+      "type": "介系詞",
+      "question": "______ the terms of the lease, tenants must give 60 days' notice.",
+      "options": [
+        "Beside",
+        "Above",
+        "Onto",
+        "Under"
+      ],
+      "answer": 3,
+      "explanation": "Under the terms of...（依據…的條款）是法律文件固定用語。",
+      "tip": "under the contract / terms / agreement = 依照合約。"
+    },
+    {
+      "id": "g-143",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The store is open daily ______ public holidays.",
+      "options": [
+        "except on",
+        "together with",
+        "as well as",
+        "in addition to"
+      ],
+      "answer": 0,
+      "explanation": "「每天營業，國定假日除外」用 except on（除了…之外）。其他選項都是「加上」的意思。",
+      "tip": "營業時間公告常見：open daily except on holidays。"
+    },
+    {
+      "id": "g-144",
+      "part": 5,
+      "type": "固定搭配",
+      "question": "All expenses must be approved ______ writing by a supervisor.",
+      "options": [
+        "in",
+        "by",
+        "on",
+        "at"
+      ],
+      "answer": 0,
+      "explanation": "in writing（以書面形式）是固定搭配。",
+      "tip": "in writing、in person、in advance — in 的三個高頻片語。"
+    },
+    {
+      "id": "g-145",
+      "part": 5,
+      "type": "固定搭配",
+      "question": "The CEO attributed the growth ______ strong overseas sales.",
+      "options": [
+        "with",
+        "on",
+        "to",
+        "for"
+      ],
+      "answer": 2,
+      "explanation": "attribute A to B（把 A 歸因於 B）是固定搭配。",
+      "tip": "attribute / owe / dedicate + A + to + B。"
+    },
+    {
+      "id": "g-146",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "The consultant recommended that the company ______ its pricing model.",
+      "options": [
+        "revises",
+        "revise",
+        "revised",
+        "to revise"
+      ],
+      "answer": 1,
+      "explanation": "recommend that + S + 原形動詞（假設語氣），should 被省略。",
+      "tip": "suggest / recommend / require / insist + that 子句 → 動詞用原形。"
+    },
+    {
+      "id": "g-147",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "It is essential that every visitor ______ a badge at all times.",
+      "options": [
+        "wearing",
+        "wear",
+        "wears",
+        "wore"
+      ],
+      "answer": 1,
+      "explanation": "It is essential that + S + 原形動詞，即使主詞是第三人稱單數也不加 s。",
+      "tip": "It is essential / important / necessary that → 原形動詞。"
+    },
+    {
+      "id": "g-148",
+      "part": 5,
+      "type": "假設語氣",
+      "question": "The security system requires that all passwords ______ monthly.",
+      "options": [
+        "will change",
+        "be changed",
+        "are changed",
+        "changed"
+      ],
+      "answer": 1,
+      "explanation": "require that 子句用原形動詞，密碼是被更改的，故用 be changed。",
+      "tip": "require that + 被動 → be + p.p.（不是 are/is + p.p.）。"
+    },
+    {
+      "id": "g-149",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "We would rather ______ the meeting than cancel it entirely.",
+      "options": [
+        "postpone",
+        "postponed",
+        "postponing",
+        "to postpone"
+      ],
+      "answer": 0,
+      "explanation": "would rather + 原形動詞 + than + 原形動詞。",
+      "tip": "would rather A than B，A、B 都用原形。"
+    },
+    {
+      "id": "g-150",
+      "part": 5,
+      "type": "動詞形式",
+      "question": "The old printer needs ______ before the audit next week.",
+      "options": [
+        "replacing",
+        "replaced",
+        "replace",
+        "to replacing"
+      ],
+      "answer": 0,
+      "explanation": "need + V-ing 表被動（= need to be replaced）。",
+      "tip": "物 + need + V-ing = 需要被…。"
+    },
+    {
+      "id": "g-151",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The report contains a detailed ______ of last year's expenses.",
+      "options": [
+        "breakout",
+        "breakthrough",
+        "breakup",
+        "breakdown"
+      ],
+      "answer": 3,
+      "explanation": "breakdown（明細；分項）符合「費用明細」的語意；breakthrough 是突破。",
+      "tip": "a breakdown of costs = 費用明細，多益報表題常客。"
+    },
+    {
+      "id": "g-152",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Passengers should keep their belongings in the overhead ______.",
+      "options": [
+        "assortment",
+        "department",
+        "compartment",
+        "apartment"
+      ],
+      "answer": 2,
+      "explanation": "overhead compartment（機艙上方置物櫃）是航空固定用語。",
+      "tip": "-partment 形近字：compartment 置物格、department 部門。"
+    },
+    {
+      "id": "g-153",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The company took immediate ______ to fix the security flaw.",
+      "options": [
+        "measures",
+        "mixtures",
+        "lectures",
+        "features"
+      ],
+      "answer": 0,
+      "explanation": "take measures（採取措施）是固定搭配。",
+      "tip": "take measures / steps / action 都是「採取行動」。"
+    },
+    {
+      "id": "g-154",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Ms. Alvarez has extensive ______ in international trade law.",
+      "options": [
+        "expression",
+        "expertise",
+        "extension",
+        "expedition"
+      ],
+      "answer": 1,
+      "explanation": "extensive expertise（豐富的專業知識）符合語意；expedition 是遠征。",
+      "tip": "expertise in + 領域 = 在…方面的專業。"
+    },
+    {
+      "id": "g-155",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The workshop gave participants ______ tips for managing time.",
+      "options": [
+        "punctured",
+        "practical",
+        "partial",
+        "plausible"
+      ],
+      "answer": 1,
+      "explanation": "practical tips（實用的訣竅）是自然搭配。",
+      "tip": "tips / advice 的常見修飾語：practical、useful、helpful。"
+    },
+    {
+      "id": "g-156",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "In ______ of your loyalty, we are pleased to offer you a special discount.",
+      "options": [
+        "resolution",
+        "repetition",
+        "recognition",
+        "restriction"
+      ],
+      "answer": 2,
+      "explanation": "in recognition of（為表彰…）是固定片語。",
+      "tip": "in recognition of your support / loyalty，感謝函高頻句。"
+    },
+    {
+      "id": "g-157",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The new policy will have a significant ______ on hiring practices.",
+      "options": [
+        "impress",
+        "impact",
+        "import",
+        "impulse"
+      ],
+      "answer": 1,
+      "explanation": "have an impact on（對…產生影響）是固定搭配；impress 是動詞。",
+      "tip": "impact / effect / influence + on。"
+    },
+    {
+      "id": "g-158",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "Employees are reminded to use the office supplies ______.",
+      "options": [
+        "previously",
+        "invisibly",
+        "sparingly",
+        "urgently"
+      ],
+      "answer": 2,
+      "explanation": "sparingly（節省地）符合「提醒節約使用文具」的語意。",
+      "tip": "use sparingly = 省著用，公告常見。"
+    },
+    {
+      "id": "g-159",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The manual provides step-by-step ______ for installing the printer.",
+      "options": [
+        "institutions",
+        "instructions",
+        "instruments",
+        "inspections"
+      ],
+      "answer": 1,
+      "explanation": "step-by-step instructions（逐步指示）是固定搭配。",
+      "tip": "instructions 說明、instruments 儀器、institutions 機構。"
+    },
+    {
+      "id": "g-160",
+      "part": 5,
+      "type": "字彙選擇",
+      "question": "The board expressed ______ about the rising production costs.",
+      "options": [
+        "contrast",
+        "content",
+        "consent",
+        "concern"
+      ],
+      "answer": 3,
+      "explanation": "express concern about（對…表達憂慮）是固定搭配；consent 是同意。",
+      "tip": "concern about / over = 對…的擔憂。"
+    },
+    {
+      "id": "g-161",
+      "part": 5,
+      "type": "代名詞",
+      "question": "The Tokyo branch outperformed ______ in Seoul this quarter.",
+      "options": [
+        "that",
+        "these",
+        "them",
+        "they"
+      ],
+      "answer": 0,
+      "explanation": "that 代替前面的單數名詞 the branch，指「首爾的那間分店」。",
+      "tip": "比較句中代替前述名詞：單數用 that、複數用 those。"
+    },
+    {
+      "id": "g-162",
+      "part": 5,
+      "type": "代名詞",
+      "question": "Employees who complete the survey will have ______ names entered into a drawing.",
+      "options": [
+        "they",
+        "their",
+        "theirs",
+        "them"
+      ],
+      "answer": 1,
+      "explanation": "空格後接名詞 names，用所有格 their。",
+      "tip": "空格 + 名詞 → 所有格。"
+    },
+    {
+      "id": "g-163",
+      "part": 5,
+      "type": "平行結構",
+      "question": "The job involves answering calls, scheduling meetings, and ______ reports.",
+      "options": [
+        "filing",
+        "filed",
+        "to file",
+        "file"
+      ],
+      "answer": 0,
+      "explanation": "並列結構要一致：answering、scheduling、filing 都是動名詞。",
+      "tip": "A, B, and C 三者詞性必須平行。"
+    },
+    {
+      "id": "g-164",
+      "part": 5,
+      "type": "時態",
+      "question": "By the time you receive this letter, I ______ for Singapore.",
+      "options": [
+        "am leaving",
+        "have left",
+        "left",
+        "will have left"
+      ],
+      "answer": 3,
+      "explanation": "By the time + 現在式子句，主句用未來完成式 will have left。",
+      "tip": "by the time + 現在式 → 主句 will have p.p.。"
+    },
+    {
+      "id": "g-165",
+      "part": 5,
+      "type": "主詞一致",
+      "question": "The number of online orders ______ steadily since the app was released.",
+      "options": [
+        "have increased",
+        "has increased",
+        "increase",
+        "are increasing"
+      ],
+      "answer": 1,
+      "explanation": "The number of + 複數名詞 是單數主詞，且 since 搭配完成式，用 has increased。",
+      "tip": "the number of（數量）單數；a number of（許多）複數。"
+    },
+    {
+      "id": "g-166",
+      "part": 5,
+      "type": "主詞一致",
+      "question": "Neither of the printers ______ working properly.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "be"
+      ],
+      "answer": 2,
+      "explanation": "Neither of + 複數名詞 作主詞時，動詞用單數 is。",
+      "tip": "neither / each / either of + 複數名詞 → 單數動詞。"
+    },
+    {
+      "id": "g-167",
+      "part": 5,
+      "type": "主詞一致",
+      "question": "Each of the candidates ______ asked to prepare a short presentation.",
+      "options": [
+        "have been",
+        "were",
+        "was",
+        "are"
+      ],
+      "answer": 2,
+      "explanation": "Each of + 複數名詞 是單數主詞，用 was。",
+      "tip": "each 永遠搭配單數動詞。"
+    },
+    {
+      "id": "g-168",
+      "part": 5,
+      "type": "介系詞",
+      "question": "The launch was a success, ______ initial concerns about the budget.",
+      "options": [
+        "however",
+        "nevertheless",
+        "notwithstanding",
+        "moreover"
+      ],
+      "answer": 2,
+      "explanation": "空格後接名詞片語，需要介系詞 notwithstanding（儘管）；nevertheless / however 是副詞，不能直接接名詞。",
+      "tip": "notwithstanding + 名詞 = despite。"
+    },
+    {
+      "id": "g-169",
+      "part": 5,
+      "type": "連接詞",
+      "question": "______ demand remains high, we will keep the extended hours.",
+      "options": [
+        "As far as",
+        "As soon as",
+        "As well as",
+        "As long as"
+      ],
+      "answer": 3,
+      "explanation": "As long as（只要）表條件，符合「只要需求維持就延長營業」的語意。",
+      "tip": "as long as 只要；as soon as 一…就；as far as 就…而言。"
+    },
+    {
+      "id": "g-170",
+      "part": 5,
+      "type": "轉承副詞",
+      "question": "The flight was overbooked; ______, several passengers volunteered to take a later one.",
+      "options": [
+        "otherwise",
+        "consequently",
+        "meanwhile",
+        "likewise"
+      ],
+      "answer": 1,
+      "explanation": "超賣（原因）→ 乘客自願改搭（結果），因果關係用 consequently。",
+      "tip": "分號後的副詞看前後句關係：因果 → consequently / as a result。"
+    },
+    {
+      "id": "g-171",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Dear Ms. Okafor,\n\nThank you for applying for the marketing coordinator position. We were impressed by your qualifications. ______, we have decided to move forward with another candidate whose experience more closely matches our needs.",
+      "options": [
+        "Additionally",
+        "Regrettably",
+        "Accordingly",
+        "Fortunately"
+      ],
+      "answer": 1,
+      "explanation": "前句稱讚資歷，後句是婉拒（負面消息），語氣轉折用 Regrettably（遺憾地）。",
+      "tip": "婉拒信的轉折詞：regrettably / unfortunately / however。"
+    },
+    {
+      "id": "g-172",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Attention all staff: The parking garage will be repainted this weekend. ______ your vehicle from Level 2 by Friday evening.",
+      "options": [
+        "Removing",
+        "Please remove",
+        "Having removed",
+        "To remove"
+      ],
+      "answer": 1,
+      "explanation": "公告中的指示句用祈使句：Please remove...。",
+      "tip": "公告要求讀者做某事 → Please + 原形動詞。"
+    },
+    {
+      "id": "g-173",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Our records show that your subscription will expire on August 15. Renew before that date to enjoy uninterrupted service. ______, your account will be suspended automatically.",
+      "options": [
+        "Furthermore",
+        "Therefore",
+        "Otherwise",
+        "Similarly"
+      ],
+      "answer": 2,
+      "explanation": "「若不續約，帳戶將自動停用」，表示「否則」用 Otherwise。",
+      "tip": "前句是建議、後句是不照做的後果 → otherwise。"
+    },
+    {
+      "id": "g-174",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "The community center offers free yoga classes every Saturday. Spaces are limited to twenty participants per session. ______ early to secure your spot.",
+      "options": [
+        "To arriving",
+        "Arrival",
+        "Arrive",
+        "Arriving"
+      ],
+      "answer": 2,
+      "explanation": "指示讀者的祈使句用原形動詞 Arrive。",
+      "tip": "句首動詞 + to V 目的 → 祈使句用原形。"
+    },
+    {
+      "id": "g-175",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "We are pleased to announce that GreenLeaf Catering has won the contract for the cafeteria. ______ September 1, they will provide all on-site meals.",
+      "options": [
+        "Effective",
+        "Effect",
+        "Effectively",
+        "Effected"
+      ],
+      "answer": 0,
+      "explanation": "Effective + 日期（自…起生效）是公告固定用語。",
+      "tip": "Effective March 1 = 自三月一日起。"
+    },
+    {
+      "id": "g-176",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Thank you for your purchase. If you are not completely happy with the product, you may return it within 30 days. A full refund will be issued once we ______ the returned item.",
+      "options": [
+        "receive",
+        "receiving",
+        "received",
+        "will receive"
+      ],
+      "answer": 0,
+      "explanation": "once（一旦）引導的時間子句用現在式代替未來式。",
+      "tip": "when / once / after 子句：用現在式表未來。"
+    },
+    {
+      "id": "g-177",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "The IT department will upgrade all office computers next week. Employees are asked to back up important files in advance. Any files ______ on the desktop may be lost during the upgrade.",
+      "options": [
+        "leave",
+        "left",
+        "leaving",
+        "to leave"
+      ],
+      "answer": 1,
+      "explanation": "檔案是「被留下」的，用過去分詞 left 修飾 files（= files that are left）。",
+      "tip": "名詞 + p.p. = 被…的名詞（縮減關係子句）。"
+    },
+    {
+      "id": "g-178",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "Maple Grove Apartments is pleased to welcome new tenants. Please note that the fitness room is for residents only. Guests may use the pool ______ accompanied by a resident.",
+      "options": [
+        "when",
+        "unless",
+        "despite",
+        "whereas"
+      ],
+      "answer": 0,
+      "explanation": "「賓客在住戶陪同時可使用泳池」，用 when（= when they are accompanied）。",
+      "tip": "when / while + p.p. 是省略主詞 be 的常見結構。"
+    },
+    {
+      "id": "g-179",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "The annual charity run will take place on Sunday, October 12. More than a thousand runners are expected to ______ in this year's event.",
+      "options": [
+        "participant",
+        "participation",
+        "participating",
+        "participate"
+      ],
+      "answer": 3,
+      "explanation": "be expected to + 原形動詞，故填 participate。",
+      "tip": "to 後面接原形動詞（除非 to 是介系詞）。"
+    },
+    {
+      "id": "g-180",
+      "part": 6,
+      "type": "篇章填空",
+      "question": "To all conference attendees: Presentation slides will be available for download after the event. ______ can be found on the conference website under the 'Resources' tab.",
+      "options": [
+        "They",
+        "It",
+        "Them",
+        "Theirs"
+      ],
+      "answer": 0,
+      "explanation": "指前句複數的 slides，作主詞用 They。",
+      "tip": "先確認指涉對象的單複數與格位：主詞位置用 they。"
+    }
+  ]
+}

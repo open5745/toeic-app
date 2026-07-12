@@ -1,0 +1,2070 @@
+{
+  "items": [
+    {
+      "id": "l-01",
+      "part": 2,
+      "title": "應答問題：會議時間",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "When is the budget meeting scheduled to start?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "At ten o'clock tomorrow morning.",
+        "In the second-floor meeting room.",
+        "Yes, I checked the budget."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "明天早上十點。",
+        "在二樓會議室。",
+        "是的，我確認過預算了。"
+      ],
+      "transcriptZh": "預算會議預計何時開始？",
+      "tip": "When 問「時間」，直接找含時間的選項；地點（where）與 Yes/No 回答都是陷阱。"
+    },
+    {
+      "id": "l-02",
+      "part": 2,
+      "title": "應答問題：影印機",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Why isn't the photocopier working?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "About twenty copies, please.",
+        "It's out of paper again.",
+        "Near the reception desk."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "請印大約二十份。",
+        "它又沒紙了。",
+        "在接待櫃檯附近。"
+      ],
+      "transcriptZh": "影印機為什麼不能用？",
+      "tip": "Why 問「原因」，找能解釋理由的選項，常以 Because 開頭或直接說明狀況。"
+    },
+    {
+      "id": "l-03",
+      "part": 3,
+      "title": "簡短對話：出差安排",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Hi Mark, have you booked your flight to the Chicago conference yet?"
+        },
+        {
+          "speaker": "M",
+          "text": "Not yet. I was waiting for the department to approve my travel budget."
+        },
+        {
+          "speaker": "W",
+          "text": "It was approved this morning. You should book soon — prices go up every day."
+        },
+        {
+          "speaker": "M",
+          "text": "Thanks for letting me know. I'll do it right after lunch."
+        }
+      ],
+      "question": "What will the man probably do after lunch?",
+      "options": [
+        "Approve a travel budget",
+        "Book a flight",
+        "Attend a conference",
+        "Have a meeting with the woman"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "核准差旅預算",
+        "訂機票",
+        "參加研討會",
+        "與女子開會"
+      ],
+      "transcriptZh": "女：嗨 Mark，你訂好去芝加哥研討會的機票了嗎？／男：還沒，我在等部門核准我的差旅預算。／女：今天早上核准了。你最好快點訂，價格每天都在漲。／男：謝謝妳告訴我，我午餐後馬上訂。",
+      "tip": "「接下來會做什麼」的答案幾乎都在對話的最後一、兩句。"
+    },
+    {
+      "id": "l-04",
+      "part": 3,
+      "title": "簡短對話：辦公室搬遷",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Sarah, did you hear that our office is moving to the new building in September?"
+        },
+        {
+          "speaker": "W",
+          "text": "Yes, I did. I'm a bit worried about the longer commute, though."
+        },
+        {
+          "speaker": "M",
+          "text": "Actually, the new location is right next to a subway station."
+        },
+        {
+          "speaker": "W",
+          "text": "Oh, that's a relief. Then it might even be faster for me."
+        }
+      ],
+      "question": "Why was the woman worried?",
+      "options": [
+        "The new office is too small.",
+        "The move is happening too soon.",
+        "Her commute might take longer.",
+        "The rent will increase."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "新辦公室太小。",
+        "搬遷時間太趕。",
+        "她的通勤時間可能變長。",
+        "租金會上漲。"
+      ],
+      "transcriptZh": "男：Sarah，妳聽說了嗎？我們辦公室九月要搬到新大樓。／女：聽說了，不過我有點擔心通勤時間會變長。／男：其實新地點就在地鐵站旁邊。／女：喔，那我就放心了，說不定對我來說反而更快。",
+      "tip": "注意 though、actually 這類語氣詞，考點常出現在它們前後。"
+    },
+    {
+      "id": "l-05",
+      "part": 4,
+      "title": "簡短獨白：機場廣播",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Attention, passengers on Flight 372 to Toronto."
+        },
+        {
+          "speaker": "N",
+          "text": "Due to a mechanical issue, your departure has been delayed by approximately two hours."
+        },
+        {
+          "speaker": "N",
+          "text": "As an apology, meal vouchers are available at the service counter next to Gate 12."
+        },
+        {
+          "speaker": "N",
+          "text": "We will make another announcement once a new boarding time is confirmed."
+        }
+      ],
+      "question": "What can passengers get at the service counter?",
+      "options": [
+        "A new boarding pass",
+        "A meal voucher",
+        "A full refund",
+        "A seat upgrade"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "新的登機證",
+        "餐券",
+        "全額退款",
+        "座位升等"
+      ],
+      "transcriptZh": "搭乘 372 號班機前往多倫多的旅客請注意。由於機械故障，您的班機將延誤約兩小時。作為補償，旅客可至 12 號登機門旁的服務櫃檯領取餐券。新的登機時間確認後，我們將再次廣播通知。",
+      "tip": "廣播題常考「補償措施」與「下一步指示」，聽到 as an apology / please 就要提高警覺。"
+    },
+    {
+      "id": "l-06",
+      "part": 4,
+      "title": "簡短獨白：電話留言",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Hello, this is Diane from Kingsway Dental Clinic."
+        },
+        {
+          "speaker": "N",
+          "text": "I'm calling to remind you of your appointment this Thursday at 3 p.m."
+        },
+        {
+          "speaker": "N",
+          "text": "If you need to reschedule, please call us at least 24 hours in advance."
+        },
+        {
+          "speaker": "N",
+          "text": "Otherwise, we look forward to seeing you then. Thank you."
+        }
+      ],
+      "question": "Why is the speaker calling?",
+      "options": [
+        "To cancel an appointment",
+        "To confirm a payment",
+        "To remind the listener of an appointment",
+        "To reschedule a meeting"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "取消預約",
+        "確認付款",
+        "提醒聽者預約時間",
+        "重新安排會議"
+      ],
+      "transcriptZh": "您好，我是 Kingsway 牙醫診所的 Diane。來電是想提醒您本週四下午三點的預約。如需改期，請至少提前二十四小時來電。否則我們屆時恭候您的光臨，謝謝。",
+      "tip": "留言題的「目的」通常在第二句：I'm calling to... 後面就是答案。"
+    },
+    {
+      "id": "l-07",
+      "part": 2,
+      "title": "應答問題：主題演講",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Who is giving the keynote speech at the conference?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Dr. Reeves from the head office.",
+        "In the main auditorium.",
+        "At nine thirty tomorrow."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "總公司的 Reeves 博士。",
+        "在主禮堂。",
+        "明天九點半。"
+      ],
+      "transcriptZh": "誰要在研討會上發表主題演講？",
+      "tip": "Who 問「人」，地點與時間選項都是陷阱。"
+    },
+    {
+      "id": "l-08",
+      "part": 2,
+      "title": "應答問題：銷售數據",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Where can I find the quarterly sales figures?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Every three months.",
+        "They're in the shared folder.",
+        "Yes, sales went up."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "每三個月一次。",
+        "在共用資料夾裡。",
+        "是的，銷售上升了。"
+      ],
+      "transcriptZh": "我在哪裡可以找到季度銷售數據？",
+      "tip": "Where 問「位置」；quarterly 引誘你選頻率選項，別上當。"
+    },
+    {
+      "id": "l-09",
+      "part": 2,
+      "title": "應答問題：訓練時長",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "How long will the training session last?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "About two and a half hours.",
+        "In the training room.",
+        "Twice a week."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "大約兩個半小時。",
+        "在訓練教室。",
+        "每週兩次。"
+      ],
+      "transcriptZh": "訓練課程會進行多久？",
+      "tip": "How long 問「時間長度」；Twice a week 是 How often 的答案。"
+    },
+    {
+      "id": "l-10",
+      "part": 2,
+      "title": "應答問題：寄送報告",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Would you like me to email you the report?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "No, I didn't read it.",
+        "It's a long report.",
+        "Yes, that would be great."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "不，我沒讀過。",
+        "那是一份很長的報告。",
+        "好的，那太好了。"
+      ],
+      "transcriptZh": "需要我把報告用電子郵件寄給你嗎？",
+      "tip": "Would you like...? 是提議，接受或婉拒的選項才是正解。"
+    },
+    {
+      "id": "l-11",
+      "part": 2,
+      "title": "應答問題：停車場",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Why is the parking lot closed today?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Next to the main entrance.",
+        "It's being repaved.",
+        "For about twenty cars."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "在正門旁邊。",
+        "正在重鋪路面。",
+        "大約可停二十輛車。"
+      ],
+      "transcriptZh": "停車場今天為什麼關閉？",
+      "tip": "Why 問「原因」，說明狀況的選項就是答案，不一定有 because。"
+    },
+    {
+      "id": "l-12",
+      "part": 2,
+      "title": "應答問題：藥局營業時間",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "When does the pharmacy close on weekends?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "At six in the evening.",
+        "Near the supermarket.",
+        "Twice a month."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "晚上六點。",
+        "在超市附近。",
+        "每月兩次。"
+      ],
+      "transcriptZh": "藥局週末幾點打烊？",
+      "tip": "When 問「時間點」，找 at + 時刻的選項。"
+    },
+    {
+      "id": "l-13",
+      "part": 2,
+      "title": "應答問題：加班核准",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Who approved the overtime request?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "About ten extra hours.",
+        "By the end of the month.",
+        "The department manager did."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "大約多十個小時。",
+        "在月底之前。",
+        "是部門經理核准的。"
+      ],
+      "transcriptZh": "加班申請是誰核准的？",
+      "tip": "Who 的答案常用「人 + did」的簡答形式。"
+    },
+    {
+      "id": "l-14",
+      "part": 2,
+      "title": "應答問題：影印紙",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Shouldn't we order more paper for the copier?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Yes, we're almost out.",
+        "Twenty copies, please.",
+        "It's on the second floor."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "對，我們的紙快用完了。",
+        "請印二十份。",
+        "它在二樓。"
+      ],
+      "transcriptZh": "我們是不是該多訂一些影印紙？",
+      "tip": "否定疑問句 Shouldn't we...? 是提議，回答同意/不同意即可。"
+    },
+    {
+      "id": "l-15",
+      "part": 2,
+      "title": "應答問題：差旅核銷",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "How do I get reimbursed for my travel expenses?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "It was a long trip.",
+        "Submit the receipts to accounting.",
+        "About three hundred dollars."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "那是一趟很長的旅程。",
+        "把收據交給會計部門。",
+        "大約三百美元。"
+      ],
+      "transcriptZh": "我要怎麼申請差旅費核銷？",
+      "tip": "How 問「方法」，答案通常是一個指示句（動詞開頭）。"
+    },
+    {
+      "id": "l-16",
+      "part": 2,
+      "title": "應答問題：外燴廠商",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Which caterer did you choose for the banquet?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "On December fifth.",
+        "For fifty guests.",
+        "The one we used last year."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "在十二月五日。",
+        "共五十位賓客。",
+        "我們去年用過的那一家。"
+      ],
+      "transcriptZh": "你為宴會選了哪一家外燴廠商？",
+      "tip": "Which 問「哪一個」，答案常用 The one... 的代稱形式。"
+    },
+    {
+      "id": "l-17",
+      "part": 3,
+      "title": "簡短對話：客訴處理",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Mr. Davis, a customer just called about a damaged package."
+        },
+        {
+          "speaker": "M",
+          "text": "Oh no. Did she say what was broken?"
+        },
+        {
+          "speaker": "W",
+          "text": "The coffee maker inside was cracked. She's asking for a replacement."
+        },
+        {
+          "speaker": "M",
+          "text": "Send her a new one today, and include a discount coupon for the trouble."
+        }
+      ],
+      "question": "What does the man ask the woman to do?",
+      "options": [
+        "Offer a full refund",
+        "Send a replacement and a coupon",
+        "Repair the coffee maker",
+        "Call the delivery company"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "提供全額退款",
+        "寄出新品並附上折價券",
+        "修理咖啡機",
+        "聯絡貨運公司"
+      ],
+      "transcriptZh": "女：Davis 先生，剛有位顧客來電反映包裹損壞。／男：糟糕，她有說是什麼壞了嗎？／女：裡面的咖啡機裂了，她要求換貨。／男：今天就寄一台新的給她，再附上一張折價券表示歉意。",
+      "tip": "「要求做什麼」的答案通常在最後一句的祈使句裡。"
+    },
+    {
+      "id": "l-18",
+      "part": 3,
+      "title": "簡短對話：會議改期",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Laura, the budget meeting on Wednesday needs to be moved."
+        },
+        {
+          "speaker": "W",
+          "text": "Why? Is the finance director unavailable?"
+        },
+        {
+          "speaker": "M",
+          "text": "Yes, he'll be at the Berlin trade fair until Thursday."
+        },
+        {
+          "speaker": "W",
+          "text": "Alright, I'll book the conference room for Friday morning instead."
+        }
+      ],
+      "question": "When will the meeting most likely take place?",
+      "options": [
+        "On Wednesday",
+        "On Thursday",
+        "On Friday",
+        "Next Monday"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "週三",
+        "週四",
+        "週五",
+        "下週一"
+      ],
+      "transcriptZh": "男：Laura，週三的預算會議需要改期。／女：為什麼？財務長沒空嗎？／男：對，他要去柏林商展，週四才回來。／女：好，那我改訂週五早上的會議室。",
+      "tip": "時間題會出現多個日期混淆你，最後確定的那個才是答案。"
+    },
+    {
+      "id": "l-19",
+      "part": 3,
+      "title": "簡短對話：新人訓練",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Have you met the new interns yet? They start on Monday."
+        },
+        {
+          "speaker": "M",
+          "text": "Not yet. Who's running their orientation?"
+        },
+        {
+          "speaker": "W",
+          "text": "I am, but I could use some help with the office tour."
+        },
+        {
+          "speaker": "M",
+          "text": "Happy to help. Just tell me what time to be there."
+        }
+      ],
+      "question": "What does the woman ask the man to do?",
+      "options": [
+        "Prepare training materials",
+        "Help with the office tour",
+        "Interview the interns",
+        "Book a meeting room"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "準備訓練教材",
+        "協助帶辦公室導覽",
+        "面試實習生",
+        "預訂會議室"
+      ],
+      "transcriptZh": "女：你見過新來的實習生了嗎？他們週一報到。／男：還沒，新人訓練是誰負責？／女：是我，不過辦公室導覽的部分我需要人幫忙。／男：樂意幫忙，告訴我幾點到就行。",
+      "tip": "I could use some help with... 是委婉的請求句型，就是考點。"
+    },
+    {
+      "id": "l-20",
+      "part": 3,
+      "title": "簡短對話：餐廳訂位",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Hello, I'd like to book a table for eight people this Saturday at seven."
+        },
+        {
+          "speaker": "W",
+          "text": "I'm sorry, sir. We're fully booked at seven, but we have space at eight thirty."
+        },
+        {
+          "speaker": "M",
+          "text": "Hmm, that's a bit late. Do you have anything earlier?"
+        },
+        {
+          "speaker": "W",
+          "text": "We could seat your group at five thirty, if that works for you."
+        }
+      ],
+      "question": "Why is the man unable to book a table at seven o'clock?",
+      "options": [
+        "The restaurant is closed",
+        "The restaurant is fully booked",
+        "His group is too large",
+        "The kitchen closes early"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "餐廳沒有營業",
+        "餐廳已訂滿",
+        "他的人數太多",
+        "廚房提早關閉"
+      ],
+      "transcriptZh": "男：您好，我想訂這週六晚上七點、八個人的位子。／女：抱歉先生，七點已經訂滿了，不過八點半還有位子。／男：嗯，有點晚，有更早的時段嗎？／女：如果可以的話，五點半可以安排您這一組入座。",
+      "tip": "原因通常緊跟在 I'm sorry / unfortunately 之後。"
+    },
+    {
+      "id": "l-21",
+      "part": 3,
+      "title": "簡短對話：商展成果",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "How was the trade show in Chicago, Ken?"
+        },
+        {
+          "speaker": "M",
+          "text": "Very productive. I collected over thirty business cards from potential clients."
+        },
+        {
+          "speaker": "W",
+          "text": "Great! Can you present your findings at Monday's staff meeting?"
+        },
+        {
+          "speaker": "M",
+          "text": "Sure, I'll prepare some slides over the weekend."
+        }
+      ],
+      "question": "What will the man do over the weekend?",
+      "options": [
+        "Travel to Chicago",
+        "Meet potential clients",
+        "Prepare presentation slides",
+        "Attend a staff meeting"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "前往芝加哥",
+        "會見潛在客戶",
+        "準備簡報投影片",
+        "參加員工會議"
+      ],
+      "transcriptZh": "女：Ken，芝加哥的商展如何？／男：收穫很多，我從潛在客戶那裡收到三十多張名片。／女：太好了！你可以在週一的員工會議上報告成果嗎？／男：沒問題，我週末會準備一些投影片。",
+      "tip": "「接下來要做什麼」看最後一句；注意時間詞 over the weekend。"
+    },
+    {
+      "id": "l-22",
+      "part": 3,
+      "title": "簡短對話：投影機故障",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "The projector in the meeting room keeps shutting down."
+        },
+        {
+          "speaker": "W",
+          "text": "Again? We just had it repaired last month."
+        },
+        {
+          "speaker": "M",
+          "text": "I think it's time to buy a new one. Repairs are getting expensive."
+        },
+        {
+          "speaker": "W",
+          "text": "You're right. I'll ask the vendor for a quotation this afternoon."
+        }
+      ],
+      "question": "What will the woman do this afternoon?",
+      "options": [
+        "Repair the projector",
+        "Cancel a meeting",
+        "Request a price quote",
+        "Return the projector"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "修理投影機",
+        "取消會議",
+        "索取報價單",
+        "退回投影機"
+      ],
+      "transcriptZh": "男：會議室的投影機一直自動關機。／女：又來了？上個月才修過。／男：我覺得該買新的了，維修費越來越貴。／女：你說得對，我今天下午向廠商要一份報價單。",
+      "tip": "quotation（報價單）是多益核心單字，聽到要能馬上反應。"
+    },
+    {
+      "id": "l-23",
+      "part": 3,
+      "title": "簡短對話：會員續約",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Hi, I'd like to renew my gym membership, but the annual fee seems higher this year."
+        },
+        {
+          "speaker": "M",
+          "text": "Yes, it went up slightly, but the new fee includes unlimited yoga classes."
+        },
+        {
+          "speaker": "W",
+          "text": "Oh, in that case it's actually a good deal. I'll renew for a year."
+        },
+        {
+          "speaker": "M",
+          "text": "Great. And if you renew today, you'll also get a free water bottle."
+        }
+      ],
+      "question": "Why does the woman decide to renew her membership?",
+      "options": [
+        "The fee was reduced",
+        "Yoga classes are now included",
+        "She received a free bottle",
+        "The gym extended its hours"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "費用降低了",
+        "現在包含瑜伽課程",
+        "她收到免費水壺",
+        "健身房延長了營業時間"
+      ],
+      "transcriptZh": "女：你好，我想續約健身房會員，但今年的年費好像變貴了。／男：對，漲了一點，不過新費用包含無限次瑜伽課。／女：這樣的話其實很划算，那我續約一年。／男：好的，而且今天續約還送一個免費水壺。",
+      "tip": "in that case 之前的那句話，就是她改變主意的原因。"
+    },
+    {
+      "id": "l-24",
+      "part": 3,
+      "title": "簡短對話：機場報到",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Good morning. I'd like to check in for the ten o'clock flight to Vancouver."
+        },
+        {
+          "speaker": "W",
+          "text": "Certainly. Would you like a window or an aisle seat?"
+        },
+        {
+          "speaker": "M",
+          "text": "An aisle seat, please. And can I carry this bag on board?"
+        },
+        {
+          "speaker": "W",
+          "text": "I'm afraid it's slightly over the weight limit, so it will need to be checked."
+        }
+      ],
+      "question": "What problem does the man have?",
+      "options": [
+        "He missed his flight",
+        "His bag is too heavy",
+        "He lost his boarding pass",
+        "The flight is delayed"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "他錯過了班機",
+        "他的行李超重",
+        "他弄丟了登機證",
+        "班機延誤了"
+      ],
+      "transcriptZh": "男：早安，我要辦理十點飛溫哥華班機的報到。／女：好的，您要靠窗還是靠走道的座位？／男：靠走道，謝謝。另外這個包包可以帶上飛機嗎？／女：恐怕稍微超重了，必須托運。",
+      "tip": "I'm afraid... 後面接的通常就是「問題點」。"
+    },
+    {
+      "id": "l-25",
+      "part": 4,
+      "title": "簡短獨白：訂單延遲留言",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Hello, this message is for Ms. Carter. This is Ryan from Brightway Furniture."
+        },
+        {
+          "speaker": "N",
+          "text": "The bookshelf you ordered is temporarily out of stock."
+        },
+        {
+          "speaker": "N",
+          "text": "A new shipment will arrive at our warehouse next Tuesday, and we can deliver it to you the following day."
+        },
+        {
+          "speaker": "N",
+          "text": "If you would prefer a refund instead, please call us back at 555-0147. We apologize for the inconvenience."
+        }
+      ],
+      "question": "When can the bookshelf be delivered?",
+      "options": [
+        "On Monday",
+        "On Tuesday",
+        "On Wednesday",
+        "On Friday"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "週一",
+        "週二",
+        "週三",
+        "週五"
+      ],
+      "transcriptZh": "您好，這是給 Carter 女士的留言。我是 Brightway 家具的 Ryan。您訂購的書櫃目前暫時缺貨。新一批貨將於下週二抵達我們的倉庫，隔天即可為您送達。若您希望改為退款，請回電 555-0147。造成不便，敬請見諒。",
+      "tip": "the following day（隔天）要換算：週二到貨 → 週三送達，考的是推理不是聽寫。"
+    },
+    {
+      "id": "l-26",
+      "part": 4,
+      "title": "簡短獨白：車站廣播",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "May I have your attention, please."
+        },
+        {
+          "speaker": "N",
+          "text": "The 4:15 express train to Manchester has been canceled due to signal problems."
+        },
+        {
+          "speaker": "N",
+          "text": "Passengers holding tickets for this service may board the 4:45 local train at platform two, or request a full refund at the ticket office."
+        },
+        {
+          "speaker": "N",
+          "text": "We are sorry for any inconvenience caused."
+        }
+      ],
+      "question": "What are the passengers advised to do?",
+      "options": [
+        "Wait for the 4:15 train",
+        "Take the 4:45 train or get a refund",
+        "Take a bus to Manchester",
+        "Buy new tickets at platform two"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "等待四點十五分的列車",
+        "改搭四點四十五分的列車或辦理退款",
+        "搭巴士前往曼徹斯特",
+        "在二號月台購買新票"
+      ],
+      "transcriptZh": "各位旅客請注意。開往曼徹斯特的四點十五分特快列車因號誌故障停駛。持有該班次車票的旅客可至二號月台改搭四點四十五分的普通車，或至售票處辦理全額退款。造成不便，敬請見諒。",
+      "tip": "廣播題必考「乘客該怎麼辦」，注意 may / please 後面的指示。"
+    },
+    {
+      "id": "l-27",
+      "part": 4,
+      "title": "簡短獨白：員工會議開場",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Good morning, everyone, and welcome to our quarterly staff meeting."
+        },
+        {
+          "speaker": "N",
+          "text": "Before we begin, I have one announcement."
+        },
+        {
+          "speaker": "N",
+          "text": "Starting next month, the cafeteria on the third floor will stay open until eight p.m. for employees working late."
+        },
+        {
+          "speaker": "N",
+          "text": "Today's agenda includes the sales report, the new vacation policy, and our office relocation plan, so let's get started."
+        }
+      ],
+      "question": "What change will happen next month?",
+      "options": [
+        "The office will relocate",
+        "The cafeteria hours will be extended",
+        "A new sales team will start",
+        "The vacation policy will end"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "辦公室將搬遷",
+        "員工餐廳將延長營業時間",
+        "新業務團隊將成立",
+        "休假制度將終止"
+      ],
+      "transcriptZh": "大家早安，歡迎參加季度員工會議。開始之前，我有一項宣布：自下個月起，三樓員工餐廳將營業至晚上八點，方便加班的同仁。今天的議程包括銷售報告、新休假制度與辦公室搬遷計畫，我們開始吧。",
+      "tip": "Starting next month（自下月起）這類時間詞後面，就是「改變」的內容。"
+    },
+    {
+      "id": "l-28",
+      "part": 4,
+      "title": "簡短獨白：廣告",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Are you looking for a quiet place to focus?"
+        },
+        {
+          "speaker": "N",
+          "text": "Maple Tree Coworking has just opened its newest location downtown."
+        },
+        {
+          "speaker": "N",
+          "text": "For only ninety-nine dollars a month, members enjoy high-speed internet, free coffee, and access to private meeting rooms."
+        },
+        {
+          "speaker": "N",
+          "text": "Sign up before July 31 and get your first month at half price. Visit our website today."
+        }
+      ],
+      "question": "What can customers get by signing up before July 31?",
+      "options": [
+        "Free coffee for a year",
+        "A private office",
+        "Fifty percent off the first month",
+        "Free parking downtown"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "一年份免費咖啡",
+        "一間私人辦公室",
+        "首月半價優惠",
+        "市中心免費停車"
+      ],
+      "transcriptZh": "你在尋找一個可以專心的安靜空間嗎？Maple Tree 共享辦公室最新據點已在市中心開幕。每月只要九十九美元，會員即可享有高速網路、免費咖啡與私人會議室。七月三十一日前註冊，首月享半價優惠。立即造訪我們的網站。",
+      "tip": "廣告題必考「限時優惠」：half price = fifty percent off，聽懂換句話說。"
+    },
+    {
+      "id": "l-29",
+      "part": 4,
+      "title": "簡短獨白：博物館導覽",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Welcome to the Riverside Art Museum."
+        },
+        {
+          "speaker": "N",
+          "text": "Before we begin the tour, please note that flash photography is not allowed in the galleries."
+        },
+        {
+          "speaker": "N",
+          "text": "The tour will last about ninety minutes and will end at the gift shop, where you'll receive a ten percent discount on all souvenirs today."
+        },
+        {
+          "speaker": "N",
+          "text": "Now, follow me to the first exhibition hall."
+        }
+      ],
+      "question": "What are visitors NOT allowed to do?",
+      "options": [
+        "Take flash photos",
+        "Visit the gift shop",
+        "Buy souvenirs",
+        "Join the tour"
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "使用閃光燈拍照",
+        "逛禮品店",
+        "購買紀念品",
+        "參加導覽"
+      ],
+      "transcriptZh": "歡迎來到河濱美術館。導覽開始前請注意，展廳內禁止使用閃光燈拍照。導覽全程約九十分鐘，最後會在禮品店結束，今天購買任何紀念品都可享九折優惠。現在請跟我前往第一展覽廳。",
+      "tip": "聽到 not allowed / prohibited 馬上記下來，NOT 題型專考這個。"
+    },
+    {
+      "id": "l-30",
+      "part": 4,
+      "title": "簡短獨白：交通路況報導",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "You're listening to Radio 88.5 traffic update."
+        },
+        {
+          "speaker": "N",
+          "text": "Roadwork on the Harbour Bridge is causing long delays this morning, with traffic backed up for nearly three kilometers."
+        },
+        {
+          "speaker": "N",
+          "text": "Drivers heading into the city are advised to use the Riverside Tunnel instead."
+        },
+        {
+          "speaker": "N",
+          "text": "The roadwork is expected to continue until Friday evening. We'll bring you another update in thirty minutes."
+        }
+      ],
+      "question": "What are drivers advised to do?",
+      "options": [
+        "Avoid the Riverside Tunnel",
+        "Use the Riverside Tunnel",
+        "Delay their trips until Friday",
+        "Take public transportation"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "避開河濱隧道",
+        "改走河濱隧道",
+        "把行程延到週五",
+        "改搭大眾運輸"
+      ],
+      "transcriptZh": "您正在收聽 88.5 電台路況報導。港灣大橋今早因道路施工造成嚴重回堵，車流回堵近三公里。建議進城的駕駛人改走河濱隧道。施工預計持續到週五晚間，三十分鐘後我們將帶來最新路況。",
+      "tip": "are advised to（建議）後面就是答案；選項會把原句換個說法。"
+    },
+    {
+      "id": "l-31",
+      "part": 2,
+      "title": "應答問題：盤點進度",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Haven't you finished the inventory count yet?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "No, I still have two aisles left.",
+        "Yes, it's in the warehouse.",
+        "About fifty boxes."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "還沒，我還剩兩排貨架。",
+        "是的，它在倉庫裡。",
+        "大約五十箱。"
+      ],
+      "transcriptZh": "你還沒盤點完庫存嗎？",
+      "tip": "否定疑問句照一般疑問句回答：還沒完成就答 No + 說明。"
+    },
+    {
+      "id": "l-32",
+      "part": 2,
+      "title": "應答問題：會議紀錄",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Could you forward me the meeting minutes?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "It lasted an hour.",
+        "Sure, I'll send them right away.",
+        "In the conference room."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "會議進行了一小時。",
+        "沒問題，我馬上寄給你。",
+        "在會議室裡。"
+      ],
+      "transcriptZh": "可以把會議紀錄轉寄給我嗎？",
+      "tip": "Could you...? 是請求，接受或婉拒的回答才對；minutes 是會議紀錄不是分鐘。"
+    },
+    {
+      "id": "l-33",
+      "part": 2,
+      "title": "應答問題：手冊擺放",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Where should I put these brochures?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Five hundred copies.",
+        "By tomorrow morning.",
+        "On the display rack near the door."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "五百份。",
+        "明天早上以前。",
+        "放在門口附近的展示架上。"
+      ],
+      "transcriptZh": "這些簡介手冊該放哪裡？",
+      "tip": "Where 問地點，找含 on / in / near 的位置選項。"
+    },
+    {
+      "id": "l-34",
+      "part": 2,
+      "title": "應答問題：搭車提議",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Why don't we take a taxi to the trade show?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Good idea — parking there is terrible.",
+        "No, I didn't see the show.",
+        "It was a long ride."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "好主意——那裡超難停車。",
+        "不，我沒看那場展覽。",
+        "那趟車程很長。"
+      ],
+      "transcriptZh": "我們何不搭計程車去商展？",
+      "tip": "Why don't we...? 是提議不是問原因，回答同意/不同意。"
+    },
+    {
+      "id": "l-35",
+      "part": 2,
+      "title": "應答問題：關店負責人",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Who's supposed to lock up the store tonight?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "At nine o'clock.",
+        "I think it's Marcus's turn.",
+        "With the spare key."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "九點。",
+        "我想輪到 Marcus 了。",
+        "用備用鑰匙。"
+      ],
+      "transcriptZh": "今晚輪到誰鎖店門？",
+      "tip": "Who 問人，「輪到某人」（it's ~'s turn）是常見答法。"
+    },
+    {
+      "id": "l-36",
+      "part": 2,
+      "title": "應答問題：接駁車班次",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "How often does the shuttle run to the airport?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Every thirty minutes.",
+        "About forty passengers.",
+        "From Terminal 2."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "每三十分鐘一班。",
+        "大約四十名乘客。",
+        "從第二航廈出發。"
+      ],
+      "transcriptZh": "往機場的接駁車多久一班？",
+      "tip": "How often 問頻率，答案是 every + 時間。"
+    },
+    {
+      "id": "l-37",
+      "part": 2,
+      "title": "應答問題：場次選擇",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "Would you prefer the morning or the afternoon session?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Yes, I would.",
+        "The morning one, if possible.",
+        "It's a training session."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "是的，我願意。",
+        "可以的話，早上那場。",
+        "那是一場培訓課程。"
+      ],
+      "transcriptZh": "你想參加上午場還是下午場？",
+      "tip": "A or B 選擇疑問句不能回答 Yes / No，要選其中一個。"
+    },
+    {
+      "id": "l-38",
+      "part": 2,
+      "title": "應答問題：碳粉用完",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "Q",
+          "text": "The printer's out of toner again, isn't it?"
+        }
+      ],
+      "question": "What is the best response?",
+      "options": [
+        "Yes — I've already ordered more.",
+        "Twenty pages, please.",
+        "It prints in color."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "對——我已經訂購更多了。",
+        "請印二十頁。",
+        "它可以彩色列印。"
+      ],
+      "transcriptZh": "印表機又沒碳粉了，對吧？",
+      "tip": "附加問句（isn't it?）確認事實，回答同意與後續處理最自然。"
+    },
+    {
+      "id": "l-39",
+      "part": 3,
+      "title": "簡短對話：網路連線問題",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "IT desk, this is Amber. How can I help?"
+        },
+        {
+          "speaker": "M",
+          "text": "Hi, my laptop won't connect to the office Wi-Fi since this morning."
+        },
+        {
+          "speaker": "W",
+          "text": "We updated the network overnight. You'll need to log in again with your new employee password."
+        },
+        {
+          "speaker": "M",
+          "text": "Ah, that explains it. I'll try that right now."
+        }
+      ],
+      "question": "What most likely caused the man's problem?",
+      "options": [
+        "A network update",
+        "A broken laptop",
+        "A forgotten meeting",
+        "A power outage"
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "網路系統更新",
+        "筆電故障",
+        "忘記會議",
+        "停電"
+      ],
+      "transcriptZh": "女：資訊服務台，我是 Amber，需要什麼協助？／男：你好，我的筆電從今天早上就連不上辦公室 Wi-Fi。／女：我們昨晚更新了網路系統，你需要用新的員工密碼重新登入。／男：啊，原來如此，我現在就試。",
+      "tip": "原因常由對方（客服）說出，不是提問者自己。"
+    },
+    {
+      "id": "l-40",
+      "part": 3,
+      "title": "簡短對話：文具缺貨",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Priya, did the stationery order arrive?"
+        },
+        {
+          "speaker": "W",
+          "text": "Only partially. The folders came, but the printer paper is on back order."
+        },
+        {
+          "speaker": "M",
+          "text": "We're nearly out. Can you ask the supplier to expedite it?"
+        },
+        {
+          "speaker": "W",
+          "text": "I'll call them right after lunch."
+        }
+      ],
+      "question": "What will the woman do after lunch?",
+      "options": [
+        "Order more folders",
+        "Contact the supplier",
+        "Print some documents",
+        "Visit the warehouse"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "加訂資料夾",
+        "聯絡供應商",
+        "列印文件",
+        "去倉庫一趟"
+      ],
+      "transcriptZh": "男：Priya，文具訂單到貨了嗎？／女：只到了一部分。資料夾來了，但影印紙還在候補出貨。／男：我們的紙快用完了，可以請供應商加急處理嗎？／女：我午餐後馬上打給他們。",
+      "tip": "on back order（候補出貨）與 expedite（加急）都是多益高頻詞。"
+    },
+    {
+      "id": "l-41",
+      "part": 3,
+      "title": "簡短對話：宴會人手不足",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Tom, two servers called in sick for tonight's banquet."
+        },
+        {
+          "speaker": "M",
+          "text": "That's bad timing. Can we ask the part-timers to cover?"
+        },
+        {
+          "speaker": "W",
+          "text": "I've texted them — one can come, but we're still short one person."
+        },
+        {
+          "speaker": "M",
+          "text": "Then I'll help serve tonight as well."
+        }
+      ],
+      "question": "What does the man offer to do?",
+      "options": [
+        "Cancel the banquet",
+        "Hire new servers",
+        "Help serve at the event",
+        "Call the part-timers"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "取消宴會",
+        "招聘新服務生",
+        "在宴會上幫忙服務",
+        "打電話給兼職人員"
+      ],
+      "transcriptZh": "女：Tom，今晚宴會有兩位服務生請病假。／男：時機真不巧。可以請兼職人員來代班嗎？／女：我傳訊息問過了——一位可以來，但還缺一個人。／男：那我今晚也下場幫忙服務。",
+      "tip": "call in sick（打電話請病假）、cover（代班）是職場高頻用語。"
+    },
+    {
+      "id": "l-42",
+      "part": 3,
+      "title": "簡短對話：差旅預算刪減",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Elena, have you seen the travel budget for next quarter?"
+        },
+        {
+          "speaker": "W",
+          "text": "Yes, it's been cut by fifteen percent."
+        },
+        {
+          "speaker": "M",
+          "text": "Then we should switch some client visits to video calls."
+        },
+        {
+          "speaker": "W",
+          "text": "Agreed. Let's identify which trips are essential first."
+        }
+      ],
+      "question": "What do the speakers decide to do first?",
+      "options": [
+        "Cancel all business trips",
+        "Request a bigger budget",
+        "Determine which trips are essential",
+        "Buy video equipment"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "取消所有出差",
+        "申請更多預算",
+        "先確認哪些出差是必要的",
+        "購買視訊設備"
+      ],
+      "transcriptZh": "男：Elena，你看過下一季的差旅預算了嗎？／女：看了，被砍了百分之十五。／男：那我們應該把部分客戶拜訪改成視訊會議。／女：同意。我們先確認哪些出差是必要的吧。",
+      "tip": "問「先做什麼」注意 first / to begin with 出現的那句。"
+    },
+    {
+      "id": "l-43",
+      "part": 3,
+      "title": "簡短對話：賣場陳列",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "The new spring display looks great, but customers keep asking where the sale items are."
+        },
+        {
+          "speaker": "M",
+          "text": "Maybe we should move the sale rack closer to the entrance."
+        },
+        {
+          "speaker": "W",
+          "text": "Good idea. Let's do it before the weekend rush."
+        }
+      ],
+      "question": "What will the speakers probably do?",
+      "options": [
+        "Order more sale items",
+        "Move a display rack",
+        "Extend store hours",
+        "Hire weekend staff"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "加訂特價商品",
+        "移動陳列架",
+        "延長營業時間",
+        "增聘週末人力"
+      ],
+      "transcriptZh": "女：新的春季陳列很好看，但顧客一直在問特價商品在哪裡。／男：也許我們該把特價商品架移到靠近入口的地方。／女：好主意，趁週末人潮前趕快做。",
+      "tip": "「接下來會做什麼」聽提議句（Maybe we should...）加上對方同意就是答案。"
+    },
+    {
+      "id": "l-44",
+      "part": 3,
+      "title": "簡短對話：報名確認信",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "M",
+          "text": "Hi, I registered for the finance conference, but I haven't received a confirmation email."
+        },
+        {
+          "speaker": "W",
+          "text": "Let me check... it seems your email address was entered incorrectly."
+        },
+        {
+          "speaker": "M",
+          "text": "Oh, could you fix it? It's m-lee at fintech dot com."
+        },
+        {
+          "speaker": "W",
+          "text": "Done. The confirmation should arrive within a few minutes."
+        }
+      ],
+      "question": "What caused the problem?",
+      "options": [
+        "The conference was full",
+        "The payment failed",
+        "An incorrect email address",
+        "A system outage"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "研討會已額滿",
+        "付款失敗",
+        "電子郵件地址輸入錯誤",
+        "系統故障"
+      ],
+      "transcriptZh": "男：你好，我報名了金融研討會，但一直沒收到確認信。／女：我查一下……看來您的電子郵件地址輸入錯了。／男：喔，可以幫我改嗎？是 m-lee@fintech.com。／女：改好了，確認信幾分鐘內就會寄達。",
+      "tip": "問題原因常在 it seems / I'm afraid 之後。"
+    },
+    {
+      "id": "l-45",
+      "part": 3,
+      "title": "簡短對話：看辦公室",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "W",
+          "text": "Thanks for showing me the office space. The location is perfect."
+        },
+        {
+          "speaker": "M",
+          "text": "It's popular — another company is viewing it tomorrow."
+        },
+        {
+          "speaker": "W",
+          "text": "In that case, I'd like to submit an application today."
+        },
+        {
+          "speaker": "M",
+          "text": "Great, I'll email you the form as soon as I'm back at the office."
+        }
+      ],
+      "question": "Why does the woman want to apply today?",
+      "options": [
+        "The rent will increase soon",
+        "Another company is interested",
+        "The office closes early",
+        "Her current lease expires tomorrow"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "租金即將上漲",
+        "另一家公司也有興趣",
+        "辦公室提早關門",
+        "她目前的租約明天到期"
+      ],
+      "transcriptZh": "女：謝謝你帶我看這個辦公空間，地點太完美了。／男：這裡很搶手——明天還有另一家公司要來看。／女：這樣的話，我今天就想提出申請。／男：好的，我一回辦公室就把表格寄給您。",
+      "tip": "In that case（這樣的話）前面那句，就是她改變行動的原因。"
+    },
+    {
+      "id": "l-46",
+      "part": 4,
+      "title": "簡短獨白：賣場廣播",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Attention, Value Mart shoppers."
+        },
+        {
+          "speaker": "N",
+          "text": "For the next hour, all bakery items are twenty percent off at the in-store bakery."
+        },
+        {
+          "speaker": "N",
+          "text": "Also, don't forget our loyalty program — sign up at any register and earn points on today's purchase."
+        },
+        {
+          "speaker": "N",
+          "text": "The store will close at ten tonight. Thank you for shopping with us."
+        }
+      ],
+      "question": "What can shoppers do at any register?",
+      "options": [
+        "Get a bakery discount",
+        "Join the loyalty program",
+        "Return unwanted items",
+        "Order a birthday cake"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "獲得烘焙商品折扣",
+        "加入會員集點計畫",
+        "退回不需要的商品",
+        "訂購生日蛋糕"
+      ],
+      "transcriptZh": "Value Mart 的顧客請注意。接下來一小時，店內烘焙坊全品項八折。另外別忘了我們的會員集點計畫——在任一收銀台即可申辦，今日消費就能累積點數。本店今晚十點打烊，感謝您的光臨。",
+      "tip": "地點細節題：註冊地點（at any register）與折扣地點（bakery）是分開的，別混淆。"
+    },
+    {
+      "id": "l-47",
+      "part": 4,
+      "title": "簡短獨白：工廠導覽",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Welcome to the Sterling Chocolate factory tour."
+        },
+        {
+          "speaker": "N",
+          "text": "During the visit, please stay behind the yellow lines at all times, as the machinery operates continuously."
+        },
+        {
+          "speaker": "N",
+          "text": "At the end of the tour, everyone will receive a free sample box, and you can purchase our full range at the factory shop."
+        },
+        {
+          "speaker": "N",
+          "text": "Now, let's begin in the roasting room."
+        }
+      ],
+      "question": "What will visitors receive at the end of the tour?",
+      "options": [
+        "A discount voucher",
+        "A factory map",
+        "A free sample box",
+        "A recipe book"
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "折價券",
+        "工廠地圖",
+        "免費試吃禮盒",
+        "食譜書"
+      ],
+      "transcriptZh": "歡迎參加 Sterling 巧克力工廠導覽。參觀期間，由於機器持續運轉，請全程站在黃線後方。導覽結束時，每位訪客都將獲得免費試吃禮盒，也可以在工廠商店選購全系列商品。現在，我們從烘豆室開始。",
+      "tip": "「At the end of...」之後常接贈品或下一步指示，是必考句。"
+    },
+    {
+      "id": "l-48",
+      "part": 4,
+      "title": "簡短獨白：面試通知留言",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Hello, this message is for Mr. Nguyen. This is Carol from Westfield Recruitment."
+        },
+        {
+          "speaker": "N",
+          "text": "The hiring manager at Delta Finance was impressed with your first interview and would like to invite you for a second one next Wednesday at 2 p.m."
+        },
+        {
+          "speaker": "N",
+          "text": "Please call me back by Monday to confirm, and bring two references with you."
+        },
+        {
+          "speaker": "N",
+          "text": "Talk soon."
+        }
+      ],
+      "question": "What should the listener bring to the interview?",
+      "options": [
+        "A portfolio",
+        "A signed contract",
+        "A copy of his diploma",
+        "Two references"
+      ],
+      "answer": 3,
+      "optionsZh": [
+        "作品集",
+        "已簽署的合約",
+        "文憑影本",
+        "兩位推薦人資料"
+      ],
+      "transcriptZh": "您好，這是給 Nguyen 先生的留言。我是 Westfield 人力仲介的 Carol。Delta 金融的招聘主管對您的第一次面試印象深刻，想邀請您下週三下午兩點參加第二次面試。請在週一前回電確認，並攜帶兩位推薦人資料。再聯絡。",
+      "tip": "留言題必考「聽者要做什麼」：注意 please 後面的兩個指示。"
+    },
+    {
+      "id": "l-49",
+      "part": 4,
+      "title": "簡短獨白：登機門變更",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Attention passengers on Maple Air Flight 88 to Calgary."
+        },
+        {
+          "speaker": "N",
+          "text": "The departure gate has been changed from B6 to C12."
+        },
+        {
+          "speaker": "N",
+          "text": "Boarding will begin in approximately twenty minutes."
+        },
+        {
+          "speaker": "N",
+          "text": "Passengers requiring assistance or traveling with small children may board first. Please have your boarding pass and photo ID ready."
+        }
+      ],
+      "question": "What change is announced?",
+      "options": [
+        "A flight cancellation",
+        "A gate change",
+        "A two-hour delay",
+        "A crew change"
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "班機取消",
+        "登機門變更",
+        "延誤兩小時",
+        "機組人員更換"
+      ],
+      "transcriptZh": "搭乘楓葉航空 88 號班機前往卡加利的旅客請注意。登機門已從 B6 變更為 C12。約二十分鐘後開始登機。需要協助或攜帶幼童的旅客可優先登機。請備妥登機證與附照片的身分證件。",
+      "tip": "機場廣播三大考點：變更內容、登機時間、優先登機對象。"
+    },
+    {
+      "id": "l-50",
+      "part": 4,
+      "title": "簡短獨白：圖書館廣播",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "sentences": [
+        {
+          "speaker": "N",
+          "text": "Good evening, Westbrook Library patrons. The library will be closing in fifteen minutes."
+        },
+        {
+          "speaker": "N",
+          "text": "Please bring any items you wish to borrow to the front desk now."
+        },
+        {
+          "speaker": "N",
+          "text": "Also, a reminder that starting next month, the library will open on Sundays from noon to five."
+        },
+        {
+          "speaker": "N",
+          "text": "Details are available on our website. Thank you, and we'll see you again soon."
+        }
+      ],
+      "question": "What will happen starting next month?",
+      "options": [
+        "The library will close on Sundays",
+        "Borrowing limits will change",
+        "The website will be redesigned",
+        "The library will open on Sundays"
+      ],
+      "answer": 3,
+      "optionsZh": [
+        "圖書館週日將閉館",
+        "借閱冊數上限將調整",
+        "網站將改版",
+        "圖書館週日將開放"
+      ],
+      "transcriptZh": "Westbrook 圖書館的讀者晚安，本館將於十五分鐘後閉館。欲借閱的讀者請現在將書籍帶至櫃檯辦理。另外提醒您，自下個月起，本館週日將開放，時間為中午十二點至下午五點。詳情請見官網。謝謝，期待再次見到您。",
+      "tip": "starting next month（自下月起）後面就是「未來變更」題的答案。"
+    },
+    {
+      "id": "l-p1-01",
+      "part": 1,
+      "title": "照片描述：辦公室",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "scene": "office-typing",
+      "sentences": [
+        { "speaker": "N", "text": "A. The man is talking on the phone." },
+        { "speaker": "N", "text": "B. The man is typing on a laptop." },
+        { "speaker": "N", "text": "C. The man is opening a drawer." },
+        { "speaker": "N", "text": "D. The man is wiping the desk." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "The man is talking on the phone.",
+        "The man is typing on a laptop.",
+        "The man is opening a drawer.",
+        "The man is wiping the desk."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "男子正在講電話。",
+        "男子正在用筆電打字。",
+        "男子正在打開抽屜。",
+        "男子正在擦桌子。"
+      ],
+      "transcriptZh": "照片重點：一名男子坐在辦公桌前，正用筆電打字，桌上有一杯咖啡。",
+      "tip": "Part 1 先鎖定「主詞＋正在進行的動作」。電話、抽屜都是辦公室照片的常見陷阱，照片裡沒有的動作一律刪掉。"
+    },
+    {
+      "id": "l-p1-02",
+      "part": 1,
+      "title": "照片描述：會議",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "scene": "meeting",
+      "sentences": [
+        { "speaker": "N", "text": "A. They are leaving the meeting room." },
+        { "speaker": "N", "text": "B. They are looking at their phones." },
+        { "speaker": "N", "text": "C. They are attending a meeting." },
+        { "speaker": "N", "text": "D. They are standing by the window." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "They are leaving the meeting room.",
+        "They are looking at their phones.",
+        "They are attending a meeting.",
+        "They are standing by the window."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "他們正離開會議室。",
+        "他們正在看手機。",
+        "他們正在開會。",
+        "他們正站在窗邊。"
+      ],
+      "transcriptZh": "照片重點：幾位同事圍著會議桌開會，一人站在白板前簡報。",
+      "tip": "多人照片先確認「大家共同在做的事」。attend a meeting（參加會議）是 Part 1 高頻片語。"
+    },
+    {
+      "id": "l-p1-03",
+      "part": 1,
+      "title": "照片描述：倒咖啡",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "scene": "coffee",
+      "sentences": [
+        { "speaker": "N", "text": "A. The woman is drinking from a cup." },
+        { "speaker": "N", "text": "B. The woman is washing a kettle." },
+        { "speaker": "N", "text": "C. The woman is cutting some fruit." },
+        { "speaker": "N", "text": "D. The woman is pouring coffee into a cup." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "The woman is drinking from a cup.",
+        "The woman is washing a kettle.",
+        "The woman is cutting some fruit.",
+        "The woman is pouring coffee into a cup."
+      ],
+      "answer": 3,
+      "optionsZh": [
+        "女子正用杯子喝東西。",
+        "女子正在清洗水壺。",
+        "女子正在切水果。",
+        "女子正把咖啡倒進杯子裡。"
+      ],
+      "transcriptZh": "照片重點：一名女子拿著咖啡壺，正把咖啡倒進櫃檯上的杯子。",
+      "tip": "「喝 drink」和「倒 pour」是經典動作陷阱：物品對了、動作不對就不能選。"
+    },
+    {
+      "id": "l-p1-04",
+      "part": 1,
+      "title": "照片描述：倉庫",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "scene": "warehouse",
+      "sentences": [
+        { "speaker": "N", "text": "A. Boxes are stacked on top of each other." },
+        { "speaker": "N", "text": "B. Boxes are being loaded onto a truck." },
+        { "speaker": "N", "text": "C. A worker is opening a box." },
+        { "speaker": "N", "text": "D. The shelves are empty." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "Boxes are stacked on top of each other.",
+        "Boxes are being loaded onto a truck.",
+        "A worker is opening a box.",
+        "The shelves are empty."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "紙箱層層堆疊在一起。",
+        "紙箱正被裝上卡車。",
+        "一名工人正在打開紙箱。",
+        "架子上是空的。"
+      ],
+      "transcriptZh": "照片重點：倉庫裡的紙箱層層堆疊，架上也放著箱子，照片中沒有人。",
+      "tip": "被動進行式 are being loaded 需要「有人正在做這件事」；照片裡沒有人，就不能選進行中的動作。"
+    },
+    {
+      "id": "l-p1-05",
+      "part": 1,
+      "title": "照片描述：停車",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "scene": "car-parked",
+      "sentences": [
+        { "speaker": "N", "text": "A. The car is being repaired." },
+        { "speaker": "N", "text": "B. The car is parked in front of a building." },
+        { "speaker": "N", "text": "C. The driver is getting out of the car." },
+        { "speaker": "N", "text": "D. The car is stopped at a traffic light." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "The car is being repaired.",
+        "The car is parked in front of a building.",
+        "The driver is getting out of the car.",
+        "The car is stopped at a traffic light."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "車子正在維修中。",
+        "車子停在一棟大樓前。",
+        "駕駛正在下車。",
+        "車子停在紅綠燈前。"
+      ],
+      "transcriptZh": "照片重點：一輛車停放在大樓前方，車內沒有人。",
+      "tip": "is parked（停放的狀態）常考。照片裡沒有人就刪掉所有「人的動作」選項。"
+    },
+    {
+      "id": "l-p1-06",
+      "part": 1,
+      "title": "照片描述：騎腳踏車",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "scene": "bicycle",
+      "sentences": [
+        { "speaker": "N", "text": "A. The man is repairing a bicycle." },
+        { "speaker": "N", "text": "B. The man is walking along the road." },
+        { "speaker": "N", "text": "C. The man is riding a bicycle." },
+        { "speaker": "N", "text": "D. The man is carrying a helmet." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "The man is repairing a bicycle.",
+        "The man is walking along the road.",
+        "The man is riding a bicycle.",
+        "The man is carrying a helmet."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "男子正在修理腳踏車。",
+        "男子正沿著道路走路。",
+        "男子正在騎腳踏車。",
+        "男子正拿著安全帽。"
+      ],
+      "transcriptZh": "照片重點：一名男子在樹旁的小路上騎腳踏車。",
+      "tip": "同一個物品（bicycle）配不同動詞是常見出題法：騎、修理、牽，看清楚照片裡的動作。"
+    },
+    {
+      "id": "l-p1-07",
+      "part": 1,
+      "title": "照片描述：月台",
+      "accent": "en-US",
+      "accentLabel": "美式",
+      "scene": "train",
+      "sentences": [
+        { "speaker": "N", "text": "A. Passengers are boarding a train." },
+        { "speaker": "N", "text": "B. The train is leaving the station." },
+        { "speaker": "N", "text": "C. People are buying tickets." },
+        { "speaker": "N", "text": "D. Luggage is piled on the platform." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "Passengers are boarding a train.",
+        "The train is leaving the station.",
+        "People are buying tickets.",
+        "Luggage is piled on the platform."
+      ],
+      "answer": 0,
+      "optionsZh": [
+        "乘客正在上火車。",
+        "火車正駛離車站。",
+        "人們正在買票。",
+        "行李堆放在月台上。"
+      ],
+      "transcriptZh": "照片重點：火車停靠月台、車門開啟，兩名乘客正走向車門準備上車。",
+      "tip": "board（登上交通工具）是 Part 1 必背動詞，火車/公車/飛機照片都常出現。"
+    },
+    {
+      "id": "l-p1-08",
+      "part": 1,
+      "title": "照片描述：澆花",
+      "accent": "en-CA",
+      "accentLabel": "加拿大",
+      "scene": "watering",
+      "sentences": [
+        { "speaker": "N", "text": "A. The woman is planting a tree." },
+        { "speaker": "N", "text": "B. The woman is picking some flowers." },
+        { "speaker": "N", "text": "C. The woman is trimming the bushes." },
+        { "speaker": "N", "text": "D. The woman is watering the plants." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "The woman is planting a tree.",
+        "The woman is picking some flowers.",
+        "The woman is trimming the bushes.",
+        "The woman is watering the plants."
+      ],
+      "answer": 3,
+      "optionsZh": [
+        "女子正在種樹。",
+        "女子正在摘花。",
+        "女子正在修剪灌木。",
+        "女子正在替植物澆水。"
+      ],
+      "transcriptZh": "照片重點：一名女子拿著澆水壺，正替盆栽澆水。",
+      "tip": "園藝類照片動詞要分清楚：plant 種、pick 摘、trim 修剪、water 澆水。"
+    },
+    {
+      "id": "l-p1-09",
+      "part": 1,
+      "title": "照片描述：工地",
+      "accent": "en-AU",
+      "accentLabel": "澳式",
+      "scene": "construction",
+      "sentences": [
+        { "speaker": "N", "text": "A. The workers are taking off their helmets." },
+        { "speaker": "N", "text": "B. The workers are wearing safety helmets." },
+        { "speaker": "N", "text": "C. The workers are climbing a ladder." },
+        { "speaker": "N", "text": "D. The workers are paving the road." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "The workers are taking off their helmets.",
+        "The workers are wearing safety helmets.",
+        "The workers are climbing a ladder.",
+        "The workers are paving the road."
+      ],
+      "answer": 1,
+      "optionsZh": [
+        "工人們正在脫下安全帽。",
+        "工人們戴著安全帽。",
+        "工人們正在爬梯子。",
+        "工人們正在鋪路。"
+      ],
+      "transcriptZh": "照片重點：兩名戴著安全帽、穿反光背心的工人在工地，旁邊放著交通錐。",
+      "tip": "wearing（穿戴的狀態）vs putting on / taking off（穿脫的動作）是 Part 1 最經典的考點。"
+    },
+    {
+      "id": "l-p1-10",
+      "part": 1,
+      "title": "照片描述：餐桌",
+      "accent": "en-GB",
+      "accentLabel": "英式",
+      "scene": "chairs-table",
+      "sentences": [
+        { "speaker": "N", "text": "A. People are sitting at the table." },
+        { "speaker": "N", "text": "B. The table is being set for a meal." },
+        { "speaker": "N", "text": "C. Chairs have been arranged around the table." },
+        { "speaker": "N", "text": "D. The chairs are stacked in a corner." }
+      ],
+      "question": "請看照片，選出最符合的描述（選項只播音，不顯示文字）。",
+      "options": [
+        "People are sitting at the table.",
+        "The table is being set for a meal.",
+        "Chairs have been arranged around the table.",
+        "The chairs are stacked in a corner."
+      ],
+      "answer": 2,
+      "optionsZh": [
+        "人們正坐在桌邊。",
+        "桌子正在被擺設餐具。",
+        "椅子已排放在桌子四周。",
+        "椅子堆疊在角落。"
+      ],
+      "transcriptZh": "照片重點：室內一張空餐桌，椅子整齊排放在四周，桌上有花瓶，照片中沒有人。",
+      "tip": "空景照常考「現在完成被動」have been arranged（已排好的狀態）；沒有人就刪掉所有進行中的人物動作。"
+    }
+  ]
+}

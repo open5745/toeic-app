@@ -1,0 +1,16 @@
+{
+  "name": "多益行動學習助手",
+  "short_name": "多益助手",
+  "description": "聽、讀、單字一站式多益練習，搭配間隔重複與每日提醒。",
+  "lang": "zh-Hant",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f5f9",
+  "theme_color": "#2b6cb0",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
