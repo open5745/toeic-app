@@ -1,5 +1,5 @@
 // Service Worker：離線快取（App Shell + 內容資料）
-const CACHE = 'tla-v9';
+const CACHE = 'tla-v10';
 const ASSETS = [
   './',
   './index.html',

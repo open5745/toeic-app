@@ -287,6 +287,29 @@ body {
 .scene-svg { display: block; width: 100%; height: auto; }
 .p1-hidden .masked-opt { filter: blur(6px); user-select: none; }
 
+/* ---- Part 7 閱讀文章 ---- */
+.passage-box {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  max-height: 46vh;
+  overflow-y: auto;
+  background: var(--bg);
+}
+.passage-label {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-soft);
+  margin: 10px 0 4px;
+}
+.passage-label:first-child { margin-top: 0; }
+.passage-text {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin-bottom: 6px;
+}
+
 /* ---- 聽力播放器 ---- */
 .player-controls { display: grid; grid-template-columns: 2fr 1fr; gap: 8px; margin-bottom: 12px; }
 .rate-label { display: block; font-size: 0.88rem; color: var(--text-soft); margin-bottom: 8px; }

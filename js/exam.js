@@ -1,12 +1,20 @@
-// 考試模式：依多益實際流程的迷你模擬考
-// 聽力（只播一次、原速、無逐字稿）→ 閱讀（限時、時間到自動交卷）→ 成績與錯題檢討
+// 考試模式：半份多益模擬考（題數與時間皆為正式考試的一半）
+// 正式多益：200 題 / 120 分鐘 → 本模式：100 題 / 60 分鐘
+// 聽力 50 題（音檔只播一次、原速、無逐字稿）→ 閱讀 50 題（限時 37:30，時間到自動交卷）→ 成績與錯題檢討
 import { speakSequence, stopSpeaking, speechAvailable, speakerVoiceOpts } from './speech.js';
 import { recordActivity } from './streak.js';
 import { navigate } from './app.js';
 import { SCENES } from './scenes.js';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
-const READING_SECONDS = 8 * 60;
+
+// 各 Part 題數 = 正式多益的一半（四捨五入）
+// 聽力：P1 6→3、P2 25→13、P3 39→19、P4 30→15（共 50）
+// 閱讀：P5 30→15、P6 16→8、P7 54→27（共 50）
+const LISTENING_SPEC = { 1: 3, 2: 13, 3: 19, 4: 15 };
+const READING_SPEC = { 5: 15, 6: 8 };
+const P7_COUNT = 27;
+const READING_SECONDS = Math.round((75 * 60) / 2); // 正式閱讀 75 分鐘的一半 = 37 分 30 秒
 
 function shuffle(arr) {
   const a = [...arr];
@@ -23,6 +31,34 @@ function fmt(sec) {
   return `${m}:${s}`;
 }
 
+// 依 spec 從題庫各 Part 抽題（題庫不足時抽到多少算多少），並照 Part 順序排列
+function pickByPart(items, spec) {
+  const picked = [];
+  for (const part of Object.keys(spec)) {
+    const pool = items.filter((q) => q.part === Number(part));
+    picked.push(...shuffle(pool).slice(0, spec[part]));
+  }
+  return picked.sort((a, b) => a.part - b.part);
+}
+
+// Part 7 以「題組」為單位抽選：單篇 → 雙篇 → 三篇（同正式考試順序），攤平後裁到目標題數
+function pickPart7(sets, count) {
+  const order = { single: 0, double: 1, triple: 2 };
+  const chosen = [];
+  let total = 0;
+  for (const s of shuffle(sets)) {
+    if (total >= count) break;
+    chosen.push(s);
+    total += s.questions.length;
+  }
+  chosen.sort((a, b) => order[a.passageType] - order[b.passageType]);
+  const flat = [];
+  for (const s of chosen) {
+    s.questions.forEach((q, qi) => flat.push({ ...q, part: 7, set: s, qIndex: qi }));
+  }
+  return flat.slice(0, count);
+}
+
 let timerId = null;
 function clearTimer() {
   if (timerId) {
@@ -34,30 +70,39 @@ function clearTimer() {
 export function renderExam(container, data) {
   stopSpeaking();
   clearTimer();
-  const nL = Math.min(6, data.listening.items.length);
-  const nR = Math.min(12, data.grammar.questions.length);
+  const p7Sets = data.grammar.reading7 || [];
+  const nL = Object.entries(LISTENING_SPEC).reduce(
+    (sum, [part, n]) => sum + Math.min(n, data.listening.items.filter((q) => q.part === Number(part)).length), 0);
+  const nP56 = Object.entries(READING_SPEC).reduce(
+    (sum, [part, n]) => sum + Math.min(n, data.grammar.questions.filter((q) => q.part === Number(part)).length), 0);
+  const nP7 = Math.min(P7_COUNT, p7Sets.reduce((s, x) => s + x.questions.length, 0));
+  const nR = nP56 + nP7;
 
   container.innerHTML = `
     <h2>🎯 考試模式</h2>
-    <p class="hint">模擬多益實際考試節奏，適合考前衝刺熟悉臨場感。</p>
+    <p class="hint">半份多益模擬考：題數與時間都是正式考試的一半，完整走過 Part 1～7。</p>
     ${speechAvailable() ? '' : '<p class="warn">⚠️ 此瀏覽器不支援語音合成，聽力部分無法播放。</p>'}
     <div class="card">
-      <h3>考試規則</h3>
+      <h3>考試規則（正式多益的一半）</h3>
       <ul class="rule-list">
-        <li>🎧 聽力 ${nL} 題：音檔<b>只播放一次</b>、固定原速、不提供逐字稿</li>
-        <li>📖 閱讀 ${nR} 題：限時 <b>${READING_SECONDS / 60} 分鐘</b>，時間到自動交卷</li>
+        <li>🎧 聽力 ${nL} 題：Part 1 照片描述 ${LISTENING_SPEC[1]} 題・Part 2 應答問題 ${LISTENING_SPEC[2]} 題・Part 3 簡短對話 ${LISTENING_SPEC[3]} 題・Part 4 簡短獨白 ${LISTENING_SPEC[4]} 題</li>
+        <li>🔇 音檔<b>只播放一次</b>、固定原速、不提供逐字稿；Part 1、2 依正式規則<b>不顯示選項文字</b></li>
+        <li>📖 閱讀 ${nR} 題：Part 5 單句填空 ${READING_SPEC[5]} 題・Part 6 段落填空 ${READING_SPEC[6]} 題・Part 7 閱讀測驗 ${nP7} 題</li>
+        <li>⏱ 閱讀限時 <b>${fmt(READING_SECONDS)}</b>（正式 75 分鐘的一半），時間到自動交卷，可自行分配各題時間</li>
         <li>🤐 作答過程不顯示對錯，交卷後統一檢討</li>
       </ul>
-      <button class="btn btn-primary btn-block" id="start-exam">開始模擬考</button>
+      <button class="btn btn-primary btn-block" id="start-exam">開始模擬考（${nL + nR} 題）</button>
     </div>`;
 
   container.querySelector('#start-exam').addEventListener('click', () => startExam(container, data));
 }
 
 function startExam(container, data) {
-  // 隨機抽題後依 Part 順序排列，貼近真實考試（聽力 Part 2→4、閱讀 Part 5→6）
-  const listeningQs = shuffle(data.listening.items).slice(0, 6).sort((a, b) => a.part - b.part);
-  const readingQs = shuffle(data.grammar.questions).slice(0, 12).sort((a, b) => a.part - b.part);
+  const listeningQs = pickByPart(data.listening.items, LISTENING_SPEC);
+  const readingQs = [
+    ...pickByPart(data.grammar.questions, READING_SPEC),
+    ...pickPart7(data.grammar.reading7 || [], P7_COUNT),
+  ];
   const answers = { listening: [], reading: [] };
   let remaining = READING_SECONDS;
 
@@ -79,24 +124,33 @@ function startExam(container, data) {
     const q = listeningQs[i];
 
     // Part 1 照片描述：顯示照片，四句描述只播音不顯示文字（同真實考試）
+    // Part 2 應答問題：無圖片、無文字題幹，只顯示 A/B/C 按鈕，問題與三個回應皆只播音（同真實考試）
     const isP1 = q.part === 1;
+    const isP2 = q.part === 2;
+    const masked = isP1 || isP2;
     const sceneHtml = isP1 && SCENES[q.scene] ? `<div class="scene-box">${SCENES[q.scene]}</div>` : '';
+    const qText = isP2 ? '請聽問題與三個回應，選出最合適的應答。' : q.question;
 
     container.innerHTML = `
       <div class="session-top">${quitBar(`聽力 ${i + 1} / ${listeningQs.length}・Part ${q.part}`)}</div>
       <div class="card">
         <p class="hint">🎧 音檔只播放一次，請仔細聆聽（${q.accentLabel}口音）</p>
         ${sceneHtml}
-        <p class="q-text">${q.question}</p>
-        <div class="option-list${isP1 ? ' p1-hidden' : ''}">
+        <p class="q-text">${qText}</p>
+        <div class="option-list${masked ? ' p1-hidden' : ''}">
           ${q.options
-            .map((opt, oi) => `<button class="btn option-btn" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span><span class="${isP1 ? 'masked-opt' : ''}">${opt}</span></button>`)
+            .map((opt, oi) => `<button class="btn option-btn" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span><span class="${masked ? 'masked-opt' : ''}">${opt}</span></button>`)
             .join('')}
         </div>
       </div>`;
 
     bindQuit();
-    speakSequence(q.sentences.map((s) => ({ text: s.text, ...speakerVoiceOpts(s.speaker) })), { lang: q.accent, rate: 1.0 });
+    // Part 2 需補播三個回應選項（題庫音檔只含問題句）
+    const toSpeak = q.sentences.map((s) => ({ text: s.text, ...speakerVoiceOpts(s.speaker) }));
+    if (isP2) {
+      q.options.forEach((opt, oi) => toSpeak.push({ text: `${LETTERS[oi]}. ${opt}`, ...speakerVoiceOpts('N') }));
+    }
+    speakSequence(toSpeak, { lang: q.accent, rate: 1.0 });
 
     container.querySelectorAll('.option-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -128,6 +182,18 @@ function startExam(container, data) {
   function showReading(i) {
     if (i >= readingQs.length) return showResult(false);
     const q = readingQs[i];
+    const isP7 = q.part === 7;
+
+    // Part 7：文章在上、題目在下（上下分割），文章區可獨立捲動方便對照
+    const passageHtml = isP7
+      ? `<div class="passage-box">
+          ${q.set.passages
+            .map((p) => `<p class="passage-label">${p.label}</p><div class="passage-text">${p.text.replace(/\n/g, '<br>')}</div>`)
+            .join('')}
+        </div>`
+      : '';
+    const typeLabel = isP7 ? q.set.typeLabel : q.type;
+    const qNoInSet = isP7 && q.set.questions.length > 1 ? `（本文第 ${q.qIndex + 1} / ${q.set.questions.length} 題）` : '';
 
     container.innerHTML = `
       <div class="session-top">
@@ -136,10 +202,11 @@ function startExam(container, data) {
       <div class="card">
         <div class="q-tags">
           <span class="tag">Part ${q.part}</span>
-          <span class="tag tag-type">${q.type}</span>
+          <span class="tag tag-type">${typeLabel}</span>
           <span class="tag tag-timer" id="exam-timer">⏱ ${fmt(remaining)}</span>
         </div>
-        <p class="q-text">${q.question.replace(/\n/g, '<br>')}</p>
+        ${passageHtml}
+        <p class="q-text">${q.question.replace(/\n/g, '<br>')}${qNoInSet}</p>
         <div class="option-list">
           ${q.options
             .map((opt, oi) => `<button class="btn option-btn" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span>${opt}</button>`)
@@ -149,6 +216,7 @@ function startExam(container, data) {
 
     bindQuit();
     if (remaining <= 60) document.getElementById('exam-timer').classList.add('timer-low');
+    window.scrollTo(0, 0);
 
     container.querySelectorAll('.option-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -193,8 +261,10 @@ function startExam(container, data) {
           <p class="fb-explanation"><b>逐字稿：</b>${q.sentences.map((s) => s.text).join(' ')}</p>
           <p class="fb-explanation"><b>中文：</b>${q.transcriptZh}</p>`))
         .join('');
+      // Part 7 只在答錯時附上原文，避免檢討頁過長
       const readingHtml = readingQs
-        .map((q, i) => reviewCard(q, answers.reading[i], `閱讀 Part ${q.part}・${q.type}`, `
+        .map((q, i) => reviewCard(q, answers.reading[i], `閱讀 Part ${q.part}・${q.part === 7 ? q.set.typeLabel : q.type}`, `
+          ${q.part === 7 && answers.reading[i] !== q.answer ? `<div class="passage-box">${q.set.passages.map((p) => `<p class="passage-label">${p.label}</p><div class="passage-text">${p.text.replace(/\n/g, '<br>')}</div>`).join('')}</div>` : ''}
           <p class="fb-explanation">${q.explanation}</p>`))
         .join('');
 

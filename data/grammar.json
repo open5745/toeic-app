@@ -3600,5 +3600,533 @@
       "explanation": "空格後的動詞 pass 與 will be invited 均為複數搭配，Those who（通過初選者）為正解。Anyone / Whoever / Each 接單數動詞。",
       "tip": "Those who + 複數動詞（……的人們）；anyone who + 單數動詞。"
     }
+  ],
+  "reading7": [
+    {
+      "id": "r7-01",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：公告",
+      "passages": [
+        {
+          "label": "公告 (Notice)",
+          "text": "NOTICE TO ALL TENANTS — Harborview Office Tower\n\nThe main elevators will be out of service for scheduled maintenance from Friday, March 14, at 8:00 P.M. until Monday, March 17, at 6:00 A.M. During this period, please use the freight elevator located next to the loading dock or the stairways at either end of the building.\n\nTenants expecting weekend deliveries should notify the security desk in advance at extension 210 so that access to the freight elevator can be arranged.\n\nWe apologize for any inconvenience.\n\nBuilding Management Office"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the purpose of the notice?",
+          "options": [
+            "To announce a temporary elevator shutdown",
+            "To introduce a new security procedure",
+            "To advertise available office space",
+            "To report a change in business hours"
+          ],
+          "answer": 0,
+          "explanation": "公告開頭即說明主電梯將於 3/14 至 3/17 因排定保養停止服務，故目的為宣布電梯暫停使用。",
+          "tip": "目的題（purpose）看首段第一、二句即可鎖定答案，不必精讀全文。"
+        },
+        {
+          "question": "What are tenants asked to do before receiving weekend deliveries?",
+          "options": [
+            "Use the stairways",
+            "Contact the security desk",
+            "Reschedule the deliveries",
+            "Visit the management office"
+          ],
+          "answer": 1,
+          "explanation": "文中要求「notify the security desk in advance at extension 210」，即事先聯絡警衛櫃台，以安排貨梯使用。",
+          "tip": "細節題先抓題目關鍵字（weekend deliveries），回文章定位該句，答案通常在同一句或下一句。"
+        }
+      ]
+    },
+    {
+      "id": "r7-02",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：簡訊對話",
+      "passages": [
+        {
+          "label": "簡訊串 (Text-message chain)",
+          "text": "Nadia Osei (10:12 A.M.)\nHi Tom, the courier just called. Our booth materials for the trade show won't arrive until Thursday afternoon.\n\nTom Reyes (10:14 A.M.)\nThat's cutting it close. Setup has to be finished by Thursday at 9 P.M.\n\nNadia Osei (10:15 A.M.)\nI know. Should we ask Ken and Priya to stay late and help us?\n\nTom Reyes (10:17 A.M.)\nAlready ahead of you. They both said yes. I'll book a van so we can move everything in one trip.\n\nNadia Osei (10:18 A.M.)\nPerfect. I'll print the product brochures here so at least those are ready."
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why is Ms. Osei concerned?",
+          "options": [
+            "A courier lost a package",
+            "A booth location was changed",
+            "Some materials will arrive later than expected",
+            "A trade show was postponed"
+          ],
+          "answer": 2,
+          "explanation": "Nadia 第一則訊息說攤位物料要到週四下午才會送達，而佈置必須在週四晚上九點前完成，時間緊迫。",
+          "tip": "簡訊題先看第一、二則訊息，通常就點出整段對話的問題核心。"
+        },
+        {
+          "question": "At 10:17 A.M., what does Mr. Reyes most likely mean when he writes, \"Already ahead of you\"?",
+          "options": [
+            "He has arrived at the trade show first.",
+            "He has already asked the colleagues for help.",
+            "He has finished printing the brochures.",
+            "He has canceled the delivery."
+          ],
+          "answer": 1,
+          "explanation": "Nadia 才剛提議請 Ken 和 Priya 幫忙，Tom 回覆「我早一步了，他們都答應了」，表示他已先詢問過兩位同事。",
+          "tip": "「引述句意圖」題必考：答案永遠取決於前一則訊息的語境，不要只看字面意思。"
+        }
+      ]
+    },
+    {
+      "id": "r7-03",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：廣告",
+      "passages": [
+        {
+          "label": "廣告 (Advertisement)",
+          "text": "GRAND OPENING — RIVERSTONE FITNESS CENTER\n\nJoin during the month of April and pay no enrollment fee!\n\nRiverstone Fitness Center offers state-of-the-art exercise equipment, an indoor swimming pool, and more than thirty group classes each week, including yoga, spinning, and boxing. Our certified trainers are available for one-on-one sessions at an additional cost.\n\nMembership options:\n- Basic (gym access only): $35 per month\n- Plus (gym and pool): $50 per month\n- Premium (all facilities and unlimited classes): $65 per month\n\nAll new members receive a complimentary fitness assessment. Corporate discounts are available for companies that register ten or more employees.\n\nVisit www.riverstonefit.com or call 555-0188."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is offered to customers who join in April?",
+          "options": [
+            "A free month of classes",
+            "A waived enrollment fee",
+            "A discounted personal trainer",
+            "Free swimming lessons"
+          ],
+          "answer": 1,
+          "explanation": "廣告第一句「Join during the month of April and pay no enrollment fee!」，四月入會免入會費。",
+          "tip": "廣告題型的優惠條件常放在標題正下方第一句，先讀那裡。"
+        },
+        {
+          "question": "How much is a monthly membership that includes pool access but not group classes?",
+          "options": [
+            "$35",
+            "$50",
+            "$65",
+            "$100"
+          ],
+          "answer": 1,
+          "explanation": "Plus 方案（gym and pool）為每月 $50；Premium 才包含無限團體課程。",
+          "tip": "價目表題請逐項比對條件（含什麼、不含什麼），不要選最貴或最便宜的直覺答案。"
+        },
+        {
+          "question": "According to the advertisement, who can receive a corporate discount?",
+          "options": [
+            "Members who sign a one-year contract",
+            "Companies registering at least ten employees",
+            "Customers who book personal training",
+            "Employees of the fitness center"
+          ],
+          "answer": 1,
+          "explanation": "文末說明「Corporate discounts are available for companies that register ten or more employees」，即登記十名以上員工的公司。",
+          "tip": "數字條件（ten or more）常被改寫成 at least ten，注意同義改寫。"
+        }
+      ]
+    },
+    {
+      "id": "r7-04",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：電子郵件",
+      "passages": [
+        {
+          "label": "電子郵件 (E-mail)",
+          "text": "To: Amelia Chen <a.chen@fastmail.com>\nFrom: Recruitment Team <careers@nortonlogistics.com>\nDate: June 2\nSubject: Interview Invitation — Operations Analyst\n\nDear Ms. Chen,\n\nThank you for applying for the Operations Analyst position at Norton Logistics. We were impressed by your background in supply chain management, and we would like to invite you to an interview at our headquarters on Tuesday, June 10, at 2:00 P.M.\n\nThe interview will last approximately one hour and will include a short data analysis exercise. Please bring one form of photo identification and a printed copy of your résumé. Parking is available in the visitor lot on Dunham Street; be sure to register your license plate number at the front desk upon arrival.\n\nIf the proposed time is inconvenient, please reply to this e-mail by Friday, June 6, with two alternative times.\n\nWe look forward to meeting you.\n\nSincerely,\nRecruitment Team, Norton Logistics"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Why was the e-mail sent to Ms. Chen?",
+          "options": [
+            "To offer her a job",
+            "To request her résumé",
+            "To schedule an interview",
+            "To confirm her registration"
+          ],
+          "answer": 2,
+          "explanation": "郵件主旨與首段皆表明邀請 Ms. Chen 於 6/10 下午兩點到總部面試，屬面試邀約，尚未錄取（不是 offer a job）。",
+          "tip": "「Why was the e-mail sent」= 主旨題，看 Subject 行加首段即可，別被結尾客套話誤導。"
+        },
+        {
+          "question": "What is Ms. Chen asked to bring to the interview?",
+          "options": [
+            "A parking permit",
+            "A photo ID and a résumé",
+            "A reference letter",
+            "A completed application form"
+          ],
+          "answer": 1,
+          "explanation": "第二段明確要求攜帶「one form of photo identification and a printed copy of your résumé」。",
+          "tip": "bring / required documents 是常見細節題，通常集中在中段的指示句。"
+        },
+        {
+          "question": "What should Ms. Chen do if she cannot attend on June 10?",
+          "options": [
+            "Call the front desk",
+            "Visit the headquarters earlier",
+            "Reply with other available times by June 6",
+            "Submit a new application"
+          ],
+          "answer": 2,
+          "explanation": "末段指示：若時間不便，須在 6/6（週五）前回信提供兩個替代時段。",
+          "tip": "條件句（If...）幾乎必出題，看到 if 就先畫線。"
+        }
+      ]
+    },
+    {
+      "id": "r7-05",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：內部備忘錄",
+      "passages": [
+        {
+          "label": "備忘錄 (Memo)",
+          "text": "MEMO\n\nTo: All Department Heads\nFrom: Dana Whitfield, Chief Financial Officer\nDate: September 1\nRe: New travel expense procedure\n\nEffective October 1, all business travel expenses must be submitted through the new SwiftClaim online system. Paper reimbursement forms will no longer be accepted after that date.\n\nTo use the system, employees should scan their receipts and upload them within fourteen days of returning from a trip. Claims submitted after this period will require written approval from a department head. Meal expenses will be reimbursed up to $60 per day; receipts are required for any single purchase over $25.\n\nA thirty-minute training webinar will be held on September 18 and again on September 24. Attendance at one session is mandatory for all staff who travel on company business.\n\nQuestions may be directed to the finance help desk at helpdesk@corfin.com."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the main purpose of the memo?",
+          "options": [
+            "To announce a change in expense reporting",
+            "To reduce the travel budget",
+            "To introduce a new department head",
+            "To schedule business trips"
+          ],
+          "answer": 0,
+          "explanation": "備忘錄宣布 10/1 起差旅費用改用 SwiftClaim 線上系統申報、紙本表單停用，即申報流程變更。",
+          "tip": "Re:（主旨）行常直接洩題——「New travel expense procedure」就是答案方向。"
+        },
+        {
+          "question": "What happens if a claim is submitted more than fourteen days after a trip?",
+          "options": [
+            "It is automatically rejected.",
+            "It needs a department head's written approval.",
+            "It is reduced by 25 percent.",
+            "It must be resubmitted on paper."
+          ],
+          "answer": 1,
+          "explanation": "文中說明逾期申報「will require written approval from a department head」，需要部門主管書面核准，並非直接拒絕。",
+          "tip": "注意選項的「程度」：文章說需要核准，不等於自動退件，別選過度延伸的選項。"
+        },
+        {
+          "question": "What are traveling employees required to do?",
+          "options": [
+            "Book flights through the finance office",
+            "Attend one training webinar",
+            "Keep receipts for one year",
+            "Spend less than $25 on meals"
+          ],
+          "answer": 1,
+          "explanation": "第三段：訓練網路研討會辦兩場，出差員工「Attendance at one session is mandatory」，必須參加其中一場。",
+          "tip": "mandatory / required / must 出現處必是考點，先圈起來。"
+        }
+      ]
+    },
+    {
+      "id": "r7-06",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：新聞短文",
+      "passages": [
+        {
+          "label": "文章 (Article)",
+          "text": "Local Roastery Expands Overseas\n\nMILLBROOK (May 3) — Cedar & Bean, the coffee roastery founded eight years ago in a converted warehouse on Quarry Road, announced yesterday that it will open its first international café in Osaka, Japan, this autumn.\n\nThe company, which began by supplying beans to local restaurants, now operates six cafés across the region and employs more than 120 people. Founder Marisol Vega credits the firm's growth to its direct partnerships with small farms. \"We pay growers above-market rates, and in return we get beans nobody else can offer,\" she said.\n\nThe Osaka location will be managed by Kenji Sato, who joined Cedar & Bean three years ago after running his own tea shop. The company plans to hire fifteen local employees before the opening.\n\nMs. Vega added that if the Osaka café performs well, two more Asian locations could follow within two years."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the article mainly about?",
+          "options": [
+            "A coffee company's international expansion",
+            "A new farming technique",
+            "The renovation of a warehouse",
+            "A change in coffee prices"
+          ],
+          "answer": 0,
+          "explanation": "首段即報導 Cedar & Bean 將於今年秋天在日本大阪開設第一家海外咖啡館，全文圍繞其擴張。",
+          "tip": "新聞體裁的主旨＝標題＋首段導言，30 秒內可鎖定。"
+        },
+        {
+          "question": "According to Ms. Vega, what has contributed to the company's success?",
+          "options": [
+            "Low product prices",
+            "Direct partnerships with small farms",
+            "A large advertising budget",
+            "Its downtown locations"
+          ],
+          "answer": 1,
+          "explanation": "第二段 Vega 表示成長歸功於「direct partnerships with small farms」，以高於市價收購取得獨家豆源。",
+          "tip": "According to + 人名 → 找該人被引述（\"...\" she said）的那句話。"
+        },
+        {
+          "question": "What is indicated about Mr. Sato?",
+          "options": [
+            "He founded Cedar & Bean.",
+            "He previously operated a tea shop.",
+            "He will hire 120 employees.",
+            "He lives in Millbrook."
+          ],
+          "answer": 1,
+          "explanation": "第三段：Kenji Sato 三年前加入公司，之前「running his own tea shop」，曾自營茶店。",
+          "tip": "人物題把每個人名的修飾子句（who...）讀清楚，選項常把不同人的資訊互換設陷阱。"
+        },
+        {
+          "question": "The word \"performs\" in paragraph 4, line 1, is closest in meaning to",
+          "options": [
+            "acts on stage",
+            "operates successfully",
+            "completes a task",
+            "plays music"
+          ],
+          "answer": 1,
+          "explanation": "「if the Osaka café performs well」指店面「營運表現良好」，故與 operates successfully 最接近。",
+          "tip": "同義詞題一定要代回原句驗證，不要憑單字最常見的意思作答。"
+        }
+      ]
+    },
+    {
+      "id": "r7-07",
+      "part": 7,
+      "passageType": "double",
+      "typeLabel": "雙篇：郵件＋議程",
+      "passages": [
+        {
+          "label": "第一篇：研討會議程 (Schedule)",
+          "text": "GREENTECH SUMMIT 2026 — DAY 1 PROGRAM (October 15)\nHarborside Convention Center\n\n9:00 A.M. — Opening Keynote: The Future of Clean Energy (Main Hall)\n10:30 A.M. — Workshop A: Solar Solutions for Small Businesses (Room 201)\n10:30 A.M. — Workshop B: Green Building Materials (Room 202)\n1:00 P.M. — Panel Discussion: Financing Sustainable Startups (Main Hall)\n3:00 P.M. — Workshop C: Reducing Office Waste (Room 201)\n5:00 P.M. — Networking Reception (Rooftop Terrace)\n\nNote: Workshops are limited to 40 participants each and require advance sign-up through the summit mobile app."
+        },
+        {
+          "label": "第二篇：電子郵件 (E-mail)",
+          "text": "To: Priya Raman <p.raman@vextra.com>\nFrom: Daniel Kim <d.kim@vextra.com>\nDate: October 13\nSubject: Summit on Wednesday\n\nHi Priya,\n\nI've finished registering us both for the summit. I signed you up for the 10:30 session in Room 202 as you asked — my own first choice was already full, so I'll join the one on office waste in the afternoon instead.\n\nOne more thing: our CEO wants at least one of us at the finance panel to take notes, since we're looking for investors next year. Could you cover that? I have a client call at that time.\n\nI'll drive, so let's meet in the parking garage at 8:15. The keynote starts at nine and I don't want to miss the opening.\n\nDaniel"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What workshop did Ms. Raman ask to attend?",
+          "options": [
+            "Solar Solutions for Small Businesses",
+            "Green Building Materials",
+            "Reducing Office Waste",
+            "Financing Sustainable Startups"
+          ],
+          "answer": 1,
+          "explanation": "郵件說「I signed you up for the 10:30 session in Room 202」，對照議程 Room 202 的 10:30 場次是 Workshop B: Green Building Materials。",
+          "tip": "雙篇必考「跨篇對照」：郵件給房號＋時間，議程給場次名稱，兩篇拼起來才有答案。"
+        },
+        {
+          "question": "What is suggested about Workshop A?",
+          "options": [
+            "It was canceled.",
+            "It reached its participant limit.",
+            "It was moved to the Main Hall.",
+            "It requires an extra fee."
+          ],
+          "answer": 1,
+          "explanation": "Daniel 說「my own first choice was already full」，而他改去下午的 office waste 場（Workshop C），可推知他原本想參加的上午另一場 Workshop A 已額滿（每場限 40 人）。",
+          "tip": "suggested / implied 題要推論：full ＝ 達到 40 人上限的改寫。"
+        },
+        {
+          "question": "What does Mr. Kim ask Ms. Raman to do at 1:00 P.M.?",
+          "options": [
+            "Meet him in the parking garage",
+            "Take notes at the panel discussion",
+            "Call a client",
+            "Sign up for a workshop"
+          ],
+          "answer": 1,
+          "explanation": "郵件請 Priya 代表出席 finance panel 做筆記；對照議程，該座談時間為下午一點。",
+          "tip": "題目給時間、文章給活動名稱時，先回議程把時間換成活動，再回郵件找對應要求。"
+        },
+        {
+          "question": "Why does Mr. Kim want to arrive by 8:15 A.M.?",
+          "options": [
+            "To register for workshops",
+            "To avoid traffic",
+            "To be on time for the keynote",
+            "To reserve parking spaces"
+          ],
+          "answer": 2,
+          "explanation": "他說九點開場的 keynote「I don't want to miss the opening」，因此提早於 8:15 會合。",
+          "tip": "because/so 沒明寫時，看前後句的因果安排即可。"
+        },
+        {
+          "question": "In the e-mail, the word \"cover\" in paragraph 2, line 3, is closest in meaning to",
+          "options": [
+            "protect",
+            "handle",
+            "hide",
+            "include"
+          ],
+          "answer": 1,
+          "explanation": "「Could you cover that?」意為「你能負責／處理那件事嗎」，與 handle 同義。",
+          "tip": "cover 多義：報導、支付、代班、覆蓋。代回原句選最通順者。"
+        }
+      ]
+    },
+    {
+      "id": "r7-08",
+      "part": 7,
+      "passageType": "double",
+      "typeLabel": "雙篇：廣告＋郵件",
+      "passages": [
+        {
+          "label": "第一篇：網路廣告 (Advertisement)",
+          "text": "OFFICEPRO SUPPLY — SPRING CLEARANCE\n\nErgonomic task chair (Model TC-40): $129 (regularly $189)\nAdjustable standing desk (Model SD-12): $349 (regularly $449)\nLED desk lamp (Model DL-3): $39 (regularly $55)\nMonitor stand, bamboo (Model MS-7): $25 (regularly $40)\n\nOrders over $500 qualify for free delivery within the metropolitan area. All clearance items carry a one-year warranty. Returns accepted within 30 days of delivery; clearance items may be exchanged but are not eligible for cash refunds.\n\nOrder online at www.officeprosupply.com."
+        },
+        {
+          "label": "第二篇：電子郵件 (E-mail)",
+          "text": "To: Customer Service <service@officeprosupply.com>\nFrom: Marcus Hale <m.hale@bluefirm.com>\nDate: April 22\nSubject: Order #88214\n\nTo Whom It May Concern:\n\nOn April 15, I ordered two ergonomic task chairs, one adjustable standing desk, and one LED desk lamp for our new branch office. The order arrived promptly on April 18, and we were pleased that delivery was free of charge.\n\nHowever, when we unpacked the desk, we found that the height-adjustment motor does not work. Since your policy does not allow cash refunds on these items, I would like to exchange it for the same model. Could you also confirm whether the replacement will still be covered by the original warranty?\n\nPlease let me know how to proceed.\n\nMarcus Hale, Office Manager, Blue Firm Consulting"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the total regular price of one TC-40 chair and one DL-3 lamp?",
+          "options": [
+            "$168",
+            "$184",
+            "$229",
+            "$244"
+          ],
+          "answer": 3,
+          "explanation": "regularly（原價）：椅子 $189 + 檯燈 $55 = $244。注意題目問原價而非特價（$129+$39=$168 是陷阱）。",
+          "tip": "價格計算題先確認問的是 sale price 還是 regular price，再動手加。"
+        },
+        {
+          "question": "Why did Mr. Hale's order qualify for free delivery?",
+          "options": [
+            "He is a repeat customer.",
+            "His order total exceeded $500.",
+            "He ordered during a holiday promotion.",
+            "He picked up part of the order himself."
+          ],
+          "answer": 1,
+          "explanation": "跨篇對照：訂單為椅子×2（$258）＋站立桌 $349＋檯燈 $39 = $646，超過廣告的 $500 免運門檻。",
+          "tip": "雙篇經典題：郵件列品項、廣告列價格與門檻，必須自己算總額。"
+        },
+        {
+          "question": "What problem does Mr. Hale report?",
+          "options": [
+            "An item arrived later than promised.",
+            "A desk's motor is defective.",
+            "A chair was the wrong color.",
+            "He was charged for delivery."
+          ],
+          "answer": 1,
+          "explanation": "郵件第二段：站立桌的「height-adjustment motor does not work」，升降馬達故障。",
+          "tip": "However 之後才是問題所在，前面多半是鋪陳與客套。"
+        },
+        {
+          "question": "What does Mr. Hale request?",
+          "options": [
+            "A full cash refund",
+            "A discount on a future order",
+            "An exchange for the same model",
+            "A repair technician visit"
+          ],
+          "answer": 2,
+          "explanation": "因清倉商品不可退現金，他要求「exchange it for the same model」換同型號新品，並詢問保固是否延續。",
+          "tip": "request 題找 would like to / could you 開頭的句子。"
+        },
+        {
+          "question": "What is indicated about the clearance items?",
+          "options": [
+            "They can be returned for cash within 30 days.",
+            "They come with a one-year warranty.",
+            "They are only sold in stores.",
+            "They are limited to one per customer."
+          ],
+          "answer": 1,
+          "explanation": "廣告載明「All clearance items carry a one-year warranty」；清倉品可換貨但不可退現金，故 (A) 錯。",
+          "tip": "indicated 題逐選項回文驗證，一半選項會是把條款反過來寫的陷阱。"
+        }
+      ]
+    },
+    {
+      "id": "r7-09",
+      "part": 7,
+      "passageType": "triple",
+      "typeLabel": "三篇：郵件＋帳單＋政策",
+      "passages": [
+        {
+          "label": "第一篇：飯店政策 (Policy)",
+          "text": "LAKESIDE GRAND HOTEL — BILLING & CANCELLATION POLICY\n\n- Reservations canceled at least 48 hours before check-in incur no charge.\n- Cancellations within 48 hours of check-in are charged one night's room rate.\n- A $30 per night fee applies to rooms with lake-view upgrade.\n- Corporate-rate guests receive complimentary breakfast and free parking.\n- Disputed charges must be reported within 14 days of checkout by e-mailing billing@lakesidegrand.com."
+        },
+        {
+          "label": "第二篇：住宿帳單 (Invoice)",
+          "text": "LAKESIDE GRAND HOTEL — INVOICE #20941\nGuest: Sofia Marino, Corvex Industries (corporate rate)\nCheck-in: July 8 / Checkout: July 11 (3 nights)\n\nRoom charge (3 nights × $140): $420.00\nLake-view upgrade (3 nights × $30): $90.00\nBreakfast (3 × $18): $54.00\nParking (3 × $15): $45.00\nCity tax: $21.00\nTOTAL: $630.00"
+        },
+        {
+          "label": "第三篇：電子郵件 (E-mail)",
+          "text": "To: billing@lakesidegrand.com\nFrom: Sofia Marino <s.marino@corvex.com>\nDate: July 15\nSubject: Invoice #20941 — incorrect charges\n\nDear Billing Department,\n\nI stayed at your hotel from July 8 to July 11 under my company's corporate rate. While the room and upgrade charges are correct, my invoice includes two items that should not have been billed to me according to your own policy.\n\nI did enjoy the lake view very much — the upgrade was well worth it. However, I would appreciate a corrected invoice and a refund of the difference to my credit card.\n\nI am submitting this request today, four days after my checkout, so I trust it falls within the required reporting window.\n\nBest regards,\nSofia Marino"
+        }
+      ],
+      "questions": [
+        {
+          "question": "According to the policy, when can a guest cancel without being charged?",
+          "options": [
+            "At any time before check-in",
+            "At least 48 hours before check-in",
+            "Within 24 hours of booking",
+            "Before paying the deposit"
+          ],
+          "answer": 1,
+          "explanation": "政策第一條：入住前 48 小時以上取消不收費。",
+          "tip": "政策／規定類文章，題目多半照條列順序出，先掃條列再看題。"
+        },
+        {
+          "question": "Which charges does Ms. Marino most likely dispute?",
+          "options": [
+            "Room charge and city tax",
+            "Lake-view upgrade and parking",
+            "Breakfast and parking",
+            "Breakfast and lake-view upgrade"
+          ],
+          "answer": 2,
+          "explanation": "三篇對照：政策載明 corporate-rate 房客享免費早餐與免費停車，但帳單卻收了 Breakfast $54 與 Parking $45，郵件也說房費與升等費正確，故爭議項目是早餐與停車費。",
+          "tip": "三篇題王道：政策（該免費）＋帳單（卻收費）＋郵件（說哪些正確），三方交叉才鎖定答案。"
+        },
+        {
+          "question": "How much should Ms. Marino be refunded?",
+          "options": [
+            "$45.00",
+            "$54.00",
+            "$90.00",
+            "$99.00"
+          ],
+          "answer": 3,
+          "explanation": "早餐 $54 + 停車 $45 = $99 應退款。",
+          "tip": "退款金額題＝把上一題認定的錯誤項目加總，兩題通常連動。"
+        },
+        {
+          "question": "What is suggested about Ms. Marino's request?",
+          "options": [
+            "It was submitted within the reporting deadline.",
+            "It was sent to the wrong department.",
+            "It requires her manager's approval.",
+            "It arrived too late to be processed."
+          ],
+          "answer": 0,
+          "explanation": "退房日 7/11，郵件寄於 7/15（退房後四天），符合政策「14 天內申訴」的期限。",
+          "tip": "日期推算題把 checkout 日與寄信日圈起來相減，再對照政策天數。"
+        },
+        {
+          "question": "In the e-mail, what does Ms. Marino indicate about the lake-view upgrade?",
+          "options": [
+            "It was added by mistake.",
+            "It was worth the extra cost.",
+            "It should have been free.",
+            "It was not available."
+          ],
+          "answer": 1,
+          "explanation": "她寫道「the upgrade was well worth it」，認為升等值回票價，且未對此費用提出異議。",
+          "tip": "別假設客訴信裡每個項目都在抱怨；先確認作者對各項目的態度。"
+        }
+      ]
+    }
   ]
 }

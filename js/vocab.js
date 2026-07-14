@@ -233,7 +233,7 @@ function startSession(container, pack, vocabData) {
         <h3>要不要挑戰更多題目？</h3>
         <button class="btn task-btn" data-go="grammar">📝 來一回文法測驗 →</button>
         <button class="btn task-btn" data-go="listening">🎧 練一題聽力 →</button>
-        <button class="btn task-btn" data-go="exam">🎯 挑戰迷你模擬考 →</button>
+        <button class="btn task-btn" data-go="exam">🎯 挑戰半份模擬考 →</button>
         <button class="btn task-btn" id="back-btn">📚 回單字包列表</button>
       </div>`;
     container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => navigate(b.dataset.go)));
