@@ -286,7 +286,7 @@ function renderPlayer(container, item, listeningData, ctx = null) {
           <p class="fb-verdict ok">🎉 這一區的題目全部完成！要不要挑戰更多？</p>
           <button class="btn task-btn" data-go="grammar">📝 來一回文法測驗 →</button>
           <button class="btn task-btn" data-go="vocab">📚 複習單字 →</button>
-          <button class="btn task-btn" data-go="exam">🎯 挑戰半份模擬考 →</button>
+          <button class="btn task-btn" data-go="exam">🎯 挑戰模擬考（迷你/半份）→</button>
           <button class="btn task-btn" id="back-list">🎧 返回列表</button>`;
       }
 

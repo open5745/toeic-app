@@ -1,6 +1,6 @@
-// 考試模式：半份多益模擬考（題數與時間皆為正式考試的一半）
-// 正式多益：200 題 / 120 分鐘 → 本模式：100 題 / 60 分鐘
-// 聽力 50 題（音檔只播一次、原速、無逐字稿）→ 閱讀 50 題（限時 37:30，時間到自動交卷）→ 成績與錯題檢討
+// 考試模式：兩種模擬考，流程皆同正式多益（聽力只播一次 → 閱讀限時 → 交卷檢討）
+// 迷你：20 題，隨時可做的快速手感測試
+// 半份：題數與時間皆為正式考試的一半（正式 200 題 / 120 分鐘 → 100 題 / 60 分鐘）
 import { speakSequence, stopSpeaking, speechAvailable, speakerVoiceOpts } from './speech.js';
 import { recordActivity } from './streak.js';
 import { navigate } from './app.js';
@@ -8,13 +8,31 @@ import { SCENES } from './scenes.js';
 
 const LETTERS = ['A', 'B', 'C', 'D'];
 
-// 各 Part 題數 = 正式多益的一半（四捨五入）
-// 聽力：P1 6→3、P2 25→13、P3 39→19、P4 30→15（共 50）
-// 閱讀：P5 30→15、P6 16→8、P7 54→27（共 50）
-const LISTENING_SPEC = { 1: 3, 2: 13, 3: 19, 4: 15 };
-const READING_SPEC = { 5: 15, 6: 8 };
-const P7_COUNT = 27;
-const READING_SECONDS = Math.round((75 * 60) / 2); // 正式閱讀 75 分鐘的一半 = 37 分 30 秒
+// listening / reading 為各 Part 題數；p7 為 Part 7 題數；seconds 為閱讀限時
+// 半份 = 正式多益的一半（四捨五入）：聽力 P1 6→3、P2 25→13、P3 39→19、P4 30→15；
+// 閱讀 P5 30→15、P6 16→8、P7 54→27；閱讀 75 分鐘 → 37 分 30 秒
+const MODES = {
+  mini: {
+    name: '迷你模擬考',
+    icon: '⚡',
+    desc: '20 題快速測驗，隨時保持手感。',
+    listening: { 1: 1, 2: 3, 3: 3, 4: 1 },
+    reading: { 5: 8, 6: 2 },
+    p7: 2,
+    seconds: 8 * 60,
+    timeNote: '',
+  },
+  half: {
+    name: '半份模擬考',
+    icon: '🎯',
+    desc: '題數與時間都是正式考試的一半，完整走過 Part 1～7，考前衝刺用。',
+    listening: { 1: 3, 2: 13, 3: 19, 4: 15 },
+    reading: { 5: 15, 6: 8 },
+    p7: 27,
+    seconds: Math.round((75 * 60) / 2),
+    timeNote: '（正式 75 分鐘的一半）',
+  },
+};
 
 function shuffle(arr) {
   const a = [...arr];
@@ -71,40 +89,51 @@ export function renderExam(container, data) {
   stopSpeaking();
   clearTimer();
   const p7Sets = data.grammar.reading7 || [];
-  const nL = Object.entries(LISTENING_SPEC).reduce(
-    (sum, [part, n]) => sum + Math.min(n, data.listening.items.filter((q) => q.part === Number(part)).length), 0);
-  const nP56 = Object.entries(READING_SPEC).reduce(
-    (sum, [part, n]) => sum + Math.min(n, data.grammar.questions.filter((q) => q.part === Number(part)).length), 0);
-  const nP7 = Math.min(P7_COUNT, p7Sets.reduce((s, x) => s + x.questions.length, 0));
-  const nR = nP56 + nP7;
+
+  // 依題庫實際存量計算可出題數（不足 spec 時抽到多少算多少）
+  function counts(mode) {
+    const nL = Object.entries(mode.listening).reduce(
+      (sum, [part, n]) => sum + Math.min(n, data.listening.items.filter((q) => q.part === Number(part)).length), 0);
+    const nP56 = Object.entries(mode.reading).reduce(
+      (sum, [part, n]) => sum + Math.min(n, data.grammar.questions.filter((q) => q.part === Number(part)).length), 0);
+    const nP7 = Math.min(mode.p7, p7Sets.reduce((s, x) => s + x.questions.length, 0));
+    return { nL, nR: nP56 + nP7, nP7 };
+  }
+
+  const modeCards = Object.entries(MODES).map(([key, m]) => {
+    const { nL, nR, nP7 } = counts(m);
+    return `
+    <div class="card">
+      <h3>${m.icon} ${m.name}（${nL + nR} 題）</h3>
+      <p class="hint">${m.desc}</p>
+      <ul class="rule-list">
+        <li>🎧 聽力 ${nL} 題：P1 照片描述 ${m.listening[1]}・P2 應答問題 ${m.listening[2]}・P3 簡短對話 ${m.listening[3]}・P4 簡短獨白 ${m.listening[4]}</li>
+        <li>📖 閱讀 ${nR} 題：P5 單句填空 ${m.reading[5]}・P6 段落填空 ${m.reading[6]}・P7 閱讀測驗 ${nP7}</li>
+        <li>⏱ 閱讀限時 <b>${fmt(m.seconds)}</b>${m.timeNote}，時間到自動交卷</li>
+      </ul>
+      <button class="btn btn-primary btn-block start-exam" data-mode="${key}">開始${m.name}</button>
+    </div>`;
+  }).join('');
 
   container.innerHTML = `
     <h2>🎯 考試模式</h2>
-    <p class="hint">半份多益模擬考：題數與時間都是正式考試的一半，完整走過 Part 1～7。</p>
+    <p class="hint">模擬正式多益流程：音檔<b>只播放一次</b>、原速、無逐字稿；Part 1、2 依正式規則<b>不顯示選項文字</b>；作答過程不顯示對錯，交卷後統一檢討。</p>
     ${speechAvailable() ? '' : '<p class="warn">⚠️ 此瀏覽器不支援語音合成，聽力部分無法播放。</p>'}
-    <div class="card">
-      <h3>考試規則（正式多益的一半）</h3>
-      <ul class="rule-list">
-        <li>🎧 聽力 ${nL} 題：Part 1 照片描述 ${LISTENING_SPEC[1]} 題・Part 2 應答問題 ${LISTENING_SPEC[2]} 題・Part 3 簡短對話 ${LISTENING_SPEC[3]} 題・Part 4 簡短獨白 ${LISTENING_SPEC[4]} 題</li>
-        <li>🔇 音檔<b>只播放一次</b>、固定原速、不提供逐字稿；Part 1、2 依正式規則<b>不顯示選項文字</b></li>
-        <li>📖 閱讀 ${nR} 題：Part 5 單句填空 ${READING_SPEC[5]} 題・Part 6 段落填空 ${READING_SPEC[6]} 題・Part 7 閱讀測驗 ${nP7} 題</li>
-        <li>⏱ 閱讀限時 <b>${fmt(READING_SECONDS)}</b>（正式 75 分鐘的一半），時間到自動交卷，可自行分配各題時間</li>
-        <li>🤐 作答過程不顯示對錯，交卷後統一檢討</li>
-      </ul>
-      <button class="btn btn-primary btn-block" id="start-exam">開始模擬考（${nL + nR} 題）</button>
-    </div>`;
+    ${modeCards}`;
 
-  container.querySelector('#start-exam').addEventListener('click', () => startExam(container, data));
+  container.querySelectorAll('.start-exam').forEach((btn) => {
+    btn.addEventListener('click', () => startExam(container, data, MODES[btn.dataset.mode]));
+  });
 }
 
-function startExam(container, data) {
-  const listeningQs = pickByPart(data.listening.items, LISTENING_SPEC);
+function startExam(container, data, mode) {
+  const listeningQs = pickByPart(data.listening.items, mode.listening);
   const readingQs = [
-    ...pickByPart(data.grammar.questions, READING_SPEC),
-    ...pickPart7(data.grammar.reading7 || [], P7_COUNT),
+    ...pickByPart(data.grammar.questions, mode.reading),
+    ...pickPart7(data.grammar.reading7 || [], mode.p7),
   ];
   const answers = { listening: [], reading: [] };
-  let remaining = READING_SECONDS;
+  let remaining = mode.seconds;
 
   function quitBar(label) {
     return `<button class="link-btn" id="quit-btn">← 放棄考試</button><span class="progress-text">${label}</span>`;
@@ -251,7 +280,7 @@ function startExam(container, data) {
       </div>`;
 
     container.querySelector('#review-btn').addEventListener('click', showReview);
-    container.querySelector('#retry-btn').addEventListener('click', () => startExam(container, data));
+    container.querySelector('#retry-btn').addEventListener('click', () => startExam(container, data, mode));
     container.querySelector('#home-btn').addEventListener('click', () => navigate('home'));
 
     function showReview() {
@@ -277,7 +306,7 @@ function startExam(container, data) {
         <button class="btn btn-primary btn-block" id="retry-btn2">再考一次</button>`;
 
       container.querySelector('#back-result').addEventListener('click', () => showResult(timedOut));
-      container.querySelector('#retry-btn2').addEventListener('click', () => startExam(container, data));
+      container.querySelector('#retry-btn2').addEventListener('click', () => startExam(container, data, mode));
       window.scrollTo(0, 0);
     }
 

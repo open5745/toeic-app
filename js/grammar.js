@@ -189,7 +189,7 @@ function startQuiz(container, grammarData, quizLen = 10, pool = null, catName = 
         <h3>要不要挑戰更多題目？</h3>
         <button class="btn task-btn" data-go="vocab">📚 複習單字 →</button>
         <button class="btn task-btn" data-go="listening">🎧 練一題聽力 →</button>
-        <button class="btn task-btn" data-go="exam">🎯 挑戰半份模擬考 →</button>
+        <button class="btn task-btn" data-go="exam">🎯 挑戰模擬考（迷你/半份）→</button>
       </div>`;
     container.querySelector('#again-btn').addEventListener('click', () => startQuiz(container, grammarData, quizLen, pool, catName));
     container.querySelector('#back-btn').addEventListener('click', () => renderGrammar(container, grammarData));

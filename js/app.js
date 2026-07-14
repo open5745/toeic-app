@@ -165,8 +165,8 @@ function renderHome(container) {
     </div>
     <div class="card home-card">
       <h3 class="home-h3">🎯 考試模式</h3>
-      <p class="hint">半份多益模擬考（100 題 / 60 分鐘）：聽力只播一次、閱讀限時作答，考前衝刺專用。</p>
-      <button class="btn exam-btn task-btn" data-go="exam">開始半份模擬考 →</button>
+      <p class="hint">⚡ 迷你模擬考（20 題）隨時保持手感；🎯 半份模擬考（100 題 / 60 分鐘）考前衝刺。聽力只播一次、閱讀限時作答。</p>
+      <button class="btn exam-btn task-btn" data-go="exam">進入考試模式 →</button>
     </div>`;
 
   container.querySelectorAll('[data-go]').forEach((btn) => {
