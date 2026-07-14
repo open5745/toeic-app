@@ -62,6 +62,11 @@ function pickByPart(items, spec) {
 // Part 7 以「題組」為單位抽選：單篇 → 雙篇 → 三篇（同正式考試順序），攤平後裁到目標題數
 function pickPart7(sets, count) {
   const order = { single: 0, double: 1, triple: 2 };
+  // 題數很少（迷你模擬考）時只抽單篇，避免為了兩題讀雙篇、三篇長文
+  if (count <= 4) {
+    const singles = sets.filter((s) => s.passageType === 'single');
+    if (singles.length) sets = singles;
+  }
   const chosen = [];
   let total = 0;
   for (const s of shuffle(sets)) {
@@ -174,6 +179,7 @@ function startExam(container, data, mode) {
       </div>`;
 
     bindQuit();
+    window.scrollTo(0, 0);
     // Part 2 需補播三個回應選項（題庫音檔只含問題句）
     const toSpeak = q.sentences.map((s) => ({ text: s.text, ...speakerVoiceOpts(s.speaker) }));
     if (isP2) {

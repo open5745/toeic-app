@@ -178,7 +178,7 @@ function renderPlayer(container, item, listeningData, ctx = null) {
       (s, i) => `
       <div class="sentence-row">
         <button class="btn sentence-play" data-i="${i}">▶</button>
-        <span class="sentence-text masked" data-text-i="${i}">${s.speaker !== 'N' && s.speaker !== 'Q' ? `<b>${s.speaker === 'M' ? '男' : '女'}：</b>` : ''}${s.text}</span>
+        <span class="sentence-text masked" data-text-i="${i}">${s.speaker !== 'N' && s.speaker !== 'Q' ? `<b>${s.speaker.startsWith('M') ? '男' : '女'}：</b>` : ''}${s.text}</span>
       </div>`
     )
     .join('');

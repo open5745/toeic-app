@@ -42,7 +42,13 @@ export function renderSettings(container) {
     if (enabled && 'Notification' in window && Notification.permission === 'default') {
       await Notification.requestPermission();
     }
-    save(KEY, { ...getReminder(), enabled, time, message });
+    // 若設定的時間今天已過，跳過今天的提醒，避免一儲存就立刻跳通知
+    const [hh, mm] = time.split(':').map(Number);
+    const now = new Date();
+    const passedToday = now.getHours() > hh || (now.getHours() === hh && now.getMinutes() >= mm);
+    const prev = getReminder();
+    const lastFired = enabled && passedToday ? todayStr() : prev.lastFired;
+    save(KEY, { ...prev, enabled, time, message, lastFired });
     container.querySelector('#perm-status').textContent =
       permissionText('Notification' in window ? Notification.permission : 'unsupported') + '　✅ 已儲存';
   });
