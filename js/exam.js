@@ -5,8 +5,9 @@ import { speakSequence, stopSpeaking, speechAvailable, speakerVoiceOpts } from '
 import { recordActivity } from './streak.js';
 import { navigate } from './app.js';
 import { SCENES } from './scenes.js';
-
-const LETTERS = ['A', 'B', 'C', 'D'];
+import { LETTERS, shuffle } from './util.js';
+import { buildDict } from './dict.js';
+import { playSoftClick, playSelectOption, playSuccess } from './sound.js';
 
 // listening / reading 為各 Part 題數；p7 為 Part 7 題數；seconds 為閱讀限時
 // 半份 = 正式多益的一半（四捨五入）：聽力 P1 6→3、P2 25→13、P3 39→19、P4 30→15；
@@ -33,15 +34,6 @@ const MODES = {
     timeNote: '（正式 75 分鐘的一半）',
   },
 };
-
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
 
 function fmt(sec) {
   const m = String(Math.floor(Math.max(0, sec) / 60)).padStart(2, '0');
@@ -122,7 +114,7 @@ export function renderExam(container, data) {
 
   container.innerHTML = `
     <h2>🎯 考試模式</h2>
-    <p class="hint">模擬正式多益流程：音檔<b>只播放一次</b>、原速、無逐字稿；Part 1、2 依正式規則<b>不顯示選項文字</b>；作答過程不顯示對錯，交卷後統一檢討。</p>
+    <p class="hint">模擬正式多益流程：音檔<b>只播放一次</b>、原速、無逐字稿；作答過程不顯示對錯，交卷後統一檢討。</p>
     ${speechAvailable() ? '' : '<p class="warn">⚠️ 此瀏覽器不支援語音合成，聽力部分無法播放。</p>'}
     ${modeCards}`;
 
@@ -157,11 +149,9 @@ function startExam(container, data, mode) {
     if (i >= listeningQs.length) return startReading();
     const q = listeningQs[i];
 
-    // Part 1 照片描述：顯示照片，四句描述只播音不顯示文字（同真實考試）
-    // Part 2 應答問題：無圖片、無文字題幹，只顯示 A/B/C 按鈕，問題與三個回應皆只播音（同真實考試）
+    // Part 1 照片描述：顯示照片；Part 2 應答問題：問題只播音、無文字題幹
     const isP1 = q.part === 1;
     const isP2 = q.part === 2;
-    const masked = isP1 || isP2;
     const sceneHtml = isP1 && SCENES[q.scene] ? `<div class="scene-box">${SCENES[q.scene]}</div>` : '';
     const qText = isP2 ? '請聽問題與三個回應，選出最合適的應答。' : q.question;
 
@@ -171,10 +161,14 @@ function startExam(container, data, mode) {
         <p class="hint">🎧 音檔只播放一次，請仔細聆聽（${q.accentLabel}口音）</p>
         ${sceneHtml}
         <p class="q-text">${qText}</p>
-        <div class="option-list${masked ? ' p1-hidden' : ''}">
+        <div class="option-list">
           ${q.options
-            .map((opt, oi) => `<button class="btn option-btn" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span><span class="${masked ? 'masked-opt' : ''}">${opt}</span></button>`)
+            .map((opt, oi) => `<button class="btn option-btn ${answers.listening[i] === oi ? 'opt-selected' : ''}" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span><span>${opt}</span></button>`)
             .join('')}
+        </div>
+        <div class="exam-nav">
+          ${i > 0 ? `<button class="btn" id="prev-btn">上一題</button>` : '<div></div>'}
+          <button class="btn btn-primary" id="next-btn" style="background: var(--primary); color: white; border: none;">${i === listeningQs.length - 1 ? '進入閱讀測驗' : '下一題'}</button>
         </div>
       </div>`;
 
@@ -189,10 +183,26 @@ function startExam(container, data, mode) {
 
     container.querySelectorAll('.option-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
-        stopSpeaking();
+        container.querySelectorAll('.option-btn').forEach(b => b.classList.remove('opt-selected'));
+        btn.classList.add('opt-selected');
         answers.listening[i] = Number(btn.dataset.i);
-        showListening(i + 1);
+        playSelectOption();
       });
+    });
+
+    const prevBtn = container.querySelector('#prev-btn');
+    if (prevBtn) {
+      prevBtn.addEventListener('click', () => {
+        stopSpeaking();
+        playSoftClick();
+        showListening(i - 1);
+      });
+    }
+
+    container.querySelector('#next-btn').addEventListener('click', () => {
+      stopSpeaking();
+      playSoftClick();
+      showListening(i + 1);
     });
   }
 
@@ -244,8 +254,12 @@ function startExam(container, data, mode) {
         <p class="q-text">${q.question.replace(/\n/g, '<br>')}${qNoInSet}</p>
         <div class="option-list">
           ${q.options
-            .map((opt, oi) => `<button class="btn option-btn" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span>${opt}</button>`)
+            .map((opt, oi) => `<button class="btn option-btn ${answers.reading[i] === oi ? 'opt-selected' : ''}" data-i="${oi}"><span class="opt-letter">${LETTERS[oi]}</span><span>${opt}</span></button>`)
             .join('')}
+        </div>
+        <div class="exam-nav">
+          <button class="btn" id="prev-btn">${i === 0 ? '回聽力測驗' : '上一題'}</button>
+          <button class="btn btn-primary" id="next-btn" style="background: var(--primary); color: white; border: none;">${i === readingQs.length - 1 ? '交卷' : '下一題'}</button>
         </div>
       </div>`;
 
@@ -255,14 +269,66 @@ function startExam(container, data, mode) {
 
     container.querySelectorAll('.option-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
+        container.querySelectorAll('.option-btn').forEach(b => b.classList.remove('opt-selected'));
+        btn.classList.add('opt-selected');
         answers.reading[i] = Number(btn.dataset.i);
-        showReading(i + 1);
+        playSelectOption();
       });
+    });
+
+    container.querySelector('#prev-btn').addEventListener('click', () => {
+      playSoftClick();
+      if (i === 0) showListening(listeningQs.length - 1);
+      else showReading(i - 1);
+    });
+
+    container.querySelector('#next-btn').addEventListener('click', () => {
+      playSoftClick();
+      if (i === readingQs.length - 1) {
+        confirmSubmit();
+      } else {
+        showReading(i + 1);
+      }
+    });
+  }
+
+  let submitDialog = null;
+  function confirmSubmit() {
+    if (submitDialog) return;
+    submitDialog = document.createElement('div');
+    submitDialog.innerHTML = `
+      <div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background: rgba(0,0,0,0.5); z-index: 9999; display: grid; place-items: center; padding: 24px; opacity: 0; animation: splash-fade-in 0.3s forwards;">
+        <div style="background: var(--bg); padding: 32px 24px; border-radius: 24px; text-align: center; max-width: 320px; width: 100%; box-shadow: 0 12px 24px rgba(0,0,0,0.1);">
+          <div style="font-size: 3rem; margin-bottom: 16px;">📝</div>
+          <h3 style="font-size: 1.25rem; margin-bottom: 12px; color: var(--text); font-weight: 600;">確定交卷嗎？</h3>
+          <p style="color: var(--text-soft); margin-bottom: 24px; font-size: 0.95rem; line-height: 1.5;">時間到了就無法再修改答案囉！</p>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+            <button class="btn" id="btn-no" style="padding: 12px; border-radius: 99px;">再檢查一下</button>
+            <button class="btn btn-primary" id="btn-yes" style="padding: 12px; border-radius: 99px; background: var(--primary); color: white; border: none;">確定交卷</button>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(submitDialog);
+    submitDialog.querySelector('#btn-no').addEventListener('click', () => {
+      submitDialog.remove();
+      submitDialog = null;
+    });
+    submitDialog.querySelector('#btn-yes').addEventListener('click', () => {
+      submitDialog.remove();
+      submitDialog = null;
+      playSuccess();
+      showResult(false);
     });
   }
 
   // ---- 成績 ----
   function showResult(timedOut) {
+    if (submitDialog) {
+      submitDialog.remove();
+      submitDialog = null;
+      if (timedOut) playSuccess();
+    }
     clearTimer();
     stopSpeaking();
     const lCorrect = listeningQs.filter((q, i) => answers.listening[i] === q.answer).length;

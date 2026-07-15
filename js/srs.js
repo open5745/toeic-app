@@ -21,7 +21,7 @@ export function review(state, grade, now = new Date()) {
     s.intervalDays = 0; // 今天之內再出現
   } else if (s.intervalDays === 0) {
     // 學習階段第一次答對
-    s.intervalDays = grade === GRADE.EASY ? 4 : grade === GRADE.GOOD ? 1 : 1;
+    s.intervalDays = grade === GRADE.EASY ? 4 : 1;
     if (grade === GRADE.HARD) s.ease = Math.max(1.3, s.ease - 0.15);
     if (grade === GRADE.EASY) s.ease += 0.15;
   } else {
@@ -47,12 +47,4 @@ export function review(state, grade, now = new Date()) {
 // 卡片今天是否到期（due <= 今天，字串比較對 YYYY-MM-DD 有效）
 export function isDue(state, today = todayStr()) {
   return state.due <= today;
-}
-
-// 從卡片狀態表挑出今日待複習的單字 id；新卡（無狀態）也視為到期
-export function dueWordIds(allWordIds, cardStates, today = todayStr()) {
-  return allWordIds.filter((id) => {
-    const st = cardStates[id];
-    return !st || isDue(st, today);
-  });
 }

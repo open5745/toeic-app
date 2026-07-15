@@ -5,8 +5,11 @@ import { load, save } from './storage.js';
 import { quota, addExtra, extraButtonLabel } from './plan.js';
 import { navigate } from './app.js';
 import { SCENES } from './scenes.js';
+import { LETTERS } from './util.js';
+import { tappable, bindTapWords } from './tapword.js';
+import { recordHistory } from './history.js';
+import { playSoftClick, playSelectOption, playCorrect, playError } from './sound.js';
 
-const LETTERS = ['A', 'B', 'C', 'D'];
 const DONE_KEY = 'listeningDone';
 
 // 口音分類（聽力首頁的入口格子）
@@ -54,10 +57,14 @@ export function renderListening(container, listeningData) {
         <button class="btn task-btn" data-go="exam">🎯 考試模式（不受份量限制）→</button>
       </div>`;
     container.querySelector('#add-extra').addEventListener('click', () => {
+      playSoftClick();
       addExtra();
       renderListening(container, listeningData);
     });
-    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => navigate(b.dataset.go)));
+    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => {
+      playSoftClick();
+      navigate(b.dataset.go);
+    }));
     return;
   }
 
@@ -92,6 +99,7 @@ export function renderListening(container, listeningData) {
     <div class="pack-grid">${accentTiles}</div>`;
 
   container.querySelector('#random-item').addEventListener('click', () => {
+    playSoftClick();
     const unseen = listeningData.items.filter((it) => !done.has(it.id));
     const pool = unseen.length ? unseen : listeningData.items;
     const item = pool[Math.floor(Math.random() * pool.length)];
@@ -100,6 +108,7 @@ export function renderListening(container, listeningData) {
 
   container.querySelectorAll('[data-accent]').forEach((btn) => {
     btn.addEventListener('click', () => {
+      playSoftClick();
       const acc = ACCENTS.find((a) => a.code === btn.dataset.accent);
       renderGroupList(container, listeningData, {
         icon: acc.flag,
@@ -110,6 +119,7 @@ export function renderListening(container, listeningData) {
   });
   container.querySelectorAll('[data-part]').forEach((btn) => {
     btn.addEventListener('click', () => {
+      playSoftClick();
       const p = PARTS.find((x) => x.part === Number(btn.dataset.part));
       renderGroupList(container, listeningData, {
         icon: p.icon,
@@ -151,14 +161,19 @@ function renderGroupList(container, listeningData, group) {
     <button class="btn btn-primary btn-block" id="random-group" style="margin-bottom:12px">🎲 隨機一題（此分類，未做過優先）</button>
     <div class="pack-list">${itemsHtml}</div>`;
 
-  container.querySelector('#back-btn').addEventListener('click', () => renderListening(container, listeningData));
+  container.querySelector('#back-btn').addEventListener('click', () => {
+    playSoftClick();
+    renderListening(container, listeningData);
+  });
   container.querySelector('#random-group').addEventListener('click', () => {
+    playSoftClick();
     const pool = undone.length ? undone : items;
     const item = pool[Math.floor(Math.random() * pool.length)];
     renderPlayer(container, item, listeningData, ctx);
   });
   container.querySelectorAll('.pack-card').forEach((btn) => {
     btn.addEventListener('click', () => {
+      playSoftClick();
       const item = items.find((it) => it.id === btn.dataset.item);
       renderPlayer(container, item, listeningData, ctx);
     });
@@ -192,7 +207,7 @@ function renderPlayer(container, item, listeningData, ctx = null) {
       <button class="link-btn" id="back-btn">← 返回</button>
       <span class="progress-text">Part ${item.part}・${item.accentLabel}口音</span>
     </div>
-    <div class="card">
+    <div class="card card-enter">
       <h3>${item.title}</h3>
       ${sceneHtml}
       <div class="player-controls">
@@ -207,24 +222,30 @@ function renderPlayer(container, item, listeningData, ctx = null) {
     </div>
     <div class="card">
       <p class="q-text">${item.question}</p>
-      <div class="option-list${item.part === 1 ? ' p1-hidden' : ''}">
+      <div class="option-list">
         ${item.options
-          .map((opt, i) => `<button class="btn option-btn" data-i="${i}"><span class="opt-letter">${LETTERS[i]}</span><span class="opt-en masked-opt">${opt}</span></button>`)
+          .map((opt, i) => `<button class="btn option-btn" data-i="${i}"><span class="opt-letter">${LETTERS[i]}</span><span class="opt-en">${opt}</span></button>`)
           .join('')}
       </div>
+      <button class="btn btn-primary btn-block" id="confirm-btn" disabled>確認答案</button>
       <div id="feedback" class="hidden"></div>
     </div>`;
 
   const speakOpts = () => ({ lang: item.accent, rate });
 
   container.querySelector('#back-btn').addEventListener('click', () => {
+    playSoftClick();
     stopSpeaking();
     goBack();
   });
   container.querySelector('#play-all').addEventListener('click', () => {
+    playSoftClick();
     speakSequence(item.sentences.map((s) => ({ text: s.text, ...speakerVoiceOpts(s.speaker) })), speakOpts());
   });
-  container.querySelector('#stop-play').addEventListener('click', stopSpeaking);
+  container.querySelector('#stop-play').addEventListener('click', () => {
+    playSoftClick();
+    stopSpeaking();
+  });
 
   container.querySelector('#rate-slider').addEventListener('input', (e) => {
     rate = Number(e.target.value);
@@ -246,24 +267,37 @@ function renderPlayer(container, item, listeningData, ctx = null) {
     });
   });
 
+  // 兩段式作答：先點選項（可換），再按「確認答案」才判分
+  let picked = null;
+
   container.querySelectorAll('.option-btn').forEach((btn) => {
     btn.addEventListener('click', () => {
       if (answered) return;
+      playSelectOption();
+      picked = Number(btn.dataset.i);
+      container.querySelectorAll('.option-btn').forEach((b) => b.classList.remove('opt-selected'));
+      btn.classList.add('opt-selected');
+      container.querySelector('#confirm-btn').disabled = false;
+    });
+  });
+
+  container.querySelector('#confirm-btn').addEventListener('click', () => {
+      if (picked === null || answered) return;
       answered = true;
-      const picked = Number(btn.dataset.i);
       const isCorrect = picked === item.answer;
+      if (isCorrect) playCorrect(); else playError();
       recordActivity('listening');
+      recordHistory('listening', item.id, item.sentences[0].text, item.title);
       markDone(item.id);
 
+      container.querySelector('#confirm-btn').remove();
       container.querySelectorAll('.option-btn').forEach((b) => {
         b.disabled = true;
+        b.classList.remove('opt-selected');
         const i = Number(b.dataset.i);
         if (i === item.answer) b.classList.add('opt-correct');
         else if (i === picked) b.classList.add('opt-wrong');
       });
-      // Part 1：作答後才顯示四句描述的文字
-      container.querySelectorAll('.p1-hidden').forEach((el) => el.classList.remove('p1-hidden'));
-
       const fb = container.querySelector('#feedback');
       fb.classList.remove('hidden');
       const quotaReached = todayCount('listening') >= quota('listening');
@@ -295,11 +329,16 @@ function renderPlayer(container, item, listeningData, ctx = null) {
         <p class="fb-explanation"><b>選項翻譯：</b>${item.optionsZh.map((z, i) => `(${LETTERS[i]}) ${z}`).join('　')}</p>
         <p class="fb-explanation"><b>中文語意：</b>${item.transcriptZh}</p>
         <p class="fb-tip">💡 破題技巧：${item.tip}</p>
+        <p class="tap-hint">👆 英文逐字稿（點單字可發音並查看意思）</p>
+        <div class="fb-example">${item.sentences.map((s) => tappable(s.text)).join('<br>')}</div>
+        <div class="word-pop hidden" id="word-pop"></div>
         ${footerHtml}`;
+      bindTapWords(fb, fb.querySelector('#word-pop'));
 
       const nextBtn = fb.querySelector('#next-item');
       if (nextBtn) {
         nextBtn.addEventListener('click', () => {
+          playSoftClick();
           stopSpeaking();
           renderPlayer(container, nextItem, listeningData, ctx);
         });
@@ -307,17 +346,21 @@ function renderPlayer(container, item, listeningData, ctx = null) {
       const extraBtn = fb.querySelector('#add-extra');
       if (extraBtn) {
         extraBtn.addEventListener('click', () => {
+          playSoftClick();
           addExtra();
           stopSpeaking();
           renderListening(container, listeningData);
         });
       }
-      fb.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => navigate(b.dataset.go)));
+      fb.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => {
+        playSoftClick();
+        navigate(b.dataset.go);
+      }));
       const backBtn = fb.querySelector('#back-list');
       if (backBtn) backBtn.addEventListener('click', () => {
+        playSoftClick();
         stopSpeaking();
         goBack();
       });
-    });
   });
 }

@@ -1,5 +1,5 @@
 // Service Worker：離線快取（App Shell + 內容資料）
-const CACHE = 'tla-v10';
+const CACHE = 'tla-v31';
 const ASSETS = [
   './',
   './index.html',
@@ -17,6 +17,12 @@ const ASSETS = [
   './js/exam.js',
   './js/plan.js',
   './js/dict.js',
+  './js/util.js',
+  './js/tapword.js',
+  './js/history.js',
+  './js/sound.js',
+  './js/swipe.js',
+  './js/stats.js',
   './data/vocab.json',
   './data/grammar.json',
   './data/listening.json',

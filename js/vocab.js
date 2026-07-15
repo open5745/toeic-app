@@ -4,30 +4,37 @@ import { GRADE, newCardState, review, isDue } from './srs.js';
 import { speak, speechAvailable } from './speech.js';
 import { recordActivity, todayCount } from './streak.js';
 import { quota, addExtra, extraButtonLabel } from './plan.js';
-import { buildDict, lookupWord } from './dict.js';
+import { tappable, bindTapWords } from './tapword.js';
+import { recordHistory } from './history.js';
 import { navigate } from './app.js';
+import { shuffle } from './util.js';
+import { playSoftClick } from './sound.js';
+import { attachSwipe } from './swipe.js';
 
 const SRS_KEY = 'srs';
+const SWIPE_INTRO_KEY = 'swipeIntroSeen';
 
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-// 例句裡的英文單字包成可點擊的 span
-function tappable(text) {
-  return text
-    .split(/(\s+)/)
-    .map((tok) => (/[A-Za-z]/.test(tok) ? `<span class="tap-word">${tok}</span>` : tok))
-    .join('');
+// 首次進入單字卡時顯示滑動手勢教學，看過一次就不再出現
+function showSwipeIntroOnce(container) {
+  if (load(SWIPE_INTRO_KEY, false)) return;
+  const overlay = document.createElement('div');
+  overlay.className = 'swipe-intro';
+  overlay.innerHTML = `
+    <div class="swipe-intro-box">
+      <h3>單字卡可以用滑的！</h3>
+      <div class="swipe-intro-row"><span class="intro-arrow intro-ng">←</span>太難，稍後再出一次</div>
+      <div class="swipe-intro-row"><span class="intro-arrow intro-ok">→</span>記得了，交給排程複習</div>
+      <p class="hint" style="margin: 12px 0 16px">不用先看答案也能滑。<br>想看中文與例句，點卡片下方「顯示答案」。</p>
+      <button class="btn btn-primary btn-block" id="intro-ok">知道了</button>
+    </div>`;
+  document.body.appendChild(overlay);
+  overlay.querySelector('#intro-ok').addEventListener('click', () => {
+    save(SWIPE_INTRO_KEY, true);
+    overlay.remove();
+  });
 }
 
 export function renderVocab(container, vocabData) {
-  buildDict(vocabData);
   const states = load(SRS_KEY, {});
   const newDone = todayCount('vocabNew');
   const newQuota = quota('vocabNew');
@@ -138,23 +145,41 @@ function startSession(container, pack, vocabData) {
       .join('');
 
     container.innerHTML = `
-      <div class="session-top">
-        <button class="link-btn" id="back-btn">← 返回</button>
-        <span class="progress-text">${index + 1} / ${queue.length}</span>
+      <div class="session-top" style="margin-bottom: 24px;">
+        <button class="link-btn" id="back-btn" style="color: var(--text-soft); letter-spacing: 0.05em; font-size: 0.8rem; font-weight: 600;">← 結束</button>
       </div>
-      <div class="card flashcard" id="flashcard">
-        <div class="fc-word">${word.word}</div>
-        <div class="fc-phonetic">${word.phonetic} <span class="fc-pos">${word.pos}</span></div>
-        ${speechAvailable() ? '<button class="speak-btn" id="speak-btn">🔊 發音</button>' : ''}
-        <div class="fc-back hidden" id="fc-back">
-          <div class="fc-zh">${word.zh}</div>
-          ${examplesHtml}
-          <p class="tap-hint">👆 點例句中的單字可查看意思</p>
-          <div class="word-pop hidden" id="word-pop"></div>
+      <div class="card flashcard card-enter" id="flashcard" style="padding: 0; display: flex; flex-direction: column; justify-content: space-between; min-height: 380px;">
+        <div style="padding: 40px 20px 20px; flex: 1; display: flex; flex-direction: column; justify-content: center;">
+          <div class="fc-word">${word.word}</div>
+          <div class="fc-phonetic">${word.pos} [${word.phonetic.replace(/[\\/\[\]]/g, '')}]</div>
+          <div style="color: var(--text-soft); font-size: 0.95rem; margin-top: 4px;">${word.pos === 'v.' ? '動詞' : word.pos === 'n.' ? '名詞' : word.pos === 'adj.' ? '形容詞' : word.pos === 'adv.' ? '副詞' : '單字'}</div>
+          ${speechAvailable() ? '<button class="speak-btn" id="speak-btn" style="margin: 16px auto 0; border: none; font-size: 1.2rem; color: var(--primary);">🔊</button>' : ''}
+          <div class="fc-back hidden" id="fc-back">
+            <div class="fc-zh">${word.zh}</div>
+            ${examplesHtml}
+            <p class="tap-hint" style="margin-top: 20px;">👆 點例句中的單字可直接發音並查看意思</p>
+            <div class="word-pop hidden" id="word-pop"></div>
+          </div>
+        </div>
+        <div id="reveal-btn" style="cursor: pointer; border-top: 1px solid var(--border); padding: 16px; color: var(--text-soft); font-size: 0.9rem; font-weight: 500;">
+          點擊顯示答案 ⌄
         </div>
       </div>
-      <div id="fc-actions">
-        <button class="btn btn-primary btn-block" id="reveal-btn">顯示答案</button>
+      <p class="swipe-hint">← 太難，稍後再出｜記得了，滑掉 →</p>
+
+      <div style="margin: 24px 0 32px;">
+        <div style="font-size: 0.8rem; font-weight: 600; color: var(--text); margin-bottom: 8px;">第 ${index + 1} / ${queue.length} 詞</div>
+        <div style="height: 6px; border-radius: 99px; background: var(--border); overflow: hidden;">
+          <div style="height: 100%; border-radius: 99px; background: linear-gradient(90deg, #a1c2ba, #6b8c84); width: ${Math.round(((index + 1) / queue.length) * 100)}%; transition: width 0.3s;"></div>
+        </div>
+      </div>
+      
+      <div id="fc-actions" style="opacity: 0; pointer-events: none; transition: opacity 0.2s;">
+        <div class="grade-row">
+          <button class="btn grade-again" data-grade="${GRADE.AGAIN}">太困難</button>
+          <button class="btn grade-good" data-grade="${GRADE.GOOD}" style="background: var(--primary); color: white; border: none;">我記得了</button>
+          <button class="btn grade-easy" data-grade="${GRADE.EASY}">太簡單</button>
+        </div>
       </div>`;
 
     container.querySelector('#back-btn').addEventListener('click', () => renderVocab(container, vocabData));
@@ -166,42 +191,32 @@ function startSession(container, pack, vocabData) {
       b.addEventListener('click', () => speak(examples[Number(b.dataset.ex)][0], { lang: 'en-US' }));
     });
 
-    // 點例句單字 → 顯示意思小卡
-    const backPanel = container.querySelector('#fc-back');
-    backPanel.addEventListener('click', (e) => {
-      const t = e.target.closest('.tap-word');
-      if (!t) return;
-      backPanel.querySelectorAll('.tap-word.active').forEach((el) => el.classList.remove('active'));
-      t.classList.add('active');
-      const info = lookupWord(t.textContent);
-      if (!info) return;
-      const pop = container.querySelector('#word-pop');
-      pop.classList.remove('hidden');
-      pop.innerHTML = `
-        <span class="pop-word">${info.word}</span>
-        ${info.pos ? `<span class="fc-pos">${info.pos}</span>` : ''}
-        <span class="pop-zh">${info.zh || '（不在字典裡，點 🔊 聽發音）'}</span>
-        ${speechAvailable() ? '<button class="ex-speak" id="pop-speak">🔊</button>' : ''}`;
-      const ps = pop.querySelector('#pop-speak');
-      if (ps) ps.addEventListener('click', (ev) => {
-        ev.stopPropagation();
-        speak(info.word, { lang: 'en-US' });
+    // 點例句單字 → 直接發音 + 顯示意思小卡
+    bindTapWords(container.querySelector('#fc-back'), container.querySelector('#word-pop'));
+
+    container.querySelector('#reveal-btn').addEventListener('click', (e) => {
+      e.currentTarget.style.display = 'none';
+      container.querySelector('#fc-back').classList.remove('hidden');
+      const actions = container.querySelector('#fc-actions');
+      actions.style.opacity = '1';
+      actions.style.pointerEvents = 'auto';
+      container.querySelectorAll('.grade-row .btn').forEach((b) => {
+        b.addEventListener('click', () => {
+          playSoftClick();
+          gradeCard(word, Number(b.dataset.grade));
+        });
       });
     });
 
-    container.querySelector('#reveal-btn').addEventListener('click', () => {
-      container.querySelector('#fc-back').classList.remove('hidden');
-      container.querySelector('#fc-actions').innerHTML = `
-        <div class="grade-row">
-          <button class="btn grade-again" data-grade="${GRADE.AGAIN}">忘記</button>
-          <button class="btn grade-hard" data-grade="${GRADE.HARD}">困難</button>
-          <button class="btn grade-good" data-grade="${GRADE.GOOD}">記得</button>
-          <button class="btn grade-easy" data-grade="${GRADE.EASY}">簡單</button>
-        </div>`;
-      container.querySelectorAll('.grade-row .btn').forEach((b) => {
-        b.addEventListener('click', () => gradeCard(word, Number(b.dataset.grade)));
-      });
+    // 隨時可左右滑卡片評分（不必先看答案）：左＝太難稍後再出、右＝記得了
+    attachSwipe(container.querySelector('#flashcard'), {
+      leftTag: '太困難',
+      rightTag: '記得了',
+      onLeft: () => { playSoftClick(); gradeCard(word, GRADE.AGAIN); },
+      onRight: () => { playSoftClick(); gradeCard(word, GRADE.GOOD); },
     });
+
+    showSwipeIntroOnce(container);
   }
 
   function gradeCard(word, grade) {
@@ -210,6 +225,7 @@ function startSession(container, pack, vocabData) {
     const prev = states[word.id] || newCardState();
     states[word.id] = review(prev, grade);
     save(SRS_KEY, states);
+    recordHistory('vocab', word.id, word.word, word.zh);
     recordActivity('vocab');
     if (wasNew && !freeMode) recordActivity('vocabNew');
     doneCount += 1;
@@ -236,8 +252,8 @@ function startSession(container, pack, vocabData) {
         <button class="btn task-btn" data-go="exam">🎯 挑戰模擬考（迷你/半份）→</button>
         <button class="btn task-btn" id="back-btn">📚 回單字包列表</button>
       </div>`;
-    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => navigate(b.dataset.go)));
-    container.querySelector('#back-btn').addEventListener('click', () => renderVocab(container, vocabData));
+    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => { playSoftClick(); navigate(b.dataset.go); }));
+    container.querySelector('#back-btn').addEventListener('click', () => { playSoftClick(); renderVocab(container, vocabData); });
   }
 
   showCard();

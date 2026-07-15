@@ -55,8 +55,9 @@ const COMMON = {
 
 let bankDict = null;
 
-// 用題庫單字建立查詢表（多字片語也收，供整詞比對）
+// 用題庫單字建立查詢表（多字片語也收，供整詞比對）；題庫載入後不變，建一次即可
 export function buildDict(vocabData) {
+  if (bankDict) return;
   bankDict = new Map();
   for (const pack of vocabData.packs) {
     for (const w of pack.words) {

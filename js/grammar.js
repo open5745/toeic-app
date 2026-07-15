@@ -4,19 +4,13 @@ import { recordActivity, todayCount } from './streak.js';
 import { load, save } from './storage.js';
 import { quota, addExtra, extraButtonLabel } from './plan.js';
 import { navigate } from './app.js';
+import { LETTERS, shuffle } from './util.js';
+import { tappable, bindTapWords } from './tapword.js';
+import { speak, stopSpeaking, speechAvailable } from './speech.js';
+import { recordHistory } from './history.js';
+import { playSoftClick, playSelectOption, playCorrect, playError } from './sound.js';
 
 const SEEN_KEY = 'grammarSeen';
-
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-const LETTERS = ['A', 'B', 'C', 'D'];
 
 // 文法分類：把題庫的 type 標籤歸入八大類（未列到的新 type 仍會出現在綜合測驗）
 const CATEGORIES = [
@@ -52,10 +46,14 @@ export function renderGrammar(container, grammarData) {
         <button class="btn task-btn" data-go="exam">🎯 考試模式（不受份量限制）→</button>
       </div>`;
     container.querySelector('#add-extra').addEventListener('click', () => {
+      playSoftClick();
       addExtra();
       renderGrammar(container, grammarData);
     });
-    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => navigate(b.dataset.go)));
+    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => {
+      playSoftClick();
+      navigate(b.dataset.go);
+    }));
     return;
   }
 
@@ -84,9 +82,13 @@ export function renderGrammar(container, grammarData) {
     <div class="pack-grid">${tiles}</div>
     ${unseenCount === 0 ? '<p class="hint" style="margin-top:12px">🎉 題庫已全部做完一輪，將重新出題複習。</p>' : ''}`;
 
-  container.querySelector('#start-quiz').addEventListener('click', () => startQuiz(container, grammarData, quizLen));
+  container.querySelector('#start-quiz').addEventListener('click', () => {
+    playSoftClick();
+    startQuiz(container, grammarData, quizLen);
+  });
   container.querySelectorAll('.pack-tile').forEach((btn) => {
     btn.addEventListener('click', () => {
+      playSoftClick();
       const cat = CATEGORIES.find((c) => c.id === btn.dataset.cat);
       startQuiz(container, grammarData, quizLen, categoryPool(grammarData, cat), cat.name);
     });
@@ -128,7 +130,7 @@ function startQuiz(container, grammarData, quizLen = 10, pool = null, catName = 
         <button class="link-btn" id="quit-btn">← 結束</button>
         <span class="progress-text">${catName ? catName + '・' : ''}第 ${index + 1} / ${questions.length} 題</span>
       </div>
-      <div class="card">
+      <div class="card card-enter">
         <div class="q-tags"><span class="tag">Part ${q.part}</span><span class="tag tag-type">${q.type}</span></div>
         <p class="q-text">${q.question.replace(/\n/g, '<br>')}</p>
         <div class="option-list" id="options">
@@ -138,39 +140,76 @@ function startQuiz(container, grammarData, quizLen = 10, pool = null, catName = 
         </div>
         <div id="feedback" class="hidden"></div>
       </div>
-      <div id="next-area"></div>`;
+      <div id="next-area"><button class="btn btn-primary btn-block" id="confirm-btn" disabled>確認答案</button></div>`;
 
-    container.querySelector('#quit-btn').addEventListener('click', () => renderGrammar(container, grammarData));
+    container.querySelector('#quit-btn').addEventListener('click', () => {
+      playSoftClick();
+      renderGrammar(container, grammarData);
+    });
+
+    // 兩段式作答：先點選項（可換），再按「確認答案」才判分
+    let picked = null;
+    let answered = false;
 
     container.querySelectorAll('.option-btn').forEach((btn) => {
       btn.addEventListener('click', () => {
-        const picked = Number(btn.dataset.i);
-        const isCorrect = picked === q.answer;
-        if (isCorrect) correct += 1;
-        recordActivity('grammar');
-        markSeen(q.id);
+        if (answered) return;
+        playSelectOption();
+        picked = Number(btn.dataset.i);
+        container.querySelectorAll('.option-btn').forEach((b) => b.classList.remove('opt-selected'));
+        btn.classList.add('opt-selected');
+        container.querySelector('#confirm-btn').disabled = false;
+      });
+    });
 
-        container.querySelectorAll('.option-btn').forEach((b) => {
-          b.disabled = true;
-          const i = Number(b.dataset.i);
-          if (i === q.answer) b.classList.add('opt-correct');
-          else if (i === picked) b.classList.add('opt-wrong');
-        });
+    container.querySelector('#confirm-btn').addEventListener('click', () => {
+      if (picked === null || answered) return;
+      answered = true;
+      const isCorrect = picked === q.answer;
+      if (isCorrect) correct += 1;
+      if (isCorrect) playCorrect(); else playError();
+      recordActivity('grammar');
+      markSeen(q.id);
 
+      container.querySelectorAll('.option-btn').forEach((b) => {
+        b.disabled = true;
+        b.classList.remove('opt-selected');
+        const i = Number(b.dataset.i);
+        if (i === q.answer) b.classList.add('opt-correct');
+        else if (i === picked) b.classList.add('opt-wrong');
+      });
+
+        // 完整例句：只取含空格的那一句（P6 段落題不帶整段上下文），空格填入正解
+        // Mr./Ms. 等稱謂的縮寫點先保護起來，避免被當成句尾切斷
+        const prot = q.question.replace(/\b(Mr|Ms|Mrs|Dr|Jr|Sr)\./g, '$1<DOT>');
+        const blankLine = prot.split(/(?<=[.!?])\s+|\n+/).find((s) => /_{2,}/.test(s)) || prot;
+        const fullSentence = blankLine.replaceAll('<DOT>', '.').replace(/_{2,}/, q.options[q.answer]);
+        recordHistory('grammar', q.id, fullSentence, q.sentenceZh);
         const fb = container.querySelector('#feedback');
         fb.classList.remove('hidden');
         fb.innerHTML = `
           <p class="fb-verdict ${isCorrect ? 'ok' : 'ng'}">${isCorrect ? '✅ 答對了！' : `❌ 答錯了，正解是 (${LETTERS[q.answer]})`}</p>
           <p class="fb-explanation">${q.explanation}</p>
-          <p class="fb-tip">💡 破題技巧：${q.tip}</p>`;
+          <p class="fb-tip">💡 破題技巧：${q.tip}</p>
+          <p class="tap-hint">👆 完整例句（點單字可發音並查看意思）</p>
+          <div class="fb-example">${tappable(fullSentence)}</div>
+          <p class="fb-explanation"><b>中譯：</b>${q.sentenceZh}</p>
+          <div class="word-pop hidden" id="word-pop"></div>
+          ${speechAvailable() ? '<button class="btn btn-block" id="fb-speak">🔊 播放整句語音</button>' : ''}`;
+        bindTapWords(fb, fb.querySelector('#word-pop'));
+        const fbSpeak = fb.querySelector('#fb-speak');
+        if (fbSpeak) fbSpeak.addEventListener('click', () => {
+          stopSpeaking();
+          speak(fullSentence, { lang: 'en-US' });
+        });
 
         container.querySelector('#next-area').innerHTML =
           `<button class="btn btn-primary btn-block" id="next-btn">${index + 1 >= questions.length ? '看成績' : '下一題'}</button>`;
         container.querySelector('#next-btn').addEventListener('click', () => {
+          playSoftClick();
           index += 1;
           showQuestion();
         });
-      });
     });
   }
 
@@ -191,9 +230,18 @@ function startQuiz(container, grammarData, quizLen = 10, pool = null, catName = 
         <button class="btn task-btn" data-go="listening">🎧 練一題聽力 →</button>
         <button class="btn task-btn" data-go="exam">🎯 挑戰模擬考（迷你/半份）→</button>
       </div>`;
-    container.querySelector('#again-btn').addEventListener('click', () => startQuiz(container, grammarData, quizLen, pool, catName));
-    container.querySelector('#back-btn').addEventListener('click', () => renderGrammar(container, grammarData));
-    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => navigate(b.dataset.go)));
+    container.querySelector('#again-btn').addEventListener('click', () => {
+      playSoftClick();
+      startQuiz(container, grammarData, quizLen, pool, catName);
+    });
+    container.querySelector('#back-btn').addEventListener('click', () => {
+      playSoftClick();
+      renderGrammar(container, grammarData);
+    });
+    container.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => {
+      playSoftClick();
+      navigate(b.dataset.go);
+    }));
   }
 
   showQuestion();

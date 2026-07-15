@@ -1,5 +1,5 @@
 // 設定模組：每日提醒（時間 + 自訂文案）與資料管理
-import { load, save, remove, todayStr } from './storage.js';
+import { load, save, remove, todayStr, exportAll, importAll } from './storage.js';
 
 const KEY = 'reminder'; // { enabled, time: "08:00", message, lastFired: "YYYY-MM-DD" }
 
@@ -30,6 +30,14 @@ export function renderSettings(container) {
       <p class="hint">📌 目前為 PWA 版本：App 或瀏覽器開啟時會準時提醒；完全關閉時的推播需等日後串接伺服器推播服務。</p>
     </div>
     <div class="card">
+      <h3>資料備份</h3>
+      <p class="hint">進度存在這台裝置的瀏覽器裡，清瀏覽器資料會遺失。建議定期匯出備份，換裝置時匯入即可還原。</p>
+      <button class="btn btn-block" id="export-data">📤 匯出備份檔</button>
+      <button class="btn btn-block" id="import-data" style="margin-top:8px">📥 匯入備份檔</button>
+      <input type="file" id="import-file" accept=".json,application/json" class="hidden">
+      <p class="hint hidden" id="backup-status"></p>
+    </div>
+    <div class="card">
       <h3>資料管理</h3>
       <button class="btn btn-danger btn-block" id="reset-data">清除所有學習紀錄</button>
     </div>`;
@@ -53,6 +61,51 @@ export function renderSettings(container) {
       permissionText('Notification' in window ? Notification.permission : 'unsupported') + '　✅ 已儲存';
   });
 
+  // 匯出：把所有進度打包成 JSON 檔下載
+  container.querySelector('#export-data').addEventListener('click', () => {
+    const blob = new Blob([JSON.stringify(exportAll(), null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `toeic-backup-${todayStr()}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    const status = container.querySelector('#backup-status');
+    status.classList.remove('hidden');
+    status.textContent = '✅ 備份檔已下載，請妥善保存。';
+  });
+
+  // 匯入：選檔 → 確認覆蓋 → 還原並重新載入
+  container.querySelector('#import-data').addEventListener('click', () => {
+    container.querySelector('#import-file').click();
+  });
+  container.querySelector('#import-file').addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    e.target.value = ''; // 允許重選同一個檔案
+    const status = container.querySelector('#backup-status');
+    status.classList.remove('hidden');
+    let backup;
+    try {
+      backup = JSON.parse(await file.text());
+    } catch {
+      status.textContent = '❌ 檔案不是有效的 JSON，請確認選對備份檔。';
+      return;
+    }
+    if (!backup || backup.app !== 'tla') {
+      status.textContent = '❌ 這不是本 App 的備份檔。';
+      return;
+    }
+    const when = backup.exportedAt ? new Date(backup.exportedAt).toLocaleString() : '未知時間';
+    if (!confirm(`確定要匯入 ${when} 的備份嗎？\n目前這台裝置上的進度會被覆蓋。`)) return;
+    if (importAll(backup)) {
+      alert('匯入完成，將重新載入 App。');
+      location.reload();
+    } else {
+      status.textContent = '❌ 匯入失敗，備份檔格式不正確。';
+    }
+  });
+
   container.querySelector('#reset-data').addEventListener('click', () => {
     if (confirm('確定要清除所有單字進度與學習紀錄嗎？此動作無法復原。')) {
       remove('srs');
@@ -60,6 +113,7 @@ export function renderSettings(container) {
       remove('grammarSeen');
       remove('listeningDone');
       remove('dailyExtra');
+      remove('history');
       alert('已清除學習紀錄。');
     }
   });

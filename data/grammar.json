@@ -13,7 +13,8 @@
       ],
       "answer": 0,
       "explanation": "空格前有定冠詞 the、後面接 of 片語，因此需要名詞。efficiency（效率）是名詞，故為正解。efficient 是形容詞、efficiently 是副詞。",
-      "tip": "看到「the ______ of」的結構，中間九成要填名詞。"
+      "tip": "看到「the ______ of」的結構，中間九成要填名詞。",
+      "sentenceZh": "新軟體將大幅提升我們客服團隊的效率。"
     },
     {
       "id": "g-02",
@@ -28,7 +29,8 @@
       ],
       "answer": 3,
       "explanation": "「By the time + 現在式子句」搭配主要子句描述未來某時間點前將完成的動作，須用未來完成式 will have completed。",
-      "tip": "看到 By the time...，主要子句常搭配未來完成式或過去完成式，依語意判斷時間軸。"
+      "tip": "看到 By the time...，主要子句常搭配未來完成式或過去完成式，依語意判斷時間軸。",
+      "sentenceZh": "等到稽查員抵達時，工廠將已完成所有安全檢查。"
     },
     {
       "id": "g-03",
@@ -43,7 +45,8 @@
       ],
       "answer": 0,
       "explanation": "空格後接名詞片語 the heavy rain，須使用介系詞片語 Due to。Because 是連接詞，後面必須接完整子句。",
-      "tip": "先看空格後面是「名詞」還是「子句」：名詞用 due to / because of，子句用 because / although。"
+      "tip": "先看空格後面是「名詞」還是「子句」：名詞用 due to / because of，子句用 because / although。",
+      "sentenceZh": "由於大雨，戶外產品發表會移到了室內。"
     },
     {
       "id": "g-04",
@@ -58,7 +61,8 @@
       ],
       "answer": 0,
       "explanation": "空格修飾動詞 respond，須用副詞 promptly（迅速地）。",
-      "tip": "動詞後面若不缺受詞，空格通常填副詞來修飾動詞。"
+      "tip": "動詞後面若不缺受詞，空格通常填副詞來修飾動詞。",
+      "sentenceZh": "所有員工都必須迅速回應客戶投訴。"
     },
     {
       "id": "g-05",
@@ -73,7 +77,8 @@
       ],
       "answer": 1,
       "explanation": "空格後接名詞 weekly reports，需要所有格 their（他們的）。",
-      "tip": "空格後緊接名詞時，優先考慮所有格代名詞。"
+      "tip": "空格後緊接名詞時，優先考慮所有格代名詞。",
+      "sentenceZh": "Chen 要求實習生在週五下午前繳交週報。"
     },
     {
       "id": "g-06",
@@ -88,7 +93,8 @@
       ],
       "answer": 2,
       "explanation": "recommend 後面接動名詞（V-ing），因此選 approving。同類動詞還有 suggest、consider、avoid 等。",
-      "tip": "背口訣：suggest / recommend / consider / avoid / finish 後面接 V-ing。"
+      "tip": "背口訣：suggest / recommend / consider / avoid / finish 後面接 V-ing。",
+      "sentenceZh": "董事會建議在本季結束前核准這份預算提案。"
     },
     {
       "id": "g-07",
@@ -103,7 +109,8 @@
       ],
       "answer": 2,
       "explanation": "by + 時間點表示「在……之前完成」，強調期限；until 強調動作持續到某時間點，與 submit（一次性動作）語意不合。",
-      "tip": "一次性動作（submit、finish）搭配 by；持續性動作（stay、wait）搭配 until。"
+      "tip": "一次性動作（submit、finish）搭配 by；持續性動作（stay、wait）搭配 until。",
+      "sentenceZh": "季度銷售報告必須在 10 月 15 日前提交。"
     },
     {
       "id": "g-08",
@@ -118,7 +125,8 @@
       ],
       "answer": 0,
       "explanation": "前句感謝訂購，後句說明缺貨（負面消息），語氣轉折須用 Unfortunately（很遺憾地）。",
-      "tip": "Part 6 轉折詞題先判斷前後句的「語氣方向」：正轉負用 unfortunately / however。"
+      "tip": "Part 6 轉折詞題先判斷前後句的「語氣方向」：正轉負用 unfortunately / however。",
+      "sentenceZh": "很遺憾，該商品暫時缺貨。"
     },
     {
       "id": "g-09",
@@ -133,7 +141,8 @@
       ],
       "answer": 0,
       "explanation": "空格是句子的主詞，且動詞為 will resume（將恢復），語意上是「正常開放時間將於 6 月 8 日恢復」，故選 Regular hours。",
-      "tip": "Part 6 需要看前後文：前句講「暫停」，後句講「恢復」，主詞應是被暫停的事物。"
+      "tip": "Part 6 需要看前後文：前句講「暫停」，後句講「恢復」，主詞應是被暫停的事物。",
+      "sentenceZh": "正常營業時間將於 6 月 8 日（週一）恢復。"
     },
     {
       "id": "g-10",
@@ -148,7 +157,8 @@
       ],
       "answer": 3,
       "explanation": "Of all the candidates（在所有應徵者之中）表示三者以上的比較，須用最高級 the most。",
-      "tip": "看到 of all / in the world / among 等範圍字眼，用最高級。"
+      "tip": "看到 of all / in the world / among 等範圍字眼，用最高級。",
+      "sentenceZh": "Rivera 在國際行銷方面經驗最豐富。"
     },
     {
       "id": "g-11",
@@ -163,7 +173,8 @@
       ],
       "answer": 1,
       "explanation": "會議是「被舉行」的，主詞 meeting 與動詞 hold 之間是被動關係，且時間是未來，故用 will be held。",
-      "tip": "主詞是「事物」且動詞是 hold / schedule / postpone 時，多半用被動語態。"
+      "tip": "主詞是「事物」且動詞是 hold / schedule / postpone 時，多半用被動語態。",
+      "sentenceZh": "年度股東大會將於下週二在主會議廳舉行。"
     },
     {
       "id": "g-12",
@@ -178,7 +189,8 @@
       ],
       "answer": 3,
       "explanation": "先行詞 Employees 是人，且空格在關係子句中作主詞（後面直接接動詞 have completed），故用 who。",
-      "tip": "先行詞是人 + 空格後接動詞 → who；空格後接名詞 → whose。"
+      "tip": "先行詞是人 + 空格後接動詞 → who；空格後接名詞 → whose。",
+      "sentenceZh": "完成培訓課程的員工將獲得證書。"
     },
     {
       "id": "g-13",
@@ -193,7 +205,8 @@
       ],
       "answer": 1,
       "explanation": "空格在冠詞 a（+副詞 very）與名詞 manner 之間，須填形容詞 professional 來修飾名詞。",
-      "tip": "「冠詞 + ______ + 名詞」的空格填形容詞。"
+      "tip": "「冠詞 + ______ + 名詞」的空格填形容詞。",
+      "sentenceZh": "Lopez 以非常專業的方式處理了客戶的投訴。"
     },
     {
       "id": "g-14",
@@ -208,7 +221,8 @@
       ],
       "answer": 0,
       "explanation": "the ______ of 的結構需要名詞，opening（開幕）是名詞，故為正解。",
-      "tip": "「the ______ of」中間九成填名詞。"
+      "tip": "「the ______ of」中間九成填名詞。",
+      "sentenceZh": "新分店的開幕已延後到明年春天。"
     },
     {
       "id": "g-15",
@@ -223,7 +237,8 @@
       ],
       "answer": 1,
       "explanation": "空格修飾動詞 dress（穿著），須用副詞 appropriately（得體地）。",
-      "tip": "不及物動詞後面的空格通常填副詞。"
+      "tip": "不及物動詞後面的空格通常填副詞。",
+      "sentenceZh": "員工應為客戶簡報穿著合宜的服裝。"
     },
     {
       "id": "g-16",
@@ -238,7 +253,8 @@
       ],
       "answer": 3,
       "explanation": "空格修飾名詞 information，須填形容詞 useful。",
-      "tip": "名詞前的空格填形容詞。"
+      "tip": "名詞前的空格填形容詞。",
+      "sentenceZh": "這場研討會提供了關於海外投資的實用資訊。"
     },
     {
       "id": "g-17",
@@ -253,7 +269,8 @@
       ],
       "answer": 2,
       "explanation": "介系詞 with + 形容詞 remarkable 之後需要名詞，efficiency（效率）是名詞。",
-      "tip": "介系詞後面最終一定要接名詞（中間可夾形容詞）。"
+      "tip": "介系詞後面最終一定要接名詞（中間可夾形容詞）。",
+      "sentenceZh": "我們的技術人員以驚人的效率回應維修請求。"
     },
     {
       "id": "g-18",
@@ -268,7 +285,8 @@
       ],
       "answer": 0,
       "explanation": "空格修飾名詞 decision，須填形容詞 strategic（策略性的）。strategy 是名詞、strategically 是副詞。",
-      "tip": "分辨 -ic（形容詞）與 -y（名詞)結尾：strategic 修飾名詞。"
+      "tip": "分辨 -ic（形容詞）與 -y（名詞)結尾：strategic 修飾名詞。",
+      "sentenceZh": "行銷總監做出了延後上市的策略性決定。"
     },
     {
       "id": "g-19",
@@ -283,7 +301,8 @@
       ],
       "answer": 2,
       "explanation": "reception desk（接待櫃檯）是固定的複合名詞。receptionist 是「接待員」，語意不合。",
-      "tip": "複合名詞常考：reception desk、application form、sales report。"
+      "tip": "複合名詞常考：reception desk、application form、sales report。",
+      "sentenceZh": "所有訪客都必須在接待櫃檯簽到。"
     },
     {
       "id": "g-20",
@@ -298,7 +317,8 @@
       ],
       "answer": 2,
       "explanation": "空格修飾動詞 grew（成長），須用副詞 significantly（顯著地）。",
-      "tip": "動詞後不缺受詞時，空格填副詞。"
+      "tip": "動詞後不缺受詞時，空格填副詞。",
+      "sentenceZh": "公司獲利在第三季顯著成長。"
     },
     {
       "id": "g-21",
@@ -313,7 +333,8 @@
       ],
       "answer": 1,
       "explanation": "since + 過去時間點，表示從過去持續到現在，用現在完成式 has worked。",
-      "tip": "看到 since / for + 一段時間，優先考慮完成式。"
+      "tip": "看到 since / for + 一段時間，優先考慮完成式。",
+      "sentenceZh": "Tanaka 自 2015 年起就在 Horizon 銀行工作。"
     },
     {
       "id": "g-22",
@@ -328,7 +349,8 @@
       ],
       "answer": 2,
       "explanation": "By + 未來時間點，表示屆時將完成的動作，用未來完成式 will have completed。",
-      "tip": "「By + 未來時間」搭配未來完成式 will have + p.p.。"
+      "tip": "「By + 未來時間」搭配未來完成式 will have + p.p.。",
+      "sentenceZh": "到明年三月，施工團隊將已完成新倉庫。"
     },
     {
       "id": "g-23",
@@ -343,7 +365,8 @@
       ],
       "answer": 0,
       "explanation": "While 引導的子句描述背景中正在進行的動作，搭配過去進行式 was repairing。",
-      "tip": "while + 過去進行式（背景動作），主句用過去簡單式（突發事件）。"
+      "tip": "while + 過去進行式（背景動作），主句用過去簡單式（突發事件）。",
+      "sentenceZh": "技術人員修理印表機時，電源突然中斷了。"
     },
     {
       "id": "g-24",
@@ -358,7 +381,8 @@
       ],
       "answer": 0,
       "explanation": "next Saturday 是未來時間，用未來式 will hold。",
-      "tip": "先找時間副詞：next / tomorrow → 未來式。"
+      "tip": "先找時間副詞：next / tomorrow → 未來式。",
+      "sentenceZh": "這家店將於下週六舉行盛大開幕特賣。"
     },
     {
       "id": "g-25",
@@ -373,7 +397,8 @@
       ],
       "answer": 2,
       "explanation": "「加入本公司」之前更早發生的動作，用過去完成式 had worked 表示「過去的過去」。",
-      "tip": "兩個過去動作有先後時，較早的用 had + p.p.。"
+      "tip": "兩個過去動作有先後時，較早的用 had + p.p.。",
+      "sentenceZh": "加入我們公司之前，她曾在一家顧問公司工作五年。"
     },
     {
       "id": "g-26",
@@ -388,7 +413,8 @@
       ],
       "answer": 0,
       "explanation": "空格後是完整子句（sales increased...），須用連接詞 Although。Despite / Because of / Owing to 都是介系詞，後面只能接名詞。",
-      "tip": "後面是子句→ although；後面是名詞 → despite / because of。"
+      "tip": "後面是子句→ although；後面是名詞 → despite / because of。",
+      "sentenceZh": "雖然上一季銷售成長，整體獲利仍持平。"
     },
     {
       "id": "g-27",
@@ -403,7 +429,8 @@
       ],
       "answer": 1,
       "explanation": "空格後是名詞片語 the heavy snowstorm，須用介系詞片語 due to。because / since / as 接子句。",
-      "tip": "due to + 名詞 = because + 子句。"
+      "tip": "due to + 名詞 = because + 子句。",
+      "sentenceZh": "班機因暴風雪而延誤。"
     },
     {
       "id": "g-28",
@@ -418,7 +445,8 @@
       ],
       "answer": 2,
       "explanation": "兩種付款方式擇一，用對等連接詞 or。",
-      "tip": "選項並列擇一用 or，皆非用 nor。"
+      "tip": "選項並列擇一用 or，皆非用 nor。",
+      "sentenceZh": "您可以用信用卡或現金付款。"
     },
     {
       "id": "g-29",
@@ -433,7 +461,8 @@
       ],
       "answer": 2,
       "explanation": "Should you have... 是 If you should have... 的倒裝，表示「如果您有任何問題」。",
-      "tip": "句首的 Should + 主詞 = If 假設句的正式倒裝寫法。"
+      "tip": "句首的 Should + 主詞 = If 假設句的正式倒裝寫法。",
+      "sentenceZh": "如有任何問題，請聯絡人事部門。"
     },
     {
       "id": "g-30",
@@ -448,7 +477,8 @@
       ],
       "answer": 1,
       "explanation": "both A and B 是固定搭配，表示「既 A 且 B」。",
-      "tip": "看到 both 就找 and；either 找 or；neither 找 nor。"
+      "tip": "看到 both 就找 and；either 找 or；neither 找 nor。",
+      "sentenceZh": "報告必須既正確又簡潔。"
     },
     {
       "id": "g-31",
@@ -463,7 +493,8 @@
       ],
       "answer": 1,
       "explanation": "reschedule A for + 新日期 是固定用法，表示「改期到某日」。",
-      "tip": "be scheduled / rescheduled for + 日期，是多益高頻搭配。"
+      "tip": "be scheduled / rescheduled for + 日期，是多益高頻搭配。",
+      "sentenceZh": "工作坊已改期至 5 月 12 日。"
     },
     {
       "id": "g-32",
@@ -478,7 +509,8 @@
       ],
       "answer": 3,
       "explanation": "respond（回覆）是一次性動作，搭配 by（在…之前）表示期限。until 用於持續性動作。",
-      "tip": "一次性動作 + by；持續性動作 + until。"
+      "tip": "一次性動作 + by；持續性動作 + until。",
+      "sentenceZh": "請在週五前回覆這份邀請。"
     },
     {
       "id": "g-33",
@@ -493,7 +525,8 @@
       ],
       "answer": 1,
       "explanation": "空格後是名詞片語 the national holiday，用介系詞 during。while / when 後面接子句。",
-      "tip": "during + 名詞；while + 子句。"
+      "tip": "during + 名詞；while + 子句。",
+      "sentenceZh": "辦公室在國定假日期間將關閉。"
     },
     {
       "id": "g-34",
@@ -508,7 +541,8 @@
       ],
       "answer": 3,
       "explanation": "be responsible for（負責…）是固定搭配。",
-      "tip": "背固定搭配：responsible for、famous for、apologize for。"
+      "tip": "背固定搭配：responsible for、famous for、apologize for。",
+      "sentenceZh": "Patel 負責訓練新進實習生。"
     },
     {
       "id": "g-35",
@@ -523,7 +557,8 @@
       ],
       "answer": 2,
       "explanation": "agree on + 事項（就…達成一致）是固定搭配；agree with + 人。",
-      "tip": "agree on 事情、agree with 人、agree to 提議。"
+      "tip": "agree on 事情、agree with 人、agree to 提議。",
+      "sentenceZh": "兩位經理終於就新的定價方案達成共識。"
     },
     {
       "id": "g-36",
@@ -538,7 +573,8 @@
       ],
       "answer": 1,
       "explanation": "own 前面必須用所有格，their own（他們自己的）。",
-      "tip": "「______ + own + 名詞」固定用所有格。"
+      "tip": "「______ + own + 名詞」固定用所有格。",
+      "sentenceZh": "員工可以自帶筆電參加培訓。"
     },
     {
       "id": "g-37",
@@ -553,7 +589,8 @@
       ],
       "answer": 1,
       "explanation": "reviewed 的受詞指的是單數的 the design proposal，用受格 it。",
-      "tip": "先找代名詞指涉的對象，確認單複數再選。"
+      "tip": "先找代名詞指涉的對象，確認單複數再選。",
+      "sentenceZh": "這份設計提案受到所有審閱者的讚賞。"
     },
     {
       "id": "g-38",
@@ -568,7 +605,8 @@
       ],
       "answer": 1,
       "explanation": "強調「親自做」用反身代名詞 herself。",
-      "tip": "句子已完整、空格只是強調「親自」→ 反身代名詞。"
+      "tip": "句子已完整、空格只是強調「親自」→ 反身代名詞。",
+      "sentenceZh": "因為助理請假，Chen 親自準備了年度報告。"
     },
     {
       "id": "g-39",
@@ -583,7 +621,8 @@
       ],
       "answer": 3,
       "explanation": "動詞是單數 has，Both / All 接複數動詞；Neither of the two（兩者皆非）搭配單數動詞。",
-      "tip": "看動詞單複數反推主詞：has → Neither / Each。"
+      "tip": "看動詞單複數反推主詞：has → Neither / Each。",
+      "sentenceZh": "兩位候選人都沒有很強的領導經驗。"
     },
     {
       "id": "g-40",
@@ -598,7 +637,8 @@
       ],
       "answer": 3,
       "explanation": "Those who...（想要…的人）是固定句型，who 在子句中作主詞。",
-      "tip": "Those who + 動詞 =「…的人們」，多益常客。"
+      "tip": "Those who + 動詞 =「…的人們」，多益常客。",
+      "sentenceZh": "想參加晚宴的人應在週五前報名。"
     },
     {
       "id": "g-41",
@@ -613,7 +653,8 @@
       ],
       "answer": 1,
       "explanation": "agree to + 原形動詞（同意做…）是固定用法。",
-      "tip": "agree / decide / plan / hope 後面接 to V。"
+      "tip": "agree / decide / plan / hope 後面接 to V。",
+      "sentenceZh": "委員會同意在下週會議上討論這項提案。"
     },
     {
       "id": "g-42",
@@ -628,7 +669,8 @@
       ],
       "answer": 0,
       "explanation": "look forward to 的 to 是介系詞，後面接動名詞 hearing。",
-      "tip": "look forward to / be used to / object to 後面接 V-ing。"
+      "tip": "look forward to / be used to / object to 後面接 V-ing。",
+      "sentenceZh": "我們期待盡快收到您的回音。"
     },
     {
       "id": "g-43",
@@ -643,7 +685,8 @@
       ],
       "answer": 2,
       "explanation": "suggest 後面接動名詞 extending。",
-      "tip": "suggest / recommend / consider / avoid + V-ing。"
+      "tip": "suggest / recommend / consider / avoid + V-ing。",
+      "sentenceZh": "經理建議把截止日期延長一週。"
     },
     {
       "id": "g-44",
@@ -658,7 +701,8 @@
       ],
       "answer": 2,
       "explanation": "be required to + 原形動詞（被要求做…）是固定句型。",
-      "tip": "be required / expected / encouraged to V。"
+      "tip": "be required / expected / encouraged to V。",
+      "sentenceZh": "所有員工每年都必須完成安全訓練。"
     },
     {
       "id": "g-45",
@@ -673,7 +717,8 @@
       ],
       "answer": 3,
       "explanation": "mind 後面接動名詞 closing。",
-      "tip": "mind / enjoy / finish + V-ing。"
+      "tip": "mind / enjoy / finish + V-ing。",
+      "sentenceZh": "您介意關上窗戶嗎？"
     },
     {
       "id": "g-46",
@@ -688,7 +733,8 @@
       ],
       "answer": 3,
       "explanation": "主詞 invoices 是「被寄出」的，且是每月例行性動作，用現在簡單式被動 are sent。",
-      "tip": "主詞是物且不會自己做動作 → 被動語態。"
+      "tip": "主詞是物且不會自己做動作 → 被動語態。",
+      "sentenceZh": "發票在每月月初寄給客戶。"
     },
     {
       "id": "g-47",
@@ -703,7 +749,8 @@
       ],
       "answer": 1,
       "explanation": "政策是「被核准」的，且時間是昨天，用過去式被動 was approved。空格後的 by 是被動語態的線索。",
-      "tip": "看到「by + 執行者」幾乎可確定是被動語態。"
+      "tip": "看到「by + 執行者」幾乎可確定是被動語態。",
+      "sentenceZh": "新政策在昨天的會議上獲得董事會核准。"
     },
     {
       "id": "g-48",
@@ -718,7 +765,8 @@
       ],
       "answer": 0,
       "explanation": "行李是「被檢查」的，助動詞 must 後接原形，被動為 must be inspected。",
-      "tip": "助動詞 + be + p.p. 是被動的固定形式。"
+      "tip": "助動詞 + be + p.p. 是被動的固定形式。",
+      "sentenceZh": "所有行李在登機前都必須接受檢查。"
     },
     {
       "id": "g-49",
@@ -733,7 +781,8 @@
       ],
       "answer": 2,
       "explanation": "空格後接名詞 resume，表示「他的履歷」，用所有格關代 whose。",
-      "tip": "關代空格後緊接名詞 → whose。"
+      "tip": "關代空格後緊接名詞 → whose。",
+      "sentenceZh": "履歷最令我們印象深刻的候選人將優先面試。"
     },
     {
       "id": "g-50",
@@ -748,7 +797,8 @@
       ],
       "answer": 0,
       "explanation": "子句中已有介系詞 at（stayed at ___），空格作 at 的受詞，用 which。若用 where 則不能再加 at。",
-      "tip": "子句尾已有介系詞 → 用 which/that；沒有介系詞 → 才用 where。"
+      "tip": "子句尾已有介系詞 → 用 which/that；沒有介系詞 → 才用 where。",
+      "sentenceZh": "我們去年住過的那家飯店已經翻新了。"
     },
     {
       "id": "g-51",
@@ -763,7 +813,8 @@
       ],
       "answer": 3,
       "explanation": "先行詞 Applicants 是人，空格後直接接動詞 meet，關代作主詞用 who。",
-      "tip": "先行詞是人 + 空格後接動詞 → who。"
+      "tip": "先行詞是人 + 空格後接動詞 → who。",
+      "sentenceZh": "符合所有條件的申請者將於下週收到通知。"
     },
     {
       "id": "g-52",
@@ -778,7 +829,8 @@
       ],
       "answer": 0,
       "explanation": "more... 比較級固定搭配 than。",
-      "tip": "看到 more / -er 就找 than。"
+      "tip": "看到 more / -er 就找 than。",
+      "sentenceZh": "新機型比前一代節能得多。"
     },
     {
       "id": "g-53",
@@ -793,7 +845,8 @@
       ],
       "answer": 3,
       "explanation": "in the building 限定了比較範圍（整棟樓之中），用最高級 the largest。",
-      "tip": "in / of + 範圍 → 最高級，且最高級前要加 the。"
+      "tip": "in / of + 範圍 → 最高級，且最高級前要加 the。",
+      "sentenceZh": "這是本大樓可用的最大會議室。"
     },
     {
       "id": "g-54",
@@ -808,7 +861,8 @@
       ],
       "answer": 3,
       "explanation": "「The + 比較級..., the + 比較級...」（越…就越…）是固定句型。",
-      "tip": "The sooner..., the better... 前後都要有 the + 比較級。"
+      "tip": "The sooner..., the better... 前後都要有 the + 比較級。",
+      "sentenceZh": "越早報名，搶到座位的機會就越大。"
     },
     {
       "id": "g-55",
@@ -823,7 +877,8 @@
       ],
       "answer": 2,
       "explanation": "主詞是事物（results），事物「令人驚訝」用現在分詞 surprising；人感到驚訝才用 surprised。",
-      "tip": "事物用 -ing（令人…），人用 -ed（感到…）。"
+      "tip": "事物用 -ing（令人…），人用 -ed（感到…）。",
+      "sentenceZh": "調查結果相當令人驚訝。"
     },
     {
       "id": "g-56",
@@ -838,7 +893,8 @@
       ],
       "answer": 2,
       "explanation": "員工是「被工作量壓垮」的，分詞構句用過去分詞 Overwhelmed。",
-      "tip": "分詞構句：主詞被動作影響 → p.p. 開頭；主動做動作 → V-ing 開頭。"
+      "tip": "分詞構句：主詞被動作影響 → p.p. 開頭；主動做動作 → V-ing 開頭。",
+      "sentenceZh": "由於工作量過重，數名員工請求支援。"
     },
     {
       "id": "g-57",
@@ -853,7 +909,8 @@
       ],
       "answer": 1,
       "explanation": "人「感到有興趣」用過去分詞 interested，且 be interested in 是固定搭配。",
-      "tip": "interested in（人有興趣）vs interesting（事物有趣）。"
+      "tip": "interested in（人有興趣）vs interesting（事物有趣）。",
+      "sentenceZh": "有興趣擔任志工的人請聯絡 Rivera 女士。"
     },
     {
       "id": "g-58",
@@ -868,7 +925,8 @@
       ],
       "answer": 1,
       "explanation": "information 是不可數名詞，Many / Several / A few 只能接可數複數；Further（更多的）可接不可數名詞。",
-      "tip": "information、advice、equipment 都不可數，不能用 many / few。"
+      "tip": "information、advice、equipment 都不可數，不能用 many / few。",
+      "sentenceZh": "關於合併案的進一步資訊將於下週公布。"
     },
     {
       "id": "g-59",
@@ -883,7 +941,8 @@
       ],
       "answer": 3,
       "explanation": "tickets 是可數複數，用 a few（少數幾張）。a little 接不可數名詞。",
-      "tip": "a few + 可數複數；a little + 不可數。"
+      "tip": "a few + 可數複數；a little + 不可數。",
+      "sentenceZh": "頒獎晚宴的門票只剩少數幾張。"
     },
     {
       "id": "g-60",
@@ -898,7 +957,8 @@
       ],
       "answer": 3,
       "explanation": "equipment 是不可數名詞，且動詞 needs 是單數，用 Much。",
-      "tip": "equipment / furniture / luggage 永遠不可數。"
+      "tip": "equipment / furniture / luggage 永遠不可數。",
+      "sentenceZh": "實驗室裡大部分的設備都需要汰換。"
     },
     {
       "id": "g-61",
@@ -913,7 +973,8 @@
       ],
       "answer": 0,
       "explanation": "第一類條件句（未來很可能發生）：If + 現在式，主句 will + 原形。主詞 shipment 是單數，用 arrives。",
-      "tip": "If 子句用現在式代替未來式，不能放 will。"
+      "tip": "If 子句用現在式代替未來式，不能放 will。",
+      "sentenceZh": "如果貨件再次遲到，我們就會更換供應商。"
     },
     {
       "id": "g-62",
@@ -928,7 +989,8 @@
       ],
       "answer": 3,
       "explanation": "與過去事實相反的假設：If + had p.p., 主句 would have p.p.。",
-      "tip": "看到 If + had p.p.，主句必配 would/could have p.p.。"
+      "tip": "看到 If + had p.p.，主句必配 would/could have p.p.。",
+      "sentenceZh": "如果 Wong 女士當時查過行程表，就不會錯過會議了。"
     },
     {
       "id": "g-63",
@@ -943,7 +1005,8 @@
       ],
       "answer": 2,
       "explanation": "後句是促銷優惠內容，前後沒有因果或轉折關係，用 For a limited time（限時）最符合廣告語氣。",
-      "tip": "Part 6 先判斷前後句關係：沒有轉折/因果時，找語意上最自然的副詞片語。"
+      "tip": "Part 6 先判斷前後句關係：沒有轉折/因果時，找語意上最自然的副詞片語。",
+      "sentenceZh": "在限定期間內，本月我們提供所有新會員八折優惠。"
     },
     {
       "id": "g-64",
@@ -958,7 +1021,8 @@
       ],
       "answer": 0,
       "explanation": "前句說明電梯維修，後句是「這段期間」的替代方案，用 In the meantime（在此期間）。",
-      "tip": "前句講「暫時狀況」、後句給「過渡做法」→ in the meantime。"
+      "tip": "前句講「暫時狀況」、後句給「過渡做法」→ in the meantime。",
+      "sentenceZh": "在此期間，請使用樓梯或 B 棟的電梯。"
     },
     {
       "id": "g-65",
@@ -973,7 +1037,8 @@
       ],
       "answer": 3,
       "explanation": "收到付款 → 因此出貨，前後是因果順承關係，用 Accordingly（因此；據此）。",
-      "tip": "正向因果用 accordingly / therefore；轉折才用 however。"
+      "tip": "正向因果用 accordingly / therefore；轉折才用 however。",
+      "sentenceZh": "因此，您的訂單已出貨，應會在五個工作天內送達。"
     },
     {
       "id": "g-66",
@@ -988,7 +1053,8 @@
       ],
       "answer": 2,
       "explanation": "空格後接 who 引導的關係子句，Those who（凡是…的人）是固定搭配；Anyone / Everyone 接 who 時動詞用單數，但後句 plan 是複數。",
-      "tip": "「______ who + 複數動詞」→ Those。"
+      "tip": "「______ who + 複數動詞」→ Those。",
+      "sentenceZh": "計畫出席的人請在 12 月 1 日前回覆。"
     },
     {
       "id": "g-67",
@@ -1003,7 +1069,8 @@
       ],
       "answer": 0,
       "explanation": "空格修飾動詞 read，用副詞 carefully。",
-      "tip": "動詞 + 受詞之後的空格常填副詞。"
+      "tip": "動詞 + 受詞之後的空格常填副詞。",
+      "sentenceZh": "使用設備前請仔細閱讀安全說明。"
     },
     {
       "id": "g-68",
@@ -1018,7 +1085,8 @@
       ],
       "answer": 1,
       "explanation": "所有格 its + 形容詞 exceptional 之後需要名詞，attention to detail（對細節的注重）是固定搭配。",
-      "tip": "「所有格 + 形容詞 + ______」填名詞。"
+      "tip": "「所有格 + 形容詞 + ______」填名詞。",
+      "sentenceZh": "這家飯店以對細節的卓越關注而聞名。"
     },
     {
       "id": "g-69",
@@ -1033,7 +1101,8 @@
       ],
       "answer": 2,
       "explanation": "空格修飾名詞 partnership，用形容詞 profitable（有利可圖的）。",
-      "tip": "冠詞與名詞之間填形容詞。"
+      "tip": "冠詞與名詞之間填形容詞。",
+      "sentenceZh": "這兩家公司去年建立了獲利豐厚的合作關係。"
     },
     {
       "id": "g-70",
@@ -1048,7 +1117,8 @@
       ],
       "answer": 2,
       "explanation": "形容詞 valid 之後、作 show 的受詞，需要名詞 identification（身分證件）。",
-      "tip": "動詞的受詞位置填名詞。"
+      "tip": "動詞的受詞位置填名詞。",
+      "sentenceZh": "持票者必須在入口出示有效證件。"
     },
     {
       "id": "g-71",
@@ -1063,7 +1133,8 @@
       ],
       "answer": 0,
       "explanation": "空格修飾動詞 spoke，用副詞 confidently（有自信地）。",
-      "tip": "spoke / responded / performed 這類動詞後常接副詞。"
+      "tip": "spoke / responded / performed 這類動詞後常接副詞。",
+      "sentenceZh": "執行長自信地談到公司的未來計畫。"
     },
     {
       "id": "g-72",
@@ -1078,7 +1149,8 @@
       ],
       "answer": 2,
       "explanation": "冠詞 a + 形容詞 steady 之後需要名詞 increase（成長）。",
-      "tip": "an increase / decrease in + 名詞，是多益高頻句型。"
+      "tip": "an increase / decrease in + 名詞，是多益高頻句型。",
+      "sentenceZh": "自四月以來，線上訂單持續穩定成長。"
     },
     {
       "id": "g-73",
@@ -1093,7 +1165,8 @@
       ],
       "answer": 3,
       "explanation": "空格修飾動詞 communicate，用副詞 effectively，more effectively 為比較級。",
-      "tip": "more + 副詞也是常見結構，別看到 more 就以為要選形容詞。"
+      "tip": "more + 副詞也是常見結構，別看到 more 就以為要選形容詞。",
+      "sentenceZh": "這場工作坊將幫助主管與團隊更有效地溝通。"
     },
     {
       "id": "g-74",
@@ -1108,7 +1181,8 @@
       ],
       "answer": 0,
       "explanation": "at your earliest convenience（在您方便時盡早）是商業書信固定用語，形容詞 earliest 後接名詞。",
-      "tip": "背整句：at your earliest convenience ＝ 請盡快。"
+      "tip": "背整句：at your earliest convenience ＝ 請盡快。",
+      "sentenceZh": "請填妥附件表格，並儘早回傳。"
     },
     {
       "id": "g-75",
@@ -1123,7 +1197,8 @@
       ],
       "answer": 2,
       "explanation": "right now（此刻）表示正在進行，用現在進行式 is inspecting。",
-      "tip": "right now / at the moment → 現在進行式。"
+      "tip": "right now / at the moment → 現在進行式。",
+      "sentenceZh": "維修人員現在正在檢查空調系統。"
     },
     {
       "id": "g-76",
@@ -1138,7 +1213,8 @@
       ],
       "answer": 0,
       "explanation": "since January 表示從一月至今的累積成果，用現在完成式 has opened。",
-      "tip": "since + 時間點 → 完成式。"
+      "tip": "since + 時間點 → 完成式。",
+      "sentenceZh": "自一月以來，我們公司已開設三家新分店。"
     },
     {
       "id": "g-77",
@@ -1153,7 +1229,8 @@
       ],
       "answer": 0,
       "explanation": "when 子句是過去式 rang，主句同樣描述過去動作，用過去式 left。",
-      "tip": "前後子句時態要一致：過去配過去。"
+      "tip": "前後子句時態要一致：過去配過去。",
+      "sentenceZh": "火警警報響起時，所有人立刻離開了大樓。"
     },
     {
       "id": "g-78",
@@ -1168,7 +1245,8 @@
       ],
       "answer": 0,
       "explanation": "火車時刻表等既定行程可用現在簡單式表未來，arrives 為正解。",
-      "tip": "時刻表、營業時間等固定行程 → 現在簡單式表未來。"
+      "tip": "時刻表、營業時間等固定行程 → 現在簡單式表未來。",
+      "sentenceZh": "列車十分鐘後抵達第六月台。"
     },
     {
       "id": "g-79",
@@ -1183,7 +1261,8 @@
       ],
       "answer": 0,
       "explanation": "語意是「除非雨很快停，否則活動將取消」，用 Unless（除非）。用 If 語意矛盾。",
-      "tip": "Unless = If not，選前先把語意帶進去讀一次。"
+      "tip": "Unless = If not，選前先把語意帶進去讀一次。",
+      "sentenceZh": "除非雨很快停，否則戶外活動將取消。"
     },
     {
       "id": "g-80",
@@ -1198,7 +1277,8 @@
       ],
       "answer": 1,
       "explanation": "空格後是名詞片語 the shipping delays，且語意是「儘管延誤仍準時」，用介系詞 despite。",
-      "tip": "despite + 名詞（讓步）；although + 子句。"
+      "tip": "despite + 名詞（讓步）；although + 子句。",
+      "sentenceZh": "儘管運送延誤，包裹仍準時送達。"
     },
     {
       "id": "g-81",
@@ -1213,7 +1293,8 @@
       ],
       "answer": 3,
       "explanation": "neither A nor B（A 和 B 都不）是固定搭配。",
-      "tip": "neither 必配 nor，either 必配 or。"
+      "tip": "neither 必配 nor，either 必配 or。",
+      "sentenceZh": "經理和助理都不知道行程變更。"
     },
     {
       "id": "g-82",
@@ -1228,7 +1309,8 @@
       ],
       "answer": 0,
       "explanation": "in case（以防萬一）符合「留著收據以防需要退貨」的語意。",
-      "tip": "in case = 以防；so that = 以便；now that = 既然。"
+      "tip": "in case = 以防；so that = 以便；now that = 既然。",
+      "sentenceZh": "請保留收據，以備需要退貨時使用。"
     },
     {
       "id": "g-83",
@@ -1243,7 +1325,8 @@
       ],
       "answer": 2,
       "explanation": "空格後是完整子句，語意為「一旦完成報告就離開」，用連接詞 Once。During / Despite 是介系詞。",
-      "tip": "Once + 子句 = 一…就…。"
+      "tip": "Once + 子句 = 一…就…。",
+      "sentenceZh": "完成報告後，Silva 先生就離開了辦公室。"
     },
     {
       "id": "g-84",
@@ -1258,7 +1341,8 @@
       ],
       "answer": 0,
       "explanation": "確切時刻用 at：at 2:00 p.m.。",
-      "tip": "at + 時刻、on + 日期、in + 月份/年份。"
+      "tip": "at + 時刻、on + 日期、in + 月份/年份。",
+      "sentenceZh": "研討會將於下午兩點開始。"
     },
     {
       "id": "g-85",
@@ -1273,7 +1357,8 @@
       ],
       "answer": 3,
       "explanation": "over the past two years（在過去兩年間）是固定搭配，表示一段期間內的變化。",
-      "tip": "over / during / in the past + 一段時間，搭配完成式。"
+      "tip": "over / during / in the past + 一段時間，搭配完成式。",
+      "sentenceZh": "過去兩年我們的銷售額翻了一倍。"
     },
     {
       "id": "g-86",
@@ -1288,7 +1373,8 @@
       ],
       "answer": 3,
       "explanation": "in charge of（負責…）是固定搭配。",
-      "tip": "in charge of = responsible for。"
+      "tip": "in charge of = responsible for。",
+      "sentenceZh": "新來的實習生負責整理信件。"
     },
     {
       "id": "g-87",
@@ -1303,7 +1389,8 @@
       ],
       "answer": 1,
       "explanation": "prior to（在…之前）= before，是多益常見的正式用語。",
-      "tip": "prior to = before，常出現在公告與指示。"
+      "tip": "prior to = before，常出現在公告與指示。",
+      "sentenceZh": "乘客應在起飛前兩小時抵達機場。"
     },
     {
       "id": "g-88",
@@ -1318,7 +1405,8 @@
       ],
       "answer": 0,
       "explanation": "兩者之間用 between（between A and B）；三者以上才用 among。",
-      "tip": "between 兩者、among 三者以上。"
+      "tip": "between 兩者、among 三者以上。",
+      "sentenceZh": "麵包店位於銀行和郵局之間。"
     },
     {
       "id": "g-89",
@@ -1333,7 +1421,8 @@
       ],
       "answer": 1,
       "explanation": "finish 後面接動名詞 installing。",
-      "tip": "finish / enjoy / keep + V-ing。"
+      "tip": "finish / enjoy / keep + V-ing。",
+      "sentenceZh": "資訊部門昨天完成了新軟體的安裝。"
     },
     {
       "id": "g-90",
@@ -1348,7 +1437,8 @@
       ],
       "answer": 3,
       "explanation": "decide to + 原形動詞是固定用法。",
-      "tip": "decide / plan / agree / hope + to V。"
+      "tip": "decide / plan / agree / hope + to V。",
+      "sentenceZh": "Novak 決定接受新加坡的工作邀約。"
     },
     {
       "id": "g-91",
@@ -1363,7 +1453,8 @@
       ],
       "answer": 1,
       "explanation": "使役動詞 let + 受詞 + 原形動詞。",
-      "tip": "let / make / have + 受詞 + 原形 V。"
+      "tip": "let / make / have + 受詞 + 原形 V。",
+      "sentenceZh": "警衛查驗證件後讓訪客進入大樓。"
     },
     {
       "id": "g-92",
@@ -1378,7 +1469,8 @@
       ],
       "answer": 1,
       "explanation": "avoid 後面接動名詞 making。",
-      "tip": "avoid / consider / suggest + V-ing。"
+      "tip": "avoid / consider / suggest + V-ing。",
+      "sentenceZh": "請避免在上班時間撥打私人電話。"
     },
     {
       "id": "g-93",
@@ -1393,7 +1485,8 @@
       ],
       "answer": 3,
       "explanation": "encourage + 受詞 + to V（鼓勵某人做…）是固定句型。",
-      "tip": "encourage / allow / advise / remind + 人 + to V。"
+      "tip": "encourage / allow / advise / remind + 人 + to V。",
+      "sentenceZh": "公司鼓勵員工搭乘大眾運輸工具。"
     },
     {
       "id": "g-94",
@@ -1408,7 +1501,8 @@
       ],
       "answer": 3,
       "explanation": "典禮是「被轉播」的，時間為 tonight（未來），用 will be broadcast。",
-      "tip": "主詞是活動/事物 + 轉播/舉行類動詞 → 被動。"
+      "tip": "主詞是活動/事物 + 轉播/舉行類動詞 → 被動。",
+      "sentenceZh": "頒獎典禮今晚將在公司網站上現場直播。"
     },
     {
       "id": "g-95",
@@ -1423,7 +1517,8 @@
       ],
       "answer": 2,
       "explanation": "申請書是「被受理」的，且是持續到未來的狀態，用 will be accepted。",
-      "tip": "招募公告常見句：Applications will be accepted until...。"
+      "tip": "招募公告常見句：Applications will be accepted until...。",
+      "sentenceZh": "職缺補滿之前將持續受理申請。"
     },
     {
       "id": "g-96",
@@ -1438,7 +1533,8 @@
       ],
       "answer": 2,
       "explanation": "會議室是「被準備」的，should 後接 be + p.p.。",
-      "tip": "房間/文件/設備當主詞時，十之八九是被動。"
+      "tip": "房間/文件/設備當主詞時，十之八九是被動。",
+      "sentenceZh": "會議室應在明天早上客戶來訪前準備妥當。"
     },
     {
       "id": "g-97",
@@ -1453,7 +1549,8 @@
       ],
       "answer": 3,
       "explanation": "先行詞 consultant 是人，且在子句中作 hired 的受詞（we hired him），用受格 whom。",
-      "tip": "關代後面接「主詞 + 動詞」→ 關代作受詞，人用 whom。"
+      "tip": "關代後面接「主詞 + 動詞」→ 關代作受詞，人用 whom。",
+      "sentenceZh": "我們上個月聘請的顧問已經改善了我們的工作流程。"
     },
     {
       "id": "g-98",
@@ -1468,7 +1565,8 @@
       ],
       "answer": 0,
       "explanation": "逗號後的非限定關係子句不能用 that，先行詞是物，用 which。",
-      "tip": "看到「, ______」的非限定用法，直接刪掉 that。"
+      "tip": "看到「, ______」的非限定用法，直接刪掉 that。",
+      "sentenceZh": "這座工廠建於 1998 年，如今僱用超過五百名員工。"
     },
     {
       "id": "g-99",
@@ -1483,7 +1581,8 @@
       ],
       "answer": 1,
       "explanation": "子句 the dinner will be held 結構完整（不缺主受詞），需要表示地點的關係副詞 where。",
-      "tip": "子句完整不缺格 → 用 where / when；缺主詞或受詞 → 用 which / that。"
+      "tip": "子句完整不缺格 → 用 where / when；缺主詞或受詞 → 用 which / that。",
+      "sentenceZh": "這就是歡送晚宴將舉行的餐廳。"
     },
     {
       "id": "g-100",
@@ -1498,7 +1597,8 @@
       ],
       "answer": 1,
       "explanation": "三者比較用最高級，副詞的最高級為 the most quietly。",
-      "tip": "Of the three... → 最高級。"
+      "tip": "Of the three... → 最高級。",
+      "sentenceZh": "在這三台印表機中，這一款運轉最安靜。"
     },
     {
       "id": "g-101",
@@ -1513,7 +1613,8 @@
       ],
       "answer": 1,
       "explanation": "有 than，用比較級 clearer；much 用來加強比較級。",
-      "tip": "much / far / even + 比較級（加強語氣）。"
+      "tip": "much / far / even + 比較級（加強語氣）。",
+      "sentenceZh": "修訂後的提案比原始版本清楚得多。"
     },
     {
       "id": "g-102",
@@ -1528,7 +1629,8 @@
       ],
       "answer": 1,
       "explanation": "as... as 原級比較：No other... as well as ~ 表示「沒有其他分店表現得和市中心店一樣好」。",
-      "tip": "No other + as...as = 實質上的最高級。"
+      "tip": "No other + as...as = 實質上的最高級。",
+      "sentenceZh": "今年沒有任何分店的表現比得上市中心分店。"
     },
     {
       "id": "g-103",
@@ -1543,7 +1645,8 @@
       ],
       "answer": 0,
       "explanation": "價格是「被降低」的，用過去分詞 reduced 作形容詞修飾 prices。",
-      "tip": "reduced prices、attached file、limited time — 被動意味用 p.p.。"
+      "tip": "reduced prices、attached file、limited time — 被動意味用 p.p.。",
+      "sentenceZh": "本公司對所有大量訂購提供優惠價格。"
     },
     {
       "id": "g-104",
@@ -1558,7 +1661,8 @@
       ],
       "answer": 3,
       "explanation": "會計師主動「審閱」報告，分詞構句用現在分詞 Reviewing。",
-      "tip": "分詞構句：主詞主動做 → V-ing；被動承受 → p.p.。"
+      "tip": "分詞構句：主詞主動做 → V-ing；被動承受 → p.p.。",
+      "sentenceZh": "審閱年度報告時，會計師發現了一個嚴重錯誤。"
     },
     {
       "id": "g-105",
@@ -1573,7 +1677,8 @@
       ],
       "answer": 0,
       "explanation": "課程「令人無聊」用現在分詞 boring；人「感到無聊」才用 bored。",
-      "tip": "主詞是事物 → -ing；主詞是人 → -ed。"
+      "tip": "主詞是事物 → -ing；主詞是人 → -ed。",
+      "sentenceZh": "培訓課程無聊到許多與會者都睡著了。"
     },
     {
       "id": "g-106",
@@ -1588,7 +1693,8 @@
       ],
       "answer": 1,
       "explanation": "空格後是單數名詞 employee 且動詞為 must attend，用 Each（每一位）。All / Both / Many 接複數。",
-      "tip": "Each / Every + 單數名詞；All / Many + 複數。"
+      "tip": "Each / Every + 單數名詞；All / Many + 複數。",
+      "sentenceZh": "每位員工每年必須至少參加一場培訓。"
     },
     {
       "id": "g-107",
@@ -1603,7 +1709,8 @@
       ],
       "answer": 3,
       "explanation": "complaints 是可數複數，用 several（好幾件）。much / a little 接不可數。",
-      "tip": "先判斷名詞可不可數，再挑數量詞。"
+      "tip": "先判斷名詞可不可數，再挑數量詞。",
+      "sentenceZh": "我們收到了數起關於新電話系統的投訴。"
     },
     {
       "id": "g-108",
@@ -1618,7 +1725,8 @@
       ],
       "answer": 0,
       "explanation": "time 是不可數名詞，且語意是「所剩不多」，用 little。",
-      "tip": "little（幾乎沒有）vs a little（還有一點）語氣不同。"
+      "tip": "little（幾乎沒有）vs a little（還有一點）語氣不同。",
+      "sentenceZh": "距離繳交期限只剩下很少的時間。"
     },
     {
       "id": "g-109",
@@ -1633,7 +1741,8 @@
       ],
       "answer": 2,
       "explanation": "與現在事實相反的假設，be 動詞一律用 were：If I were you。",
-      "tip": "If I were you 是固定用法，不用 was。"
+      "tip": "If I were you 是固定用法，不用 was。",
+      "sentenceZh": "如果我是你，我會在提交前再核對一次數字。"
     },
     {
       "id": "g-110",
@@ -1648,7 +1757,8 @@
       ],
       "answer": 0,
       "explanation": "空格後動詞是原形 arrive，這是 If the CEO should arrive 的倒裝：Should the CEO arrive。若選 If，動詞須為 arrives。",
-      "tip": "主詞後接原形動詞 → 想到 Should 倒裝。"
+      "tip": "主詞後接原形動詞 → 想到 Should 倒裝。",
+      "sentenceZh": "若執行長提早抵達，請帶她到董事會議室。"
     },
     {
       "id": "g-111",
@@ -1663,7 +1773,8 @@
       ],
       "answer": 2,
       "explanation": "call off（取消）是固定片語動詞。",
-      "tip": "call off = cancel，多益高頻片語。"
+      "tip": "call off = cancel，多益高頻片語。",
+      "sentenceZh": "會議因颱風警報而取消。"
     },
     {
       "id": "g-112",
@@ -1678,7 +1789,8 @@
       ],
       "answer": 0,
       "explanation": "fill in（填寫）是固定片語動詞（美式亦常用 fill out）。",
-      "tip": "fill in / fill out 都是「填寫」。"
+      "tip": "fill in / fill out 都是「填寫」。",
+      "sentenceZh": "請填寫這份表格並交給接待人員。"
     },
     {
       "id": "g-113",
@@ -1693,7 +1805,8 @@
       ],
       "answer": 0,
       "explanation": "apologize for + 事情（為…道歉）是固定搭配；apologize to + 人。",
-      "tip": "公告常見句：We apologize for any inconvenience.。"
+      "tip": "公告常見句：We apologize for any inconvenience.。",
+      "sentenceZh": "對於由此造成的任何不便，我們深感抱歉。"
     },
     {
       "id": "g-114",
@@ -1708,7 +1821,8 @@
       ],
       "answer": 0,
       "explanation": "take effect（生效）是固定搭配；take place 是「舉行」。",
-      "tip": "法規生效 take effect；活動舉行 take place。"
+      "tip": "法規生效 take effect；活動舉行 take place。",
+      "sentenceZh": "新規定將於 7 月 1 日生效。"
     },
     {
       "id": "g-115",
@@ -1723,7 +1837,8 @@
       ],
       "answer": 3,
       "explanation": "take charge of（接管；負責）是固定搭配。",
-      "tip": "take charge of = 接手負責；take part in = 參加。"
+      "tip": "take charge of = 接手負責；take part in = 參加。",
+      "sentenceZh": "總監不在期間，Ito 將負責這項專案。"
     },
     {
       "id": "g-116",
@@ -1738,7 +1853,8 @@
       ],
       "answer": 2,
       "explanation": "前句說明週日暫停服務，後句解釋「這段期間」要做的升級作業，用 During this time。",
-      "tip": "找前後句的時間關係：暫停期間做某事 → during this time。"
+      "tip": "找前後句的時間關係：暫停期間做某事 → during this time。",
+      "sentenceZh": "在此期間，我們將升級付款系統，以提供您更好的服務。"
     },
     {
       "id": "g-117",
@@ -1753,7 +1869,8 @@
       ],
       "answer": 1,
       "explanation": "處理期間可以先做的事，用 In the meantime（在此期間）銜接最自然。",
-      "tip": "「等待期間可以…」→ in the meantime。"
+      "tip": "「等待期間可以…」→ in the meantime。",
+      "sentenceZh": "在此期間，您可以在我們網站上追蹤它的狀態。"
     },
     {
       "id": "g-118",
@@ -1768,7 +1885,8 @@
       ],
       "answer": 2,
       "explanation": "指前一句提到的單一變更（延長營業時間），用單數指示詞 This change。",
-      "tip": "Part 6 指示詞題：先確認指的是前文哪件事、單數還是複數。"
+      "tip": "Part 6 指示詞題：先確認指的是前文哪件事、單數還是複數。",
+      "sentenceZh": "這項變更反映了會員們的意見回饋。"
     },
     {
       "id": "g-119",
@@ -1783,7 +1901,8 @@
       ],
       "answer": 3,
       "explanation": "後句在前句的好處上追加另一項好處，屬於遞進關係，用 Furthermore（此外）。",
-      "tip": "前後同方向加碼 → furthermore / in addition；方向相反 → however。"
+      "tip": "前後同方向加碼 → furthermore / in addition；方向相反 → however。",
+      "sentenceZh": "此外，表現優異的實習生可能獲得正職職位。"
     },
     {
       "id": "g-120",
@@ -1798,7 +1917,8 @@
       ],
       "answer": 2,
       "explanation": "後句是條件關係：「如果被採用，就會收到合約」，用 If。",
-      "tip": "條件 + 結果的句型，優先試 If 帶入讀看看。"
+      "tip": "條件 + 結果的句型，優先試 If 帶入讀看看。",
+      "sentenceZh": "若獲採用，您將透過電子郵件收到出版合約。"
     },
     {
       "id": "g-121",
@@ -1813,7 +1933,8 @@
       ],
       "answer": 1,
       "explanation": "sign an agreement（簽署協議）是固定搭配；appliance 是家電、attendance 是出席。",
-      "tip": "字彙題先看動詞搭配：sign 後面接 agreement / contract。"
+      "tip": "字彙題先看動詞搭配：sign 後面接 agreement / contract。",
+      "sentenceZh": "兩家公司簽署了共享研究設施的協議。"
     },
     {
       "id": "g-122",
@@ -1828,7 +1949,8 @@
       ],
       "answer": 0,
       "explanation": "protective equipment（防護裝備）是固定搭配。",
-      "tip": "protective 後面常接 equipment / gear / clothing。"
+      "tip": "protective 後面常接 equipment / gear / clothing。",
+      "sentenceZh": "進入實驗室時，員工必須穿戴防護裝備。"
     },
     {
       "id": "g-123",
@@ -1843,7 +1965,8 @@
       ],
       "answer": 1,
       "explanation": "shuttle service（接駁服務）是固定搭配。",
-      "tip": "選項長得像時，找「和前面名詞組成慣用語」的那個。"
+      "tip": "選項長得像時，找「和前面名詞組成慣用語」的那個。",
+      "sentenceZh": "飯店提供往返會議中心的免費接駁車服務。"
     },
     {
       "id": "g-124",
@@ -1858,7 +1981,8 @@
       ],
       "answer": 2,
       "explanation": "high demand（需求踴躍）符合「換到更大教室」的因果關係。",
-      "tip": "字彙題把每個選項帶回句子讀，只有一個語意通順。"
+      "tip": "字彙題把每個選項帶回句子讀，只有一個語意通順。",
+      "sentenceZh": "由於需求踴躍，研討會已改到更大的教室。"
     },
     {
       "id": "g-125",
@@ -1873,7 +1997,8 @@
       ],
       "answer": 2,
       "explanation": "complete the form（填妥表格）是商業書信高頻用語；compete 是競爭。",
-      "tip": "form 的搭配動詞：complete / fill in / submit。"
+      "tip": "form 的搭配動詞：complete / fill in / submit。",
+      "sentenceZh": "請填妥隨函附上的表格，並於 5 月 3 日前寄回。"
     },
     {
       "id": "g-126",
@@ -1888,7 +2013,8 @@
       ],
       "answer": 2,
       "explanation": "「審核提案並選出優勝者」用 evaluate（評估）；evacuate 是疏散、elevate 是提升。",
-      "tip": "小心形近字：evaluate（評估）vs evacuate（疏散）。"
+      "tip": "小心形近字：evaluate（評估）vs evacuate（疏散）。",
+      "sentenceZh": "委員會將評估提案並在下週選出優勝者。"
     },
     {
       "id": "g-127",
@@ -1903,7 +2029,8 @@
       ],
       "answer": 1,
       "explanation": "dedication to（對…的投入）是固定搭配；deduction 是扣除。",
-      "tip": "dedication / commitment + to，介系詞是線索。"
+      "tip": "dedication / commitment + to，介系詞是線索。",
+      "sentenceZh": "Park 因對專案的投入而受到表揚。"
     },
     {
       "id": "g-128",
@@ -1918,7 +2045,8 @@
       ],
       "answer": 2,
       "explanation": "baggage allowance（行李額度）是航空業固定用語。",
-      "tip": "allowance = 額度/津貼，多益常考 baggage / travel allowance。"
+      "tip": "allowance = 額度/津貼，多益常考 baggage / travel allowance。",
+      "sentenceZh": "這家航空公司為商務艙提供慷慨的行李額度。"
     },
     {
       "id": "g-129",
@@ -1933,7 +2061,8 @@
       ],
       "answer": 0,
       "explanation": "sales figures（銷售數據）是固定搭配。",
-      "tip": "figures 當「數據」解是多益高頻義。"
+      "tip": "figures 當「數據」解是多益高頻義。",
+      "sentenceZh": "北區的銷售數字將於週五公布。"
     },
     {
       "id": "g-130",
@@ -1948,7 +2077,8 @@
       ],
       "answer": 3,
       "explanation": "outstanding service（傑出的服務）符合「獲獎」的語意；outdated 是過時的。",
-      "tip": "out- 開頭形近字要靠語意分辨：outstanding 傑出、outdated 過時。"
+      "tip": "out- 開頭形近字要靠語意分辨：outstanding 傑出、outdated 過時。",
+      "sentenceZh": "這家餐廳因傑出的服務而獲獎。"
     },
     {
       "id": "g-131",
@@ -1963,7 +2093,8 @@
       ],
       "answer": 0,
       "explanation": "Hardly had + S + p.p. ... when...（才剛…就…）是固定倒裝句型。",
-      "tip": "句首否定副詞（Hardly / Never / Seldom）→ 主詞動詞倒裝。"
+      "tip": "句首否定副詞（Hardly / Never / Seldom）→ 主詞動詞倒裝。",
+      "sentenceZh": "會議才剛開始，火警警報就響了。"
     },
     {
       "id": "g-132",
@@ -1978,7 +2109,8 @@
       ],
       "answer": 1,
       "explanation": "Not only 放句首時須倒裝：Not only did she meet...。",
-      "tip": "Not only 在句首 → 後面接助動詞 + 主詞 + 原形動詞。"
+      "tip": "Not only 在句首 → 後面接助動詞 + 主詞 + 原形動詞。",
+      "sentenceZh": "她不僅趕上了期限，還改良了設計。"
     },
     {
       "id": "g-133",
@@ -1993,7 +2125,8 @@
       ],
       "answer": 0,
       "explanation": "空格後是完整子句，表示「是否」用 whether；what / which / who 需要在子句中擔任成分。",
-      "tip": "子句完整不缺格 → whether / that；缺主詞或受詞 → what / who。"
+      "tip": "子句完整不缺格 → whether / that；缺主詞或受詞 → what / who。",
+      "sentenceZh": "經理尚未決定是否延後上市。"
     },
     {
       "id": "g-134",
@@ -2008,7 +2141,8 @@
       ],
       "answer": 3,
       "explanation": "What surprised the investors（令投資人驚訝的事）作主詞，What 在子句中兼任主詞。",
-      "tip": "「______ + 動詞 + 的事」當主詞 → What。"
+      "tip": "「______ + 動詞 + 的事」當主詞 → What。",
+      "sentenceZh": "讓投資人吃驚的是獲利突然下滑。"
     },
     {
       "id": "g-135",
@@ -2023,7 +2157,8 @@
       ],
       "answer": 0,
       "explanation": "Whoever（無論誰）= Anyone who，引導名詞子句作整句主詞。",
-      "tip": "沒有先行詞時用 whoever / whichever / whatever。"
+      "tip": "沒有先行詞時用 whoever / whichever / whatever。",
+      "sentenceZh": "無論誰贏得這份合約，都必須立即開始工作。"
     },
     {
       "id": "g-136",
@@ -2038,7 +2173,8 @@
       ],
       "answer": 1,
       "explanation": "公司是「被創立」的，分詞構句用過去分詞 Founded。",
-      "tip": "Founded in + 年份 是公司介紹的固定開頭。"
+      "tip": "Founded in + 年份 是公司介紹的固定開頭。",
+      "sentenceZh": "這家公司創立於 1975 年，已成長為全球領導者。"
     },
     {
       "id": "g-137",
@@ -2053,7 +2189,8 @@
       ],
       "answer": 1,
       "explanation": "人「感到滿意」用過去分詞 pleased（be pleased with）。",
-      "tip": "人的情緒用 -ed：pleased、satisfied、delighted。"
+      "tip": "人的情緒用 -ed：pleased、satisfied、delighted。",
+      "sentenceZh": "經理對成果很滿意，於是延長了這檔活動。"
     },
     {
       "id": "g-138",
@@ -2068,7 +2205,8 @@
       ],
       "answer": 2,
       "explanation": "be met with...（遭遇…的反應）是固定被動用法。",
-      "tip": "be met with + 反應（praise / criticism / mixed reactions）。"
+      "tip": "be met with + 反應（praise / criticism / mixed reactions）。",
+      "sentenceZh": "搬遷的決定在員工之間引起了不同的反應。"
     },
     {
       "id": "g-139",
@@ -2083,7 +2221,8 @@
       ],
       "answer": 3,
       "explanation": "與過去事實相反的假設倒裝：Had the shipment arrived = If the shipment had arrived。",
-      "tip": "主句是 would have p.p. → 前面找 Had + S + p.p. 的倒裝。"
+      "tip": "主句是 would have p.p. → 前面找 Had + S + p.p. 的倒裝。",
+      "sentenceZh": "要是貨件準時到達，我們就不會失去那位客戶了。"
     },
     {
       "id": "g-140",
@@ -2098,7 +2237,8 @@
       ],
       "answer": 1,
       "explanation": "This time next week（下週此刻）表示未來某時刻正在進行的動作，用未來進行式。",
-      "tip": "this time + 未來時間 → will be V-ing。"
+      "tip": "this time + 未來時間 → will be V-ing。",
+      "sentenceZh": "下週的這個時候，稽核人員將正在審查我們的財務紀錄。"
     },
     {
       "id": "g-141",
@@ -2113,7 +2253,8 @@
       ],
       "answer": 0,
       "explanation": "on account of（由於）= because of；in charge of 是負責、on behalf of 是代表。",
-      "tip": "on account of = due to = because of。"
+      "tip": "on account of = due to = because of。",
+      "sentenceZh": "研討會因報名人數不足而取消。"
     },
     {
       "id": "g-142",
@@ -2128,7 +2269,8 @@
       ],
       "answer": 3,
       "explanation": "Under the terms of...（依據…的條款）是法律文件固定用語。",
-      "tip": "under the contract / terms / agreement = 依照合約。"
+      "tip": "under the contract / terms / agreement = 依照合約。",
+      "sentenceZh": "根據租約條款，房客必須提前六十天通知。"
     },
     {
       "id": "g-143",
@@ -2143,7 +2285,8 @@
       ],
       "answer": 0,
       "explanation": "「每天營業，國定假日除外」用 except on（除了…之外）。其他選項都是「加上」的意思。",
-      "tip": "營業時間公告常見：open daily except on holidays。"
+      "tip": "營業時間公告常見：open daily except on holidays。",
+      "sentenceZh": "這家店每天營業，國定假日除外。"
     },
     {
       "id": "g-144",
@@ -2158,7 +2301,8 @@
       ],
       "answer": 0,
       "explanation": "in writing（以書面形式）是固定搭配。",
-      "tip": "in writing、in person、in advance — in 的三個高頻片語。"
+      "tip": "in writing、in person、in advance — in 的三個高頻片語。",
+      "sentenceZh": "所有支出都必須經主管書面核准。"
     },
     {
       "id": "g-145",
@@ -2173,7 +2317,8 @@
       ],
       "answer": 2,
       "explanation": "attribute A to B（把 A 歸因於 B）是固定搭配。",
-      "tip": "attribute / owe / dedicate + A + to + B。"
+      "tip": "attribute / owe / dedicate + A + to + B。",
+      "sentenceZh": "執行長將這波成長歸功於強勁的海外銷售。"
     },
     {
       "id": "g-146",
@@ -2188,7 +2333,8 @@
       ],
       "answer": 1,
       "explanation": "recommend that + S + 原形動詞（假設語氣），should 被省略。",
-      "tip": "suggest / recommend / require / insist + that 子句 → 動詞用原形。"
+      "tip": "suggest / recommend / require / insist + that 子句 → 動詞用原形。",
+      "sentenceZh": "顧問建議公司修改定價模式。"
     },
     {
       "id": "g-147",
@@ -2203,7 +2349,8 @@
       ],
       "answer": 1,
       "explanation": "It is essential that + S + 原形動詞，即使主詞是第三人稱單數也不加 s。",
-      "tip": "It is essential / important / necessary that → 原形動詞。"
+      "tip": "It is essential / important / necessary that → 原形動詞。",
+      "sentenceZh": "每位訪客務必隨時配戴識別證。"
     },
     {
       "id": "g-148",
@@ -2218,7 +2365,8 @@
       ],
       "answer": 1,
       "explanation": "require that 子句用原形動詞，密碼是被更改的，故用 be changed。",
-      "tip": "require that + 被動 → be + p.p.（不是 are/is + p.p.）。"
+      "tip": "require that + 被動 → be + p.p.（不是 are/is + p.p.）。",
+      "sentenceZh": "安全系統要求所有密碼每月更換。"
     },
     {
       "id": "g-149",
@@ -2233,7 +2381,8 @@
       ],
       "answer": 0,
       "explanation": "would rather + 原形動詞 + than + 原形動詞。",
-      "tip": "would rather A than B，A、B 都用原形。"
+      "tip": "would rather A than B，A、B 都用原形。",
+      "sentenceZh": "我們寧願延期會議，也不願完全取消。"
     },
     {
       "id": "g-150",
@@ -2248,7 +2397,8 @@
       ],
       "answer": 0,
       "explanation": "need + V-ing 表被動（= need to be replaced）。",
-      "tip": "物 + need + V-ing = 需要被…。"
+      "tip": "物 + need + V-ing = 需要被…。",
+      "sentenceZh": "這台舊印表機需要在下週稽核前汰換。"
     },
     {
       "id": "g-151",
@@ -2263,7 +2413,8 @@
       ],
       "answer": 3,
       "explanation": "breakdown（明細；分項）符合「費用明細」的語意；breakthrough 是突破。",
-      "tip": "a breakdown of costs = 費用明細，多益報表題常客。"
+      "tip": "a breakdown of costs = 費用明細，多益報表題常客。",
+      "sentenceZh": "這份報告包含去年支出的詳細明細。"
     },
     {
       "id": "g-152",
@@ -2278,7 +2429,8 @@
       ],
       "answer": 2,
       "explanation": "overhead compartment（機艙上方置物櫃）是航空固定用語。",
-      "tip": "-partment 形近字：compartment 置物格、department 部門。"
+      "tip": "-partment 形近字：compartment 置物格、department 部門。",
+      "sentenceZh": "乘客應將隨身物品放在頭頂置物櫃內。"
     },
     {
       "id": "g-153",
@@ -2293,7 +2445,8 @@
       ],
       "answer": 0,
       "explanation": "take measures（採取措施）是固定搭配。",
-      "tip": "take measures / steps / action 都是「採取行動」。"
+      "tip": "take measures / steps / action 都是「採取行動」。",
+      "sentenceZh": "公司立即採取措施修補安全漏洞。"
     },
     {
       "id": "g-154",
@@ -2308,7 +2461,8 @@
       ],
       "answer": 1,
       "explanation": "extensive expertise（豐富的專業知識）符合語意；expedition 是遠征。",
-      "tip": "expertise in + 領域 = 在…方面的專業。"
+      "tip": "expertise in + 領域 = 在…方面的專業。",
+      "sentenceZh": "Alvarez 在國際貿易法方面具備深厚的專業。"
     },
     {
       "id": "g-155",
@@ -2323,7 +2477,8 @@
       ],
       "answer": 1,
       "explanation": "practical tips（實用的訣竅）是自然搭配。",
-      "tip": "tips / advice 的常見修飾語：practical、useful、helpful。"
+      "tip": "tips / advice 的常見修飾語：practical、useful、helpful。",
+      "sentenceZh": "這場工作坊提供了學員實用的時間管理技巧。"
     },
     {
       "id": "g-156",
@@ -2338,7 +2493,8 @@
       ],
       "answer": 2,
       "explanation": "in recognition of（為表彰…）是固定片語。",
-      "tip": "in recognition of your support / loyalty，感謝函高頻句。"
+      "tip": "in recognition of your support / loyalty，感謝函高頻句。",
+      "sentenceZh": "為感謝您的忠誠支持，我們很高興提供您一項特別折扣。"
     },
     {
       "id": "g-157",
@@ -2353,7 +2509,8 @@
       ],
       "answer": 1,
       "explanation": "have an impact on（對…產生影響）是固定搭配；impress 是動詞。",
-      "tip": "impact / effect / influence + on。"
+      "tip": "impact / effect / influence + on。",
+      "sentenceZh": "新政策將對聘僱作業產生重大影響。"
     },
     {
       "id": "g-158",
@@ -2368,7 +2525,8 @@
       ],
       "answer": 2,
       "explanation": "sparingly（節省地）符合「提醒節約使用文具」的語意。",
-      "tip": "use sparingly = 省著用，公告常見。"
+      "tip": "use sparingly = 省著用，公告常見。",
+      "sentenceZh": "提醒員工節約使用辦公用品。"
     },
     {
       "id": "g-159",
@@ -2383,7 +2541,8 @@
       ],
       "answer": 1,
       "explanation": "step-by-step instructions（逐步指示）是固定搭配。",
-      "tip": "instructions 說明、instruments 儀器、institutions 機構。"
+      "tip": "instructions 說明、instruments 儀器、institutions 機構。",
+      "sentenceZh": "手冊提供了安裝印表機的逐步說明。"
     },
     {
       "id": "g-160",
@@ -2398,7 +2557,8 @@
       ],
       "answer": 3,
       "explanation": "express concern about（對…表達憂慮）是固定搭配；consent 是同意。",
-      "tip": "concern about / over = 對…的擔憂。"
+      "tip": "concern about / over = 對…的擔憂。",
+      "sentenceZh": "董事會對不斷上升的生產成本表示憂心。"
     },
     {
       "id": "g-161",
@@ -2413,7 +2573,8 @@
       ],
       "answer": 0,
       "explanation": "that 代替前面的單數名詞 the branch，指「首爾的那間分店」。",
-      "tip": "比較句中代替前述名詞：單數用 that、複數用 those。"
+      "tip": "比較句中代替前述名詞：單數用 that、複數用 those。",
+      "sentenceZh": "東京分公司本季表現優於首爾分公司。"
     },
     {
       "id": "g-162",
@@ -2428,7 +2589,8 @@
       ],
       "answer": 1,
       "explanation": "空格後接名詞 names，用所有格 their。",
-      "tip": "空格 + 名詞 → 所有格。"
+      "tip": "空格 + 名詞 → 所有格。",
+      "sentenceZh": "完成問卷的員工將獲得抽獎資格。"
     },
     {
       "id": "g-163",
@@ -2443,7 +2605,8 @@
       ],
       "answer": 0,
       "explanation": "並列結構要一致：answering、scheduling、filing 都是動名詞。",
-      "tip": "A, B, and C 三者詞性必須平行。"
+      "tip": "A, B, and C 三者詞性必須平行。",
+      "sentenceZh": "這份工作包含接聽電話、安排會議和歸檔報告。"
     },
     {
       "id": "g-164",
@@ -2458,7 +2621,8 @@
       ],
       "answer": 3,
       "explanation": "By the time + 現在式子句，主句用未來完成式 will have left。",
-      "tip": "by the time + 現在式 → 主句 will have p.p.。"
+      "tip": "by the time + 現在式 → 主句 will have p.p.。",
+      "sentenceZh": "當你收到這封信時，我將已啟程前往新加坡。"
     },
     {
       "id": "g-165",
@@ -2473,7 +2637,8 @@
       ],
       "answer": 1,
       "explanation": "The number of + 複數名詞 是單數主詞，且 since 搭配完成式，用 has increased。",
-      "tip": "the number of（數量）單數；a number of（許多）複數。"
+      "tip": "the number of（數量）單數；a number of（許多）複數。",
+      "sentenceZh": "自從 App 上線以來，線上訂單數量持續穩定成長。"
     },
     {
       "id": "g-166",
@@ -2488,7 +2653,8 @@
       ],
       "answer": 2,
       "explanation": "Neither of + 複數名詞 作主詞時，動詞用單數 is。",
-      "tip": "neither / each / either of + 複數名詞 → 單數動詞。"
+      "tip": "neither / each / either of + 複數名詞 → 單數動詞。",
+      "sentenceZh": "這兩台印表機都無法正常運作。"
     },
     {
       "id": "g-167",
@@ -2503,7 +2669,8 @@
       ],
       "answer": 2,
       "explanation": "Each of + 複數名詞 是單數主詞，用 was。",
-      "tip": "each 永遠搭配單數動詞。"
+      "tip": "each 永遠搭配單數動詞。",
+      "sentenceZh": "每位候選人都被要求準備一段簡短的簡報。"
     },
     {
       "id": "g-168",
@@ -2518,7 +2685,8 @@
       ],
       "answer": 2,
       "explanation": "空格後接名詞片語，需要介系詞 notwithstanding（儘管）；nevertheless / however 是副詞，不能直接接名詞。",
-      "tip": "notwithstanding + 名詞 = despite。"
+      "tip": "notwithstanding + 名詞 = despite。",
+      "sentenceZh": "儘管起初對預算有所疑慮，這次上市仍然成功。"
     },
     {
       "id": "g-169",
@@ -2533,7 +2701,8 @@
       ],
       "answer": 3,
       "explanation": "As long as（只要）表條件，符合「只要需求維持就延長營業」的語意。",
-      "tip": "as long as 只要；as soon as 一…就；as far as 就…而言。"
+      "tip": "as long as 只要；as soon as 一…就；as far as 就…而言。",
+      "sentenceZh": "只要需求維持強勁，我們就會延續延長營業時間。"
     },
     {
       "id": "g-170",
@@ -2548,7 +2717,8 @@
       ],
       "answer": 1,
       "explanation": "超賣（原因）→ 乘客自願改搭（結果），因果關係用 consequently。",
-      "tip": "分號後的副詞看前後句關係：因果 → consequently / as a result。"
+      "tip": "分號後的副詞看前後句關係：因果 → consequently / as a result。",
+      "sentenceZh": "班機超賣，因此數名乘客自願改搭較晚的航班。"
     },
     {
       "id": "g-171",
@@ -2563,7 +2733,8 @@
       ],
       "answer": 1,
       "explanation": "前句稱讚資歷，後句是婉拒（負面消息），語氣轉折用 Regrettably（遺憾地）。",
-      "tip": "婉拒信的轉折詞：regrettably / unfortunately / however。"
+      "tip": "婉拒信的轉折詞：regrettably / unfortunately / however。",
+      "sentenceZh": "很遺憾，我們決定錄取另一位經歷更符合需求的候選人。"
     },
     {
       "id": "g-172",
@@ -2578,7 +2749,8 @@
       ],
       "answer": 1,
       "explanation": "公告中的指示句用祈使句：Please remove...。",
-      "tip": "公告要求讀者做某事 → Please + 原形動詞。"
+      "tip": "公告要求讀者做某事 → Please + 原形動詞。",
+      "sentenceZh": "請在週五晚間前將您的車輛移出二樓停車場。"
     },
     {
       "id": "g-173",
@@ -2593,7 +2765,8 @@
       ],
       "answer": 2,
       "explanation": "「若不續約，帳戶將自動停用」，表示「否則」用 Otherwise。",
-      "tip": "前句是建議、後句是不照做的後果 → otherwise。"
+      "tip": "前句是建議、後句是不照做的後果 → otherwise。",
+      "sentenceZh": "否則，您的帳戶將被自動停權。"
     },
     {
       "id": "g-174",
@@ -2608,7 +2781,8 @@
       ],
       "answer": 2,
       "explanation": "指示讀者的祈使句用原形動詞 Arrive。",
-      "tip": "句首動詞 + to V 目的 → 祈使句用原形。"
+      "tip": "句首動詞 + to V 目的 → 祈使句用原形。",
+      "sentenceZh": "請提早到場以確保您的位置。"
     },
     {
       "id": "g-175",
@@ -2623,7 +2797,8 @@
       ],
       "answer": 0,
       "explanation": "Effective + 日期（自…起生效）是公告固定用語。",
-      "tip": "Effective March 1 = 自三月一日起。"
+      "tip": "Effective March 1 = 自三月一日起。",
+      "sentenceZh": "自 9 月 1 日起，他們將供應所有的現場餐點。"
     },
     {
       "id": "g-176",
@@ -2638,7 +2813,8 @@
       ],
       "answer": 0,
       "explanation": "once（一旦）引導的時間子句用現在式代替未來式。",
-      "tip": "when / once / after 子句：用現在式表未來。"
+      "tip": "when / once / after 子句：用現在式表未來。",
+      "sentenceZh": "收到退回商品後，我們將全額退款。"
     },
     {
       "id": "g-177",
@@ -2653,7 +2829,8 @@
       ],
       "answer": 1,
       "explanation": "檔案是「被留下」的，用過去分詞 left 修飾 files（= files that are left）。",
-      "tip": "名詞 + p.p. = 被…的名詞（縮減關係子句）。"
+      "tip": "名詞 + p.p. = 被…的名詞（縮減關係子句）。",
+      "sentenceZh": "留在桌面上的任何檔案都可能在升級過程中遺失。"
     },
     {
       "id": "g-178",
@@ -2668,7 +2845,8 @@
       ],
       "answer": 0,
       "explanation": "「賓客在住戶陪同時可使用泳池」，用 when（= when they are accompanied）。",
-      "tip": "when / while + p.p. 是省略主詞 be 的常見結構。"
+      "tip": "when / while + p.p. 是省略主詞 be 的常見結構。",
+      "sentenceZh": "住戶陪同時，訪客可以使用游泳池。"
     },
     {
       "id": "g-179",
@@ -2683,7 +2861,8 @@
       ],
       "answer": 3,
       "explanation": "be expected to + 原形動詞，故填 participate。",
-      "tip": "to 後面接原形動詞（除非 to 是介系詞）。"
+      "tip": "to 後面接原形動詞（除非 to 是介系詞）。",
+      "sentenceZh": "預計將有超過一千名跑者參加今年的賽事。"
     },
     {
       "id": "g-180",
@@ -2698,7 +2877,8 @@
       ],
       "answer": 0,
       "explanation": "指前句複數的 slides，作主詞用 They。",
-      "tip": "先確認指涉對象的單複數與格位：主詞位置用 they。"
+      "tip": "先確認指涉對象的單複數與格位：主詞位置用 they。",
+      "sentenceZh": "這些資料可以在大會網站的「Resources」頁籤下找到。"
     },
     {
       "id": "g-181",
@@ -2713,7 +2893,8 @@
       ],
       "answer": 3,
       "explanation": "介系詞 upon 後面要接名詞，upon arrival（抵達時）是固定用法。arrive 是動詞原形、arrived 是過去式；arriving 雖是動名詞，但 upon arrival 為最常見的慣用搭配。",
-      "tip": "upon / on + arrival（一抵達就……）是多益高頻固定用法，直接背起來。"
+      "tip": "upon / on + arrival（一抵達就……）是多益高頻固定用法，直接背起來。",
+      "sentenceZh": "所有訪客抵達總部時，必須在前台簽到。"
     },
     {
       "id": "g-182",
@@ -2728,7 +2909,8 @@
       ],
       "answer": 3,
       "explanation": "空格修飾名詞 decision，需要形容詞 strategic（策略性的）。strategy 是名詞、strategically 是副詞、strategize 是動詞。",
-      "tip": "冠詞 a 與名詞之間的空格，九成填形容詞。"
+      "tip": "冠詞 a 與名詞之間的空格，九成填形容詞。",
+      "sentenceZh": "行銷團隊做出了延後產品上市的策略性決定。"
     },
     {
       "id": "g-183",
@@ -2743,7 +2925,8 @@
       ],
       "answer": 0,
       "explanation": "空格位於助動詞省略的主詞與動詞 receive 之間，修飾動詞需要副詞 successfully。句意：成功完成訓練課程的員工將獲得證書。",
-      "tip": "主詞與動詞之間的空格，優先考慮副詞。"
+      "tip": "主詞與動詞之間的空格，優先考慮副詞。",
+      "sentenceZh": "順利完成培訓課程的員工將獲得證書。"
     },
     {
       "id": "g-184",
@@ -2758,7 +2941,8 @@
       ],
       "answer": 3,
       "explanation": "所有格 its 後面接名詞，commitment to（對……的投入／承諾）為固定搭配。commit 是動詞，committed 是過去分詞或形容詞。",
-      "tip": "所有格（its / their / our）後面必接名詞。"
+      "tip": "所有格（its / their / our）後面必接名詞。",
+      "sentenceZh": "這家飯店以致力於顧客滿意而聞名。"
     },
     {
       "id": "g-185",
@@ -2773,7 +2957,8 @@
       ],
       "answer": 0,
       "explanation": "修飾動詞 responded 需要副詞 promptly（迅速地）。prompt 是形容詞、promptness 是名詞。",
-      "tip": "不及物動詞後面的空格常填副詞：respond promptly、rise sharply。"
+      "tip": "不及物動詞後面的空格常填副詞：respond promptly、rise sharply。",
+      "sentenceZh": "Rivera 迅速回應了客戶的緊急請求。"
     },
     {
       "id": "g-186",
@@ -2788,7 +2973,8 @@
       ],
       "answer": 1,
       "explanation": "定冠詞 the 與 of 之間需要名詞，opening（開幕）作名詞用。openly 是副詞。",
-      "tip": "「the ______ of」結構填名詞；動詞加 -ing 常可當名詞（opening、planning）。"
+      "tip": "「the ______ of」結構填名詞；動詞加 -ing 常可當名詞（opening、planning）。",
+      "sentenceZh": "新分公司的開幕已延後至明年春天。"
     },
     {
       "id": "g-187",
@@ -2803,7 +2989,8 @@
       ],
       "answer": 1,
       "explanation": "形容詞 extreme 修飾的對象需要名詞，with care（小心地）為固定用法。careful 是形容詞、carefully 是副詞。",
-      "tip": "with + 形容詞 + 名詞（with extreme care / with great caution）。"
+      "tip": "with + 形容詞 + 名詞（with extreme care / with great caution）。",
+      "sentenceZh": "運送期間請極度小心地搬運玻璃器皿。"
     },
     {
       "id": "g-188",
@@ -2818,7 +3005,8 @@
       ],
       "answer": 3,
       "explanation": "形容詞 strong 後面接名詞，句意需要抽象名詞 support（支持）。supporter 是「支持者」，語意不符。",
-      "tip": "同是名詞也要選對語意：support（支持）vs. supporter（支持者）。"
+      "tip": "同是名詞也要選對語意：support（支持）vs. supporter（支持者）。",
+      "sentenceZh": "董事會對這項合併提案表達了強力支持。"
     },
     {
       "id": "g-189",
@@ -2833,7 +3021,8 @@
       ],
       "answer": 2,
       "explanation": "句意：若顧客不滿意，公司提供全額退款（refund）。receipt 是收據、revenue 是營收、reduction 是減少。",
-      "tip": "a full refund（全額退款）是客服情境高頻搭配。"
+      "tip": "a full refund（全額退款）是客服情境高頻搭配。",
+      "sentenceZh": "如果顧客對購買的商品不滿意，公司提供全額退款。"
     },
     {
       "id": "g-190",
@@ -2848,7 +3037,8 @@
       ],
       "answer": 1,
       "explanation": "raise 是及物動詞（提高某物），後面接受詞 prices。rise 和 arise 是不及物動詞，不能接受詞。",
-      "tip": "raise + 受詞（及物）；rise 自己上升（不及物）。看空格後有無受詞。"
+      "tip": "raise + 受詞（及物）；rise 自己上升（不及物）。看空格後有無受詞。",
+      "sentenceZh": "由於原料成本上漲，製造商決定調漲百分之五的價格。"
     },
     {
       "id": "g-191",
@@ -2863,7 +3053,8 @@
       ],
       "answer": 1,
       "explanation": "空格後有介系詞 with，只有 comply with（遵守）需要搭配 with。obey、follow、observe 都是及物動詞，直接接受詞。",
-      "tip": "先看空格後的介系詞再選字：comply with、adhere to、abide by。"
+      "tip": "先看空格後的介系詞再選字：comply with、adhere to、abide by。",
+      "sentenceZh": "所有實驗室人員都必須遵守更新後的安全規範。"
     },
     {
       "id": "g-192",
@@ -2878,7 +3069,8 @@
       ],
       "answer": 0,
       "explanation": "句意：研討會將提供關於海外投資機會的寶貴資訊（valuable information）。spacious 形容空間寬敞、grateful 是感激的、eventual 是最終的。",
-      "tip": "形容詞字彙題先確認被修飾的名詞：valuable information 是常見搭配。"
+      "tip": "形容詞字彙題先確認被修飾的名詞：valuable information 是常見搭配。",
+      "sentenceZh": "這場研討會將提供關於海外投資機會的寶貴資訊。"
     },
     {
       "id": "g-193",
@@ -2893,7 +3085,8 @@
       ],
       "answer": 1,
       "explanation": "句意：持票者可在演出前 24 小時內更換座位（exchange seats）。expend 是花費、exclaim 是驚呼、exceed 是超過。",
-      "tip": "字首相同的選項是經典陷阱，逐一帶入句意檢查。"
+      "tip": "字首相同的選項是經典陷阱，逐一帶入句意檢查。",
+      "sentenceZh": "持票者最遲可在演出前 24 小時更換座位。"
     },
     {
       "id": "g-194",
@@ -2908,7 +3101,8 @@
       ],
       "answer": 0,
       "explanation": "take effect（生效）是固定片語。affect 是動詞（影響）、effort 是努力、efficiency 是效率。",
-      "tip": "take effect（生效）、in effect（生效中）、effective + 日期（自某日起生效）。"
+      "tip": "take effect（生效）、in effect（生效中）、effective + 日期（自某日起生效）。",
+      "sentenceZh": "新政策將於下個月一號生效。"
     },
     {
       "id": "g-195",
@@ -2923,7 +3117,8 @@
       ],
       "answer": 1,
       "explanation": "求職情境：履歷須附兩封推薦信（letters of recommendation）。recognition 是表彰、reservation 是預約、renovation 是翻修。",
-      "tip": "letter of recommendation（推薦信）是人事招募高頻詞。"
+      "tip": "letter of recommendation（推薦信）是人事招募高頻詞。",
+      "sentenceZh": "申請者必須連同履歷繳交兩封推薦信。"
     },
     {
       "id": "g-196",
@@ -2938,7 +3133,8 @@
       ],
       "answer": 3,
       "explanation": "句意：財務部負責編製年度預算報告（prepare the report）。repair 是修理、compare 是比較、declare 是申報／宣布，語意皆不符。",
-      "tip": "prepare a report / budget / presentation 是辦公室高頻搭配。"
+      "tip": "prepare a report / budget / presentation 是辦公室高頻搭配。",
+      "sentenceZh": "財務部門負責編製年度預算報告。"
     },
     {
       "id": "g-197",
@@ -2953,7 +3149,8 @@
       ],
       "answer": 1,
       "explanation": "as scheduled（照原定計畫）是固定用法。句意：儘管大雨，戶外音樂會仍照常舉行。",
-      "tip": "as scheduled / as planned / as expected（照計畫／如預期）成組記。"
+      "tip": "as scheduled / as planned / as expected（照計畫／如預期）成組記。",
+      "sentenceZh": "儘管下大雨，戶外音樂會仍照原定計畫進行。"
     },
     {
       "id": "g-198",
@@ -2968,7 +3165,8 @@
       ],
       "answer": 3,
       "explanation": "by + 時間點表示「最遲在……之前完成」，搭配 due 表期限。until 強調動作持續到某時間點，與 due 不搭。",
-      "tip": "期限用 by（一次性完成）；持續狀態才用 until。"
+      "tip": "期限用 by（一次性完成）；持續狀態才用 until。",
+      "sentenceZh": "季度銷售報告必須在本週結束前繳交。"
     },
     {
       "id": "g-199",
@@ -2983,7 +3181,8 @@
       ],
       "answer": 1,
       "explanation": "空格後是名詞片語 its compact size，要用介系詞 Despite（儘管）。Although 和 While 是連接詞，後面須接完整子句。",
-      "tip": "後接名詞選 Despite / In spite of；後接子句選 Although / Though。"
+      "tip": "後接名詞選 Despite / In spite of；後接子句選 Although / Though。",
+      "sentenceZh": "儘管體積小巧，這台新印表機仍能處理大量列印工作。"
     },
     {
       "id": "g-200",
@@ -2998,7 +3197,8 @@
       ],
       "answer": 2,
       "explanation": "for + 一段時間（more than a decade），搭配現在完成進行式。since 後接時間起點、during 後接特定期間名詞。",
-      "tip": "for + 時間長度；since + 起始時間點。"
+      "tip": "for + 時間長度；since + 起始時間點。",
+      "sentenceZh": "這兩家公司已合作超過十年。"
     },
     {
       "id": "g-201",
@@ -3013,7 +3213,8 @@
       ],
       "answer": 3,
       "explanation": "refer to（參閱）是固定搭配：聯絡技術支援前請先參閱使用手冊。",
-      "tip": "refer to / respond to / subscribe to，動詞固定搭配 to 的一組。"
+      "tip": "refer to / respond to / subscribe to，動詞固定搭配 to 的一組。",
+      "sentenceZh": "聯絡技術支援之前，請先參閱使用手冊。"
     },
     {
       "id": "g-202",
@@ -3028,7 +3229,8 @@
       ],
       "answer": 2,
       "explanation": "within walking distance of（步行可達範圍內）是固定用法。",
-      "tip": "within walking distance / within budget / within 30 days，within 表「在範圍內」。"
+      "tip": "within walking distance / within budget / within 30 days，within 表「在範圍內」。",
+      "sentenceZh": "博物館位置便利，距離火車站步行可達。"
     },
     {
       "id": "g-203",
@@ -3043,7 +3245,8 @@
       ],
       "answer": 0,
       "explanation": "direct A to B（把 A 轉給 B）：所有客訴應轉給客服經理，被動式 be directed to。",
-      "tip": "轉交、指向類動詞（direct / forward / address）搭配 to。"
+      "tip": "轉交、指向類動詞（direct / forward / address）搭配 to。",
+      "sentenceZh": "所有投訴應轉交給客服經理處理。"
     },
     {
       "id": "g-204",
@@ -3058,7 +3261,8 @@
       ],
       "answer": 2,
       "explanation": "by the time + 未來時間點，主要子句用未來完成式 will have organized，表示屆時已完成。",
-      "tip": "by the time + 未來時間，搭配未來完成式（will have + p.p.）。"
+      "tip": "by the time + 未來時間，搭配未來完成式（will have + p.p.）。",
+      "sentenceZh": "等到稽核人員下週一抵達時，會計團隊將已整理好所有財務紀錄。"
     },
     {
       "id": "g-205",
@@ -3073,7 +3277,8 @@
       ],
       "answer": 2,
       "explanation": "since + 過去時間點（2010 年創立），主要子句用現在完成式 has worked，表示從過去持續到現在。",
-      "tip": "看到 since + 過去時間，主句選現在完成式。"
+      "tip": "看到 since + 過去時間，主句選現在完成式。",
+      "sentenceZh": "Tanaka 自公司 2010 年創立以來便一直在此工作。"
     },
     {
       "id": "g-206",
@@ -3088,7 +3293,8 @@
       ],
       "answer": 3,
       "explanation": "when 引導的過去事件（停電）發生時，另一動作正在進行，用過去進行式 was inspecting。",
-      "tip": "過去進行式 + when + 過去簡單式：長動作被短事件打斷。"
+      "tip": "過去進行式 + when + 過去簡單式：長動作被短事件打斷。",
+      "sentenceZh": "停電發生時，維修人員正在檢查電梯。"
     },
     {
       "id": "g-207",
@@ -3103,7 +3309,8 @@
       ],
       "answer": 0,
       "explanation": "once / when / as soon as 引導的時間子句用現在式代替未來式，且合約是被簽，用被動 is signed。",
-      "tip": "時間、條件子句不用未來式：Once it is signed（不是 will be signed）。"
+      "tip": "時間、條件子句不用未來式：Once it is signed（不是 will be signed）。",
+      "sentenceZh": "合約一經簽署，我們就會立即開始生產。"
     },
     {
       "id": "g-208",
@@ -3118,7 +3325,8 @@
       ],
       "answer": 3,
       "explanation": "at the end of last quarter 是明確的過去時間，用過去簡單式 installed。有明確過去時間點時不能用現在完成式。",
-      "tip": "句尾有 last / ago / yesterday 等過去時間，直接選過去簡單式。"
+      "tip": "句尾有 last / ago / yesterday 等過去時間，直接選過去簡單式。",
+      "sentenceZh": "資訊部門在上季末安裝了新的保全系統。"
     },
     {
       "id": "g-209",
@@ -3133,7 +3341,8 @@
       ],
       "answer": 2,
       "explanation": "recommend 後面接動名詞 V-ing：建議延長申請期限。recommend / suggest / consider / avoid 都接動名詞。",
-      "tip": "「建議考慮避免享受完成」類動詞（recommend / consider / avoid / enjoy / finish）接 V-ing。"
+      "tip": "「建議考慮避免享受完成」類動詞（recommend / consider / avoid / enjoy / finish）接 V-ing。",
+      "sentenceZh": "委員會建議延長補助申請的截止日期。"
     },
     {
       "id": "g-210",
@@ -3148,7 +3357,8 @@
       ],
       "answer": 2,
       "explanation": "be pleased to + 原形動詞（很高興通知您……）是商業書信固定開頭。",
-      "tip": "be pleased / delighted / happy to V：書信高頻句型。"
+      "tip": "be pleased / delighted / happy to V：書信高頻句型。",
+      "sentenceZh": "我們很高興通知您，您的申請已獲核准。"
     },
     {
       "id": "g-211",
@@ -3163,7 +3373,8 @@
       ],
       "answer": 1,
       "explanation": "have + 受詞 + 過去分詞：貨架「被補貨」，受詞與動詞是被動關係，用 restocked。",
-      "tip": "have + 物 + p.p.（請人做某事）；have + 人 + 原形（叫某人做）。"
+      "tip": "have + 物 + p.p.（請人做某事）；have + 人 + 原形（叫某人做）。",
+      "sentenceZh": "店長在假期特賣開始前請人補齊了貨架。"
     },
     {
       "id": "g-212",
@@ -3178,7 +3389,8 @@
       ],
       "answer": 0,
       "explanation": "avoid 後面接動名詞 paying：為避免支付額外費用，還車時請加滿油。",
-      "tip": "avoid + V-ing 固定搭配，多益租車、飯店情境常見。"
+      "tip": "avoid + V-ing 固定搭配，多益租車、飯店情境常見。",
+      "sentenceZh": "為避免支付額外費用，請將租賃車輛加滿油後歸還。"
     },
     {
       "id": "g-213",
@@ -3193,7 +3405,8 @@
       ],
       "answer": 3,
       "explanation": "ask + 受詞 + to V：要求訪客隨時配戴識別證。",
-      "tip": "ask / require / advise / encourage + 人 + to V。"
+      "tip": "ask / require / advise / encourage + 人 + to V。",
+      "sentenceZh": "警衛要求所有訪客隨時配戴識別證。"
     },
     {
       "id": "g-214",
@@ -3208,7 +3421,8 @@
       ],
       "answer": 2,
       "explanation": "空格後是完整子句（the flight was delayed），要用連接詞 Although。Despite 和 Because of 是介系詞，後接名詞。",
-      "tip": "後面是「主詞＋動詞」選連接詞；只有名詞選介系詞。"
+      "tip": "後面是「主詞＋動詞」選連接詞；只有名詞選介系詞。",
+      "sentenceZh": "雖然班機延誤，Chen 女士仍及時趕上開幕典禮。"
     },
     {
       "id": "g-215",
@@ -3223,7 +3437,8 @@
       ],
       "answer": 1,
       "explanation": "in case（以防萬一）：請經常存檔，以防停電時遺失重要資料。so that 表目的（為了能夠）、now that 表既然。",
-      "tip": "in case + 子句 = 以防……發生；lest / for fear that 同義。"
+      "tip": "in case + 子句 = 以防……發生；lest / for fear that 同義。",
+      "sentenceZh": "請經常儲存您的工作，以免停電時遺失重要資料。"
     },
     {
       "id": "g-216",
@@ -3238,7 +3453,8 @@
       ],
       "answer": 0,
       "explanation": "either A or B 的省略形：可用信用卡或現金付款，兩個選項並列用 or。",
-      "tip": "並列選擇用 or；nor 用於否定並列（neither...nor）。"
+      "tip": "並列選擇用 or；nor 用於否定並列（neither...nor）。",
+      "sentenceZh": "您可以在我們任何分行以信用卡或現金付款。"
     },
     {
       "id": "g-217",
@@ -3253,7 +3469,8 @@
       ],
       "answer": 0,
       "explanation": "Should you have... 是 If you should have... 的倒裝省略，商業書信常用：如有任何帳單問題，請聯絡帳務部門。",
-      "tip": "句首 Should + 主詞 + 原形動詞 = If 條件句的正式倒裝。"
+      "tip": "句首 Should + 主詞 + 原形動詞 = If 條件句的正式倒裝。",
+      "sentenceZh": "若您對帳單有任何疑問，請聯絡我們的帳務部門。"
     },
     {
       "id": "g-218",
@@ -3268,7 +3485,8 @@
       ],
       "answer": 0,
       "explanation": "包裹是「被檢查」，用被動語態 are inspected。主詞 packages 無法自己執行檢查動作。",
-      "tip": "主詞是物、動作由人執行時，多半用被動。"
+      "tip": "主詞是物、動作由人執行時，多半用被動。",
+      "sentenceZh": "所有包裹離開配送中心前都會經過檢查。"
     },
     {
       "id": "g-219",
@@ -3283,7 +3501,8 @@
       ],
       "answer": 1,
       "explanation": "hold（舉行）的主詞是典禮本身時用被動：典禮將於下週五晚間在大宴會廳舉行。",
-      "tip": "be held（被舉行）：meeting / ceremony / event 當主詞時幾乎都用被動。"
+      "tip": "be held（被舉行）：meeting / ceremony / event 當主詞時幾乎都用被動。",
+      "sentenceZh": "頒獎典禮將於下週五晚間在大宴會廳舉行。"
     },
     {
       "id": "g-220",
@@ -3298,7 +3517,8 @@
       ],
       "answer": 1,
       "explanation": "be required to V（被要求做某事）：員工每九十天須更新密碼。員工是被要求的一方，用被動。",
-      "tip": "be required / expected / encouraged to V：規定類句型固定用被動。"
+      "tip": "be required / expected / encouraged to V：規定類句型固定用被動。",
+      "sentenceZh": "員工必須每九十天更新一次密碼。"
     },
     {
       "id": "g-221",
@@ -3313,7 +3533,8 @@
       ],
       "answer": 2,
       "explanation": "調查結果「令人驚訝」，修飾事物用現在分詞 surprising。surprised 用於形容人的感受。",
-      "tip": "事物 + -ing（令人……）；人 + -ed（感到……）。"
+      "tip": "事物 + -ing（令人……）；人 + -ed（感到……）。",
+      "sentenceZh": "顧客調查的結果讓產品開發團隊相當意外。"
     },
     {
       "id": "g-222",
@@ -3328,7 +3549,8 @@
       ],
       "answer": 0,
       "explanation": "分詞構句：公司是「被創立」，用過去分詞 Founded。完整句為 Since it was founded in 1985...。",
-      "tip": "句首分詞看主詞關係：主詞被動作影響用 p.p.，主詞主動執行用 V-ing。"
+      "tip": "句首分詞看主詞關係：主詞被動作影響用 p.p.，主詞主動執行用 V-ing。",
+      "sentenceZh": "這家事務所創立於 1985 年，已成長為該地區最大的法律事務所之一。"
     },
     {
       "id": "g-223",
@@ -3343,7 +3565,8 @@
       ],
       "answer": 1,
       "explanation": "分詞片語修飾 passengers：乘客主動「搭乘」轉機航班，用現在分詞 taking（= who are taking）。",
-      "tip": "名詞後的分詞 = 省略關代的形容詞子句：主動 V-ing、被動 p.p.。"
+      "tip": "名詞後的分詞 = 省略關代的形容詞子句：主動 V-ing、被動 p.p.。",
+      "sentenceZh": "轉機的乘客請直接前往第二航廈。"
     },
     {
       "id": "g-224",
@@ -3358,7 +3581,8 @@
       ],
       "answer": 2,
       "explanation": "與過去事實相反的假設：If + had p.p.，主要子句用 would have p.p.。貨若準時到，訂單現在早就完成了。",
-      "tip": "If had p.p. 配 would have p.p.，第三條件句成對出現。"
+      "tip": "If had p.p. 配 would have p.p.，第三條件句成對出現。",
+      "sentenceZh": "如果貨件當時準時到達，我們現在早就完成訂單了。"
     },
     {
       "id": "g-225",
@@ -3373,7 +3597,8 @@
       ],
       "answer": 2,
       "explanation": "request / suggest / insist + that 子句用原形動詞（should 省略），且提案是被提交，用 be submitted。",
-      "tip": "要求建議類動詞 + that + 主詞 + (should) + 原形動詞。"
+      "tip": "要求建議類動詞 + that + 主詞 + (should) + 原形動詞。",
+      "sentenceZh": "總監要求預算提案在週五下午前提交。"
     },
     {
       "id": "g-226",
@@ -3388,7 +3613,8 @@
       ],
       "answer": 3,
       "explanation": "Were it not for...（若非……）是 If it were not for 的倒裝，表與現在事實相反：若非慷慨贊助，慈善活動無法舉辦。",
-      "tip": "Were it not for（現在）／ Had it not been for（過去）：「若非」的正式倒裝。"
+      "tip": "Were it not for（現在）／ Had it not been for（過去）：「若非」的正式倒裝。",
+      "sentenceZh": "若非這筆慷慨的贊助，慈善活動根本無法舉行。"
     },
     {
       "id": "g-227",
@@ -3403,7 +3629,8 @@
       ],
       "answer": 1,
       "explanation": "空格後是名詞 report，表示「顧問的報告」，用所有格關係代名詞 whose。",
-      "tip": "關代後面直接接名詞，選 whose。"
+      "tip": "關代後面直接接名詞，選 whose。",
+      "sentenceZh": "報告令董事會印象深刻的那位顧問將主導新專案。"
     },
     {
       "id": "g-228",
@@ -3418,7 +3645,8 @@
       ],
       "answer": 0,
       "explanation": "逗號後的非限定關係子句只能用 which，不能用 that。先行詞 workshop 是事物。",
-      "tip": "逗號 + 關代 = 非限定用法，that 出局。"
+      "tip": "逗號 + 關代 = 非限定用法，that 出局。",
+      "sentenceZh": "原訂三月舉行的工作坊已改到五月。"
     },
     {
       "id": "g-229",
@@ -3433,7 +3661,8 @@
       ],
       "answer": 2,
       "explanation": "有 than，用比較級 more。visitors 是可數複數，more 修飾可數與不可數皆可。",
-      "tip": "看到 than 鎖定比較級；比較對象 any previous event 排除最高級。"
+      "tip": "看到 than 鎖定比較級；比較對象 any previous event 排除最高級。",
+      "sentenceZh": "今年的商展吸引了比以往任何一屆都多的參觀者。"
     },
     {
       "id": "g-230",
@@ -3448,7 +3677,8 @@
       ],
       "answer": 1,
       "explanation": "of all...（在所有……之中）搭配最高級 the most qualified。",
-      "tip": "of all / among + 複數 = 最高級信號。"
+      "tip": "of all / among + 複數 = 最高級信號。",
+      "sentenceZh": "Park 是這個職位最適任的人選。"
     },
     {
       "id": "g-231",
@@ -3463,7 +3693,8 @@
       ],
       "answer": 2,
       "explanation": "空格後有名詞 parking permits，需要所有格 their。theirs 是所有格代名詞，後面不接名詞。",
-      "tip": "後面有名詞用 their；沒有名詞才用 theirs。"
+      "tip": "後面有名詞用 their；沒有名詞才用 theirs。",
+      "sentenceZh": "員工可以到警衛室領取停車證。"
     },
     {
       "id": "g-232",
@@ -3478,7 +3709,8 @@
       ],
       "answer": 2,
       "explanation": "空格後的動詞 has 是單數，Both / All / Most 都接複數動詞，只有 Each（每一個）接單數動詞。",
-      "tip": "Each / Every + 單數動詞；Both / All + 複數動詞。先看動詞單複數。"
+      "tip": "Each / Every + 單數動詞；Both / All + 複數動詞。先看動詞單複數。",
+      "sentenceZh": "這兩份提案各有優缺點。"
     },
     {
       "id": "g-233",
@@ -3493,7 +3725,8 @@
       ],
       "answer": 1,
       "explanation": "in response to（回覆……）是商業書信固定片語：茲回覆您的詢問，附上最新產品目錄。",
-      "tip": "in response to / in reference to / in regard to：書信開頭三兄弟。"
+      "tip": "in response to / in reference to / in regard to：書信開頭三兄弟。",
+      "sentenceZh": "回覆您的詢問，我們附上了最新的產品型錄。"
     },
     {
       "id": "g-234",
@@ -3508,7 +3741,8 @@
       ],
       "answer": 0,
       "explanation": "否定副詞 Never before 置於句首引起倒裝（has the company received）。句意：公司從未在單季收到這麼多好評。",
-      "tip": "句首否定詞（Never / Rarely / Seldom）+ 助動詞 + 主詞 = 倒裝。"
+      "tip": "句首否定詞（Never / Rarely / Seldom）+ 助動詞 + 主詞 = 倒裝。",
+      "sentenceZh": "公司從未在單一季度收到過這麼多好評。"
     },
     {
       "id": "g-235",
@@ -3523,7 +3757,8 @@
       ],
       "answer": 1,
       "explanation": "and 連接的三個項目須平行：answering、filing、preparing 都用動名詞。",
-      "tip": "A, B, and C 三項結構，詞性必須一致。"
+      "tip": "A, B, and C 三項結構，詞性必須一致。",
+      "sentenceZh": "新來的實習生負責接電話、歸檔文件和佈置會議室。"
     },
     {
       "id": "g-236",
@@ -3538,7 +3773,8 @@
       ],
       "answer": 2,
       "explanation": "前後為因果關係：場地已訂滿，因此決定延期。otherwise 表否則、nevertheless 表然而，皆不符。",
-      "tip": "分號後的轉承副詞看邏輯：因果 therefore、轉折 however、否則 otherwise。"
+      "tip": "分號後的轉承副詞看邏輯：因果 therefore、轉折 however、否則 otherwise。",
+      "sentenceZh": "場地已被訂滿，因此我們決定將晚宴延到下個月。"
     },
     {
       "id": "g-237",
@@ -3553,7 +3789,8 @@
       ],
       "answer": 0,
       "explanation": "此句為祈使句，指示顧客採取行動，用原形動詞 Use 開頭。",
-      "tip": "通知信中的指示句常用祈使句：Please use / Click / Visit。"
+      "tip": "通知信中的指示句常用祈使句：Please use / Click / Visit。",
+      "sentenceZh": "請使用下方的追蹤號碼在線上查詢配送狀態。"
     },
     {
       "id": "g-238",
@@ -3568,7 +3805,8 @@
       ],
       "answer": 2,
       "explanation": "公告道歉的固定句型：We apologize for any inconvenience this may cause（造成不便，敬請見諒）。",
-      "tip": "apologize for any inconvenience 整句背起來，公告題必考。"
+      "tip": "apologize for any inconvenience 整句背起來，公告題必考。",
+      "sentenceZh": "對於由此造成的任何不便，我們深感抱歉。"
     },
     {
       "id": "g-239",
@@ -3583,7 +3821,8 @@
       ],
       "answer": 1,
       "explanation": "前句延長營業時間、後句增加健康餐點，兩者為並列的新措施，用 In addition（此外）。",
-      "tip": "篇章填空轉承詞看前後句關係：並列補充用 In addition / Moreover。"
+      "tip": "篇章填空轉承詞看前後句關係：並列補充用 In addition / Moreover。",
+      "sentenceZh": "此外，將引進更多樣的健康餐點選擇。"
     },
     {
       "id": "g-240",
@@ -3598,7 +3837,8 @@
       ],
       "answer": 0,
       "explanation": "空格後的動詞 pass 與 will be invited 均為複數搭配，Those who（通過初選者）為正解。Anyone / Whoever / Each 接單數動詞。",
-      "tip": "Those who + 複數動詞（……的人們）；anyone who + 單數動詞。"
+      "tip": "Those who + 複數動詞（……的人們）；anyone who + 單數動詞。",
+      "sentenceZh": "通過初審者將受邀參加下週的面試。"
     }
   ],
   "reading7": [
@@ -4125,6 +4365,470 @@
           "answer": 1,
           "explanation": "她寫道「the upgrade was well worth it」，認為升等值回票價，且未對此費用提出異議。",
           "tip": "別假設客訴信裡每個項目都在抱怨；先確認作者對各項目的態度。"
+        }
+      ]
+    },
+    {
+      "id": "r7-10",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：電子郵件",
+      "passages": [
+        {
+          "label": "電子郵件 (E-mail)",
+          "text": "From: Rentals Department, CityBike Co.\nTo: Julia Moreno\nSubject: Your annual membership\n\nDear Ms. Moreno,\n\nThank you for being a CityBike member for the past year. Your membership is due to expire on August 31. Renew before August 15 and you will receive two months free — that is, fourteen months of unlimited rides for the price of twelve.\n\nTo renew, simply log in to your account and select \"Renew Now.\" Your current payment method will be charged automatically unless you update it.\n\nWe look forward to keeping you riding.\n\nThe CityBike Team"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the purpose of the e-mail?",
+          "options": [
+            "To announce a price increase",
+            "To encourage an early renewal",
+            "To confirm a cancellation",
+            "To introduce a new bicycle model"
+          ],
+          "answer": 1,
+          "explanation": "信中主旨是提醒會員資格 8 月 31 日到期，並提供 8 月 15 日前續約送兩個月的優惠，屬於鼓勵提前續約。",
+          "tip": "目的題看第一段：Renew before August 15 and you will receive two months free。"
+        },
+        {
+          "question": "What will happen if Ms. Moreno renews before August 15?",
+          "options": [
+            "She will get a discount on a new bike",
+            "She will receive fourteen months for the price of twelve",
+            "Her payment method will be deleted",
+            "Her membership will be upgraded"
+          ],
+          "answer": 1,
+          "explanation": "優惠內容明確寫出：fourteen months of unlimited rides for the price of twelve（付十二個月的錢享十四個月）。",
+          "tip": "數字改寫題：two months free 被改寫成 14 個月付 12 個月的錢。"
+        }
+      ]
+    },
+    {
+      "id": "r7-11",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：公告",
+      "passages": [
+        {
+          "label": "公告 (Notice)",
+          "text": "GRAND OPENING — RIVERSIDE FARMERS' MARKET\n\nStarting Saturday, May 3, the Riverside Farmers' Market will operate every Saturday from 8:00 A.M. to 1:00 P.M. in Waterfront Park.\n\nMore than forty local vendors will offer fresh produce, baked goods, flowers, and handmade crafts. Parking is limited; visitors are encouraged to use the free shuttle from Central Station, which runs every fifteen minutes during market hours.\n\nVendors interested in a stall for the summer season should apply online by April 18."
+        }
+      ],
+      "questions": [
+        {
+          "question": "How often will the market take place?",
+          "options": [
+            "Every day",
+            "Once a week",
+            "Twice a month",
+            "Once a month"
+          ],
+          "answer": 1,
+          "explanation": "公告寫 every Saturday，也就是每週一次。",
+          "tip": "every Saturday 改寫成 once a week，頻率題常這樣換句話說。"
+        },
+        {
+          "question": "What are visitors encouraged to do?",
+          "options": [
+            "Arrive before 8:00 A.M.",
+            "Take a free shuttle",
+            "Apply for a stall",
+            "Bring their own bags"
+          ],
+          "answer": 1,
+          "explanation": "因停車位有限，公告鼓勵訪客搭乘 Central Station 出發、每 15 分鐘一班的免費接駁車。",
+          "tip": "encouraged to 原文照抄在題目裡，回文中找同字即可定位。"
+        },
+        {
+          "question": "What should interested vendors do by April 18?",
+          "options": [
+            "Reserve a parking space",
+            "Visit Waterfront Park",
+            "Submit an online application",
+            "Contact Central Station"
+          ],
+          "answer": 2,
+          "explanation": "最後一段：想擺攤的攤商應在 4 月 18 日前線上申請（apply online）。",
+          "tip": "日期通常只出現一次，找到 April 18 那句就是答案來源。"
+        }
+      ]
+    },
+    {
+      "id": "r7-12",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：文字簡訊",
+      "passages": [
+        {
+          "label": "簡訊串 (Text-message chain)",
+          "text": "Diego Ramos (10:12 A.M.)\nLena, the projector in Room 5 isn't working and my client demo starts at 11.\n\nLena Park (10:13 A.M.)\nOh no. Did you try the spare cable in the cabinet?\n\nDiego Ramos (10:15 A.M.)\nYes, still nothing. I think the bulb is gone.\n\nLena Park (10:16 A.M.)\nThen take the portable projector from the storage room. I'll let facilities know about Room 5.\n\nDiego Ramos (10:17 A.M.)\nLifesaver. I owe you a coffee."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What problem does Mr. Ramos have?",
+          "options": [
+            "His client canceled a meeting",
+            "A projector is not working",
+            "He lost a storage room key",
+            "His demo file was deleted"
+          ],
+          "answer": 1,
+          "explanation": "第一則訊息就說 Room 5 的投影機壞了，而 11 點有客戶展示。",
+          "tip": "簡訊題的問題點幾乎都在第一、二則訊息。"
+        },
+        {
+          "question": "At 10:17 A.M., what does Mr. Ramos most likely mean when he writes, 'Lifesaver'?",
+          "options": [
+            "He needs medical assistance",
+            "He is grateful for the suggestion",
+            "He wants to buy new equipment",
+            "He is worried about being late"
+          ],
+          "answer": 1,
+          "explanation": "Lena 提出拿行動投影機的解法後，Diego 回 Lifesaver（救星）並說要請咖啡，表達感謝。",
+          "tip": "語意題（most likely mean）看前一則訊息：有人幫忙解決問題，故為感謝。"
+        }
+      ]
+    },
+    {
+      "id": "r7-13",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：廣告",
+      "passages": [
+        {
+          "label": "廣告 (Advertisement)",
+          "text": "SUMMIT OFFICE FURNITURE — CLEARANCE EVENT\n\nFor one week only, June 9–15, save up to 60% on floor models and discontinued lines at our Fairview showroom.\n\n• Ergonomic chairs from $89\n• Standing desks from $199\n• Meeting tables, bookcases, and more\n\nAll clearance items are sold as-is and cannot be returned. Free delivery within the city on purchases over $500. Doors open at 9:00 A.M.; selection is limited, so arrive early."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is indicated about the clearance items?",
+          "options": [
+            "They can be returned within a week",
+            "They are sold in their current condition",
+            "They include newly released models",
+            "They are available online only"
+          ],
+          "answer": 1,
+          "explanation": "廣告載明 All clearance items are sold as-is and cannot be returned，即以現況出售、不可退貨。",
+          "tip": "as-is（現況出售）是廣告常見字，等於 in their current condition。"
+        },
+        {
+          "question": "How can a customer receive free delivery?",
+          "options": [
+            "By spending more than $500",
+            "By visiting before 9:00 A.M.",
+            "By buying a standing desk",
+            "By ordering during the first day"
+          ],
+          "answer": 0,
+          "explanation": "Free delivery within the city on purchases over $500：市區內消費滿 500 美元免運。",
+          "tip": "條件題找 on purchases over／with any purchase 之類的片語。"
+        },
+        {
+          "question": "Why should customers arrive early?",
+          "options": [
+            "Parking is limited",
+            "Prices increase later",
+            "The selection is limited",
+            "A gift is offered to early birds"
+          ],
+          "answer": 2,
+          "explanation": "結尾寫 selection is limited, so arrive early：數量有限所以要早到。",
+          "tip": "so 前面是原因、後面是建議；題目問原因就看 so 前面。"
+        }
+      ]
+    },
+    {
+      "id": "r7-14",
+      "part": 7,
+      "passageType": "single",
+      "typeLabel": "單篇：報導",
+      "passages": [
+        {
+          "label": "新聞報導 (Article)",
+          "text": "HARLOW GAZETTE — Business Briefs\n\nLocal roastery Bean & Vine will open its second café next month in the renovated Mill District, the company announced Tuesday. The original location near City Hall opened just three years ago and quickly became known for its single-origin coffees and weekend tasting classes.\n\nFounder Priya Shah said the new café will seat sixty guests, twice the capacity of the original, and will include a small training lab where staff from both locations can practice new brewing techniques.\n\nThe Mill District has attracted a dozen new businesses since the riverfront renovation was completed last year."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is the article mainly about?",
+          "options": [
+            "A coffee company opening a new location",
+            "The renovation of City Hall",
+            "A change in company ownership",
+            "A weekend tasting class"
+          ],
+          "answer": 0,
+          "explanation": "報導主題是 Bean & Vine 下個月將在 Mill District 開第二家分店。",
+          "tip": "主旨題看第一句（lead sentence），新聞寫作重點都放最前面。"
+        },
+        {
+          "question": "What is suggested about the new café?",
+          "options": [
+            "It will be smaller than the original",
+            "It will hold twice as many guests as the original",
+            "It will only serve staff members",
+            "It opened three years ago"
+          ],
+          "answer": 1,
+          "explanation": "新店可容納六十人，是原店的兩倍（twice the capacity of the original）。",
+          "tip": "比較題抓 twice／double 等倍數字眼。"
+        },
+        {
+          "question": "What happened in the Mill District last year?",
+          "options": [
+            "A dozen businesses closed",
+            "A riverfront renovation was completed",
+            "A training lab opened",
+            "A coffee festival was held"
+          ],
+          "answer": 1,
+          "explanation": "最後一段：自去年河岸整修完工後，Mill District 已吸引十多家新商家進駐。",
+          "tip": "last year 是定位詞，回文找同樣的時間詞。"
+        }
+      ]
+    },
+    {
+      "id": "r7-15",
+      "part": 7,
+      "passageType": "double",
+      "typeLabel": "雙篇：邀請函＋回覆",
+      "passages": [
+        {
+          "label": "第一篇：邀請函 (Invitation)",
+          "text": "You are invited!\nNORTHGATE CHAMBER OF COMMERCE — ANNUAL NETWORKING DINNER\n\nDate: Thursday, October 12\nTime: 6:30 P.M. – 9:30 P.M.\nVenue: Grand Ballroom, Hotel Aurelia\n\nKeynote speaker: Dana Okafor, author of \"The Connected Company\"\nTickets: $75 for members / $110 for non-members\nTables of eight may be reserved at a 10% discount.\n\nPlease RSVP to events@northgatechamber.org by October 2."
+        },
+        {
+          "label": "第二篇：電子郵件 (E-mail)",
+          "text": "From: Miguel Santos, Santos Logistics\nTo: events@northgatechamber.org\nDate: September 28\nSubject: Annual dinner reservation\n\nHello,\n\nI would like to reserve a full table for my management team at the dinner on October 12. As our company joined the Chamber in July, please apply the member rate along with the table discount.\n\nAlso, could you seat us near the stage if possible? Two of my team members have some hearing difficulty and would appreciate being close to the speaker.\n\nBest regards,\nMiguel Santos"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is indicated about the dinner?",
+          "options": [
+            "It takes place every month",
+            "It features a keynote speaker",
+            "It is free for members",
+            "It is held at the Chamber office"
+          ],
+          "answer": 1,
+          "explanation": "邀請函載明主講人為《The Connected Company》作者 Dana Okafor。",
+          "tip": "indicated 題逐項對回原文刪去，keynote speaker 一行可直接對到。"
+        },
+        {
+          "question": "How many people are on Mr. Santos's reservation?",
+          "options": [
+            "Two",
+            "Six",
+            "Eight",
+            "Ten"
+          ],
+          "answer": 2,
+          "explanation": "他要訂 a full table，而邀請函寫 Tables of eight——整桌即八人。此題需要兩篇資訊互相對照。",
+          "tip": "雙篇題經典手法：數字在第一篇（tables of eight）、需求在第二篇（a full table）。"
+        },
+        {
+          "question": "What discount will Mr. Santos most likely receive in total?",
+          "options": [
+            "Member rate only",
+            "Table discount only",
+            "Member rate plus the table discount",
+            "No discount"
+          ],
+          "answer": 2,
+          "explanation": "他們公司七月加入商會（具會員資格），又訂整桌（適用桌位九折），所以兩種優惠皆可用。",
+          "tip": "資格判斷題：把第二篇的條件（joined in July＝會員）帶回第一篇的價目規則。"
+        },
+        {
+          "question": "What special request does Mr. Santos make?",
+          "options": [
+            "A vegetarian menu",
+            "Seats near the stage",
+            "An early check-in",
+            "A signed copy of a book"
+          ],
+          "answer": 1,
+          "explanation": "他請主辦方盡量安排靠近舞台的座位，因為兩位團隊成員聽力不佳。",
+          "tip": "request 題找 could you...? 句型。"
+        },
+        {
+          "question": "By when should guests respond to the invitation?",
+          "options": [
+            "September 28",
+            "October 2",
+            "October 12",
+            "July 31"
+          ],
+          "answer": 1,
+          "explanation": "邀請函最後一行：Please RSVP ... by October 2。",
+          "tip": "RSVP by＋日期是邀請函固定考點。"
+        }
+      ]
+    },
+    {
+      "id": "r7-16",
+      "part": 7,
+      "passageType": "double",
+      "typeLabel": "雙篇：訂單＋客服信",
+      "passages": [
+        {
+          "label": "第一篇：訂單確認 (Order confirmation)",
+          "text": "OFFICEPRO SUPPLIES — ORDER #88214\nOrder date: March 3 | Estimated delivery: March 7\n\nShip to: Hannah Lee, Suite 400, 251 Birch Avenue\n\nItem                             Qty    Price\nA4 copy paper (10-ream case)      3     $135\nToner cartridge, black (TN-450)   2      $98\nDesk organizer, walnut            1      $32\n---------------------------------------------\nSubtotal                                $265\nShipping (standard)                      $12\nTotal                                   $277\n\nOrders over $300 qualify for free standard shipping."
+        },
+        {
+          "label": "第二篇：電子郵件 (E-mail)",
+          "text": "From: Hannah Lee\nTo: support@officeprosupplies.com\nDate: March 7\nSubject: Order #88214 — missing item\n\nHello,\n\nMy order arrived yesterday, one day early, which I appreciated. However, only one toner cartridge was in the box although I was charged for two. Could you send the missing cartridge or refund the difference?\n\nAlso, I plan to place a larger order next month for our new branch. If I add more paper to reach $300, will the shipping fee be waived?\n\nThank you,\nHannah Lee"
+        }
+      ],
+      "questions": [
+        {
+          "question": "When did the order actually arrive?",
+          "options": [
+            "March 3",
+            "March 6",
+            "March 7",
+            "March 8"
+          ],
+          "answer": 1,
+          "explanation": "信件日期為 3 月 7 日，信中說 arrived yesterday（昨天到貨）＝ 3 月 6 日；且 one day early 與預計到貨日 3 月 7 日相符——提早一天即 3 月 6 日，兩條線索互相印證。",
+          "tip": "雙篇日期題把日期都列出來推算：預計 3/7（第一篇）、信件 3/7、yesterday＝3/6。"
+        },
+        {
+          "question": "What problem does Ms. Lee report?",
+          "options": [
+            "A damaged desk organizer",
+            "A missing toner cartridge",
+            "A late delivery",
+            "An incorrect address"
+          ],
+          "answer": 1,
+          "explanation": "她訂購並付款兩個碳粉匣，箱內卻只有一個，要求補寄或退差額。",
+          "tip": "problem 題找 However 之後的句子。"
+        },
+        {
+          "question": "What does Ms. Lee ask about her next order?",
+          "options": [
+            "Whether she can get free shipping",
+            "Whether walnut organizers are in stock",
+            "Whether she can pay by invoice",
+            "Whether delivery can be expedited"
+          ],
+          "answer": 0,
+          "explanation": "她問若加購紙張讓金額達 300 美元，運費是否可免——對應第一篇「滿 300 美元免標準運費」的規定。",
+          "tip": "雙篇對照：第二篇的問題（reach $300）呼應第一篇的優惠條款。"
+        },
+        {
+          "question": "How much did Ms. Lee pay for shipping?",
+          "options": [
+            "Nothing",
+            "$12",
+            "$32",
+            "$277"
+          ],
+          "answer": 1,
+          "explanation": "訂單明細載明 Shipping (standard) $12；因訂單 265 美元未達 300 門檻，不符合免運。",
+          "tip": "金額題直接讀表格行：Shipping $12。"
+        },
+        {
+          "question": "In the e-mail, the word \"waived\" is closest in meaning to",
+          "options": [
+            "increased",
+            "canceled",
+            "delayed",
+            "divided"
+          ],
+          "answer": 1,
+          "explanation": "waive a fee＝免除費用，選 canceled（取消／免除）最接近。",
+          "tip": "同義詞題把選項代回原句試讀：will the fee be canceled? 語意通順即對。"
+        }
+      ]
+    },
+    {
+      "id": "r7-17",
+      "part": 7,
+      "passageType": "triple",
+      "typeLabel": "三篇：徵才＋履歷信＋面試通知",
+      "passages": [
+        {
+          "label": "第一篇：徵才廣告 (Job posting)",
+          "text": "MARKETING COORDINATOR — Lakeview Resorts (Head Office, Kelowna)\n\nLakeview Resorts operates twelve lakeside hotels across western Canada. We seek a marketing coordinator to manage social media accounts, draft newsletters, and support seasonal campaigns.\n\nRequirements:\n• Bachelor's degree in marketing or a related field\n• At least two years of marketing experience (hospitality industry preferred)\n• Excellent writing skills; French is an asset\n\nSend a résumé and cover letter to careers@lakeviewresorts.ca by January 20. Interviews will be held in early February."
+        },
+        {
+          "label": "第二篇：求職信 (Cover letter)",
+          "text": "Dear Hiring Committee,\n\nPlease consider my application for the marketing coordinator position. I hold a bachelor's degree in communications and have spent the past three years managing digital campaigns for a boutique hotel group in Montreal, where I wrote guest newsletters in both English and French.\n\nI will relocate to Kelowna in January and am available to interview any time after the fifteenth.\n\nSincerely,\nClaire Beaumont"
+        },
+        {
+          "label": "第三篇：電子郵件 (E-mail)",
+          "text": "From: careers@lakeviewresorts.ca\nTo: Claire Beaumont\nDate: January 27\nSubject: Interview invitation\n\nDear Ms. Beaumont,\n\nThank you for your application. We would like to invite you to an interview on Tuesday, February 4, at 10:00 A.M. at our head office. The interview will include a thirty-minute writing exercise.\n\nPlease bring two professional references and confirm your attendance by Friday.\n\nBest regards,\nRuth Feldman, Human Resources"
+        }
+      ],
+      "questions": [
+        {
+          "question": "What is one duty of the advertised position?",
+          "options": [
+            "Booking hotel rooms for guests",
+            "Managing social media accounts",
+            "Hiring seasonal staff",
+            "Translating legal documents"
+          ],
+          "answer": 1,
+          "explanation": "徵才廣告職責第一項就是 manage social media accounts。",
+          "tip": "duty 題對照廣告的職責列表（動詞開頭那幾行）。"
+        },
+        {
+          "question": "What is suggested about Ms. Beaumont?",
+          "options": [
+            "She lacks the required experience",
+            "She meets the French-language preference",
+            "She currently lives in Kelowna",
+            "She has a degree in hospitality"
+          ],
+          "answer": 1,
+          "explanation": "廣告寫 French is an asset；她在求職信提到以英法雙語撰寫電子報，符合此加分條件。",
+          "tip": "三篇題最常考「條件對照」：廣告要求 ↔ 求職者條件。"
+        },
+        {
+          "question": "How does Ms. Beaumont exceed one of the job requirements?",
+          "options": [
+            "She has three years of experience instead of two",
+            "She holds two degrees",
+            "She manages twelve hotels",
+            "She speaks three languages"
+          ],
+          "answer": 0,
+          "explanation": "要求至少兩年行銷經驗，她有三年（the past three years）。",
+          "tip": "exceed＝超過門檻，找數字比較：required two years vs. her three years。"
+        },
+        {
+          "question": "What will happen on February 4?",
+          "options": [
+            "The application deadline will pass",
+            "Ms. Beaumont will start her new job",
+            "An interview with a writing exercise will be held",
+            "A seasonal campaign will launch"
+          ],
+          "answer": 2,
+          "explanation": "第三篇：2 月 4 日上午十點面試，含三十分鐘的寫作測驗。",
+          "tip": "日期定位到第三篇 E-mail，事件就在同一句。"
+        },
+        {
+          "question": "What is Ms. Beaumont asked to bring to the interview?",
+          "options": [
+            "A writing sample",
+            "Two professional references",
+            "A copy of her diploma",
+            "A portfolio of campaigns"
+          ],
+          "answer": 1,
+          "explanation": "信末要求 bring two professional references 並在週五前確認出席。",
+          "tip": "asked to bring 找 Please bring 開頭的句子。"
         }
       ]
     }
