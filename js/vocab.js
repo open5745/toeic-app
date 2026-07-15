@@ -212,8 +212,9 @@ function startSession(container, pack, vocabData) {
     attachSwipe(container.querySelector('#flashcard'), {
       leftTag: '太困難',
       rightTag: '記得了',
-      onLeft: () => { playSoftClick(); gradeCard(word, GRADE.AGAIN); },
-      onRight: () => { playSoftClick(); gradeCard(word, GRADE.GOOD); },
+      // 音效同步播（手勢內），換卡延遲到飛出動畫結束
+      onLeft: () => { playSoftClick(); setTimeout(() => gradeCard(word, GRADE.AGAIN), 240); },
+      onRight: () => { playSoftClick(); setTimeout(() => gradeCard(word, GRADE.GOOD), 240); },
     });
 
     showSwipeIntroOnce(container);

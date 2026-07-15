@@ -10,6 +10,12 @@ function initAudio() {
   }
 }
 
+// iOS/Android 要求 AudioContext 在使用者手勢中建立與恢復，
+// 首次觸碰先解鎖，避免之後在 setTimeout 等非手勢情境播放時整個靜音
+document.addEventListener('pointerdown', () => {
+  try { initAudio(); } catch { /* 不支援就算了 */ }
+}, { once: true, passive: true, capture: true });
+
 // 用於按鈕點擊、下一題、我記得了（不刺耳的水滴/木魚聲）
 export function playSoftClick() {
   try {

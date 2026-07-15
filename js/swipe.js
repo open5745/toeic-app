@@ -66,7 +66,8 @@ export function attachSwipe(card, { canSwipe = () => true, onLeft, onRight, left
       const dir = dx < 0 ? -1 : 1;
       card.classList.add('fly-out');
       card.style.transform = `translateX(${dir * window.innerWidth}px) rotate(${dir * 18}deg)`;
-      setTimeout(() => (dir < 0 ? onLeft : onRight)(), 240);
+      // 同步呼叫回呼，保持在使用者手勢內（iOS 音效需要）；飛出動畫的延遲由呼叫端決定
+      (dir < 0 ? onLeft : onRight)();
     } else {
       card.classList.add('snap-back');
       card.style.transform = '';
